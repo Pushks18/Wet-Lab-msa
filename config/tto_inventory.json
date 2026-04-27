@@ -1,0 +1,107 @@
+{
+  "_note": "Per-MSA university TTOs and incubators. URLs verified 2026-04-25.",
+  "pittsburgh": {
+    "ttos": [
+      {"name": "CMU CTTEC", "url": "https://www.cmu.edu/cttec/", "ls_share": "10-20%", "method": "html_scrape"},
+      {"name": "Pitt Innovation Institute", "url": "https://www.innovation.pitt.edu/", "ls_share": "~50%", "method": "html_scrape", "nih_rank_2024": 6},
+      {"name": "Duquesne", "url": "https://www.duq.edu/research/", "method": "manual"},
+      {"name": "AHN Research Institute", "url": "https://www.ahn.org/health-care-professionals/research", "method": "via_alphalab_health"}
+    ],
+    "incubators": [
+      {"name": "Innovation Works", "url": "https://www.innovationworks.org/programs/life-sciences/", "annual_report": "Pittsburgh Tech Report (with EY)"},
+      {"name": "AlphaLab Health", "url": "https://www.alphalab.org/tracks/health/", "ls_share": "100%", "cohorts": 4, "ls_companies": 13},
+      {"name": "LifeX Global", "url": "https://lifexglobal.com/", "_note": "Rebranded from LifeX Labs; old lifex-labs.com is stale"},
+      {"name": "Pittsburgh Life Sciences Greenhouse (PLSG)", "url": "https://www.plsg.com/", "portfolio_size": "66-78"},
+      {"name": "CMU Project Olympus", "url": "https://www.cmu.edu/swartz-center-for-entrepreneurship/mentorship-and-programs/project-olympus/", "ls_share": "30-40%"},
+      {"name": "Pitt Big Idea Center", "url": "https://www.bigidea.pitt.edu/"},
+      {"name": "Riverfront Ventures", "url": "https://www.riverfrontventures.com/"},
+      {"name": "BlueTree Allied Angels", "url": "https://www.bluetreealliedangels.com/", "deployed_usd_m": 40}
+    ]
+  },
+  "philadelphia": {
+    "ttos": [
+      {"name": "Penn PCI / PCI Ventures", "url": "https://pci.upenn.edu/", "active_companies": "60+", "method": "html_scrape", "_note": "Best structured HTML scrape in MSA"},
+      {"name": "Drexel Applied Innovation", "url": "https://drexel.edu/applied-innovation/", "focus": "chemistry/materials"},
+      {"name": "Temple OTCBD / iNest", "url": "https://research.temple.edu/innovation/", "spinouts_raised_usd_m": 717},
+      {"name": "Jefferson Innovation / Jefferson Ventures", "url": "https://innovation.jefferson.edu/", "alt_url": "https://ventures.jefferson.edu/"},
+      {"name": "CHOP OEI", "url": "https://www.chop.edu/centers-programs/office-entrepreneurship-innovation"},
+      {"name": "Wistar Institute", "url": "https://www.wistar.org/", "rank_note": "Top 3 nationally per 2022 SSTI"},
+      {"name": "Fox Chase Cancer Center", "url": "https://www.foxchase.org/about-us/research-and-development-alliances/technology-transfer"},
+      {"name": "Princeton Office of Innovation", "url": "https://innovation.princeton.edu/", "_note": "Trenton-Princeton MSA, NOT Philly MSA — adjacent context only"},
+      {"name": "Rutgers Camden", "url": "https://research.camden.rutgers.edu/"}
+    ],
+    "incubators": [
+      {"name": "Ben Franklin Technology Partners SEP", "url": "https://www.sep.benfranklin.org/", "active_health_portfolio": 76},
+      {"name": "University City Science Center", "url": "https://sciencecenter.org/", "programs": ["QED", "Phase 1 Ventures", "Digital Health Accelerator", "ic@3675"]},
+      {"name": "BioLabs Philadelphia", "url": "https://www.biolabs.io/philly", "location": "The Curtis", "residents": "30+", "raised_usd_b": 2},
+      {"name": "Pennovation Center", "url": "https://pennovation.upenn.edu/", "tenants": "30+"},
+      {"name": "Life Sciences PA", "url": "https://lifesciencespa.org/", "directory": "https://members.lifesciencespa.org/directory", "members": "960+", "_note": "Rebranded from Pennsylvania Bio"},
+      {"name": "PACT", "url": "https://philadelphiapact.com/", "annual_report": "Philadelphia Venture Report (with PitchBook)"},
+      {"name": "The Discovery Labs", "url": "https://www.thediscoverylabs.com/", "location": "King of Prussia", "size_sq_ft_m": "5-6"},
+      {"name": "Pennsylvania Biotechnology Center / B+labs at Cira", "url": "https://pabiocenter.org/", "alt_url": "https://blabscira.com/"},
+      {"name": "Robin Hood Ventures", "type": "angel"}
+    ]
+  },
+  "atlanta": {
+    "ttos": [
+      {"name": "Georgia Tech VentureLab + GTRC + Quadrant-i + GTF Ventures", "url": "https://venturelab.gatech.edu/", "alt_url": "https://commercialization.gatech.edu/", "startups_per_year": 120},
+      {"name": "Emory OTT", "url": "https://ott.emory.edu/", "annual_archive": "https://ott.emory.edu/resources/annual_archive.html", "rank": "AUTM #2 licensing revenue FY22"},
+      {"name": "Morehouse School of Medicine OTT", "url": "https://www.msm.edu/Research/translational-technologies/"},
+      {"name": "Georgia State University Panther Innovations", "url": "https://research.gsu.edu/georgia-state-technology-transfer/"},
+      {"name": "Children's Healthcare of Atlanta", "url": "https://pediatricinnovation.gatech.edu/"},
+      {"name": "CDC Tech Transfer Office", "url": "https://www.cdc.gov/od/ott/"}
+    ],
+    "incubators": [
+      {"name": "ATDC", "url": "https://atdc.org/", "active_members": 141, "verticals": 6, "wet_lab_sq_ft": 15000},
+      {"name": "Georgia Life Sciences", "url": "https://www.galifesciences.org/", "directory": "https://secure.gabio.org/membership-directory/3", "_note": "Rebranded from Georgia Bio; under CGHI"},
+      {"name": "Portal Innovations Atlanta (Science Square)", "url": "https://www.portalinnovations.com/atlanta/", "wet_lab_sq_ft": 33000, "members": "32+"},
+      {"name": "Engage Ventures", "url": "https://engage.vc/portfolio/"},
+      {"name": "GRA VentureLab + GRA Venture Fund", "url": "https://gra.org/", "alt_url": "https://graventurefund.org/", "portfolio": "226+"},
+      {"name": "Center for Global Health Innovation", "url": "https://www.thecghi.org/"},
+      {"name": "Global Center for Medical Innovation (GCMI)", "url": "https://gcmiatl.com/"},
+      {"name": "Biolocity (Emory + Ga Tech)", "url": "https://biolocity.org/"},
+      {"name": "Nucleate Atlanta", "url": "https://nucleate.org/atlanta"}
+    ]
+  },
+  "dallas": {
+    "ttos": [
+      {"name": "UT Southwestern OTD", "url": "https://www.utsouthwestern.edu/about-us/administrative-offices/technology-development/", "location": "Pegasus Park Bldg 6", "size_sq_ft": 180000},
+      {"name": "UT Dallas OTC + VDC", "url": "https://research.utdallas.edu/innovation"},
+      {"name": "UT Arlington CETD", "url": "https://www.uta.edu/research/centers/cetd"},
+      {"name": "SMU Tech Transfer & Commercialization", "url": "https://www.smu.edu/provost/research/tech-transfer"},
+      {"name": "TCU Institute for Entrepreneurship & Innovation", "url": "https://www.neeley.tcu.edu/Centers/Institute-for-Entrepreneurship-and-Innovation"},
+      {"name": "UNT Health Fort Worth Acceleration Lab", "url": "https://www.unthsc.edu/research/research-development-and-commercialization/acceleration-lab/"}
+    ],
+    "incubators": [
+      {"name": "BioNTX", "url": "https://www.biontx.org/", "directory": "https://business.biontx.org/directory/FindStartsWith", "members": "204 Core + 90 Associate"},
+      {"name": "Health Wildcatters", "url": "https://www.healthwildcatters.com/portfolio", "portfolio": 131, "raised_usd_m": 350},
+      {"name": "BioLabs at Pegasus Park", "url": "https://www.biolabs.io/north-texas", "wet_lab_sq_ft": 37000},
+      {"name": "Pegasus Park", "url": "https://pegasuspark.com/", "size_sq_ft": 750000},
+      {"name": "Bridge Labs at Pegasus Park", "url": "https://bridgelabsdallas.com/", "size_sq_ft": 135000},
+      {"name": "TechFW + UNT Acceleration Lab", "url": "https://www.techfortworth.org"},
+      {"name": "The DEC Network", "url": "https://thedec.co/"},
+      {"name": "Tech Wildcatters", "url": "https://techwildcatters.com/"}
+    ]
+  },
+  "baltimore": {
+    "ttos": [
+      {"name": "JHTV / FastForward", "url": "https://ventures.jhu.edu/", "healthcare_share": "75%", "companies": "150+", "fy24_vc_usd_m": 130, "_note": "Single largest Baltimore source"},
+      {"name": "UM Ventures Baltimore (UMB OTT)", "url": "https://www.umventures.org/"},
+      {"name": "UMBC OTD + bwtech", "url": "https://research.umbc.edu/otd/", "alt_url": "https://bwtech.umbc.edu/"},
+      {"name": "Morgan State OTT", "url": "https://www.morgan.edu/technologytransfer"},
+      {"name": "Loyola Maryland Simon Center", "url": "https://www.loyola.edu/department/center-innovation-entrepreneurship/"},
+      {"name": "Johns Hopkins Applied Physics Lab", "url": "https://www.jhuapl.edu/tech-transfer", "spinoffs_since_fy00": "34+"}
+    ],
+    "incubators": [
+      {"name": "bwtech@UMBC", "url": "https://bwtech.umbc.edu/", "size_acres": 71, "size_sq_ft": 500000},
+      {"name": "FastForward (JHU)", "locations": ["FF1812 (1812 Ashland)", "FF7th Floor", "FF Highland"]},
+      {"name": "Maryland Tech Council / Maryland Life Sciences", "url": "https://mdtechcouncil.com/", "ls_directory": "https://members.mdtechcouncil.com/lifesciencesdirectory", "members": "700+"},
+      {"name": "BioHealth Capital Region (BHCR) / BHI", "url": "https://biohealthcapital.com/", "alt_url": "https://biohealthinnovation.org/", "ls_companies": "1800+"},
+      {"name": "TEDCO", "url": "https://www.tedcomd.com/", "momentum_fund_portfolio": "https://momentum.usmd.edu/portfolio-companies"},
+      {"name": "Pava Marie LaPere Center for Entrepreneurship", "url": "https://pavacenter.jhu.edu/", "_note": "Renamed April 2024 from FastForward U"},
+      {"name": "IMET / Harbor Launch", "url": "https://imet.usmd.edu/harborlaunch"},
+      {"name": "ETC Baltimore", "url": "https://www.etcbaltimore.com/"},
+      {"name": "BioBuzz", "url": "https://news.biobuzz.io/", "md_ls_directory": "https://innovate.umd.edu/bio-innovation"}
+    ]
+  }
+}

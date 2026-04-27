@@ -1,0 +1,65 @@
+{
+  "_description": "Output verification snapshot for Phase 9 (wet-lab prospect filter). Re-run src/phase9_wetlab_prospects.py --force and compare to detect drift.",
+  "_generated": "2026-04-27",
+  "_pipeline_version": "phase9 v1.0",
+  "expected_row_counts": {
+    "input_companies_final_startups_only": 3563,
+    "wet_lab_prospects": 816,
+    "dropped_geography": 45,
+    "dropped_public_companies": 44
+  },
+  "file_checksums": {
+    "_note": "SHA-256 of the CSV rendered by pandas (index=False). Recompute with: hashlib.sha256(df.to_csv(index=False).encode()).hexdigest()",
+    "companies_final_startups_only.csv": {
+      "rows": 3563,
+      "columns": 31,
+      "sha256": "3addd6ea017bfc1180de6d34d468447bc1dba07c026b5715f5297d4947df90ac"
+    },
+    "wet_lab_prospects.csv": {
+      "rows": 816,
+      "columns": 33,
+      "sha256": "21dd550bd5b7472f62f58e5aa31b1c06e901bd7aa76f8eeec95b323b34595ce2"
+    },
+    "phase9_audit_log.csv": {
+      "rows": 9,
+      "columns": 5,
+      "sha256": "729586948b22e042c0f50aa446f9aefdb4318cd29d77170808adce9d8183ea5b"
+    },
+    "dropped_geography.csv": {
+      "rows": 45,
+      "columns": 32,
+      "sha256": "e8c5578b28ceb09b024a4c9352bd6800ec08f6a9504d31bc558c1807fc511117"
+    },
+    "dropped_public_companies.csv": {
+      "rows": 44,
+      "columns": 33,
+      "sha256": "a9558ac910a695fa0dc260004e65b3c9428eba01cd194c9d4d4be7d67bcf2950"
+    }
+  },
+  "funnel": [
+    {"step_name": "Step1_rededup",        "rows_in": 3563, "rows_out": 3545, "rows_removed":   18},
+    {"step_name": "Step2_fuzzy_merge",    "rows_in": 3545, "rows_out": 3537, "rows_removed":    8},
+    {"step_name": "Step3_geo_cleanup",    "rows_in": 3537, "rows_out": 3492, "rows_removed":   45},
+    {"step_name": "Step4_wetlab_subcat",  "rows_in": 3492, "rows_out": 1342, "rows_removed": 2150},
+    {"step_name": "Step5_recency",        "rows_in": 1342, "rows_out":  936, "rows_removed":  406},
+    {"step_name": "Step6_stage",          "rows_in":  936, "rows_out":  927, "rows_removed":    9},
+    {"step_name": "Step7_spv_vehicles",   "rows_in":  927, "rows_out":  871, "rows_removed":   56},
+    {"step_name": "Step8_public_cos",     "rows_in":  871, "rows_out":  827, "rows_removed":   44},
+    {"step_name": "Step9_nonwetlab_excl", "rows_in":  827, "rows_out":  816, "rows_removed":   11}
+  ],
+  "per_msa": {
+    "atlanta":      125,
+    "baltimore":    123,
+    "dallas":       190,
+    "philadelphia": 283,
+    "pittsburgh":    95
+  },
+  "subcat_counts": {
+    "medtech":      345,
+    "pharma":       195,
+    "biotech":      183,
+    "unknown":       66,
+    "diagnostics":   24,
+    "chemistry":      3
+  }
+}

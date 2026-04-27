@@ -1,0 +1,196 @@
+{
+  "_source": "OMB Bulletin 23-01 (July 2023); Census 2023 delineation list1_2023.xlsx",
+  "_generated": "2026-04-25",
+  "msas": {
+    "pittsburgh": {
+      "cbsa_code": "38300",
+      "name": "Pittsburgh, PA",
+      "state_codes": ["PA"],
+      "county_fips": ["42003", "42005", "42007", "42019", "42051", "42073", "42125", "42129"],
+      "county_names": {
+        "42003": "Allegheny",
+        "42005": "Armstrong",
+        "42007": "Beaver",
+        "42019": "Butler",
+        "42051": "Fayette",
+        "42073": "Lawrence",
+        "42125": "Washington",
+        "42129": "Westmoreland"
+      },
+      "metropolitan_divisions": {},
+      "principal_cities": ["Pittsburgh"],
+      "notable_cities": [
+        "Pittsburgh", "Mt. Lebanon", "Bethel Park", "Penn Hills", "Monroeville",
+        "Plum", "McCandless", "Murrysville", "New Castle", "Cranberry Township",
+        "Greensburg", "Butler", "McKeesport", "Beaver Falls", "Aliquippa",
+        "West Mifflin", "Carnegie", "Sewickley", "Wilkinsburg", "Upper St. Clair",
+        "Washington", "Uniontown"
+      ]
+    },
+    "philadelphia": {
+      "cbsa_code": "37980",
+      "name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+      "state_codes": ["PA", "NJ", "DE", "MD"],
+      "county_fips": [
+        "42017", "42029", "42045", "42091", "42101",
+        "34005", "34007", "34015", "34033",
+        "10003",
+        "24015"
+      ],
+      "county_names": {
+        "42017": "Bucks",
+        "42029": "Chester",
+        "42045": "Delaware",
+        "42091": "Montgomery",
+        "42101": "Philadelphia",
+        "34005": "Burlington",
+        "34007": "Camden",
+        "34015": "Gloucester",
+        "34033": "Salem",
+        "10003": "New Castle",
+        "24015": "Cecil"
+      },
+      "metropolitan_divisions": {
+        "37964": {
+          "name": "Philadelphia, PA",
+          "county_fips": ["42045", "42101"]
+        },
+        "33874": {
+          "name": "Montgomery County-Bucks County-Chester County, PA",
+          "county_fips": ["42017", "42029", "42091"]
+        },
+        "15804": {
+          "name": "Camden, NJ",
+          "county_fips": ["34005", "34007", "34015"]
+        },
+        "48864": {
+          "name": "Wilmington, DE-MD-NJ",
+          "county_fips": ["34033", "10003", "24015"]
+        }
+      },
+      "principal_cities": ["Philadelphia", "Camden", "Wilmington"],
+      "notable_cities": [
+        "Philadelphia", "Camden", "Wilmington", "Cherry Hill", "Upper Darby",
+        "Lower Merion", "Bensalem", "Abington", "Bristol Township", "Newark",
+        "Levittown", "Drexel Hill", "Chester", "West Chester", "Norristown",
+        "King of Prussia", "Elkton", "Pennsauken", "Mount Laurel", "Glassboro",
+        "Voorhees", "Conshohocken", "Plymouth Meeting", "Phoenixville",
+        "Coatesville", "Pottstown", "Doylestown", "Quakertown", "Lansdale",
+        "Springfield", "Havertown"
+      ]
+    },
+    "atlanta": {
+      "cbsa_code": "12060",
+      "name": "Atlanta-Sandy Springs-Roswell, GA",
+      "_naming_note": "Renamed from 'Atlanta-Sandy Springs-Alpharetta, GA' back to 'Atlanta-Sandy Springs-Roswell, GA' under OMB Bulletin 23-01 (2023). Lamar County removed; Lumpkin County added.",
+      "state_codes": ["GA"],
+      "county_fips": [
+        "13013", "13015", "13035", "13045", "13057", "13063", "13067",
+        "13077", "13085", "13089", "13097", "13113", "13117", "13121",
+        "13135", "13143", "13149", "13151", "13159", "13187", "13199",
+        "13211", "13217", "13223", "13227", "13231", "13247", "13255",
+        "13297"
+      ],
+      "county_names": {
+        "13013": "Barrow", "13015": "Bartow", "13035": "Butts",
+        "13045": "Carroll", "13057": "Cherokee", "13063": "Clayton",
+        "13067": "Cobb", "13077": "Coweta", "13085": "Dawson",
+        "13089": "DeKalb", "13097": "Douglas", "13113": "Fayette",
+        "13117": "Forsyth", "13121": "Fulton", "13135": "Gwinnett",
+        "13143": "Haralson", "13149": "Heard", "13151": "Henry",
+        "13159": "Jasper", "13187": "Lumpkin", "13199": "Meriwether",
+        "13211": "Morgan", "13217": "Newton", "13223": "Paulding",
+        "13227": "Pickens", "13231": "Pike", "13247": "Rockdale",
+        "13255": "Spalding", "13297": "Walton"
+      },
+      "metropolitan_divisions": {
+        "12064": {
+          "name": "Atlanta-Sandy Springs-Roswell, GA",
+          "county_fips": [
+            "13013", "13035", "13045", "13063", "13077", "13085", "13089",
+            "13113", "13117", "13121", "13135", "13143", "13149", "13151",
+            "13159", "13187", "13199", "13211", "13217", "13227", "13231",
+            "13247", "13255", "13297"
+          ]
+        },
+        "33124": {
+          "name": "Marietta, GA",
+          "county_fips": ["13015", "13057", "13067", "13097", "13223"]
+        }
+      },
+      "principal_cities": ["Atlanta", "Sandy Springs", "Roswell", "Marietta", "Alpharetta"],
+      "notable_cities": [
+        "Atlanta", "Sandy Springs", "Roswell", "Marietta", "Alpharetta",
+        "South Fulton", "Johns Creek", "Mableton", "Stonecrest", "Smyrna",
+        "Brookhaven", "Dunwoody", "Newnan", "Milton", "East Point", "Tucker",
+        "Woodstock", "Douglasville", "Peachtree City", "Kennesaw", "Canton",
+        "Chamblee", "Duluth", "Lawrenceville", "Decatur", "Snellville",
+        "Conyers", "McDonough", "Buford", "Suwanee", "Cartersville",
+        "Carrollton", "Peachtree Corners"
+      ]
+    },
+    "dallas": {
+      "cbsa_code": "19100",
+      "name": "Dallas-Fort Worth-Arlington, TX",
+      "state_codes": ["TX"],
+      "county_fips": [
+        "48085", "48113", "48121", "48139", "48231", "48257", "48397",
+        "48221", "48251", "48367", "48425", "48439", "48497"
+      ],
+      "county_names": {
+        "48085": "Collin", "48113": "Dallas", "48121": "Denton",
+        "48139": "Ellis", "48231": "Hunt", "48257": "Kaufman",
+        "48397": "Rockwall", "48221": "Hood", "48251": "Johnson",
+        "48367": "Parker", "48425": "Somervell", "48439": "Tarrant",
+        "48497": "Wise"
+      },
+      "metropolitan_divisions": {
+        "19124": {
+          "name": "Dallas-Plano-Irving, TX",
+          "county_fips": ["48085", "48113", "48121", "48139", "48231", "48257", "48397"]
+        },
+        "23104": {
+          "name": "Fort Worth-Arlington-Grapevine, TX",
+          "county_fips": ["48221", "48251", "48367", "48425", "48439", "48497"]
+        }
+      },
+      "principal_cities": ["Dallas", "Fort Worth", "Arlington", "Plano", "Irving", "Grapevine"],
+      "notable_cities": [
+        "Dallas", "Fort Worth", "Arlington", "Plano", "Irving", "Garland",
+        "Frisco", "McKinney", "Grand Prairie", "Mesquite", "Carrollton",
+        "Denton", "Richardson", "Lewisville", "Allen", "Flower Mound",
+        "North Richland Hills", "Mansfield", "Rowlett", "Euless", "Cedar Hill",
+        "DeSoto", "Bedford", "Grapevine", "Wylie", "Keller", "Coppell",
+        "Burleson", "Hurst", "Haltom City", "Little Elm", "Prosper",
+        "Waxahachie", "Cleburne", "Weatherford", "Granbury", "Forney",
+        "Rockwall", "Greenville"
+      ]
+    },
+    "baltimore": {
+      "cbsa_code": "12580",
+      "name": "Baltimore-Columbia-Towson, MD",
+      "state_codes": ["MD"],
+      "county_fips": ["24003", "24005", "24510", "24013", "24025", "24027", "24035"],
+      "county_names": {
+        "24003": "Anne Arundel",
+        "24005": "Baltimore County",
+        "24510": "Baltimore city (independent)",
+        "24013": "Carroll",
+        "24025": "Harford",
+        "24027": "Howard",
+        "24035": "Queen Anne's"
+      },
+      "metropolitan_divisions": {},
+      "principal_cities": ["Baltimore", "Columbia", "Towson"],
+      "notable_cities": [
+        "Baltimore", "Columbia", "Dundalk", "Towson", "Bel Air South",
+        "Catonsville", "Glen Burnie", "Ellicott City", "Annapolis", "Severn",
+        "Pikesville", "Owings Mills", "Eldersburg", "Essex", "Parkville",
+        "Severna Park", "Westminster", "Bel Air", "Cockeysville", "Reisterstown",
+        "Edgewood", "Middle River", "Aberdeen", "Havre de Grace", "Elkridge",
+        "Rosedale", "Arbutus", "Randallstown", "Centreville", "Stevensville",
+        "Hampstead", "Sykesville"
+      ]
+    }
+  }
+}

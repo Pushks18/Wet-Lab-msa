@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.local
+
+# Raw data (regenerable from public sources; too large for GitHub)
+data/raw/
+data/checkpoints/
+logs/
+*.parquet
+
+# Large intermediate exports (regenerable; >50 MB)
+output/nih_awards.csv
+output/nih_awards.xlsx
+output/sbir_awards.csv
+output/sbir_awards.xlsx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db

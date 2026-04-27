@@ -1,0 +1,92 @@
+{
+  "_note": "Verified endpoints as of 2026-04-25. PatentsView migration to data.uspto.gov scheduled 2026-03-20 — already past, may need migration. Verify before Phase 2 patent harvest.",
+  "federal_grants": {
+    "nih_reporter": {
+      "url": "https://api.reporter.nih.gov/v2/projects/search",
+      "method": "POST",
+      "auth": "none",
+      "rate_limit_per_sec": 3,
+      "page_size": 500,
+      "hard_cap": 10000,
+      "filter_keys": ["criteria.org_states", "criteria.org_cities", "criteria.fiscal_years"]
+    },
+    "sbir_awards": {
+      "url": "https://api.www.sbir.gov/public/api/awards",
+      "method": "GET",
+      "auth": "none",
+      "rate_limit_per_sec": 1,
+      "page_size_default": 100,
+      "page_size_max": 5000,
+      "bulk_url": "https://www.sbir.gov/data-resources",
+      "deprecated_endpoint": "https://api.data.gov/sbir/"
+    },
+    "sbir_firms": {
+      "url": "https://api.www.sbir.gov/public/api/firms",
+      "method": "GET",
+      "auth": "none"
+    },
+    "nsf_awards_bulk": {
+      "url": "https://www.nsf.gov/awardsearch/download.jsp",
+      "format": "Annual ZIP (JSON since Jan 2025; XML before)",
+      "filter_keys_offline": ["awardeeStateCode", "awardeeZipCode", "awardeeCity"]
+    },
+    "nsf_awards_live_fallback": {
+      "url": "https://api.nsf.gov/services/v1/awards.json",
+      "max_date_range_years": 1,
+      "rpp": 25
+    },
+    "usaspending": {
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "method": "POST",
+      "auth": "none",
+      "rate_limit_per_sec": 5,
+      "page_size": 100,
+      "bulk_download": "https://api.usaspending.gov/api/v2/download/awards/",
+      "filter_key": "filters.recipient_locations[].country/state/county"
+    }
+  },
+  "corporate": {
+    "sec_edgar_full_text": {
+      "url": "https://efts.sec.gov/LATEST/search-index",
+      "rate_limit_per_sec": 10,
+      "user_agent_required": true
+    },
+    "sec_form_d_bulk": {
+      "url": "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets",
+      "format": "Quarterly ZIP",
+      "tables": ["FORMDSUBMISSION", "ISSUERS", "OFFERING", "RECIPIENTS"],
+      "industry_groups_in_scope": ["Pharmaceuticals", "Biotechnology", "Other Health Care"]
+    },
+    "sam_gov": {
+      "url": "https://api.sam.gov/entity-information/v3/entities",
+      "auth": "free key (90-day rotation)",
+      "rate_limit_per_day": 1000
+    }
+  },
+  "patents": {
+    "uspto_patentsearch": {
+      "url": "https://search.patentsview.org/api/v1/",
+      "auth": "free key (X-Api-Key header)",
+      "deprecated": "api.patentsview.org (decommissioned 2025-05-01)",
+      "migration_target": "https://data.uspto.gov (ODP), 2026-03-20"
+    },
+    "google_patents_bigquery": {
+      "dataset": "patents-public-data.patents.publications",
+      "free_tier_tb_per_month": 1
+    }
+  },
+  "cpc_classes_in_scope": {
+    "A61": "Medical/veterinary",
+    "A61K": "Pharmaceutical preparations",
+    "A61P": "Therapeutic activity",
+    "C07": "Organic chemistry",
+    "C07D": "Heterocyclic compounds",
+    "C07K": "Peptides",
+    "C12": "Biochemistry",
+    "C12N": "Microorganisms/enzymes",
+    "C12Q": "Nucleic-acid testing",
+    "C01": "Inorganic chemistry",
+    "C08": "Polymers",
+    "C09": "Dyes/coatings"
+  }
+}

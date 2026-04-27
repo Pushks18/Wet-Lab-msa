@@ -1,0 +1,594 @@
+msa,name,name_norm,tier,city,state,zip,source_form_d,source_sbir,source_nih,form_d_filings,sbir_awards,sbir_total_usd,nih_grants,nih_total_usd,year_incorp,entity_type,industry,cik,uei,duns,website,employees,sbir_first_year,sbir_last_year
+atlanta,ALIMERA SCIENCES INC,alimera sciences,confirmed_funded,ALPHARETTA,GA,30005,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001267602,,,,,,
+atlanta,"ATLANTA DETOX GROUP, LLC",atlanta detox,confirmed_funded,RIVERDALE,GA,30274,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0002069614,,,,,,
+atlanta,"AlmataBio, Inc.",almatabio,confirmed_funded,ATLANTA,GA,30308,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Corporation,Biotechnology,0002002604,,,,,,
+atlanta,"AmpSport, Inc.",ampsport,confirmed_funded,Decatur,GA,30030,True,False,False,3.0,0.0,0.0,0.0,0.0,2016,Corporation,Biotechnology,0001801202,,,,,,
+atlanta,Antios Therapeutics Inc.,antios therapeutics,confirmed_funded,ATLANTA,GA,30355,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001760428,,,,,,
+atlanta,Apollo Behavior Services LLC,apollo behavior services,confirmed_funded,SUWANEE,GA,30024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001965287,,,,,,
+atlanta,"Artelon, Inc.",artelon,confirmed_funded,MARIETTA,GA,30067,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Corporation,Biotechnology,0001978956,,,,,,
+atlanta,"Arthroba, Inc.",arthroba,confirmed_funded,SMYRNA,GA,30080,True,False,False,3.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001972133,,,,,,
+atlanta,"Artificial Intelligence Medical Services, Inc.",artificial intelligence medical services,confirmed_funded,CUMMING,GA,30041,True,False,False,4.0,0.0,0.0,0.0,0.0,2020,Corporation,Biotechnology,0001846100,,,,,,
+atlanta,"B4CC, Inc.",b4cc,confirmed_funded,GAINESVILLE,GA,30501,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001660721,,,,,,
+atlanta,"BLA Technology, LLC",bla technology,confirmed_funded,ATLANTA,GA,30331,True,False,False,5.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001522591,,,,,,
+atlanta,"Basis Medical, LLC",basis medical,confirmed_funded,ATLANTA,GA,30307,True,False,False,2.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001738555,,,,,,
+atlanta,"Blue Summit Hospice & Palliative Care, Inc.",blue summit hospice palliative care,confirmed_funded,ATLANTA,GA,30318,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Corporation,Other Health Care,0001945223,,,,,,
+atlanta,"Boston Biopharma, Inc.",boston biopharma,confirmed_funded,ROSWELL,GA,30075,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001857036,,,,,,
+atlanta,BrainTrust BIO Inc.,braintrust bio,confirmed_funded,ATLANTA,GA,30309,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Biotechnology,0001844575,,,,,,
+atlanta,"Brij Medical, Inc.",brij medical,confirmed_funded,Marietta,GA,30067,True,False,False,3.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001872429,,,,,,
+atlanta,"Brijjit Medical, Inc.",brijjit medical,confirmed_funded,MARIETTA,GA,30067,True,False,False,4.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001872429,,,,,,
+atlanta,"CHILDRENS HEALTHCARE OF ATLANTA SURGERY CENTER AT MERIDIAN MARK PLAZA, LLC",childrens healthcare of atlanta surgery center at meridian mark plaza,confirmed_funded,ATLANTA,GA,30342,True,False,False,8.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001200058,,,,,,
+atlanta,"Clinigence Holdings, Inc.",clinigence,confirmed_funded,ATLANTA,GA,30308,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001479681,,,,,,
+atlanta,"ControlRad, Inc.",controlrad,confirmed_funded,PEACHTREE CORNERS,GA,30092,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001558121,,,,,,
+atlanta,"Covanos, Inc.",covanos,confirmed_funded,ALPHARETTA,GA,30005,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001972478,,,,,,
+atlanta,"Delaney SL Fund, LLC",delaney sl fund,confirmed_funded,DULUTH,GA,30096,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Limited Liability Company,Other Health Care,0002089798,,,,,,
+atlanta,"Docsnap, Inc.",docsnap,confirmed_funded,Atlanta,GA,30339,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001923356,,,,,,
+atlanta,"EarliTec Diagnostics, Inc.",earlitec diagnostics,confirmed_funded,DECATUR,GA,30030,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001911356,,,,,,
+atlanta,"EmTheraPro, Inc.",emtherapro,confirmed_funded,DECATUR,GA,30030,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001992821,,,,,,
+atlanta,FEMASYS INC,femasys,confirmed_funded,SUWANEE,GA,30024,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001339005,,,,,,
+atlanta,"Falcon Hospice, L.P.",falcon hospice l p,confirmed_funded,ATLANTA,GA,30339,True,False,False,4.0,0.0,0.0,0.0,0.0,2022,Limited Partnership,Other Health Care,0001946789,,,,,,
+atlanta,"Focused Cryo, Inc",focused cryo,confirmed_funded,KENNESAW,GA,30144,True,False,False,5.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001835523,,,,,,
+atlanta,"Freedom Pharmacy Operations, LLC",freedom pharmacy operations,confirmed_funded,Atlanta,GA,30305,True,False,False,2.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001839907,,,,,,
+atlanta,"GAINESVILLE SURGERY CENTER, L.P.",gainesville surgery center l p,confirmed_funded,GAINESVILLE,GA,30501,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Partnership,Other Health Care,0000941125,,,,,,
+atlanta,"GeoVax Labs, Inc.",geovax labs,confirmed_funded,SMYRNA,GA,30080,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0000832489,,,,,,
+atlanta,"Georgia Medicinal Partners, LLC",georgia medicinal partners,confirmed_funded,ROSWELL,GA,30076,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001844797,,,,,,
+atlanta,"Global Continence, Inc.",global continence,confirmed_funded,ATLANTA,GA,30329,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001945306,,,,,,
+atlanta,"Greatest Generation Partners Fund Three, LLC",greatest generation partners fund three,confirmed_funded,ATLANTA,GA,30361,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0001909587,,,,,,
+atlanta,"Guide Therapeutics, Inc.",guide therapeutics,confirmed_funded,TUCKER,GA,30084,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001769132,,,,,,
+atlanta,"HIPnation Operations & Solutions, LLC",hipnation operations solutions,confirmed_funded,SUWANEE,GA,30024,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001713574,,,,,,
+atlanta,"INSIGHT OPTICS, INC.",insight optics,confirmed_funded,ATLANTA,GA,30318,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001924150,,,,,,
+atlanta,Jackson Medical Group Inc.,jackson medical,confirmed_funded,ATLANTA,GA,30318,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001884553,,,,,,
+atlanta,"Lanier Biotherapeutics, Inc.",lanier biotherapeutics,confirmed_funded,BOGART,GA,30622,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Corporation,Biotechnology,0001877210,,,,,,
+atlanta,"Mach5 Therapeutics, Inc.",mach5 therapeutics,confirmed_funded,ATLANTA,GA,30308,True,False,False,3.0,0.0,0.0,0.0,0.0,2023,Corporation,Biotechnology,0002018014,,,,,,
+atlanta,"MedTech Exchange, Inc.",medtech exchange,confirmed_funded,ATLANTA,GA,30324,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001909238,,,,,,
+atlanta,Modify Health LLC,modify health,confirmed_funded,ALPHARETTA,GA,30005,True,False,False,8.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001744101,,,,,,
+atlanta,"ModifyHealth, Inc.",modifyhealth,confirmed_funded,ALPHARETTA,GA,30005,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Corporation,Other Health Care,0001744101,,,,,,
+atlanta,Mt McKinley Medical Holding Corp USA,mt mckinley medical holding usa,confirmed_funded,KENNESAW,GA,30152,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Biotechnology,0001923647,,,,,,
+atlanta,"NFANT Labs, LLC",nfant labs,confirmed_funded,MARIETTA,GA,30060,True,False,False,8.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001594115,,,,,,
+atlanta,Nutrivert Inc.,nutrivert,confirmed_funded,ATLANTA,GA,30305,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001970591,,,,,,
+atlanta,"Nyra Medical, Inc.",nyra medical,confirmed_funded,DECATUR,GA,30033,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001955347,,,,,,
+atlanta,"OXOS MEDICAL, INC.",oxos medical,confirmed_funded,ATLANTA,GA,30309,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Corporation,Biotechnology,0001694304,,,,,,
+atlanta,"OXOS Series #6 Holdings, LLC",oxos series 6,confirmed_funded,ATLANTA,GA,30309,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Biotechnology,0001847322,,,,,,
+atlanta,"OXOS Series #7 Holdings, LLC",oxos series 7,confirmed_funded,ATLANTA,GA,30309,True,False,False,2.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Biotechnology,0001922447,,,,,,
+atlanta,PERIMETER CENTER FOR OUTPATIENT SURGERY LP,perimeter center for outpatient surgery lp,confirmed_funded,ATLANTA,GA,30328,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Partnership,Other Health Care,0001160740,,,,,,
+atlanta,"Pan-Am Acquisition, LLC",pan am acquisition,confirmed_funded,ATLANTA,GA,30339,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0002010634,,,,,,
+atlanta,"Pan-Am Dental Holdings, LLC",pan am dental,confirmed_funded,ATLANTA,GA,30339,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0002010510,,,,,,
+atlanta,"Panda Health, Inc.",panda health,confirmed_funded,ATLANTA,GA,30339,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Corporation,Other Health Care,0002050036,,,,,,
+atlanta,"Petriss, LLC",petriss,confirmed_funded,MARIETTA,GA,30067,True,False,False,2.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001812411,,,,,,
+atlanta,"Physician 360, Inc.",physician 360,confirmed_funded,ATLANTA,GA,30361,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001791687,,,,,,
+atlanta,"Phytest Diagnostics, LLC",phytest diagnostics,confirmed_funded,ATLANTA,GA,30328,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Pharmaceuticals,0001990163,,,,,,
+atlanta,"PiVista Therapeutics, Inc.",pivista therapeutics,confirmed_funded,DECATUR,GA,30033,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001877091,,,,,,
+atlanta,Providence Dental Partners LLC,providence dental partners,confirmed_funded,ATLANTA,GA,30306,True,False,False,2.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0002004245,,,,,,
+atlanta,"Purity-Chapters JV, LLC",purity chapters jv,confirmed_funded,DULUTH,GA,30096,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Limited Liability Company,Other Health Care,0002039568,,,,,,
+atlanta,Q CARE INTERNATIONAL LLC,q care international,confirmed_funded,MARIETTA,GA,30067,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001034485,,,,,,
+atlanta,"RCE Technologies, Inc.",rce technologies,confirmed_funded,ATLANTA,GA,30303,True,False,False,15.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001791860,,,,,,
+atlanta,"Radyus Research, Inc.",radyus research,confirmed_funded,ATLANTA,GA,30327,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001800374,,,,,,
+atlanta,"Regen Osteo, Inc",regen osteo,confirmed_funded,DALLAS,GA,30132,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001903411,,,,,,
+atlanta,Restor Metabolix Inc,restor metabolix,confirmed_funded,Carrollton,GA,30116,True,False,False,2.0,0.0,0.0,0.0,0.0,2020,Corporation,Other Health Care,0001901338,,,,,,
+atlanta,"Rimidi, Inc.",rimidi,confirmed_funded,Atlanta,GA,30324,True,False,False,6.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001556272,,,,,,
+atlanta,"SANUWAVE Health, Inc.",sanuwave health,confirmed_funded,SUWANEE,GA,30024,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001417663,,,,,,
+atlanta,SCIENTIFIC INTAKE LTD CO,scientific intake,confirmed_funded,ATLANTA,GA,30339,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001277119,,,,,,
+atlanta,STRATACA GROUP,strataca,confirmed_funded,MILTON,GA,30004,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001653180,,,,,,
+atlanta,"Sawatch Ventures, LLC",sawatch ventures,confirmed_funded,DUNWOODY,GA,30338,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001884539,,,,,,
+atlanta,"ShareMD Digital Solutions, LLC",sharemd digital solutions,confirmed_funded,ALPHARETTA,GA,30009,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001952932,,,,,,
+atlanta,"SignalRX Pharmaceuticals, Inc",signalrx pharmaceuticals,confirmed_funded,CUMMING,GA,30041,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001974464,,,,,,
+atlanta,StartBox LLC,startbox,confirmed_funded,ATLANTA,GA,30341,True,False,False,2.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0001682043,,,,,,
+atlanta,Stem Biotech LLC,stem biotech,confirmed_funded,KENNESAW,GA,30152,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Biotechnology,0001800964,,,,,,
+atlanta,Stimlabs LLC,stimlabs,confirmed_funded,ROSWELL,GA,30076,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Biotechnology,0001900728,,,,,,
+atlanta,"Tabor.AI, Inc.",tabor ai,confirmed_funded,ATLANTA,GA,30326,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Corporation,Other Health Care,0002008806,,,,,,
+atlanta,TendoNova Corp,tendonova,confirmed_funded,ATLANTA,GA,30306,True,False,False,20.0,0.0,0.0,0.0,0.0,2017,Corporation,Biotechnology,0001774275,,,,,,
+atlanta,"TopoDx, Inc.",topodx,confirmed_funded,ATLANTA,GA,30313,True,False,False,2.0,0.0,0.0,0.0,0.0,2024,Corporation,Biotechnology,0002075590,,,,,,
+atlanta,"United Digestive Holdings, LLC",united digestive,confirmed_funded,Atlanta,GA,30309,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001973451,,,,,,
+atlanta,"Verdant Scientific, Inc.",verdant scientific,confirmed_funded,DUNWOODY,GA,30338,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Corporation,Other Health Care,0002007409,,,,,,
+atlanta,Vero Biotech Inc.,vero biotech,confirmed_funded,ATLANTA,GA,30313,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001359620,,,,,,
+atlanta,Vitaltechhub INC,vitaltechhub,confirmed_funded,Suwanee,GA,30024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Corporation,Biotechnology,0001838886,,,,,,
+atlanta,XO Health Inc.,xo health,confirmed_funded,Alpharetta,GA,30009,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0002083859,,,,,,
+atlanta,"Zea Health, Inc.",zea health,confirmed_funded,ALPHARETTA,GA,30005,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0002022527,,,,,,
+atlanta,3D PIPELINE SIMULATION CORP.,3d pipeline simulation,confirmed_grant,Atlanta,GA,30326,False,True,False,0.0,1.0,99714.0,0.0,0.0,,,,,,137165861,,9,2005,2005
+atlanta,"3DMD, LLC",3dmd,confirmed_grant,ATLANTA,GA,-,False,True,False,0.0,2.0,800001.0,0.0,0.0,,,,,JMFWMNVD3WH6,005547588,,0,2010,2012
+atlanta,"3T Technologies, LLC",3t technologies,confirmed_grant,Marietta,GA,30067,False,True,False,0.0,1.0,149927.0,0.0,0.0,,,,,,080267751,,2,2018,2018
+atlanta,3dh Corporation,3dh,confirmed_grant,Norcross,GA,30093,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,,,20,2005,2005
+atlanta,"4-D IMAGING, INC.",4 d imaging,confirmed_grant,NORCROSS,GA,30071-1431,False,True,False,0.0,1.0,69994.0,0.0,0.0,,,,,,134344824,,3,2010,2010
+atlanta,422 Group,422,confirmed_grant,Tucker,GA,30084 7064,False,True,False,0.0,2.0,600000.0,0.0,0.0,,,,,,842215217,,14,2009,2010
+atlanta,"4DGENOME, INC.",4dgenome,confirmed_grant,DECATUR,GA,30033-1700,False,True,False,0.0,1.0,218556.0,0.0,0.0,,,,,,078770692,,5,2014,2014
+atlanta,"5M BIOMED, LLC",5m biomed,confirmed_grant,JOHNS CREEK,GA,30022-5677,False,True,True,0.0,6.0,2614653.0,6.0,2614653.0,,,,,K82GCNF5EPU3,055492070,,10,2020,2025
+atlanta,"8Seven8, Inc.",8seven8,confirmed_grant,Decatur,GA,30030,False,True,False,0.0,1.0,149997.0,0.0,0.0,,,,,DDARGANC2UC7,,https://www.8seven8.com/,2,2025,2025
+atlanta,"ABACUS MIND MATH TUTORS, INC.",abacus mind math tutors,confirmed_grant,ATLANTA,GA,,False,True,False,0.0,1.0,250000.0,0.0,0.0,,,,,EQCPG8QYEER3,080974724,https://www.mathjr.org/,1,2025,2025
+atlanta,"ADENOPAINT, LLC",adenopaint,confirmed_grant,Atlanta,GA,30342-4159,False,True,True,0.0,2.0,1751096.0,2.0,499998.0,,,,,EJZLNLTM5GQ5,014629027,,0,2017,2023
+atlanta,ADVAC LLC,advac,confirmed_grant,LILBURN,GA,30047-1830,False,True,True,0.0,2.0,497223.0,1.0,272223.0,,,,,PJPNK66DNNZ9,080445256,,1,2018,2020
+atlanta,"ADVANCED SOLUTIONS FOR TOMORROW, INC.",advanced solutions for tomorrow,confirmed_grant,Roswell,GA,30075 0075,False,True,False,0.0,4.0,2791767.0,0.0,0.0,,,,,LFZKTW34NNG1,835146531,,102,2007,2010
+atlanta,"AEROMECHANICS, LLC",aeromechanics,confirmed_grant,Duluth,GA,30096,False,True,False,0.0,1.0,69980.0,0.0,0.0,,,,,,110957821,,1,2000,2000
+atlanta,AETHER ARGUS INC,aether argus,confirmed_grant,ATLANTA,GA,30328-3652,False,True,False,0.0,5.0,7264698.0,0.0,0.0,,,,,KBAFK72BJ4U5,117059343,https://aetherargus.com/,5,2023,2024
+atlanta,"ALPZHI, INC.",alpzhi,confirmed_grant,ATLANTA,GA,30318-5713,False,True,False,0.0,2.0,297363.0,0.0,0.0,,,,,,832766179,www.alpzhi.com,5,2011,2013
+atlanta,AMERICAN DATA SOLUTIONS LLC,american data solutions,confirmed_grant,SMYRNA,GA,30080-8506,False,True,False,0.0,3.0,1398025.0,0.0,0.0,,,,,GSX6MPLDM8B7,969615132,https://www.mddv.com,27,2023,2024
+atlanta,AMP SPORT INC,amp sport,confirmed_grant,DECATUR,GA,30030-4567,False,True,False,0.0,2.0,799947.0,0.0,0.0,,,,,MPA6G3UMHUM5,080608010,https://www.amprecover.com,6,2021,2022
+atlanta,"ANALYTICS HQ, LLC",analytics hq,confirmed_grant,SUWANEE,GA,30024-1968,False,True,False,0.0,1.0,1999584.14,0.0,0.0,,,,,KZC1APBM88W5,033842525,https://AnalyticsHQ.com,4,2024,2024
+atlanta,ANXOMICS LLC,anxomics,confirmed_grant,JOHNS CREEK,GA,30022,False,True,True,0.0,1.0,312492.0,1.0,312492.0,,,,,RPUDSG5GB529,,,2,2024,2024
+atlanta,"APELIOTUS TECHNOLOGIES, INC.",apeliotus technologies,confirmed_grant,ATLANTA,GA,30306 3240,False,True,False,0.0,5.0,1090657.0,0.0,0.0,,,,,DD9JNFB8AW88,143313430,,,2005,2009
+atlanta,"APK ADVANCED MEDICAL TECHNOLOGIES, INC.",apk advanced medical technologies,confirmed_grant,ATLANTA,GA,30318-0532,False,True,False,0.0,2.0,2714186.0,0.0,0.0,,,,,,078416248,,,2013,2014
+atlanta,APOTHEOSYS,apotheosys,confirmed_grant,Tucker,GA,30084,False,True,False,0.0,1.0,69841.0,0.0,0.0,,,,,,,,,1999,1999
+atlanta,"APOTHYM TECHNOLOGIES GROUP, LLC",apothym technologies,confirmed_grant,PEACHTREE CORNERS,GA,30092-3311,False,True,False,0.0,6.0,4687875.48,0.0,0.0,,,,,LVYMSHMJV7Y7,,https://atg.space/,16,2023,2025
+atlanta,ARES IMMUNOTHERAPY INC.,ares immunotherapy,confirmed_grant,CARTERSVILLE,GA,30121-3200,False,True,True,0.0,1.0,369916.0,1.0,369916.0,,,,,,117531416,http://aresimmunotherapy.com/,1,2021,2021
+atlanta,"ARTIMATIC TECHNOLOGIES, INC.",artimatic technologies,confirmed_grant,TUCKER,GA,,False,True,False,0.0,1.0,275000.0,0.0,0.0,,,,,FB8PPCZVCXA8,,,0,2024,2024
+atlanta,ATLANTA ANALYTICS LLC,atlanta analytics,confirmed_grant,ATLANTA,GA,30306-2234,False,True,False,0.0,1.0,268580.0,0.0,0.0,,,,,NHUXQKUEQMR8,,,1,2023,2023
+atlanta,"ATLANTIC PHARMACEUTICALS, INC.",atlantic pharmaceuticals,confirmed_grant,DULUTH,GA,30097 4329,False,True,False,0.0,2.0,198462.0,0.0,0.0,,,,,,193233017,,,2007,2007
+atlanta,"AUDIOT, INC.",audiot,confirmed_grant,Atlanta,GA,30318-5602,False,True,False,0.0,1.0,274763.0,0.0,0.0,,,,,L95GKN1HMNK3,117167198,Https://Www.audiot.ai,2,2024,2024
+atlanta,"AURAZYME PHARMACEUTICALS, INC.",aurazyme pharmaceuticals,confirmed_grant,MARIETTA,GA,30067,False,True,False,0.0,2.0,460983.0,0.0,0.0,,,,,,,,,2002,2003
+atlanta,"AXONA, INC.",axona,confirmed_grant,ATLANTA,GA,30308,False,True,False,0.0,1.0,187907.0,0.0,0.0,,,,,,199114583,,,2007,2007
+atlanta,"Abj Integration Technologies,",abj integration technologies,confirmed_grant,Atlanta,GA,30350,False,True,False,0.0,0.0,225351.0,0.0,0.0,,,,,,,,2,1993,1997
+atlanta,Accelereyes LLC,accelereyes,confirmed_grant,Atlanta,GA,30305-1512,False,True,False,0.0,8.0,5328836.0,0.0,0.0,,,,,DPKMLZM47HL8,827568226,https://arrayfire.com,10,2010,2018
+atlanta,Accuhealth Technologies,accuhealth technologies,confirmed_grant,Atlanta,GA,30327,False,True,True,0.0,2.0,2324871.0,3.0,2324871.0,,,,,R329HZ5JM4K8,078671388,,6,2021,2022
+atlanta,"Adaptronics, Inc.",adaptronics,confirmed_grant,Marietta,GA,30062,False,True,False,0.0,0.0,136210.0,0.0,0.0,,,,,,,,4,1994,1995
+atlanta,Adeptdc Co.,adeptdc,confirmed_grant,Atlanta,GA,30318-5713,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,079601400,,1,2015,2015
+atlanta,Advanced Engineered,advanced engineered,confirmed_grant,Marietta,GA,30062,False,True,False,0.0,0.0,70000.0,0.0,0.0,,,,,,,,,1995,1995
+atlanta,"Aeris Water Technologies, LLC",aeris water technologies,confirmed_grant,Atlanta,GA,30309,False,True,False,0.0,1.0,304996.0,0.0,0.0,,,,,H5HTLMLUBGG1,119172725,https://aeriswatertech.com,2,2025,2025
+atlanta,"Aerotonomy, Incorporated",aerotonomy,confirmed_grant,LITHIA SPRINGS,GA,30122 1546,False,True,False,0.0,14.0,4386157.0,0.0,0.0,,,,,,170566918,,9,2005,2010
+atlanta,Altea Therapeutics Corporation,altea therapeutics,confirmed_grant,Tucker,GA,30084,False,True,False,0.0,4.0,1577173.0,0.0,0.0,,,,,,,,,2000,2005
+atlanta,American Combustion Inc,american combustion,confirmed_grant,Norcross,GA,30071,False,True,False,0.0,0.0,100000.0,0.0,0.0,,,,,,,,,1987,1988
+atlanta,American Software Safety Reliability Ltd.Co,american software safety reliability,confirmed_grant,Atlanta,GA,30338-7723,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,079824577,www.assrc.us,10,2016,2016
+atlanta,"Annoviant, Inc.",annoviant,confirmed_grant,Alpharetta,GA,30022-6137,False,True,True,0.0,4.0,4656269.0,6.0,4341363.0,,,,,D9WMZ24BAKL5,081242296,,2,2019,2024
+atlanta,Antech Inc.,antech,confirmed_grant,Roswell,GA,30075,False,True,False,0.0,0.0,166025.0,0.0,0.0,,,,,,,,5,1987,1991
+atlanta,"Applied Ceramics, Inc.",applied ceramics,confirmed_grant,Atlanta,GA,30340,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,,,,2000,2000
+atlanta,"Apyron Technologies, Inc.",apyron technologies,confirmed_grant,Atlanta,GA,30340,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,,,,2001,2001
+atlanta,Aqua Resources Corporation,aqua resources,confirmed_grant,Woodstock,GA,-,False,True,False,0.0,2.0,2410736.0,0.0,0.0,,,,,G7JPBQ289T34,023541209,,1,2010,2012
+atlanta,"Area I, Inc.",area i,confirmed_grant,MARIETTA,GA,30066-5806,False,True,False,0.0,18.0,10174621.0,0.0,0.0,,,,,QRCBC4P1JAB5,829299747,https://www.areai.com,100,2009,2018
+atlanta,"Argos Intelligence, LLC",argos intelligence,confirmed_grant,Atlanta,GA,30328-5788,False,True,False,0.0,7.0,2734978.1,0.0,0.0,,,,,S3STKZEN4MN1,827943692,,3,2009,2017
+atlanta,Artificial Intelligence,artificial intelligence,confirmed_grant,Decatur,GA,30030,False,True,False,0.0,0.0,379187.0,0.0,0.0,,,,,,,,,1987,1994
+atlanta,Askari Murtaza,askari murtaza,confirmed_grant,Atlanta,GA,30327-1044,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,111111111,,4,2012,2012
+atlanta,Astleford Inc.,astleford,confirmed_grant,Stone Mountain,GA,30087,False,True,False,0.0,0.0,45775.0,0.0,0.0,,,,,,,,,1993,1993
+atlanta,"Atheraxon, Inc.",atheraxon,confirmed_grant,Atlanta,GA,30340-4612,False,True,False,0.0,2.0,1224996.0,0.0,0.0,,,,,D2TPU8AQJ6Y5,081243877,,3,2019,2020
+atlanta,Atlan-tech Inc,atlan tech,confirmed_grant,Roswell,GA,30076,False,True,False,0.0,0.0,596266.0,0.0,0.0,,,,,,,,6,1983,1986
+atlanta,Atlanta Signal Processors Inc.,atlanta signal processors,confirmed_grant,Atlanta,GA,30308,False,True,False,0.0,0.0,348912.0,0.0,0.0,,,,,,,,,1993,1995
+atlanta,"Atomic-6, Inc.",atomic 6,confirmed_grant,MARIETTA,GA,30067-9218,False,True,False,0.0,13.0,7852729.0,0.0,0.0,,,,,KD21DRRKP1W3,117258896,https://www.atomic-6.com/,13,2021,2024
+atlanta,Autodesk Inc.,autodesk,confirmed_grant,Atlanta,GA,30338,False,True,False,0.0,0.0,525000.0,0.0,0.0,,,,,,,,,1986,1988
+atlanta,Automation Concepts & Sys Inc,automation concepts sys,confirmed_grant,Smyrna,GA,30080,False,True,False,0.0,0.0,49995.0,0.0,0.0,,,,,,,,,1991,1991
+atlanta,"Axion Biosystems, Inc.",axion biosystems,confirmed_grant,Atlanta,GA,30309-1855,False,True,False,0.0,8.0,10706223.0,0.0,0.0,,,,,XCMKL76UJL15,802587035,,,2008,2018
+atlanta,"Azomai Systems, Inc.",azomai systems,confirmed_grant,Atlanta,GA,30307,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,,,3,2004,2004
+atlanta,BEHAVIORAL SCIENCE TECHNOLOGIES LLC,behavioral science technologies,confirmed_grant,ATLANTA,GA,30306-2608,False,True,False,0.0,2.0,1142789.0,0.0,0.0,,,,,NTF9Z3Y1SQQ1,079151186,,2,2016,2017
+atlanta,"BINERGY SCIENTIFIC, INC.",binergy scientific,confirmed_grant,ATLANTA,GA,30342-3843,False,True,False,0.0,13.0,10843075.0,0.0,0.0,,,,,KLK5ZWJKYH73,078282228,http://www.binergyscientific.com,12,2014,2024
+atlanta,"BIOCURE, INC.",biocure,confirmed_grant,NORCROSS,GA,30071,False,True,False,0.0,1.0,199889.0,0.0,0.0,,,,,,,http://,0,2009,2009
+atlanta,"BIODATA CONSORTIUM, LLC",biodata consortium,confirmed_grant,ATLANTA,GA,30306-3118,False,True,True,0.0,1.0,386526.0,1.0,386526.0,,,,,HMCMN97DH6J9,117206504,http://www.biodataconsortium.com,1,2020,2020
+atlanta,"BIOTECHNICAL COMMUNICATIONS, INC.",biotechnical communications,confirmed_grant,ATLANTA,GA,30328-,False,True,False,0.0,9.0,5337374.0,0.0,0.0,,,,,V9JHE2Z4BAR7,877988022,,,1993,2011
+atlanta,BLIND TIGER COMMUNICATIONS ,blind tiger communications,confirmed_grant,BLAIRSVILLE,GA,30512-1982,False,True,False,0.0,1.0,74983.0,0.0,0.0,,,,,ML5DMK7AJNT4,074580285,http://www.blindtigercom.com,2,2019,2019
+atlanta,BLOOMALO LLC,bloomalo,confirmed_grant,ATLANTA,GA,30342-1430,False,True,False,0.0,1.0,256000.0,0.0,0.0,,,,,Z9E2V16911T3,117924374,,4,2022,2022
+atlanta,BOXLOCK INC,boxlock,confirmed_grant,ATLANTA,GA,30316-1137,False,True,False,0.0,1.0,49817.0,0.0,0.0,,,,,LL91NLYHY1U5,081032159,https://getboxlock.com,14,2021,2021
+atlanta,BT POST,bt post,confirmed_grant,ATLANTA,GA,30307-2557,False,True,False,0.0,1.0,99999.0,0.0,0.0,,,,,,006806032,,1,2010,2010
+atlanta,"Baker Street Scientific, INC",baker street scientific,confirmed_grant,Rome,GA,30161-3075,False,True,False,0.0,2.0,189144.0,0.0,0.0,,,,,KMNKNLL31J63,079536548,http://www.bakersci.com,20,2019,2021
+atlanta,Big Nerd Ranch LLC ,big nerd ranch,confirmed_grant,Atlanta,GA,30307-2299,False,True,False,0.0,2.0,243582.0,0.0,0.0,,,,,N4TCPMS6XZ45,078734319,https://www.bignerdranch.com,97,2016,2019
+atlanta,Biofield Corpon,biofield corpon,confirmed_grant,Conyers,GA,30208,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1992,1992
+atlanta,Biomedical Design Inc.,biomedical design,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,594162.0,0.0,0.0,,,,,,,,,1989,1994
+atlanta,Bionic Sciences Inc.,bionic sciences,confirmed_grant,Atlanta,GA,30316,False,True,False,0.0,4.0,1219393.0,0.0,0.0,,,,,,078532671,,4,2013,2018
+atlanta,"Blink Astro, LLC",blink astro,confirmed_grant,Atlanta,GA,30338-7710,False,True,False,0.0,1.0,124968.0,0.0,0.0,,,,,ZL72UQHGPM59,080082313,www.blinkastro.com,6,2018,2018
+atlanta,Blockalytics LLC,blockalytics,confirmed_grant,MARIETTA,GA,30062-4857,False,True,False,0.0,1.0,255837.0,0.0,0.0,,,,,MXJRNUF7KL28,117722352,https://blockalytics.io,2,2022,2022
+atlanta,Bomar Associates Inc.,bomar associates,confirmed_grant,Marietta,GA,30067,False,True,False,0.0,0.0,345986.0,0.0,0.0,,,,,,,,,1989,1990
+atlanta,Bpw Incorporated,bpw,confirmed_grant,Dahlonega,GA,30533 0524,False,True,False,0.0,2.0,1442540.0,0.0,0.0,,,,,,,,,1998,2002
+atlanta,Bravo17 LLC,bravo17,confirmed_grant,ALPHARETTA,GA,30009,False,True,False,0.0,1.0,1249999.0,0.0,0.0,,,,,VZ5CMUBK8UV4,,www.bravo17digital.com,11,2024,2024
+atlanta,"CAMERAD TECHNOLOGIES, LLC",camerad technologies,confirmed_grant,DECATUR,GA,30033-2616,False,True,False,0.0,3.0,1199864.0,0.0,0.0,,,,,GE7MEN1LVLR9,080197426,,3,2017,2019
+atlanta,"CAMotion, Inc.",camotion,confirmed_grant,Atlanta,GA,30318-6923,False,True,False,0.0,1.0,69919.0,0.0,0.0,,,,,,080147635,,14,2010,2010
+atlanta,CARBICE CORPORATION,carbice,confirmed_grant,ATLANTA,GA,30310-2634,False,True,False,0.0,2.0,896288.0,0.0,0.0,,,,,SSAHL2VNMYL7,013306425,,2,2016,2017
+atlanta,CARDIOVASCULAR SPECIALTY LABORATORIES,cardiovascular specialty laboratories,confirmed_grant,ATLANTA,GA,30340 3702,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,065070760,,,2009,2009
+atlanta,"CCVD, Inc dba MicroCoating Technologies (MCT)",ccvd dba microcoating technologies mct,confirmed_grant,Atlanta,GA,30341,False,True,False,0.0,16.0,9013933.0,0.0,0.0,,,,,,,,57,1994,2004
+atlanta,"CELLACURE, LLC",cellacure,confirmed_grant,ATLANTA,GA,30326-1562,False,True,False,0.0,1.0,174924.0,0.0,0.0,,,,,U68TTUHLVUJ8,081368064,,1,2024,2024
+atlanta,"CEM TECHNOLOGIES, INC.",cem technologies,confirmed_grant,Atlanta,GA,30329 3835,False,True,False,0.0,3.0,929995.0,0.0,0.0,,,,,,143675028,,6,2005,2007
+atlanta,"CERMET, INC.",cermet,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,28.0,8318649.0,0.0,0.0,,,,,,826426025,,12,1997,2010
+atlanta,CHARMED TECHNOLOGY,charmed technology,confirmed_grant,ATLANTA,GA,30360,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,,,,2003,2003
+atlanta,"CHEMILY, LLC",chemily,confirmed_grant,ATLANTA,GA,30303-2921,False,True,True,0.0,6.0,3205020.0,3.0,974739.0,,,,,JJW4GNPDZCW4,078537251,,5,2013,2023
+atlanta,"CINLANIAN BIOTECHNOLOGY, INC.",cinlanian biotechnology,confirmed_grant,ATLANTA,GA,30341-,False,True,False,0.0,1.0,212188.0,0.0,0.0,,,,,,965940815,,0,2012,2012
+atlanta,"COMPASS TECHNOLOGY GROUP, LLC",compass technology,confirmed_grant,ALPHARETTA,GA,30005-8859,False,True,False,0.0,25.0,23066478.490000002,0.0,0.0,,,,,C1NAM2AGK7M5,968612858,http://www.compasstech.com,36,2012,2026
+atlanta,"CONSERVOCARE, LLC",conservocare,confirmed_grant,ATLANTA,GA,30309-2673,False,True,False,0.0,1.0,125374.0,0.0,0.0,,,,,,962121757,,0,2012,2012
+atlanta,CORAMI LLC,corami,confirmed_grant,ATLANTA,GA,30318-5455,False,True,False,0.0,1.0,231713.0,0.0,0.0,,,,,MPTDCNARA8B6,080322958,,1,2019,2019
+atlanta,COSMIC SHIELDING CORPORATION,cosmic shielding,confirmed_grant,ATLANTA,GA,30312-1257,False,True,False,0.0,4.0,3924211.0,0.0,0.0,,,,,V6E2L2PASYD5,117821881,https://cosmicshielding.com/,6,2022,2025
+atlanta,"CTEN GLOBAL STRATEGIES, LLC",cten global strategies,confirmed_grant,ALPHARETTA,GA,30022-5129,False,True,False,0.0,1.0,124403.0,0.0,0.0,,,,,C64AJD9V8DL7,058187018,https://www.ctenglobal.com,2,2020,2020
+atlanta,CUSTOM BIOMETRIC WEARABLES INC,custom biometric wearables,confirmed_grant,ATLANTA,GA,30309-1173,False,True,False,0.0,2.0,2046904.9100000001,0.0,0.0,,,,,JUMJJQ43BNY8,117526117,http://www.awarecbw.com,13,2023,2023
+atlanta,"CYKE, INC.",cyke,confirmed_grant,ATLANTA,GA,30338 5436,False,True,False,0.0,7.0,2776216.0,0.0,0.0,,,,,,840147701,,,2000,2007
+atlanta,Cadetron Inc.,cadetron,confirmed_grant,Atlanta,GA,30338,False,True,False,0.0,0.0,519000.0,0.0,0.0,,,,,,,,,1985,1986
+atlanta,Cambium Medical Technologies LLC,cambium medical technologies,confirmed_grant,Atlanta,GA,30319-4569,False,True,False,0.0,1.0,149265.0,0.0,0.0,,,,,DT7QJN63U7E5,079180750,,5,2015,2015
+atlanta,Cambium Oncology LLC,cambium oncology,confirmed_grant,Atlanta,GA,30306-3602,False,True,True,0.0,3.0,1805827.0,3.0,1805827.0,,,,,FD2YFTNRQMK8,116764675,Https://www.cambiumoncology.com,3,2024,2025
+atlanta,"Caps Logistics, Inc.",caps logistics,confirmed_grant,Atlanta,GA,30339,False,True,False,0.0,0.0,849136.0,0.0,0.0,,,,,,,,45,1985,1994
+atlanta,Care Solutions Inc.,care solutions,confirmed_grant,Atlanta,GA,30328,False,True,False,0.0,0.0,144455.0,0.0,0.0,,,,,,,,,1992,1993
+atlanta,Ccw Technology Group Inc.,ccw technology,confirmed_grant,Atlanta,GA,30340,False,True,False,0.0,0.0,55000.0,0.0,0.0,,,,,,,,,1994,1994
+atlanta,Cell Separation Technologies,cell separation technologies,confirmed_grant,Tucker,GA,30084 0502,False,True,False,0.0,0.0,100000.0,0.0,0.0,,,,,,,,,2000,2000
+atlanta,Chembind LLC,chembind,confirmed_grant,Atlanta,GA,30303-2921,False,True,True,0.0,1.0,290986.0,1.0,290986.0,,,,,FEU1DYRVD8X4,081031828,https://www.chembind.com,5,2024,2024
+atlanta,"Circular Solutions, Inc.",circular solutions,confirmed_grant,Stone Mountain,GA,30083,False,True,False,0.0,0.0,849838.0,0.0,0.0,,,,,,,,,1998,1999
+atlanta,Cloud Mustang Corporation,cloud mustang,confirmed_grant,Dahlonega,GA,30533-8780,False,True,False,0.0,1.0,340740.0,0.0,0.0,,,,,C53BDEN3GHW7,080339279,,2,2019,2019
+atlanta,"Cobalt Blue, Inc.",cobalt blue,confirmed_grant,Roswell,GA,30076,False,True,False,0.0,0.0,63681.0,0.0,0.0,,,,,,,,4,1996,1996
+atlanta,Colography Group Inc.,colography,confirmed_grant,Marietta,GA,30068,False,True,False,0.0,0.0,599866.0,0.0,0.0,,,,,,,,,1994,1995
+atlanta,"Command Control, Inc.",command control,confirmed_grant,Atlanta,GA,30350,False,True,False,0.0,0.0,1757365.0,0.0,0.0,,,,,,,,,1984,1993
+atlanta,Compost Wizard,compost wizard,confirmed_grant,Locust Grove,GA,30248,False,True,False,0.0,2.0,352846.0,0.0,0.0,,,,,,,,,2005,2006
+atlanta,"CompuTaught, Inc.",computaught,confirmed_grant,Marietta,GA,30067,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1997,1997
+atlanta,Consulting Aviation Services,consulting aviation services,confirmed_grant,Kennesaw,GA,30152,False,True,False,0.0,0.0,69778.0,0.0,0.0,,,,,,,,3,1996,1996
+atlanta,Continental Systems Technology,continental systems technology,confirmed_grant,Marietta,GA,30067,False,True,False,0.0,0.0,158560.0,0.0,0.0,,,,,,,,,1989,1991
+atlanta,Control One LLC,control one,confirmed_grant,ATLANTA,GA,30338-2734,False,True,False,0.0,1.0,149959.0,0.0,0.0,,,,,C3N8CJRDHDZ8,078409314,,3,2019,2019
+atlanta,Corpium Industries Inc.,corpium industries,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,549917.0,0.0,0.0,,,,,,,,,1987,1988
+atlanta,"Corrdesa, LLC",corrdesa,confirmed_grant,Tyrone,GA,30290-2948,False,True,False,0.0,17.0,12642133.09,0.0,0.0,,,,,LAN1GKRJFQE5,969331193,https://www.corrdesa.com,8,2012,2024
+atlanta,Covenant Aquaculture Corp,covenant aquaculture,confirmed_grant,Atlanta,GA,30319,False,True,False,0.0,0.0,40000.0,0.0,0.0,,,,,,,,,1987,1987
+atlanta,"DATALASE, INC.",datalase,confirmed_grant,Norcross,GA,30092 0092,False,True,False,0.0,1.0,79951.0,0.0,0.0,,,,,,623954778,,5,2008,2008
+atlanta,"DD Therapeutics, LLC",dd therapeutics,confirmed_grant,Atlanta,GA,30341-4115,False,True,False,0.0,1.0,149903.0,0.0,0.0,,,,,,080577721,,3,2018,2018
+atlanta,"DELTA SIGMA, LLC",delta sigma,confirmed_grant,KENNESAW,GA,30144-3613,False,True,False,0.0,3.0,3249128.0,0.0,0.0,,,,,NKTCLPTNULM8,947116547,http://www.deltasigmacompany.com,23,2020,2023
+atlanta,"DIFFERENCE A2C, LLC, THE",difference a2c,confirmed_grant,Atlanta,GA,30312-2001,False,True,False,0.0,2.0,1998847.2,0.0,0.0,,,,,VVPEKW5QJ1N5,013750347,https://www.thedifferenceconsulting.com,26,2019,2022
+atlanta,DIGI-CLONE LTD,digi clone,confirmed_grant,Duluth,GA,30096,False,True,False,0.0,1.0,304888.0,0.0,0.0,,,,,GYJ3HBNGQG46,,https://ww.digi-clone.com/,2,2025,2025
+atlanta,"DIRECT MEASUREMENTS, INC.",direct measurements,confirmed_grant,Atlanta,GA,30319 2539,False,True,False,0.0,2.0,899503.0,0.0,0.0,,,,,,610348596,,4,2006,2008
+atlanta,DVI GROUP THE,dvi,confirmed_grant,ATLANTA,GA,30309-2265,False,True,False,0.0,2.0,784597.0,0.0,0.0,,,,,CNHDJKQC3ZN7,006317394,https://www.thedvigroup.com/,24,2020,2020
+atlanta,Danti AI Inc,danti ai,confirmed_grant,Atlanta,GA,30306-4420,False,True,False,0.0,2.0,2446730.0,0.0,0.0,,,,,EJR1UMU6N7Z4,111220400,https://www.danti.ai,17,2023,2025
+atlanta,Decision Systems Intl,decision systems intl,confirmed_grant,Atlanta,GA,30305,False,True,False,0.0,2.0,2937077.0,0.0,0.0,,,,,,,,,1987,1998
+atlanta,Denet Labs  LLC,denet labs,confirmed_grant,Atlanta,GA,30309,False,True,False,0.0,1.0,98291.0,0.0,0.0,,,,,,083717889,,1,2003,2003
+atlanta,"Diagis Systems, Inc.",diagis systems,confirmed_grant,Atlanta,GA,30308 1023,False,True,False,0.0,1.0,99392.0,0.0,0.0,,,,,,788871767,,6,2007,2007
+atlanta,Dickerson Vision Technologies,dickerson vision technologies,confirmed_grant,Atlanta,GA,30377,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1993,1993
+atlanta,Digital Blue,digital blue,confirmed_grant,Marietta,GA,30068,False,True,False,0.0,1.0,599650.0,0.0,0.0,,,,,,,,14,2004,2005
+atlanta,Digital Communications Res Inc,digital communications res,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1990,1990
+atlanta,Dog Star Technologies LLC,dog star technologies,confirmed_grant,Sandy Springs,GA,-,False,True,False,0.0,2.0,1596084.0,0.0,0.0,,,,,DLLUZF8RHNN8,078758923,,1,2013,2014
+atlanta,Down to Earth Energy (formerly Mountain Creek Enterprises),down to earth energy formerly mountain creek enterprises,confirmed_grant,Monroe,GA,30655,False,True,False,0.0,1.0,450000.0,0.0,0.0,,,,,GD5LJLLKLMA7,828193347,,0,2010,2010
+atlanta,Dr. J. R. Genser,dr j r genser,confirmed_grant,Norcross,GA,30092,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,2,1993,1993
+atlanta,Dujud LLC,dujud,confirmed_grant,Atlanta,GA,30339,False,True,False,0.0,4.0,2394967.0,0.0,0.0,,,,,UUJTNXVWG2W4,116863357,www.dujud.com,17,2019,2022
+atlanta,"Duratech, Inc.",duratech,confirmed_grant,Decatur,GA,30033,False,True,False,0.0,0.0,45391.0,0.0,0.0,,,,,,,,5,1993,1993
+atlanta,Dynamite Analytics Inc,dynamite analytics,confirmed_grant,PEACHTREE CORNERS,GA,30092-1410,False,True,False,0.0,4.0,4581461.0,0.0,0.0,,,,,ZMN3T6WKM2N5,080255019,http://dynamite.ai,1,2017,2022
+atlanta,"EARTH MAPPING INTERNATIONAL, INC.",earth mapping international,confirmed_grant,NORCROSS,GA,30093-3857,False,True,False,0.0,3.0,444410.0,0.0,0.0,,,,,VKUAMNMGPBF6,068960165,www.earthmapping.com,6,2000,2023
+atlanta,EARTHLY DYNAMICS LLC,earthly dynamics,confirmed_grant,ROSWELL,GA,30076-2169,False,True,False,0.0,8.0,2327519.7800000003,0.0,0.0,,,,,YGUHPW4898H1,030602796,www.earthydynamics.com,14,2019,2025
+atlanta,"EFFIGENE PHARMACEUTICALS, INC.",effigene pharmaceuticals,confirmed_grant,ATLANTA,GA,30306,False,True,False,0.0,2.0,215382.0,0.0,0.0,,,,,,808050327,,,2008,2009
+atlanta,"EMPALLO, INC.",empallo,confirmed_grant,ATLANTA,GA,30327-1313,False,True,False,0.0,1.0,275000.0,0.0,0.0,,,,,CU2YCT1NWFJ5,,https://empallo.com/,4,2023,2023
+atlanta,EMRGY INC,emrgy,confirmed_grant,ATLANTA,GA,30308-1080,False,True,False,0.0,4.0,5042715.0,0.0,0.0,,,,,k889kh4c8gs8,079439354,https://www.emrgy.com,23,2021,2024
+atlanta,ENKIA CORP.,enkia,confirmed_grant,Atlanta,GA,30308,False,True,False,0.0,6.0,1919901.0,0.0,0.0,,,,,,025167359,,4,1999,2009
+atlanta,"ENVISTACOM, L.L.C",envistacom l l c,confirmed_grant,DULUTH,GA,30096-5822,False,True,False,0.0,3.0,3516257.0,0.0,0.0,,,,,JCJ5T8BDKC73,968250378,https://www.envistacom.com/,280,2016,2020
+atlanta,"ETHOS MEDICAL, INC.",ethos medical,confirmed_grant,ATLANTA,GA,30332,False,True,False,0.0,2.0,1225000.0,0.0,0.0,,,,,L4K2LKZPDM14,116767452,https://ethos-medical.com,3,2020,2021
+atlanta,"EVICIENT, LLC",evicient,confirmed_grant,ALPHARETTA,GA,30004-3391,False,True,False,0.0,1.0,99655.0,0.0,0.0,,,,,G6G2YK84SJD4,,https://www.evicient.com,3,2024,2024
+atlanta,"EXPRESSION THERAPEUTICS, LLC",expression therapeutics,confirmed_grant,TUCKER,GA,30084-5709,False,True,True,0.0,15.0,9891310.0,2.0,800000.0,,,,,PBQBKK5QY571,361719755,https://www.expressiontherapeutics.com,18,2006,2025
+atlanta,EXVADE BIOSCIENCE INC,exvade bioscience,confirmed_grant,ATLANTA,GA,30313-2439,False,True,True,0.0,2.0,2397615.0,3.0,2397615.0,,,,,MQ3GFMJ3LV85,118281631,,1,2023,2024
+atlanta,Eagleware Corp.,eagleware,confirmed_grant,Norcross,GA,30071,False,True,False,0.0,2.0,850000.0,0.0,0.0,,,,,,151018827,,15,2001,2002
+atlanta,Earley Corporation,earley,confirmed_grant,Decatur,GA,30030,False,True,False,0.0,1.0,863713.0,0.0,0.0,,,,,,,,,1997,1999
+atlanta,Early Corporation,early,confirmed_grant,Decatur,GA,30030,False,True,False,0.0,0.0,746369.0,0.0,0.0,,,,,,,,,1997,1997
+atlanta,Earthwater Corp.,earthwater,confirmed_grant,Lithonia,GA,30058,False,True,False,0.0,0.0,254955.0,0.0,0.0,,,,,,,,,1990,1993
+atlanta,"Ecto, Inc.",ecto,confirmed_grant,Atlanta,GA,30361,False,True,False,0.0,2.0,325000.0,0.0,0.0,,,,,D496ZYW83CB5,078612068,,5,2015,2019
+atlanta,Electro Systems International,electro systems international,confirmed_grant,Marietta,GA,30066,False,True,False,0.0,0.0,53533.0,0.0,0.0,,,,,,,,8,1988,1988
+atlanta,Electromagnetic Sciences Inc,electromagnetic sciences,confirmed_grant,Norcross,GA,30092,False,True,False,0.0,0.0,1032946.0,0.0,0.0,,,,,,,,,1983,1986
+atlanta,Electronic Packaging,electronic packaging,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,571159.0,0.0,0.0,,,,,,,,4,1997,1998
+atlanta,Ellison Laboratories,ellison laboratories,confirmed_grant,Atlanta,GA,30363,False,True,False,0.0,1.0,149871.84,0.0,0.0,,,,,NR97NAKNU7H1,078492138,ellisonlabs.com,1,2016,2016
+atlanta,"Emcien, Inc.",emcien,confirmed_grant,Atlanta,GA,30308 1030,False,True,False,0.0,4.0,1199526.0,0.0,0.0,,,,,,134338933,,7,2005,2007
+atlanta,"EnerTech Environmental, Inc.",enertech environmental,confirmed_grant,Atlanta,GA,30318 0000,False,True,False,0.0,3.0,2239940.0,0.0,0.0,,,,,,,,8,1993,2001
+atlanta,Energy Materials Corporation,energy materials,confirmed_grant,Norcross,GA,30071,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,DY3LCMHWA6A5,968184536,,2,2017,2017
+atlanta,Environmental Laser Systems,environmental laser systems,confirmed_grant,Atlanta,GA,30341,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1986,1986
+atlanta,Erdas Inc.,erdas,confirmed_grant,Atlanta,GA,30329,False,True,False,0.0,0.0,742418.0,0.0,0.0,,,,,,,,,1987,1992
+atlanta,"Excellatron Solid State, LLC",excellatron solid state,confirmed_grant,Atlanta,GA,30312-1705,False,True,False,0.0,19.0,5620494.0,0.0,0.0,,,,,MXAGWND3CC79,038154956,www.excellatron.com,10,2000,2013
+atlanta,Executive Aerosystems Inc,executive aerosystems,confirmed_grant,Roswell,GA,30077,False,True,False,0.0,1.0,69642.0,0.0,0.0,,,,,,,,,1997,1997
+atlanta,FACTUALVR INC,factualvr,confirmed_grant,Marietta,GA,30066,False,True,False,0.0,1.0,1199961.0,0.0,0.0,,,,,KFHKF77CNZN7,080460841,https://factualvr.com,5,2018,2019
+atlanta,FLY VEKTER LLC,fly vekter,confirmed_grant,ELLENWOOD,GA,30294-3566,False,True,False,0.0,1.0,46935.0,0.0,0.0,,,,,HPG3KJHHJK23,051312930,https://www.flyvekter.com,1,2020,2020
+atlanta,"FireHUD, Inc.",firehud,confirmed_grant,Norcross,GA,30093-1800,False,True,False,0.0,9.0,5271418.89,0.0,0.0,,,,,W5XXWNJ5PKX9,080657954,www.firehud.co,4,2018,2025
+atlanta,Focal Point Microsystems,focal point microsystems,confirmed_grant,Atlanta,GA,30332 0400,False,True,False,0.0,3.0,292883.0,0.0,0.0,,,,,,126588362,,4,2005,2007
+atlanta,Fortiphyd Logic Inc,fortiphyd logic,confirmed_grant,ATLANTA,GA,30318-2824,False,True,False,0.0,4.0,2245515.0,0.0,0.0,,,,,DNHDB2D9MME6,080463175,https://fortiphyd.com,6,2018,2020
+atlanta,GEMTECH Microwaves,gemtech microwaves,confirmed_grant,Marietta,GA,30064,False,True,False,0.0,0.0,709522.0,0.0,0.0,,,,,,,,6,1993,1999
+atlanta,"GENERATION ORBIT LAUNCH SERVICES, INC.",generation orbit launch services,confirmed_grant,ATLANTA,GA,30341,False,True,False,0.0,5.0,38353364.0,0.0,0.0,,,,,JJGCWZSVYTL5,969082747,http://www.generationorbit.com,5,2014,2021
+atlanta,"GENETAG TECHNOLOGY, INC",genetag technology,confirmed_grant,ATLANTA,GA,30345-2132,False,True,True,0.0,12.0,3544368.0,7.0,1359104.0,,,,,N78BHV2RJKJ8,603589560,http://www.genetagtech.com,4,2009,2022
+atlanta,"GEOVAX, INC.",geovax,confirmed_grant,SMYRNA,GA,30080-7648,False,True,True,0.0,7.0,3858316.0,1.0,299927.0,,,,,CEF5ULT44LF5,148374205,http://www.geovax.com,17,2002,2021
+atlanta,"GLOBAL PRECISION IMAGING, LLC",global precision imaging,confirmed_grant,ACWORTH,GA,30101-4907,False,True,False,0.0,2.0,1384401.0,0.0,0.0,,,,,MGHYCNC3F7J5,,https://www.gp-imaging.com,5,2022,2023
+atlanta,"GLOBAL TECHNOLOGY CONNECTION, INC.",global technology connection,confirmed_grant,Atlanta,GA,30339-6224,False,True,False,0.0,60.0,21819274.26,0.0,0.0,,,,,KF6KL5THQZ44,961914884,http://www.globaltechinc.com,14,1997,2024
+atlanta,GOOD AGRICULTURE INC,good agriculture,confirmed_grant,ATLANTA,GA,30324-4716,False,True,False,0.0,1.0,124333.0,0.0,0.0,,,,,PGNTEHN3MFS3,,https://goodagriculture.com,4,2024,2024
+atlanta,"GROUND CONTROL ROBOTICS, INC.",ground control robotics,confirmed_grant,ATLANTA,GA,30328-2784,False,True,False,0.0,1.0,275000.0,0.0,0.0,,,,,YB8UD9JN3PG1,,https://groundcontrolrobotics.com/,1,2024,2024
+atlanta,"GTECH SYSTEMS, INC.",gtech systems,confirmed_grant,Atlanta,GA,30359 0359,False,True,False,0.0,1.0,99916.0,0.0,0.0,,,,,,189102127,,2,2007,2007
+atlanta,"GUIDED SYSTEMS TECHNOLOGIES, INC.",guided systems technologies,confirmed_grant,McDonough,GA,30253 1453,False,True,False,0.0,15.0,6552310.0,0.0,0.0,,,,,UHV7MUSMLMB3,626911259,,11,1990,2009
+atlanta,GUIDED THERAPEUTICS,guided therapeutics,confirmed_grant,NORCROSS,GA,30092-,False,True,False,0.0,7.0,5691794.0,0.0,0.0,,,,,EED4JJEKE5V1,800743106,,,2001,2011
+atlanta,"Gene Pro, Inc.",gene pro,confirmed_grant,Decatur,GA,30033,False,True,False,0.0,0.0,782277.0,0.0,0.0,,,,,,,,,1996,1997
+atlanta,Genecure LLC,genecure,confirmed_grant,Norcross,GA,30071-1556,False,True,True,0.0,1.0,440000.0,1.0,300000.0,,,,,LFPEB7MMJCG3,,,10,2001,2022
+atlanta,"Generx+, Inc.",generx,confirmed_grant,Atlanta,GA,30306 0263,False,True,False,0.0,4.0,2622681.0,0.0,0.0,,,,,,,,,1998,2005
+atlanta,"Genesis Development Group,",genesis development,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,100000.0,0.0,0.0,,,,,,,,3,1994,1994
+atlanta,"Genziko, Inc.",genziko,confirmed_grant,Alpharetta,GA,30005-8782,False,True,False,0.0,3.0,798845.0,0.0,0.0,,,,,,171505857,www.genziko.com,5,2009,2011
+atlanta,Gilmore Aerospace,gilmore aerospace,confirmed_grant,Atlanta,GA,30328,False,True,False,0.0,0.0,69304.0,0.0,0.0,,,,,,,,,1994,1994
+atlanta,"Global Health Data Systems, LLC",global health data systems,confirmed_grant,Atlanta,GA,30306-,False,True,False,0.0,2.0,1124815.0,0.0,0.0,,,,,,969959290,,,2012,2013
+atlanta,Goodroe Administrative,goodroe administrative,confirmed_grant,Atlanta,GA,30328,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1997,1997
+atlanta,Graphene Works,graphene works,confirmed_grant,Atlanta,GA,30307,False,True,False,0.0,1.0,99940.0,0.0,0.0,,,,,,828180278,,1,2009,2009
+atlanta,"Gridquant Technologies, LCC",gridquant technologies lcc,confirmed_grant,Duluth,GA,30097-7915,False,True,False,0.0,2.0,872100.0,0.0,0.0,,,,,S5FBK2AMDK49,078657550,,3,2014,2015
+atlanta,Ground Water Consultants,ground water consultants,confirmed_grant,East Point,GA,30344,False,True,False,0.0,0.0,198667.0,0.0,0.0,,,,,,,,,1985,1986
+atlanta,"HEALTHTRONICS, INC.",healthtronics,confirmed_grant,MARIETTA,GA,30067,False,True,False,0.0,1.0,240000.0,0.0,0.0,,,,,,,,,2004,2004
+atlanta,HERMEUS CORP,hermeus,confirmed_grant,ATLANTA,GA,30340-2754,False,True,False,0.0,4.0,5280010.65,0.0,0.0,,,,,Y3D9D7QN2LP3,116902475,http://www.hermeus.com,239,2020,2025
+atlanta,HGG Research LLC,hgg research,confirmed_grant,Bogart,GA,30622,False,True,False,0.0,2.0,463999.0,0.0,0.0,,,,,GRUBC16PUKX5,080238888,,3,2017,2019
+atlanta,"HIBAR Microsciences, LLC",hibar microsciences,confirmed_grant,Atlanta,GA,30324-3649,False,True,True,0.0,1.0,299999.0,1.0,299999.0,,,,,C2QETUAMBMU5,117879800,,5,2023,2023
+atlanta,"HORIZON MOLECULAR MEDICINE, LLC",horizon molecular medicine,confirmed_grant,Atlanta,GA,30338,False,True,False,0.0,1.0,90000.0,0.0,0.0,,,,,W2V2FDDE7F14,133309778,,15,2006,2006
+atlanta,Haplomics,haplomics,confirmed_grant,Atlanta,GA,30303,False,True,False,0.0,3.0,621894.0,0.0,0.0,,,,,,609696690,,5,2013,2015
+atlanta,Healthfax Inc,healthfax,confirmed_grant,Atlanta,GA,30310-2704,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,116721988,"hffp://www.healthfax,inc.com",10,1992,1992
+atlanta,Helden Aerospace Corporation,helden aerospace,confirmed_grant,Acworth,GA,30101,False,True,False,0.0,6.0,2740583.0,0.0,0.0,,,,,KZC3LFDHAN38,078706494,heldenaero.com,3,2017,2023
+atlanta,"Helicity Technologies, Inc.",helicity technologies,confirmed_grant,Acworth,GA,30102-7713,False,True,False,0.0,1.0,124845.0,0.0,0.0,,,,,D727TYKNX8C3,079564940,www.helicitytech.com,3,2016,2016
+atlanta,Hybridoma Sciences Inc.,hybridoma sciences,confirmed_grant,Atlanta,GA,30084,False,True,False,0.0,0.0,612261.0,0.0,0.0,,,,,,,,9,1984,1986
+atlanta,"ICA TRINOVA, LLC",ica trinova,confirmed_grant,Newnan,GA,30263,False,True,False,0.0,1.0,70000.0,0.0,0.0,,,,,L7VETD8LAK19,091638200,,5,2006,2006
+atlanta,IDET COMMUNICATION INC,idet communication,confirmed_grant,Marietta,GA,30067 1638,False,True,False,0.0,0.0,80000.0,0.0,0.0,,,,,,131857828,,5,2008,2008
+atlanta,"IMPACTIV, INC.",impactiv,confirmed_grant,ATLANTA,GA,30327-3436,False,True,True,0.0,2.0,2279549.0,3.0,2279549.0,,,,,FQX4L8KZ2AE3,,http://www.teamvivo.com,1,2022,2023
+atlanta,"INDUCTIVE VENTURES, INC.",inductive ventures,confirmed_grant,MARIETTA,GA,30064-4727,False,True,False,0.0,7.0,3794816.0,0.0,0.0,,,,,TZVVDJ3NLJR7,080843546,https://www.inductivev.com,2,2018,2023
+atlanta,"INHIBITEX, INC.",inhibitex,confirmed_grant,ALPHARETTA,GA,30004,False,True,False,0.0,0.0,99350.0,0.0,0.0,,,,,,,,,1999,1999
+atlanta,INLIGHTA BIOSCIENCES L.L.C.,inlighta biosciences l l c,confirmed_grant,MARIETTA,GA,30068-1641,False,True,False,0.0,10.0,10339962.0,0.0,0.0,,,,,KCSBM7ASMA34,078419511,,4,2014,2025
+atlanta,"INTERCAX, LLC",intercax,confirmed_grant,ATLANTA,GA,30346-2001,False,True,False,0.0,7.0,1565442.0,0.0,0.0,,,,,L3PGKMXMZWJ3,128606188,https://www.intercax.com,9,2005,2021
+atlanta,"INVASC THERAPEUTICS, INC.",invasc therapeutics,confirmed_grant,TUCKER,GA,30084,False,True,False,0.0,2.0,390635.0,0.0,0.0,,,,,,,http://,0,2010,2010
+atlanta,INVOKE PUBLIC SECTOR USA LLC,invoke public sector usa,confirmed_grant,ATLANTA,GA,30326-1958,False,True,False,0.0,2.0,1895881.0,0.0,0.0,,,,,C4CLBJLZLE13,036786384,https://www.invokeincpublic.com/,30,2019,2020
+atlanta,IONICSCALE LLC,ionicscale,confirmed_grant,ATLANTA,GA,30308-2805,False,True,False,0.0,6.0,2022088.74,0.0,0.0,,,,,CVB1EH38G4W8,118399342,https://www.ionicscale.com,2,2022,2024
+atlanta,"InTailor Bariatrics, LLC",intailor bariatrics,confirmed_grant,Marietta,GA,30062,False,True,True,0.0,1.0,325408.0,1.0,325408.0,,,,,DW9DZVAADSH3,,,1,2025,2025
+atlanta,"Inmondo Tech, Inc.",inmondo tech,confirmed_grant,Atlanta,GA,30306,False,True,False,0.0,1.0,149925.0,0.0,0.0,,,,,DLW3LC75AHZ5,078843291,,2,2015,2015
+atlanta,"Innovative Advanced Materials, Inc.",innovative advanced materials,confirmed_grant,McDonough,GA,30253-7549,False,True,False,0.0,6.0,2089724.0,0.0,0.0,,,,,V38ME5SZWE64,080013492,www.innovativeadvancedmaterials.com,3,2016,2020
+atlanta,"Innovative Fluidics, Inc.",innovative fluidics,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,2.0,140000.0,0.0,0.0,,,,,,131906401,,,2003,2003
+atlanta,Innovative Materials Design and Processi,innovative materials design and processi,confirmed_grant,Marietta,GA,-,False,True,False,0.0,2.0,786937.0,0.0,0.0,,,,,,786797709,,2,2007,2009
+atlanta,Inquus Corporation,inquus,confirmed_grant,Atlanta,GA,30308 1000,False,True,False,0.0,3.0,668884.0,0.0,0.0,,,,,,804030364,,8,2008,2009
+atlanta,"Instant Reference Sources, Inc.",instant reference sources,confirmed_grant,Monroe,GA,30656,False,True,False,0.0,0.0,88054.0,0.0,0.0,,,,,,,,,2002,2002
+atlanta,"Intech Software Solutions, Inc.",intech software solutions,confirmed_grant,Norcross,GA,30092 2828,False,True,False,0.0,1.0,99999.0,0.0,0.0,,,,,,012881830,,30,2008,2008
+atlanta,Intelligent Dots LLC,intelligent dots,confirmed_grant,Johns Creek,GA,30022-5936,False,True,False,0.0,1.0,225000.0,0.0,0.0,,,,,,,http://www.intelligentdots.com/,2,2020,2020
+atlanta,"Intelligent Dynamic Systems, Inc.",intelligent dynamic systems,confirmed_grant,Conyers,GA,30012-4958,False,True,False,0.0,0.0,550000.0,0.0,0.0,,,,,,,,,1986,1987
+atlanta,Intellione,intellione,confirmed_grant,Atlanta,GA,30309 0233,False,True,False,0.0,1.0,599970.0,0.0,0.0,,,,,,,,16,2004,2005
+atlanta,"International Maritime Information Systems USA, LLC",international maritime information systems usa,confirmed_grant,Duluth,GA,30096 0364,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,,,,2004,2004
+atlanta,Invistics Corporation,invistics,confirmed_grant,NORCROSS,GA,30092-2526,False,True,False,0.0,4.0,2717324.0,0.0,0.0,,,,,V3G7YK1KUQT8,052006801,,10,2005,2018
+atlanta,Ionic Atlanta Inc,ionic atlanta,confirmed_grant,Atlanta,GA,30309,False,True,False,0.0,0.0,845488.0,0.0,0.0,,,,,,,,,1987,1990
+atlanta,Ionic Security Inc.,ionic security,confirmed_grant,ATLANTA,GA,30309-7677,False,True,False,0.0,2.0,548447.0,0.0,0.0,,,,,MXVSSDBT1Q38,078883404,https://www.ionicsecurity.com,130,2019,2020
+atlanta,"Iota Solutions, Inc.",iota solutions,confirmed_grant,Norcross,GA,30093,False,True,False,0.0,0.0,75000.0,0.0,0.0,,,,,,,,,2002,2002
+atlanta,"Ipsum Nano, LLC",ipsum nano,confirmed_grant,Atlanta,GA,30306-3640,False,True,False,0.0,1.0,225000.0,0.0,0.0,,,,,,080271755,,3,2017,2017
+atlanta,"Iterated Systems, Inc.",iterated systems,confirmed_grant,Atlanta,GA,30305,False,True,False,0.0,0.0,2587386.0,0.0,0.0,,,,,,,,97,1989,1997
+atlanta,"JEEVAN BIOSCIENCES, INC.",jeevan biosciences,confirmed_grant,DUNWOODY,GA,30338-5658,False,True,False,0.0,1.0,386287.0,0.0,0.0,,,,,,011605579,,3,2011,2011
+atlanta,JOHNSON RESEARCH & DEVELOPMENT CO INC,johnson research development,confirmed_grant,ATLANTA,GA,30312-1705,False,True,False,0.0,20.0,6626938.49,0.0,0.0,,,,,E7C5ELQ5HD45,807623046,http://www.johnsonrd.com,8,1994,2021
+atlanta,"JYANT Technologies, Inc.",jyant technologies,confirmed_grant,Marietta,GA,30008,False,True,False,0.0,4.0,1184651.0,0.0,0.0,,,,,CVYZEGA1K911,832442771,,5,2013,2017
+atlanta,"John Tiller Software, Inc",john tiller software,confirmed_grant,Suwanee,GA,30024-8390,False,True,False,0.0,4.0,1046267.0,0.0,0.0,,,,,QUVZUZ6W3FC5,127768831,,1,2003,2010
+atlanta,"KARIS BIO USA, INC.",karis bio usa,confirmed_grant,ATLANTA,GA,30345-3952,False,True,True,0.0,1.0,306607.0,1.0,306607.0,,,,,Q6LUFER5MEM3,,,2,2025,2025
+atlanta,"KASA BIO, L.L.C.",kasa bio l l c,confirmed_grant,PEACHTREE CORNERS,GA,30092-2224,False,True,True,0.0,3.0,929717.0,4.0,929717.0,,,,,CHX9LW14AXB4,117177260,https://www.kasa-bio.com,2,2024,2025
+atlanta,"KDH Research & Communication, Inc.",kdh research communication,confirmed_grant,Atlanta,GA,30309-3559,False,True,False,0.0,36.0,21009583.0,0.0,0.0,,,,,NWLEP7EH4JN7,788621527,http://www.kdhrc.com,12,2008,2025
+atlanta,"KDK SOLUTIONS, LTD",kdk solutions,confirmed_grant,ROSWELL,GA,30075,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,151905663,,,2009,2009
+atlanta,"KNOWLEDGE SYSTEMS RESEARCH, LLC",knowledge systems research,confirmed_grant,Forsyth,GA,31029,False,True,False,0.0,3.0,949795.0,0.0,0.0,,,,,,137402157,,5,2004,2006
+atlanta,"KPS TECHNOLOGIES, LLC",kps technologies,confirmed_grant,ATLANTA,GA,30302,False,True,False,0.0,0.0,97733.0,0.0,0.0,,,,,,,,,2000,2000
+atlanta,Khush,khush,confirmed_grant,Atlanta,GA,30312-1012,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,832494129,,5,2011,2011
+atlanta,"Kinetic Biosystems, Inc.",kinetic biosystems,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,2.0,599719.0,0.0,0.0,,,,,,,,12,2003,2004
+atlanta,"Knowledge Sciences, Inc.",knowledge sciences,confirmed_grant,Roswell,GA,30075,False,True,False,0.0,0.0,49283.0,0.0,0.0,,,,,,,,3,1993,1993
+atlanta,Knowledge Systems Inc.,knowledge systems,confirmed_grant,Forsyth,GA,31029,False,True,False,0.0,1.0,776174.0,0.0,0.0,,,,,,,,,1985,1997
+atlanta,"LENA BIOSCIENCES, INC.",lena biosciences,confirmed_grant,ATLANTA,GA,30332-0390,False,True,True,0.0,8.0,6661262.0,6.0,3435786.0,,,,,HVWSKPM6NUK3,827555181,https://www.lenabio.com,7,2009,2024
+atlanta,"LEVEN, INC.",leven,confirmed_grant,BOGART,GA,30622,False,True,False,0.0,2.0,1707766.0,0.0,0.0,,,,,,,,,1997,2004
+atlanta,"LINE IMAGING SYSTEMS, LLC.",line imaging systems,confirmed_grant,Atlanta,GA,30329,False,True,False,0.0,0.0,104742.0,0.0,0.0,,,,,,,,,1998,1998
+atlanta,LOCATORX INC,locatorx,confirmed_grant,ATLANTA,GA,30338-5469,False,True,False,0.0,1.0,99954.0,0.0,0.0,,,,,UMB2HKZMN5H6,080152175,https://www.locatorx.com,14,2023,2023
+atlanta,"LUMAMED, LLC",lumamed,confirmed_grant,JOHNS CREEK,GA,30022-6292,False,True,False,0.0,1.0,288299.0,0.0,0.0,,,,,,829913388,LumaMed LLC,4,2013,2013
+atlanta,"LUMENETEC, LLC",lumenetec,confirmed_grant,ROSWELL,GA,30075-6135,False,True,False,0.0,1.0,140900.0,0.0,0.0,,,,,,968879119,,3,2012,2012
+atlanta,"LYMPHATECH, INC",lymphatech,confirmed_grant,ATLANTA,GA,30318-7501,False,True,True,0.0,2.0,4500000.0,1.0,400000.0,,,,,W7JWEZ412CR3,079568195,https://www.lymphatechnology.com,3,2022,2024
+atlanta,Lavo Life Sciences LLC,lavo life sciences,confirmed_grant,Atlanta,GA,30306-3543,False,True,False,0.0,2.0,1488312.0,0.0,0.0,,,,,FMD4QCQAWVY8,034786545,,3,2023,2025
+atlanta,Lifecare Technologies Inc,lifecare technologies,confirmed_grant,Atlanta,GA,30305,False,True,False,0.0,0.0,78156.0,0.0,0.0,,,,,,,,,1989,1990
+atlanta,Lifesource Advanced Bloodbank,lifesource advanced bloodbank,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1993,1993
+atlanta,"M&P TECHNOLOGIES, INC.",m p technologies,confirmed_grant,Marietta,GA,30068 1635,False,True,False,0.0,3.0,949219.0,0.0,0.0,,,,,,100645238,,4,2005,2007
+atlanta,"MAGNOLIA SHRIMP, LLC",magnolia shrimp,confirmed_grant,Roswell,GA,30075 2866,False,True,False,0.0,1.0,510000.0,0.0,0.0,,,,,,362188117,,4,2005,2008
+atlanta,"MAP LARGE, INC.",map large,confirmed_grant,ATLANTA,GA,30361-3518,False,True,False,0.0,16.0,14477393.8,0.0,0.0,,,,,J3YFJF4339J9,962534223,http://maplarge.com,55,2013,2025
+atlanta,MAPHABIT INC,maphabit,confirmed_grant,ATLANTA,GA,30308,False,True,True,0.0,5.0,9245948.0,11.0,7483389.0,,,,,T87GHUJ1TXG7,081354294,https://www.maphabit.com,15,2019,2024
+atlanta,"MARKETZERO, LLC",marketzero,confirmed_grant,ATLANTA,GA,30307-,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,031345849,,0,2012,2012
+atlanta,"MATMERIZE, INC.",matmerize,confirmed_grant,MARIETTA,GA,30068-5313,False,True,False,0.0,2.0,412624.0,0.0,0.0,,,,,XX5KW67Y9NB1,,https://www.matmerize.com,10,2023,2024
+atlanta,"MBSE Tools, Inc.",mbse tools,confirmed_grant,Alpharetta,GA,30009-3795,False,True,False,0.0,2.0,400000.0,0.0,0.0,,,,,MGCKXJRSZ2N3,079613686,http://www.vsautomate.com,2,2017,2018
+atlanta,MCA,mca,confirmed_grant,Marietta,GA,30062,False,True,False,0.0,1.0,99534.0,0.0,0.0,,,,,,,,,1999,1999
+atlanta,"MEDICAL INNOVATION THROUGH TECHNOLOGY, INC",medical innovation through technology,confirmed_grant,PINE MOUNTAIN,GA,31822-3597,False,True,False,0.0,1.0,222910.0,0.0,0.0,,,,,KUZ6SA4KG1V3,079489327,http://www.mitt-ios.com,2,2019,2019
+atlanta,"MEDSHAPE, INC.",medshape,confirmed_grant,ATLANTA,GA,30318-5455,False,True,False,0.0,12.0,3507280.0,0.0,0.0,,,,,KEPBG1V32A64,601306413,https://www.medshape.com,25,2007,2015
+atlanta,"MEMScan, Incorporated",memscan,confirmed_grant,Marietta,GA,30067 0543,False,True,False,0.0,1.0,87282.0,0.0,0.0,,,,,,,,1,2003,2003
+atlanta,MERLINTPS CORP,merlintps,confirmed_grant,ALPHARETTA,GA,30005-1761,False,True,False,0.0,1.0,73851.0,0.0,0.0,,,,,D265CJ8YV7B3,,https://www.merlintps.com,4,2024,2024
+atlanta,METACLIPSE THERAPEUTICS CORP,metaclipse therapeutics,confirmed_grant,ATLANTA,GA,30316-4700,False,True,True,0.0,6.0,8832234.0,6.0,4648955.0,,,,,MU6JZBDZR8X1,967732384,http://metaclipse.com/,5,2013,2025
+atlanta,MI Technologies,mi technologies,confirmed_grant,Suwanee,GA,30024,False,True,False,0.0,2.0,299664.89,0.0,0.0,,,,,E512C8H896R5,969474501,www.mitechnologies.com,108,2016,2016
+atlanta,"MICROBPLEX, INC.",microbplex,confirmed_grant,ATLANTA,GA,30307-,False,True,False,0.0,3.0,1733487.0,0.0,0.0,,,,,CLP4DJ9UWNK9,078667424,,,2014,2018
+atlanta,"MICRON OPTICS, INC.",micron optics,confirmed_grant,ATLANTA,GA,30345 4305,False,True,False,0.0,7.0,3155533.0,0.0,0.0,,,,,,,,,1998,2009
+atlanta,MIGRA-THERAPEUTICS LLC,migra therapeutics,confirmed_grant,ATLANTA,GA,30303-2921,False,True,True,0.0,3.0,2331145.0,3.0,1172282.0,,,,,NCN6HK3N2SG3,116671473,,2,2019,2022
+atlanta,"MMJ Labs, LLC",mmj labs,confirmed_grant,Atlanta,GA,30307-2246,False,True,True,0.0,6.0,3488329.0,5.0,2204482.0,,,,,MRK1VCY9DMB6,788142938,http://www.buzzy4shots.com/,7,2009,2025
+atlanta,MOBIUS BIOTECH LLC,mobius biotech,confirmed_grant,MARIETTA,GA,30068-5313,False,True,True,0.0,1.0,305320.0,1.0,305320.0,,,,,SWX1NFV356L4,,,3,2025,2025
+atlanta,"MODELOGICS, INC.",modelogics,confirmed_grant,Kennesaw,GA,30144,False,True,False,0.0,2.0,849493.0,0.0,0.0,,,,,,077768583,,3,2005,2005
+atlanta,MOQUALITY INC,moquality,confirmed_grant,ATLANTA,GA,30308-4123,False,True,False,0.0,1.0,225000.0,0.0,0.0,,,,,,080065705,moquality.com,2,2016,2016
+atlanta,MOVIUS INTERACTIVE CORPORATION,movius interactive,confirmed_grant,ALPHARETTA,GA,30009,False,True,False,0.0,6.0,5244273.0,0.0,0.0,,,,,ZC7FMFLN48H3,791194652,https://www.movius.ai,140,2021,2024
+atlanta,Macrovey,macrovey,confirmed_grant,Alpharetta,GA,30004,False,True,False,0.0,1.0,74686.0,0.0,0.0,,,,,HQWUC2XND9F6,,,22,2025,2025
+atlanta,"Marietta X-Ray, Inc.",marietta x ray,confirmed_grant,Marietta,GA,30060 2719,False,True,False,0.0,1.0,99917.0,0.0,0.0,,,,,,,,35,2009,2009
+atlanta,"Matis, Inc.",matis,confirmed_grant,Atlanta,GA,30329,False,True,False,0.0,0.0,848862.0,0.0,0.0,,,,,,615763182,www.matis.net,6,1996,1997
+atlanta,"Matsi, Inc.",matsi,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,1109614.0,0.0,0.0,,,,,,,,4,1991,1993
+atlanta,Mavric Semiconductor Inc,mavric semiconductor,confirmed_grant,ATLANTA,GA,30332-0001,False,True,False,0.0,3.0,672129.0,0.0,0.0,,,,,,078852579,,4,2014,2017
+atlanta,Mazer Intel,mazer intel,confirmed_grant,Kennesaw,GA,30152,False,True,False,0.0,2.0,2496896.0,0.0,0.0,,,,,VUQMCGZMN2N5,,,10,2025,2025
+atlanta,Medfusion Systems Inc.,medfusion systems,confirmed_grant,Norcross,GA,30071,False,True,False,0.0,0.0,44400.0,0.0,0.0,,,,,,,,,1985,1985
+atlanta,MetCure Therapeutics LLC ,metcure therapeutics,confirmed_grant,Atlanta,GA,30341-5785,False,True,True,0.0,4.0,2546169.0,2.0,1935175.0,,,,,CGKMNL6SUY65,078866511,http://www.metcure.com/,2,2015,2021
+atlanta,Metalforming Inc.,metalforming,confirmed_grant,Peachtree City,GA,30269,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,VDU6DUBHJYW5,011662694,http://www.metalforming-usa.com/,31,2013,2013
+atlanta,"Microbial Medical, Inc.",microbial medical,confirmed_grant,Lithia Springs,GA,30122-1546,False,True,False,0.0,4.0,1936677.0,0.0,0.0,,,,,S2BNW6NL62E7,079111976,,2,2015,2022
+atlanta,Millennium Dynamics Corporation,millennium dynamics,confirmed_grant,Acworth,GA,30101,False,True,False,0.0,4.0,1049852.0,0.0,0.0,,,,,,141872783,,2,2004,2009
+atlanta,"Millimeter Wave Technology,",millimeter wave technology,confirmed_grant,Marietta,GA,30062,False,True,False,0.0,1.0,2433430.0,0.0,0.0,,,,,,,,25,1983,1998
+atlanta,Mirmar-quantum Joint Venture,mirmar quantum joint venture,confirmed_grant,Woodstock,GA,30169 0155,False,True,False,0.0,1.0,99811.0,0.0,0.0,,,,,,,,9,2006,2006
+atlanta,Mountain Creek Enterprises,mountain creek enterprises,confirmed_grant,Monroe,GA,30655,False,True,False,0.0,2.0,140000.0,0.0,0.0,,,,,Q46DFGK3H5K6,800336658,,,2009,2009
+atlanta,"NAECO, LLC",naeco,confirmed_grant,Peachtree City,GA,30269-1984,False,True,False,0.0,3.0,1699789.0,0.0,0.0,,,,,FDJKVWKJYN81,133065495,https://naeco.net/,34,2019,2022
+atlanta,"NALARI SCIENTIFIC, LLC",nalari scientific,confirmed_grant,ATLANTA,GA,30342-2019,False,True,False,0.0,1.0,198271.84,0.0,0.0,,,,,KU8BVJMU5T43,,,3,2024,2024
+atlanta,NANO ENGINEERED MATERIALS CORP.,nano engineered materials,confirmed_grant,Lawrenceville,GA,30043,False,True,False,0.0,3.0,999931.0,0.0,0.0,,,,,,809880235,,2,2008,2010
+atlanta,NANORESEARCH INC,nanoresearch,confirmed_grant,ATLANTA,GA,30303-2921,False,True,False,0.0,1.0,256000.0,0.0,0.0,,,,,KFY4L2CYXVH3,611733150,https://www.nanoresearchinc.us,5,2022,2022
+atlanta,NDP OPTRONICS LLC,ndp optronics,confirmed_grant,MABLETON,GA,30126-1965,False,True,False,0.0,6.0,1863730.0,0.0,0.0,,,,,,118500516,,,2004,2010
+atlanta,"NET SHAPE COMPONENTS, INC.",net shape components,confirmed_grant,Alpharetta,GA,30004,False,True,False,0.0,1.0,669042.0,0.0,0.0,,,,,,931819254,,3,1998,2000
+atlanta,"NEUROP, INC.",neurop,confirmed_grant,ATLANTA,GA,30303-2921,False,True,False,0.0,10.0,12737132.0,0.0,0.0,,,,,ZTVMGH5HG328,148559987,,,2004,2018
+atlanta,"NEXIDIA, INC.",nexidia,confirmed_grant,Atlanta,GA,30305,False,True,False,0.0,3.0,399782.0,0.0,0.0,,,,,,,http://,0,2004,2005
+atlanta,"NUHORIZON TECHNOLOGIES, LLC",nuhorizon technologies,confirmed_grant,ATLANTA,GA,30342-3518,False,True,False,0.0,2.0,1149559.82,0.0,0.0,,,,,U6BJG1KKRKX9,,,3,2018,2019
+atlanta,NUMERICAL TECHNOLOGY CO.,numerical technology,confirmed_grant,Roswell,GA,30076,False,True,False,0.0,3.0,399182.0,0.0,0.0,,,,,,153339671,,1,2009,2011
+atlanta,NUMOBILITY LLC,numobility,confirmed_grant,ATLANTA,GA,30312-3230,False,True,False,0.0,1.0,198026.4,0.0,0.0,,,,,RBSQQKCNSZG1,072508565,,1,2025,2025
+atlanta,"Natglycan, LLC",natglycan,confirmed_grant,Decatur,GA,30033-2048,False,True,True,0.0,5.0,3060733.0,4.0,2325208.0,,,,,NMMMHXNPL8U5,080193140,,2,2017,2022
+atlanta,Neural Signals Inc,neural signals,confirmed_grant,Duluth,GA,30096-8708,False,True,False,0.0,7.0,2431589.0,0.0,0.0,,,,,JWNALJFLRAH3,129130964,,2,1998,2009
+atlanta,New Echota Biotechnology,new echota biotechnology,confirmed_grant,Marietta,GA,30064,False,True,False,0.0,2.0,449917.0,0.0,0.0,,,,,UN6JWBW8FPS5,079216015,,1,2015,2018
+atlanta,Newmark Diagnostics LLC,newmark diagnostics,confirmed_grant,Johns Creek,GA,30097-7174,False,True,False,0.0,1.0,296230.0,0.0,0.0,,,,,R45HC1UREPN9,080549337,Newmark Diagnostics LLC,1,2019,2019
+atlanta,"NextInput, Inc.",nextinput,confirmed_grant,Atlanta,GA,30308-1066,False,True,False,0.0,3.0,791604.0,0.0,0.0,,,,,,078476985,www.nextinput.com,11,2013,2014
+atlanta,Notos Technologies LLC,notos technologies,confirmed_grant,Brookhaven,GA,30319-3154,False,True,False,0.0,2.0,898458.0,0.0,0.0,,,,,D9E4D9MJLJE3,116914878,,8,2019,2021
+atlanta,Nova Technology,nova technology,confirmed_grant,Atlanta,GA,30306,False,True,False,0.0,0.0,47669.0,0.0,0.0,,,,,,,,,1991,1991
+atlanta,"Novana, Inc.",novana,confirmed_grant,Alpharetta,GA,30022-6475,False,True,False,0.0,4.0,870000.0,0.0,0.0,,,,,,626754910,,3,2007,2010
+atlanta,Nuclear Medicine Inc,nuclear medicine,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1987,1987
+atlanta,"NutriGlobal, Inc",nutriglobal,confirmed_grant,Stockbridge,GA,30281,False,True,False,0.0,1.0,293987.0,0.0,0.0,,,,,MJL2NJ8QJC44,079082189,,5,2019,2019
+atlanta,"ONTOGENESYS BIOTECHNOLOGIES, INC.",ontogenesys biotechnologies,confirmed_grant,ATLANTA,GA,30350-5713,False,True,False,0.0,1.0,205490.0,0.0,0.0,,,,,,830916701,,0,2010,2010
+atlanta,"OPEX SYSTEMS, LLC",opex systems,confirmed_grant,MARIETTA,GA,30062-4468,False,True,False,0.0,5.0,2311287.92,0.0,0.0,,,,,M3J4QE5C7NB6,078414325,http://www.opexsystems.com,4,2013,2023
+atlanta,ORIDIVUS LLC,oridivus,confirmed_grant,Decatur,GA,30030-2031,False,True,True,0.0,1.0,361499.0,2.0,361499.0,,,,,YF5VPLV33MU9,118428678,,0,2024,2024
+atlanta,"ORTHONICS, INC.",orthonics,confirmed_grant,ATLANTA,GA,30332-0000,False,True,False,0.0,1.0,214000.0,0.0,0.0,,,,,,,,,2004,2004
+atlanta,On-Line Instrument Systems,on line instrument systems,confirmed_grant,Bogart,GA,30622,False,True,False,0.0,0.0,130875.0,0.0,0.0,,,,,,,,,1999,1999
+atlanta,"OncoSpherix, Inc.",oncospherix,confirmed_grant,Atlanta,GA,30350-1037,False,True,True,0.0,2.0,2449774.0,3.0,2449774.0,,,,,HKZYM5YC7KR7,116897960,http://oncospherix.com,1,2020,2023
+atlanta,Otogenetics Corporation,otogenetics,confirmed_grant,Atlanta,GA,30360-2703,False,True,False,0.0,1.0,229404.0,0.0,0.0,,,,,TN78B1GJRWR8,808227313,https://www.otogenetics.com,25,2009,2009
+atlanta,PERSIMIA LLC,persimia,confirmed_grant,MARIETTA,GA,30067-9202,False,True,False,0.0,2.0,1499758.0,0.0,0.0,,,,,MAHWJHLSS153,117088343,https://persimia.com/,4,2022,2025
+atlanta,"PHARMASSET, INC.",pharmasset,confirmed_grant,TUCKER,GA,30084,False,True,False,0.0,7.0,2075939.0,0.0,0.0,,,,,,,,,2000,2003
+atlanta,PHOSPHORTECH CORPORATION,phosphortech,confirmed_grant,KENNESAW,GA,30144-1234,False,True,False,0.0,22.0,8736670.0,0.0,0.0,,,,,QKX3GUXJTBL3,025261269,www.phosphortech.com,8,2002,2021
+atlanta,"PHOTONIC SENSOR SYSTEMS, INC.",photonic sensor systems,confirmed_grant,ATLANTA,GA,30318,False,True,False,0.0,1.0,1998911.0,0.0,0.0,,,,,,,,,1992,2001
+atlanta,"POINTIVO, INC.",pointivo,confirmed_grant,ATLANTA,GA,30308-1019,False,True,False,0.0,2.0,900000.0,0.0,0.0,,,,,GHZKY1CC66X1,079601750,www.pointivo.com,6,2015,2016
+atlanta,PRINTED CIRCUITS CORP.,printed circuits,confirmed_grant,LILBURN,GA,30047-5942,False,True,False,0.0,3.0,1134656.0,0.0,0.0,,,,,UJZCPVZMJCL4,132626230,http://www.pcc-i.com,21,2019,2022
+atlanta,PROFESSIONAL LEARNING SYSTEMS,professional learning systems,confirmed_grant,MARIETTA,GA,30067,False,True,False,0.0,0.0,99580.0,0.0,0.0,,,,,,,,,2000,2000
+atlanta,"PROPAGATION RESEARCH ASSOCIATES, INC",propagation research associates,confirmed_grant,MARIETTA,GA,30066-6032,False,True,False,0.0,46.0,21046758.0,0.0,0.0,,,,,KKB9Z99PRBU4,149785201,http://pra-corp.com/,6,2001,2024
+atlanta,Paramount Solutions Inc.,paramount solutions,confirmed_grant,Woodstock,GA,30188,False,True,False,0.0,1.0,99870.0,0.0,0.0,,,,,LMLBM2J2ENJ4,167071005,,25,2010,2010
+atlanta,Penn Laboratorytories Inc.,penn laboratorytories,confirmed_grant,Cartersville,GA,30120,False,True,False,0.0,0.0,928984.0,0.0,0.0,,,,,,,,,1989,1992
+atlanta,Personnel Business Systems Inc,personnel business systems,confirmed_grant,Atlanta,GA,30357,False,True,False,0.0,0.0,240000.0,0.0,0.0,,,,,,,,,1984,1987
+atlanta,Petra Data,petra data,confirmed_grant,Kennesaw,GA,30152,False,True,False,0.0,1.0,149771.0,0.0,0.0,,,,,KXADUKD4MQL5,,,10,2025,2025
+atlanta,Polymer Aging Concepts Inc,polymer aging concepts,confirmed_grant,Dahlonega,GA,30533-5248,False,True,False,0.0,6.0,3744637.0,0.0,0.0,,,,,NCQHK6QWK3N3,138739508,www.agealert.com,6,2007,2015
+atlanta,Polymer Solutions Inc,polymer solutions,confirmed_grant,Atlanta,GA,30339-2088,False,True,False,0.0,1.0,275000.0,0.0,0.0,,,,,G3K5WDDBAX81,130210066,https://polymersol.com,3,2023,2023
+atlanta,"PrivOps, LLC",privops,confirmed_grant,Alpharetta,GA,30005,False,True,False,0.0,1.0,49945.0,0.0,0.0,,,,,W1CRMJ2J4985,083999682,https://www.privops.com,3,2020,2020
+atlanta,ProDa BioTech L.L.C.,proda biotech l l c,confirmed_grant,Marietta,GA,30068-1641,False,True,False,0.0,4.0,8159922.0,0.0,0.0,,,,,KMRLL3EPWVK5,078411585,,2,2017,2022
+atlanta,"ProSpect Photonics, Inc.",prospect photonics,confirmed_grant,Atlanta,GA,30308-1037,False,True,False,0.0,7.0,1920936.0,0.0,0.0,,,,,,801450649,,2,2008,2010
+atlanta,Pulse Technology Inc.,pulse technology,confirmed_grant,Kennesaw,GA,30144,False,True,False,0.0,0.0,549592.0,0.0,0.0,,,,,,,,,1991,1992
+atlanta,"QMODO AI, INC.",qmodo ai,confirmed_grant,Atlanta,GA,30305-2276,False,True,False,0.0,1.0,49274.0,0.0,0.0,,,,,LKHMJDC7VB88,049313966,https://www.qmodoai.com,5,2022,2022
+atlanta,QUEST RENEWABLES INC,quest renewables,confirmed_grant,ATLANTA,GA,30308-1058,False,True,False,0.0,1.0,2429495.13,0.0,0.0,,,,,XRWZE1HE2NA9,079643272,www.questrenewables.com,9,2019,2023
+atlanta,"Quality Research Associates, Inc.",quality research associates,confirmed_grant,Dacula,GA,30019,False,True,False,0.0,3.0,994633.0,0.0,0.0,,,,,,,,,1994,1999
+atlanta,"Quanta, Inc.",quanta,confirmed_grant,Smyrna,GA,30080,False,True,False,0.0,0.0,49500.0,0.0,0.0,,,,,,,,,1990,1990
+atlanta,"R-DEX SYSTEMS, INC.",r dex systems,confirmed_grant,WOODSTOCK,GA,30188-3322,False,True,False,0.0,43.0,28725492.35,0.0,0.0,,,,,HD9RM38CWBM6,079241476,http://www.r-dex.com,18,2015,2025
+atlanta,"RADAR FLASHLIGHT, LLC",radar flashlight,confirmed_grant,Powder Springs,GA,30127,False,True,False,0.0,4.0,1020864.0,0.0,0.0,,,,,,133283601,,2,2004,2006
+atlanta,"RADATEC, LLC",radatec,confirmed_grant,Atlanta,GA,30308,False,True,False,0.0,4.0,1367135.0,0.0,0.0,,,,,,059632120,,6,2002,2006
+atlanta,"RAYBIOTECH, INC.",raybiotech,confirmed_grant,NORCROSS,GA,30092-2993,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,DKEYF58DW8Y8,623112302,,0,2010,2010
+atlanta,RAZI PHARMA LLC,razi pharma,confirmed_grant,ATLANTA,GA,30307-1110,False,True,True,0.0,1.0,579425.0,2.0,579425.0,,,,,EL1BYG75FMC5,117560522,,1,2022,2022
+atlanta,"REGENERATION MATRIX, LLC",regeneration matrix,confirmed_grant,JOHNS CREEK,GA,30222-6292,False,True,False,0.0,1.0,199324.0,0.0,0.0,,,,,,827597217,,0,2010,2010
+atlanta,RESEARCH NETWORK INC,research network,confirmed_grant,KENNESAW,GA,30144-1079,False,True,False,0.0,7.0,4429066.52,0.0,0.0,,,,,LC3LWG4HZJ71,033615613,,3,2002,2016
+atlanta,ROCKCREST INVESTMENTS LLC d.b.a. NewTech,rockcrest investments d b a newtech,confirmed_grant,MARIETTA,GA,30064-3176,False,True,False,0.0,1.0,74917.0,0.0,0.0,,,,,GTMXPFFLKDH6,780822347,https://www.new-tech-co.com,5,2023,2023
+atlanta,ROTOYE LLC,rotoye,confirmed_grant,MARIETTA,GA,30067-7168,False,True,False,0.0,3.0,1374994.0,0.0,0.0,,,,,MZT8TJKK5FD7,080609398,,2,2018,2021
+atlanta,RYKOV LLC,rykov,confirmed_grant,DACULA,GA,30019-1614,False,True,False,0.0,2.0,74986.0,0.0,0.0,,,,,ZVG8M5LGQ8D5,117207995,https://www.rykov.us,3,2020,2022
+atlanta,"Ratrix Technologies, LLC",ratrix technologies,confirmed_grant,Alpharetta,GA,30022-4478,False,True,False,0.0,2.0,900000.0,0.0,0.0,,,,,,078278866,,1,2012,2014
+atlanta,Reditus Space Inc.,reditus space,confirmed_grant,Atlanta,GA,30308,False,True,False,0.0,2.0,366562.0,0.0,0.0,,,,,UD8EZQ6G1NN7,,,3,2025,2026
+atlanta,Renovo Research LLC,renovo research,confirmed_grant,Atlanta,GA,30316-3842,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,027195487,,2,2012,2012
+atlanta,"Reveam, Inc.",reveam,confirmed_grant,Norcross,GA,30071,False,True,False,0.0,1.0,3339129.0,0.0,0.0,,,,,DKJ4UWXEE324,079143234,https://reveam.com/,52,2024,2024
+atlanta,Risk Management Systems,risk management systems,confirmed_grant,Marietta,GA,30062,False,True,False,0.0,0.0,420735.0,0.0,0.0,,,,,,,,3,1988,1994
+atlanta,Rune Aero Inc.,rune aero,confirmed_grant,ATLANTA,GA,30326-3236,False,True,False,0.0,3.0,1205461.0,0.0,0.0,,,,,QC2XYMZZ8MC2,,https://runeaero.tech,6,2024,2025
+atlanta,"SA Technologies, Inc.",sa technologies,confirmed_grant,Marietta,GA,-,False,True,False,0.0,34.0,11160021.0,0.0,0.0,,,,,EESGL48R1BU6,179321302,www.satechnologies.com,24,2000,2014
+atlanta,"SAFESLIDEBOARD.COM, INC.",safeslideboard com,confirmed_grant,MABLETON,GA,-,False,True,False,0.0,2.0,850026.0,0.0,0.0,,,,,,611558771,,,2008,2010
+atlanta,"SAK Logistics, Inc.",sak logistics,confirmed_grant,Norcross,GA,30092,False,True,False,0.0,1.0,599510.0,0.0,0.0,,,,,,,,,2001,2002
+atlanta,"SANICKA, INC",sanicka,confirmed_grant,ATLANTA,GA,30307-2223,False,True,True,0.0,1.0,396908.0,1.0,396908.0,,,,,N6X4B47G69J3,117943251,,1,2022,2022
+atlanta,"SATIMO, INC.",satimo,confirmed_grant,Acworth,GA,30102,False,True,False,0.0,0.0,1670528.0,0.0,0.0,,,,,,,,6,1996,1998
+atlanta,SCIENTIFIC RESEARCH CORP.,scientific research,confirmed_grant,Atlanta,GA,30339,False,True,False,0.0,26.0,16085396.0,0.0,0.0,,,,,FAK7LNGRNAN5,197138274,,581,1995,2003
+atlanta,"SCIMEASURE ANALYTICAL SYSTEMS, INC.",scimeasure analytical systems,confirmed_grant,DECATUR,GA,30030-1254,False,True,False,0.0,4.0,2471639.0,0.0,0.0,,,,,JK1CEJJ6QJE7,624524823,https://www.scimeasure.com,4,1997,2019
+atlanta,"SEARCH TECHNOLOGY, INC.",search technology,confirmed_grant,PEACHTREE CORNERS,GA,30092,False,True,False,0.0,5.0,3894702.0,0.0,0.0,,,,,PVTUFN472MM8,066923632,www.thevantagepoint.com,12,1990,2003
+atlanta,"SENA RESEARCH, INC.",sena research,confirmed_grant,MARIETTA,GA,30062-2848,False,True,False,0.0,2.0,1221771.0,0.0,0.0,,,,,,829818736,www.senaresearch.com,8,2010,2015
+atlanta,SENSLYTICS CORPORATION,senslytics,confirmed_grant,PEACHTREE CORNERS,GA,30092-2909,False,True,False,0.0,1.0,199607.64,0.0,0.0,,,,,M63ED4DGV8H6,079997819,https://www.senslytics.com/,7,2024,2024
+atlanta,SENTINEL DEVICES LLC,sentinel devices,confirmed_grant,ATLANTA,GA,30308-7427,False,True,False,0.0,2.0,1307199.0,0.0,0.0,,,,,WWLFS1Y9JKH4,043509435,https://www.sentineldevices.com,4,2023,2024
+atlanta,"SHADOWBAND SYSTEMS, INC.",shadowband systems,confirmed_grant,Cumming,GA,30041,False,True,False,0.0,3.0,1011028.0,0.0,0.0,,,,,,125134341,,6,2003,2004
+atlanta,"SILPARA TECHNOLOGIES, LLC",silpara technologies,confirmed_grant,DECATUR,GA,30030-3654,False,True,False,0.0,1.0,225000.0,0.0,0.0,,,,,X1BDJ15N4XM5,117028375,https://www.silparatech.com,4,2020,2020
+atlanta,"SIMATRA MODELING TECHNOLOGIES, LLC",simatra modeling technologies,confirmed_grant,ATLANTA,GA,30308,False,True,False,0.0,2.0,1708443.0,0.0,0.0,,,,,,621490452,,,2007,2008
+atlanta,SKC POWERTECH INC,skc powertech,confirmed_grant,CONYERS,GA,30013-5742,False,True,False,0.0,4.0,1632544.0,0.0,0.0,,,,,CQWNYGYJV8K7,143941297,https://www.skcpowertech.com,4,2005,2017
+atlanta,SKOLEX BIOTECHNOLOGIES,skolex biotechnologies,confirmed_grant,Alpharetta,GA,30004-8412,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,963966622,,3,2012,2012
+atlanta,SLIP ROBOTICS INC.,slip robotics,confirmed_grant,Norcross,GA,30093-2229,False,True,False,0.0,1.0,1218585.36,0.0,0.0,,,,,UM5BCN7ELFF6,,www.sliprobotics.com,80,2026,2026
+atlanta,SOCIALRX INC,socialrx,confirmed_grant,ATLANTA,GA,30316-1311,False,True,True,0.0,2.0,535022.0,2.0,535022.0,,,,,ZNQ8C5U8QMY9,,,8,2024,2025
+atlanta,"SOFTPRO TECHNOLOGIES, INC.",softpro technologies,confirmed_grant,Marietta,GA,30067,False,True,False,0.0,2.0,1045716.0,0.0,0.0,,,,,,963432823,,9,2004,2005
+atlanta,SOLOPULSE CORP.,solopulse,confirmed_grant,Norcross,GA,30092-2107,False,True,False,0.0,1.0,274059.0,0.0,0.0,,,,,HHPMRHMGNGX1,,www.solopulseco.com,15,2023,2023
+atlanta,SONIX MEDICAL DEVICES INC.,sonix medical devices,confirmed_grant,BRASELTON,GA,30517-4322,False,True,False,0.0,1.0,253670.0,0.0,0.0,,,,,JPXJLC82Z5Y6,117418034,https://www.sonixmeicaldevices.com,3,2020,2020
+atlanta,SONSIGHT INC,sonsight,confirmed_grant,LAWRENCEVILLE,GA,30046-2416,False,True,False,0.0,4.0,1599951.0,0.0,0.0,,,,,MTKNTADG3T65,043410534,,3,2002,2014
+atlanta,SPACEWORKS ENTERPRISES INC,spaceworks enterprises,confirmed_grant,ATLANTA,GA,30341-5509,False,True,False,0.0,33.0,22311452.42,0.0,0.0,,,,,F4J9NKV7M7T8,847164915,http://www.spaceworks.aero,54,2005,2025
+atlanta,STETH X MICROSYSTEMS INC,steth x microsystems,confirmed_grant,ATLANTA,GA,30308-1036,False,True,True,0.0,3.0,596293.74,1.0,269922.0,,,,,SEH1KEE44KM7,081333435,,2,2024,2025
+atlanta,STHENO CORPORATION,stheno,confirmed_grant,ATLANTA,GA,30332,False,True,False,0.0,3.0,576689.0,0.0,0.0,,,,,,131858594,,,2003,2007
+atlanta,"SYMPLECTIC RESEARCH, INC.",symplectic research,confirmed_grant,ATLANTA,GA,30341-1044,False,True,False,0.0,2.0,379923.69,0.0,0.0,,,,,YACDTC8CYR93,079989824,https://symplectic-research.com,1,2017,2019
+atlanta,"SYNAPSEMX, INC",synapsemx,confirmed_grant,NEWNAN,GA,30265,False,True,False,0.0,1.0,47267.0,0.0,0.0,,,,,KG21TEFZSRK1,080251468,https://synapsemx.com,5,2020,2020
+atlanta,SYNTERMED INCORPORATED,syntermed,confirmed_grant,ATLANTA,GA,30328-3833,False,True,False,0.0,4.0,3440740.0,0.0,0.0,,,,,TR2JY3B7FWK7,113727205,,8,2011,2016
+atlanta,"Sanguina, LLC",sanguina,confirmed_grant,Atlanta,GA,30318,False,True,True,0.0,5.0,4027303.0,4.0,3405136.0,,,,,EMK2Z5CDK413,079535512,,4,2015,2024
+atlanta,"Saucier Consulting And Investments, Llc",saucier consulting and investments,confirmed_grant,Marietta,GA,30068,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,797877243,,2,2008,2008
+atlanta,Scientific Imaging and Visualization LLC ,scientific imaging and visualization,confirmed_grant,Atlanta,GA,30338-3062,False,True,False,0.0,2.0,816601.0,0.0,0.0,,,,,,964999200,,3,2013,2014
+atlanta,"Sealite Sciences, Inc.",sealite sciences,confirmed_grant,Norcross,GA,30071,False,True,False,0.0,3.0,921382.0,0.0,0.0,,,,,,,,,1989,1996
+atlanta,"Security Axioms, Inc.",security axioms,confirmed_grant,Atlanta,GA,-,False,True,False,0.0,2.0,849128.0,0.0,0.0,,,,,,962583360,,2,2010,2012
+atlanta,"Seftec, Inc",seftec,confirmed_grant,Atlanta,GA,30318-2324,False,True,False,0.0,1.0,143059.0,0.0,0.0,,,,,,808226596,http://www.seftec.net,1,2010,2010
+atlanta,Sequegenics LLC,sequegenics,confirmed_grant,Atlanta,GA,30322-0001,False,True,False,0.0,1.0,251073.0,0.0,0.0,,,,,SCEMGWUPA375,080648385,http://www.sequegenics.com,5,2021,2021
+atlanta,"ShapeStart Measurement Systems, Inc.",shapestart measurement systems,confirmed_grant,Norcross,GA,-,False,True,False,0.0,2.0,899902.0,0.0,0.0,,,,,QKVEBJL43DL8,199771200,www.shapestart.com,8,2008,2010
+atlanta,"Sherpa Solutions, LLC",sherpa solutions,confirmed_grant,Roswell,GA,-,False,True,False,0.0,1.0,80000.0,0.0,0.0,,,,,,832661610,http://www.sherpasolutions.net/,6,2012,2012
+atlanta,Shonka Research Associates,shonka research associates,confirmed_grant,Marietta,GA,30068,False,True,False,0.0,0.0,1099345.0,0.0,0.0,,,,,,,,,1989,1996
+atlanta,"SimpleC, LLC",simplec,confirmed_grant,Marietta,GA,30060-1386,False,True,False,0.0,2.0,1309364.0,0.0,0.0,,,,,MBPNJJABLH93,022642257,,0,2012,2014
+atlanta,Simutech,simutech,confirmed_grant,Alpharetta,GA,30202,False,True,False,0.0,2.0,247700.0,0.0,0.0,,,,,,,,,1995,1997
+atlanta,Sinoora Inc.,sinoora,confirmed_grant,Atlanta,GA,30332-0001,False,True,False,0.0,4.0,1150000.0,0.0,0.0,,,,,RELKN7BEKJW3,966766482,,1,2011,2014
+atlanta,"Softwear Automation, Inc.",softwear automation,confirmed_grant,Atlanta,GA,30328-2857,False,True,False,0.0,1.0,98593.0,0.0,0.0,,,,,,,,2,2010,2010
+atlanta,"SoniSys, LLC",sonisys,confirmed_grant,Smyrna,GA,30080,False,True,False,0.0,2.0,599974.0,0.0,0.0,,,,,,,,1,2001,2004
+atlanta,Sonotech Inc.,sonotech,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,199909.0,0.0,0.0,,,,,,,,,1990,1991
+atlanta,Sophia Bioscience Inc,sophia bioscience,confirmed_grant,Marietta,GA,30062-3268,False,True,False,0.0,2.0,524996.0,0.0,0.0,,,,,HEPWWVBLM4C5,078680223,,3,2014,2018
+atlanta,Source Technologies Inc,source technologies,confirmed_grant,Atlanta,GA,30339,False,True,False,0.0,0.0,98627.0,0.0,0.0,,,,,,,,15,1984,1985
+atlanta,"Spauschus Associates, Inc.",spauschus associates,confirmed_grant,Stockbridge,GA,30281,False,True,False,0.0,0.0,829411.0,0.0,0.0,,,,,,,,8,1992,1997
+atlanta,Spectrum Materials Inc,spectrum materials,confirmed_grant,Norcross,GA,30071,False,True,False,0.0,0.0,54748.0,0.0,0.0,,,,,,,,,1991,1991
+atlanta,"Split Rock Therapeutics, LLC",split rock therapeutics,confirmed_grant,Peachtree Corners,GA,30092-2936,False,True,False,0.0,1.0,223898.0,0.0,0.0,,,,,MNEMHLAFYFB6,080782300,,4,2019,2019
+atlanta,"Steppingblocks, Inc.",steppingblocks,confirmed_grant,Atlanta,GA,30305-1754,False,True,False,0.0,2.0,974999.0,0.0,0.0,,,,,HK6PL3BVLPY9,080502717,www.steppingblocks.com,4,2018,2019
+atlanta,Stratton composite solutions (Robert Stratton),stratton composite solutions robert stratton,confirmed_grant,Marietta,GA,30068,False,True,False,0.0,6.0,1219255.0,0.0,0.0,,,,,XLZMU3DWFGN5,127200124,,3,2004,2011
+atlanta,Streamline Nanotechnologies Incorporated,streamline nanotechnologies,confirmed_grant,Atlanta,GA,30326-6800,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,828364997,,1,2011,2011
+atlanta,"Swamp Optics, LLC",swamp optics,confirmed_grant,Atlanta,GA,30339-2919,False,True,False,0.0,5.0,1374954.0,0.0,0.0,,,,,CLVMVCHK8JM8,131647591,,1,2006,2017
+atlanta,TACTILE DISPLAY CORPORATION,tactile display,confirmed_grant,FAYETTEVILLE,GA,-,False,True,False,0.0,2.0,925833.0,0.0,0.0,,,,,,131503588,,,2009,2010
+atlanta,"TCPoly, Inc.",tcpoly,confirmed_grant,Atlanta,GA,30312-2482,False,True,False,0.0,3.0,2505920.0,0.0,0.0,,,,,VR94KYJUKLM1,080949561,tcpoly.com,2,2020,2021
+atlanta,TECHNOLOGY RESOURCE INTERNATIONAL CORP.,technology resource international,confirmed_grant,Alpharetta,GA,30004,False,True,False,0.0,2.0,832196.0,0.0,0.0,,,,,,878902659,,20,2000,2001
+atlanta,TELEDEVICES LLC,teledevices,confirmed_grant,DULUTH,GA,30096-4854,False,True,False,0.0,2.0,899716.04,0.0,0.0,,,,,QLJ5XYKYEES6,027121859,http://www.TeleDevices.com,14,2019,2021
+atlanta,"TERMINAL VELOCITY AEROSPACE, LLC",terminal velocity aerospace,confirmed_grant,ATLANTA,GA,30338-4741,False,True,False,0.0,2.0,873563.0,0.0,0.0,,,,,CJBVLBFANGY5,078818014,www.tvaero.com,7,2014,2015
+atlanta,THE OPTIMIZATION FIRM LLC,optimization firm,confirmed_grant,ATLANTA,GA,30317-3302,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,QFY2V5JZFAM5,014983810,http://minlp.com/,2,2010,2010
+atlanta,THE SIMPLE VUE LLC,simple vue,confirmed_grant,ATLANTA,GA,30303-3624,False,True,True,0.0,1.0,299993.0,1.0,299993.0,,,,,GNL8DHLJZ1F2,080190745,https://www.thesimplevue.com,7,2022,2022
+atlanta,"THEYFIT, LLC",theyfit,confirmed_grant,COVINGTON,GA,30014-2551,False,True,False,0.0,2.0,1715651.0,0.0,0.0,,,,,,015033081,www.theyfit.com,3,2013,2014
+atlanta,"THINKLIVE!, INC.",thinklive,confirmed_grant,Atlanta,GA,30316-6701,False,True,False,0.0,2.0,974999.0,0.0,0.0,,,,,QB8KG2HMMR21,612697073,www.tliveinc.com,1,2018,2019
+atlanta,TQINTELLIGENCE INC,tqintelligence,confirmed_grant,TUCKER,GA,30084-2432,False,True,False,0.0,2.0,1157583.0,0.0,0.0,,,,,WJHDC561KJK7,080263826,https://www.tqintelligence.com/,4,2019,2022
+atlanta,TRANSFUSION AND TRANSPLANTATION TECH,transfusion and transplantation tech,confirmed_grant,ATLANTA,GA,30350,False,True,False,0.0,8.0,3502683.0,0.0,0.0,,,,,,091249636,,,2001,2008
+atlanta,TRANSFUSION AND TRANSPLANTATION TECHNLGY,transfusion and transplantation technlgy,confirmed_grant,Dunwoody,GA,30338,False,True,False,0.0,1.0,99509.0,0.0,0.0,,,,,,,http://,0,2004,2004
+atlanta,"TURBINE MONITORING AND SUPPORT SERVICES, LLC",turbine monitoring and support services,confirmed_grant,ATLANTA,GA,30308-1023,False,True,False,0.0,1.0,199580.0,0.0,0.0,,,,,Z1G6XHRYBXJ9,116711681,https://turbinelogic.com,6,2024,2024
+atlanta,Technical Ceramics Laboratorie,technical ceramics laboratorie,confirmed_grant,Alpharetta,GA,30201,False,True,False,0.0,0.0,47800.0,0.0,0.0,,,,,,,,,1991,1991
+atlanta,"Telineage, Inc.",telineage,confirmed_grant,Atlanta,GA,30308-3741,False,True,False,0.0,2.0,650000.0,0.0,0.0,,,,,,968141452,,12,2011,2013
+atlanta,Teverra LLC,teverra,confirmed_grant,BROOKHAVEN,GA,30319-5378,False,True,False,0.0,8.0,8556155.38,0.0,0.0,,,,,NM6FBGW1LKW8,081011642,http://www.teverra.com,8,2019,2024
+atlanta,Theragenics Corp,theragenics,confirmed_grant,Atlanta,GA,30318,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1987,1987
+atlanta,"Thrust Interactive, Inc.",thrust interactive,confirmed_grant,Atlanta,GA,30308-1085,False,True,False,0.0,2.0,1627726.0,0.0,0.0,,,,,XUNZPGNMLQE1,005438750,https://www.thrustinteractive.com,15,2015,2018
+atlanta,"Timeplus, Inc.",timeplus,confirmed_grant,Marietta,GA,30066,False,True,False,0.0,0.0,99450.0,0.0,0.0,,,,,,,,12,1993,1993
+atlanta,Transport Foundry,transport foundry,confirmed_grant,ATLANTA,GA,30305-1754,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,079199547,transportfoundry.com,1,2014,2014
+atlanta,Transportation Consulting Mda,transportation consulting mda,confirmed_grant,Duluth,GA,30136,False,True,False,0.0,0.0,574331.0,0.0,0.0,,,,,,,,,1993,1995
+atlanta,ULTOOL LLC,ultool,confirmed_grant,DULUTH,GA,30097-2548,False,True,False,0.0,12.0,3374842.59,0.0,0.0,,,,,DAQRG9PBNTT4,826375110,https://ultool.com,8,2010,2025
+atlanta,USDigiComm Corporation,usdigicomm,confirmed_grant,Marietta,GA,30066-3066,False,True,False,0.0,0.0,60000.0,0.0,0.0,,,,,,120440107,www.usdigicomm.com,3,2001,2001
+atlanta,"Urjanet, Inc.",urjanet,confirmed_grant,Atlanta,GA,30307-1216,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,832662683,,6,2011,2011
+atlanta,"VALEN BIOTECH, INC.",valen biotech,confirmed_grant,ATLANTA,GA,30306,False,True,False,0.0,1.0,99696.0,0.0,0.0,,,,,,,,,2003,2003
+atlanta,"VERTERA, INC.",vertera,confirmed_grant,ATLANTA,GA,30318-4241,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,078812764,www.verteraspine.com,3,2014,2014
+atlanta,VIRTUALLY BETTER INC,virtually better,confirmed_grant,DECATUR,GA,30033-3226,False,True,True,0.0,35.0,24251741.0,7.0,2894956.0,,,,,U3YHM5TMMCZ9,010776370,www.virtuallybetter.com,8,1998,2024
+atlanta,"VIVONETICS, INC.",vivonetics,confirmed_grant,ATLANTA,GA,30332,False,True,False,0.0,3.0,3597591.0,0.0,0.0,,,,,,122150548,,,2003,2007
+atlanta,"VOREAS LABORATORIES, LLC",voreas laboratories,confirmed_grant,ATLANTA,GA,30328-3652,False,True,False,0.0,3.0,6612803.0,0.0,0.0,,,,,RKW6F8QJPMC5,117038725,https://www.voreas.tech/,10,2022,2024
+atlanta,"VP TECHNOLOGIES, INC.",vp technologies,confirmed_grant,Marietta,GA,30067,False,True,False,0.0,1.0,67800.0,0.0,0.0,,,,,,031736077,,7,2000,2000
+atlanta,VQlink Incorporated,vqlink,confirmed_grant,Atlanta,GA,30308-1037,False,True,False,0.0,2.0,600000.0,0.0,0.0,,,,,,800751880,,1,2008,2009
+atlanta,VRgluv LLC,vrgluv,confirmed_grant,Atlanta,GA,30318-2156,False,True,False,0.0,2.0,1045542.0,0.0,0.0,,,,,FE8KR6JNHLG6,117001975,https://www.vrgluv.com/,7,2019,2020
+atlanta,"VT SILICON, INC.",vt silicon,confirmed_grant,Atlanta,GA,30308,False,True,False,0.0,5.0,1670374.0,0.0,0.0,,,,,,131610391,,3,2003,2006
+atlanta,"Vaxcel, Inc.",vaxcel,confirmed_grant,Norcross,GA,30092,False,True,False,0.0,1.0,187293.0,0.0,0.0,,,,,,,,,1996,1997
+atlanta,"Veloxiti, Inc.",veloxiti,confirmed_grant,Alpharetta,GA,30022-1492,False,True,False,0.0,24.0,9205106.8,0.0,0.0,,,,,EACBKXMLURN9,808996508,https://www.veloxiti.com,20,1996,2020
+atlanta,VerdeTerra LLC,verdeterra,confirmed_grant,ATLANTA,GA,30350-2995,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,t7khunezrkg8,,https://www.vtalgae.com,1,2025,2025
+atlanta,Versaq,versaq,confirmed_grant,Atlanta,GA,30308,False,True,False,0.0,1.0,99987.0,0.0,0.0,,,,,,792280799,,5,2010,2010
+atlanta,"Vintinura Imaging, Inc.",vintinura imaging,confirmed_grant,Atlanta,GA,-,False,True,False,0.0,1.0,149166.0,0.0,0.0,,,,,,078460517,www.vintinura.com,5,2013,2013
+atlanta,Virkaz Technologies,virkaz technologies,confirmed_grant,Decatur,GA,30030-5314,False,True,False,0.0,3.0,397200.0,0.0,0.0,,,,,,383787117,,2,2009,2011
+atlanta,"Virtual Aerosurface Technologies, Inc.",virtual aerosurface technologies,confirmed_grant,SMYRNA,GA,30080-5685,False,True,False,0.0,9.0,3168349.0,0.0,0.0,,,,,ZC8YQ5K8MB83,133873658,,2,2004,2017
+atlanta,Vista Sora,vista sora,confirmed_grant,Kennesaw,GA,30152,False,True,False,0.0,1.0,149526.0,0.0,0.0,,,,,RKZARTG1Z896,,,10,2025,2025
+atlanta,VueLogic LLC,vuelogic,confirmed_grant,Marietta,GA,30066-8719,False,True,False,0.0,2.0,600000.0,0.0,0.0,,,,,,805568651,,5,2008,2009
+atlanta,WANG ELECTRO-OPTO CORPORATION,wang electro opto,confirmed_grant,MARIETTA,GA,30060-1104,False,True,False,0.0,22.0,8533430.0,0.0,0.0,,,,,WL68H31YQBY5,796267656,https://www.weo.com,5,1993,2017
+atlanta,WATERVISIONS INTERNATIONAL,watervisions international,confirmed_grant,Cumming,GA,30040,False,True,False,0.0,3.0,907916.0,0.0,0.0,,,,,,034051016,,3,2002,2005
+atlanta,WEAV3D INC.,weav3d,confirmed_grant,NORCROSS,GA,30093-2919,False,True,False,0.0,2.0,1224661.0,0.0,0.0,,,,,NHN6XGUNLXN5,080898731,http://www.weav3d.com,9,2019,2021
+atlanta,WI-SENSE LLC,wi sense,confirmed_grant,SMYRNA,GA,30082-4611,False,True,True,0.0,3.0,666896.0,1.0,291896.0,,,,,JHMLVL1DWKE9,079182562,,3,2016,2023
+atlanta,Walaris LLC,walaris,confirmed_grant,PEACHTREE CORNERS,GA,30092-4303,False,True,False,0.0,2.0,1549810.0,0.0,0.0,,,,,G1S8TMZUWVR1,116967045,https://walaris.com/,16,2020,2020
+atlanta,"Weilin Biotechnology, Inc.",weilin biotechnology,confirmed_grant,Norcross,GA,30093-0126,False,True,False,0.0,2.0,200000.0,0.0,0.0,,,,,,,,,2004,2005
+atlanta,"Wet Weather Engineering & Technology, L.L.C. (WWETCO)",wet weather engineering technology l l c wwetco,confirmed_grant,Atlanta,GA,30329,False,True,False,0.0,3.0,659594.0,0.0,0.0,,,,,,025258026,,,2004,2005
+atlanta,Whisper Communications,whisper communications,confirmed_grant,Atlanta,GA,30308-1068,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,832448372,,3,2010,2010
+atlanta,Wingborne Aeronautics Corporation,wingborne aeronautics,confirmed_grant,Atlanta,GA,30306-4128,False,True,False,0.0,4.0,1381367.0,0.0,0.0,,,,,ZDJCX1P1BG63,,,1,2023,2025
+atlanta,"XR Solutions, Inc",xr solutions,confirmed_grant,Roswell,GA,30075,False,True,False,0.0,8.0,2138694.0,0.0,0.0,,,,,CMZXEUXHPLS9,111700911,https://www.dauntlessxr.com,5,2022,2025
+atlanta,"ZETRA BIOLOGICALS, LLC",zetra biologicals,confirmed_grant,TUCKER,GA,-,False,True,False,0.0,3.0,1799996.0,0.0,0.0,,,,,,791285062,,,2008,2010
+atlanta,"ZIRUS, INC.",zirus,confirmed_grant,BUFORD,GA,30518 9206,False,True,False,0.0,1.0,430933.0,0.0,0.0,,,,,,808083351,,,2009,2009
+atlanta,ZONO SERVICES LLC,zono services,confirmed_grant,Lawrenceville,GA,30046-6746,False,True,False,0.0,1.0,96750.0,0.0,0.0,,,,,K96MLN6PUWJ5,053844413,,5,2017,2017
+atlanta,ZOOZ Mobile,zooz mobile,confirmed_grant,Atlanta,GA,30350-6876,False,True,False,0.0,2.0,673210.0,0.0,0.0,,,,,,028022274,,4,2010,2012
+atlanta,"ZYGOGEN, LLC",zygogen,confirmed_grant,ATLANTA,GA,30303,False,True,False,0.0,8.0,4251719.0,0.0,0.0,,,,,,028796170,,,2003,2008
+atlanta,ZYLINIUM RESEARCH LLC,zylinium research,confirmed_grant,ATLANTA,GA,30309-4221,False,True,False,0.0,1.0,1669984.14,0.0,0.0,,,,,HV6FL8KSLLG4,116936462,,3,2021,2021
+atlanta,Zyrobotics LLC ,zyrobotics,confirmed_grant,Atlanta,GA,30319-2002,False,True,False,0.0,3.0,998724.0,0.0,0.0,,,,,,079142572,www.zyrobotics.com,8,2015,2020
+atlanta,"starMobile, Inc.",starmobile,confirmed_grant,Atlanta,GA,30308-1064,False,True,False,0.0,2.0,899979.0,0.0,0.0,,,,,,078452561,,6,2012,2013
+atlanta,"ABLi Therapeutics, Inc.",abli therapeutics,confirmed_strong,ATLANTA,GA,30339,True,True,False,1.0,8.0,13235709.0,0.0,0.0,2025,Corporation,Pharmaceuticals,0002104142,Z6F2VWKXRXL9,828325899,https://www.ablitherapeutics.com,5,2009,2021
+atlanta,Andson Biotech Inc.,andson biotech,confirmed_strong,ATLANTA,GA,30303,True,True,True,2.0,1.0,302671.0,1.0,302671.0,2021,Corporation,Biotechnology,0002017131,JN6BFBRSN5K7,118408195,https://www.andsonbiotech.com,2,2025,2025
+atlanta,"BioCircuit Technologies, Inc.",biocircuit technologies,confirmed_strong,ATLANTA,GA,30309,True,True,True,3.0,5.0,10040502.0,9.0,8210782.0,2016,Corporation,Biotechnology,0001777259,E9KLDNMNYJK5,116978015,http://www.biocircuit.com,15,2020,2024
+atlanta,"CHS Healthcare Ventures, Inc.",chs healthcare ventures,confirmed_strong,DECATUR,GA,30030,True,True,True,1.0,2.0,554056.0,1.0,298099.0,2016,Corporation,Other Health Care,0001811460,LL15RDS34HE7,117243088,http://www.lightengalehealth.com,2,2020,2021
+atlanta,CRYOLIFE INC,cryolife,confirmed_strong,KENNESAW,GA,30144,True,True,False,1.0,5.0,2944173.0,0.0,0.0,,Corporation,Other Health Care,0000784199,,,,,1987,2000
+atlanta,"Huxley Medical, Inc.",huxley medical,confirmed_strong,Atlanta,GA,30318,True,True,True,11.0,3.0,1477138.0,1.0,256207.0,2019,Corporation,Other Health Care,0001869701,XS7ZWMAL9NA8,117061985,,18,2020,2022
+atlanta,"Inhibikase Therapeutics, Inc.",inhibikase therapeutics,confirmed_strong,Atlanta,GA,30339,True,False,True,2.0,0.0,0.0,3.0,3479348.0,,Corporation,Pharmaceuticals,0001750149,,,,,,
+atlanta,"Kinemo, Inc.",kinemo,confirmed_strong,ATLANTA,GA,30311,True,True,False,1.0,1.0,100000.0,0.0,0.0,2023,Corporation,Biotechnology,0002031497,VQ6BKLJ1RQX7,,https://kinemo.io,2,2024,2024
+atlanta,"Micron Biomedical, Inc.",micron biomedical,confirmed_strong,ATLANTA,GA,30332,True,True,False,3.0,1.0,150000.0,0.0,0.0,,Corporation,Biotechnology,0001957384,GVDQTJJNTUN6,080026117,,11,2016,2016
+atlanta,Moonlight Therapeutics Inc.,moonlight therapeutics,confirmed_strong,MARIETTA,GA,30062,True,True,True,1.0,5.0,5797887.0,8.0,5499528.0,,Corporation,Biotechnology,0002033833,S6TTK8Y6R5A1,081102641,http://www.moonlighttx.com,3,2019,2025
+atlanta,"NovAb, Inc.",novab,confirmed_strong,TUCKER,GA,30084,True,True,True,7.0,6.0,1216917.0,2.0,558462.0,,Corporation,Biotechnology,0001685163,WKYDVLA9B616,079083146,,1,2014,2023
+atlanta,"PURSUANT HEALTH, INC.",pursuant health,confirmed_strong,ATLANTA,GA,30308,True,True,False,4.0,2.0,1199652.0,0.0,0.0,,Corporation,Other Health Care,0001412720,,828333646,www.pursuanthealth.com,35,2010,2012
+atlanta,"Piezo Therapeutics, Inc.",piezo therapeutics,confirmed_strong,CUMMING,GA,30041,True,True,False,2.0,1.0,304742.0,0.0,0.0,2022,Corporation,Other Health Care,0001961262,C476EL42ALG1,,https://www.piezotx.com/,1,2025,2025
+atlanta,AGNES SCOTT COLLEGE,agnes scott college,research_org,DECATUR,GA,300303770,False,False,True,0.0,0.0,0.0,1.0,343353.0,,,,,,,,,,
+atlanta,AMERICAN COLLEGE OF RHEUMATOLOGY,american college of rheumatology,research_org,ATLANTA,GA,303195310,False,False,True,0.0,0.0,0.0,7.0,354000.0,,,,,,,,,,
+atlanta,ASSN OF FOOD/DRUG OFFICIALS/SOUTH/STATES,assn of food drug officials south states,research_org,Atlanta,GA,303349004,False,False,True,0.0,0.0,0.0,5.0,135436.0,,,,,,,,,,
+atlanta,CELLFE INC.,cellfe,research_org,ATLANTA,GA,303055113,False,False,True,0.0,0.0,0.0,5.0,2638121.0,,,,,,,,,,
+atlanta,CLARK ATLANTA UNIVERSITY,clark atlanta university,research_org,ATLANTA,GA,303144358,False,False,True,0.0,0.0,0.0,70.0,33065344.0,,,,,,,,,,
+atlanta,COUNCIL OF STATE & TERRITORIAL EPIDEM,council of state territorial epidem,research_org,Atlanta,GA,30345,False,False,True,0.0,0.0,0.0,11.0,1510000.0,,,,,,,,,,
+atlanta,DIAN FOSSEY GORILLA FUND I,dian fossey gorilla fund i,research_org,ATLANTA,GA,303151470,False,False,True,0.0,0.0,0.0,2.0,1557629.0,,,,,,,,,,
+atlanta,EMORY UNIVERSITY,emory university,research_org,ATLANTA,GA,303221007,False,False,True,0.0,0.0,0.0,6362.0,3518530138.0,,,,,,,,,,
+atlanta,GEORGIA INSTITUTE OF TECHNOLOGY,georgia institute of technology,research_org,ATLANTA,GA,303320415,False,False,True,0.0,0.0,0.0,766.0,285590005.0,,,,,,,,,,
+atlanta,GEORGIA STATE DEPARTMENT OF AGRICULTURE,georgia state department of agriculture,research_org,ATLANTA,GA,303349004,False,False,True,0.0,0.0,0.0,44.0,14820298.0,,,,,,,,,,
+atlanta,GEORGIA STATE DEPARTMENTOF PUBLIC HEALTH,georgia state departmentof public health,research_org,Atlanta,GA,30334,False,False,True,0.0,0.0,0.0,13.0,2087000.0,,,,,,,,,,
+atlanta,GEORGIA STATE UNIVERSITY,georgia state university,research_org,ATLANTA,GA,303023999,False,False,True,0.0,0.0,0.0,559.0,247086650.0,,,,,,,,,,
+atlanta,"INLIGHTA BIOSCIENCES, LLC",inlighta biosciences,research_org,MARIETTA,GA,300681641,False,False,True,0.0,0.0,0.0,8.0,6244586.0,,,,,,,,,,
+atlanta,INTERNATIONAL SOCIETY OF TRAVEL MEDICINE,international society of travel medicine,research_org,Alpharetta,GA,30009,False,False,True,0.0,0.0,0.0,8.0,4265584.0,,,,,,,,,,
+atlanta,"KDH RESEARCH AND COMMUNICATION, INC.",kdh research and communication,research_org,Atlanta,GA,30309,False,False,True,0.0,0.0,0.0,11.0,6640849.0,,,,,,,,,,
+atlanta,KENNESAW STATE UNIVERSITY,kennesaw state university,research_org,KENNESAW,GA,301445591,False,False,True,0.0,0.0,0.0,57.0,19222396.0,,,,,,,,,,
+atlanta,"MICROBIAL IMAGING, LLC",microbial imaging,research_org,LITHIA SPRINGS,GA,301221546,False,False,True,0.0,0.0,0.0,3.0,1514617.0,,,,,,,,,,
+atlanta,MOREHOUSE COLLEGE,morehouse college,research_org,ATLANTA,GA,303143773,False,False,True,0.0,0.0,0.0,4.0,891954.0,,,,,,,,,,
+atlanta,MOREHOUSE SCHOOL OF MEDICINE,morehouse school of medicine,research_org,ATLANTA,GA,303101458,False,False,True,0.0,0.0,0.0,303.0,174008499.0,,,,,,,,,,
+atlanta,MOREMME VA LLC,moremme va,research_org,JOHNS CREEK,GA,300971732,False,False,True,0.0,0.0,0.0,1.0,332700.0,,,,,,,,,,
+atlanta,NORTHSIDE HOSPITAL ATLANTA,northside hospital atlanta,research_org,ATLANTA,GA,303421611,False,False,True,0.0,0.0,0.0,12.0,13683512.0,,,,,,,,,,
+atlanta,"PRODA BIOTECH, LLC",proda biotech,research_org,MARIETTA,GA,300681641,False,False,True,0.0,0.0,0.0,5.0,5993341.0,,,,,,,,,,
+atlanta,SHEPHERD CENTER,shepherd center,research_org,ATLANTA,GA,303091426,False,False,True,0.0,0.0,0.0,10.0,2331436.0,,,,,,,,,,
+atlanta,SOCIETY TO IMPROVE DIAGNOSIS IN MEDICINE,society to improve diagnosis in medicine,research_org,Alpharetta,GA,300225860,False,False,True,0.0,0.0,0.0,3.0,150000.0,,,,,,,,,,
+atlanta,SPELMAN COLLEGE,spelman college,research_org,ATLANTA,GA,303144395,False,False,True,0.0,0.0,0.0,15.0,5090558.0,,,,,,,,,,
+atlanta,VETERANS HEALTH ADMINISTRATION,veterans health administration,research_org,Decatur,GA,30033,False,False,True,0.0,0.0,0.0,326.0,0.0,,,,,,,,,,
+atlanta,YOUNGHEARTVALVE LLC,youngheartvalve,research_org,ATLANTA,GA,303092284,False,False,True,0.0,0.0,0.0,3.0,3286651.0,,,,,,,,,,
