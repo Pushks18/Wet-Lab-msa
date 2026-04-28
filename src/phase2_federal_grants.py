@@ -4,11 +4,46 @@ NIH RePORTER v2:
   POST https://api.reporter.nih.gov/v2/projects/search
   body: {"criteria": {"org_states":[...], "org_cities":[...], "fiscal_years":[YYYY]},
          "limit": 500, "offset": N}
-  Iterate per MSA × fiscal year (2020-2025). Paginate via offset; hard-cap 10000.
+  Iterate per MSA × fiscal year (2015-2025). Paginate via offset; hard-cap 10000.
+
+  How the mapping works:
+    1. for each MSA (5):
+         states  = the MSA's state list  (e.g. philadelphia → [PA, NJ, DE, MD])
+         cities  = full notable_cities list from msa_config.json (lower-cased)
+       for each fiscal year (11: FY2015-FY2025):
+         POST criteria { org_states, org_cities, fiscal_years:[FY] }
+         paginate offset += 500 until len(results) < 500 OR offset+500 >= 10000
+                                                        (NIH server-side hard cap)
+    2. concat all results, normalize JSON 2 levels deep → DataFrame
+    3. tag each row with _msa and _fy; write parquet + csv + xlsx
+
+  500 is the NIH page size, NOT a record cap. A (msa × FY) slice pulling 2,300
+  matches makes 5 paginated calls and returns all 2,300 rows. The real cap is
+  the 10,000-record offset ceiling — slicing by (MSA × FY) keeps each slice
+  comfortably under it.
+
+  Funnel — committed 2020-2025 (6 fiscal years × 5 MSAs = 30 slices):
+    raw NIH grant records returned                          ~60,127
+    distinct recipient organizations                          ~520
+    (most are universities/hospitals — Phase 8 tags them as research_inst
+     and excludes them from the startup roster)
 
 SBIR.gov:
   GET https://api.www.sbir.gov/public/api/awards?state=XX&rows=500&start=N
   Iterate per state in scope (PA, NJ, DE, MD, GA, TX). Paginate. Filter to MSA cities offline.
+
+  How the mapping works:
+    1. union of all MSA state codes (6: PA, NJ, DE, MD, GA, TX)
+    2. for each state, paginate start += 500 until empty payload (or 50K safety)
+    3. SBIR API has no usable year filter on this endpoint → pull all years
+    4. offline filter: (city, state) lower-cased lookup in city_allowlist
+    5. (year filter to 2015+ is enforced LATER, at Phase 9 step 5 — recency)
+
+  Funnel — committed run (state-wide, all years):
+    raw SBIR awards pulled                                   ~80,000
+    ↓ MSA city allowlist filter (Phase 2)
+    ↓ kept in MSA scope                                      15,051 awards
+                                                              2,793 unique companies
 
 Outputs:
   data/raw/nih_awards.parquet
@@ -38,7 +73,7 @@ from common import (
 PHASE = 2
 NIH_URL = "https://api.reporter.nih.gov/v2/projects/search"
 SBIR_URL = "https://api.www.sbir.gov/public/api/awards"
-FISCAL_YEARS = list(range(2020, 2026))  # FY2020 - FY2025
+FISCAL_YEARS = list(range(2015, 2026))  # FY2015 - FY2025
 
 
 def load_city_allowlist() -> dict[str, dict[str, list[str]]]:

@@ -1,10 +1,10 @@
 step_name,rows_in,rows_out,rows_removed,reason
-Step1_rededup,3563,3545,18,union-find on norm_name + CIK/UEI/DUNS
-Step2_fuzzy_merge,3545,3537,8,"Jaro-Winkler >=0.95/0.92 within (msa, first-non-generic-token) block"
-Step3_geo_cleanup,3537,3492,45,TTO rows where tto_location is clearly outside assigned MSA
-Step4_wetlab_subcat,3492,1342,2150,keep biotech/pharma/dx/chem/medtech + unknown-but-name-matches; drop digital_health/services
-Step5_recency,1342,936,406,keep Form-D / SBIR-last>=2020 / TTO; drop dormant firms
-Step6_stage,936,927,9,drop SBIR span>20yr AND total>$20M (mature govt contractors)
-Step7_spv_vehicles,927,871,56,regex SPV/fund patterns + config/pe_rollup_exclusions.json
-Step8_public_cos,871,827,44,SEC public-company ticker list by CIK
-Step9_nonwetlab_excl,827,816,11,config/non_wetlab_exclusions.json (defense/IT/robotics firms)
+Step1_rededup,4001,3956,45,union-find on norm_name + CIK/UEI/DUNS
+Step2_fuzzy_merge,3956,3948,8,"Jaro-Winkler >=0.95/0.92 within (msa, first-non-generic-token) block"
+Step3_geo_cleanup,3948,3903,45,TTO rows where tto_location is clearly outside assigned MSA
+Step4_wetlab_subcat,3903,1771,2132,keep biotech/pharma/dx/chem/medtech + unknown-but-name-matches; drop digital_health/services
+Step5_recency,1771,1434,337,keep Form-D / SBIR-last>=2015 / TTO; drop dormant firms
+Step6_stage,1434,1425,9,drop SBIR span>20yr AND total>$20M (mature govt contractors)
+Step7_spv_vehicles,1425,1367,58,regex SPV/fund patterns + config/pe_rollup_exclusions.json
+Step8_public_cos,1367,1301,66,SEC public-company ticker list by CIK
+Step9_nonwetlab_excl,1301,1290,11,config/non_wetlab_exclusions.json (defense/IT/robotics firms)

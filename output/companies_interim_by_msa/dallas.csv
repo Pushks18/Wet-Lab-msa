@@ -1,77 +1,155 @@
 msa,name,name_norm,tier,city,state,zip,source_form_d,source_sbir,source_nih,form_d_filings,sbir_awards,sbir_total_usd,nih_grants,nih_total_usd,year_incorp,entity_type,industry,cik,uei,duns,website,employees,sbir_first_year,sbir_last_year
 dallas,"4 Mankind, Inc.",4 mankind,confirmed_funded,COLLEYVILLE,TX,76034,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0002065199,,,,,,
-dallas,"ACTUATE THERAPEUTICS, INC.",actuate therapeutics,confirmed_funded,FORT WORTH,TX,76107,True,False,False,6.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001652935,,,,,,
-dallas,"Acuity EyeCare Rollover II, LLC",acuity eyecare rollover ii,confirmed_funded,DALLAS,TX,75219,True,False,False,2.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001763838,,,,,,
+dallas,"4WEB, Inc.",4web,confirmed_funded,FRISCO,TX,75033,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001704554,,,,,,
+dallas,"ABA DSO, LLC",aba dso,confirmed_funded,DALLAS,TX,75231,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001786224,,,,,,
+dallas,"ACTUATE THERAPEUTICS, INC.",actuate therapeutics,confirmed_funded,FORT WORTH,TX,76107,True,False,False,13.0,0.0,0.0,0.0,0.0,2015,Corporation,Pharmaceuticals,0001652935,,,,,,
+dallas,"ADG Brain Health II, LP",adg brain health ii lp,confirmed_funded,ALEDO,TX,76008,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Partnership,Other Health Care,0001764310,,,,,,
+dallas,"APRO Services, LLC",apro services,confirmed_funded,ARLINGTON,TX,76010,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001726665,,,,,,
+dallas,"Abexxa Biologics, Inc.",abexxa biologics,confirmed_funded,ARLINGTON,TX,76019,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Corporation,Biotechnology,0001684213,,,,,,
+dallas,"Abounding Hospice Care, Inc.",abounding hospice care,confirmed_funded,GARLAND,TX,75043,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Corporation,Other Health Care,0001786553,,,,,,
+dallas,"Absolute Pharmacy, LLC",absolute pharmacy,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001618748,,,,,,
+dallas,"Accurate Toxicology, LLC",accurate toxicology,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001641323,,,,,,
+dallas,"Acuity EyeCare Parent Holdings, LLC",acuity eyecare parent,confirmed_funded,DALLAS,TX,75219,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001702434,,,,,,
+dallas,"Acuity EyeCare Rollover II, LLC",acuity eyecare rollover ii,confirmed_funded,DALLAS,TX,75219,True,False,False,4.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001763838,,,,,,
+dallas,"Acuity EyeCare Rollover, LLC",acuity eyecare rollover,confirmed_funded,DALLAS,TX,75219,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001702759,,,,,,
 dallas,"Alacura Holdings, Inc.",alacura,confirmed_funded,Dallas,TX,75243,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001756387,,,,,,
 dallas,Aliform Inc.,aliform,confirmed_funded,DALLAS,TX,75201,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001902467,,,,,,
 dallas,Aligned Assignment Inc,aligned assignment,confirmed_funded,FRISCO,TX,75034,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001978260,,,,,,
-dallas,"Allied BioScience, Inc.",allied bioscience,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001677342,,,,,,
+dallas,"Allied BioScience, Inc.",allied bioscience,confirmed_funded,DALLAS,TX,75201,True,False,False,5.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001677342,,,,,,
 dallas,Alpha Cognition Inc.,alpha cognition,confirmed_funded,FRISCO,TX,75036,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001655923,,,,,,
-dallas,"Alva Health, Inc.",alva health,confirmed_funded,DALLAS,TX,75201,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001971021,,,,,,
-dallas,"Arlington Surgery Center, LLC",arlington surgery center,confirmed_funded,ARLINGTON,TX,76012,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001729900,,,,,,
+dallas,"Alumicell, LLC",alumicell,confirmed_funded,ADDISON,TX,75001,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001662050,,,,,,
+dallas,"Ancillary Advantage, Inc.",ancillary advantage,confirmed_funded,PLANO,TX,75075,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001765584,,,,,,
+dallas,"Apothecary Health Solutions, LLC",apothecary health solutions,confirmed_funded,DENTON,TX,76201,True,False,False,1.0,0.0,0.0,0.0,0.0,2012,Limited Liability Company,Pharmaceuticals,0001679714,,,,,,
+dallas,"Appling Enterprises, LLC",appling enterprises,confirmed_funded,DENTON,TX,76201,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Pharmaceuticals,0001729692,,,,,,
+dallas,"Arlington Surgery Center, LLC",arlington surgery center,confirmed_funded,ARLINGTON,TX,76012,True,False,False,7.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001729900,,,,,,
+dallas,Armstrong MSO LLC,armstrong mso,confirmed_funded,PLANO,TX,75093,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Pharmaceuticals,0001684931,,,,,,
 dallas,"Arthron Investments, LLC",arthron investments,confirmed_funded,GRAPEVINE,TX,76051,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0001960149,,,,,,
+dallas,"Averify, LLC",averify,confirmed_funded,DALLAS,TX,75219,True,False,False,5.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001645725,,,,,,
+dallas,"Aviator Holdings, LLC",aviator,confirmed_funded,MCKINNEY,TX,75070,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001688025,,,,,,
 dallas,"Axenic Health Solutions, Inc.",axenic health solutions,confirmed_funded,Plano,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Corporation,Biotechnology,0001749418,,,,,,
 dallas,"BRIUS Technologies, Inc.",brius technologies,confirmed_funded,ADDISON,TX,75001,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001974825,,,,,,
+dallas,"BTM PRODUCTS, INC.",btm products,confirmed_funded,ADDISON,TX,75001,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Corporation,Other Health Care,0001732351,,,,,,
 dallas,"Biowise Capital II, LLC",biowise capital ii,confirmed_funded,DALLAS,TX,75201,True,False,False,2.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Biotechnology,0001844785,,,,,,
 dallas,Bodark Investment Group LP,bodark investment lp,confirmed_funded,DALLAS,TX,75205,True,False,False,1.0,0.0,0.0,0.0,0.0,2025,Limited Partnership,Biotechnology,0002073396,,,,,,
+dallas,Bone Solutions Inc,bone solutions,confirmed_funded,DALLAS,TX,75231,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001335451,,,,,,
+dallas,"Brain Synergy Institute, LLC",brain synergy institute,confirmed_funded,Irving,TX,75062,True,False,False,3.0,0.0,0.0,0.0,0.0,2012,Limited Liability Company,Other Health Care,0001571030,,,,,,
+dallas,"Brighton Biotech, Inc.",brighton biotech,confirmed_funded,FORT WORTH,TX,76102,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001625381,,,,,,
 dallas,"CESSATION THERAPEUTICS, INC.",cessation therapeutics,confirmed_funded,Dallas,TX,75234,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Corporation,Biotechnology,0001926434,,,,,,
 dallas,"CHWY RE Holdings, LLC",chwy re,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001869076,,,,,,
 dallas,"CIRC Biosciences, Inc.",circ biosciences,confirmed_funded,DALLAS,TX,75225,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Biotechnology,0001834514,,,,,,
+dallas,Caddo Medical Technologies LLC,caddo medical technologies,confirmed_funded,DALLAS,TX,75214,True,False,False,2.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Biotechnology,0001727841,,,,,,
+dallas,"Calm Tea Management, LLC",calm tea management,confirmed_funded,FLOWER MOUND,TX,75028,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001621613,,,,,,
 dallas,Cancer Check SPV LLC,cancer check spv,confirmed_funded,DALLAS,TX,75201,True,False,False,1.0,0.0,0.0,0.0,0.0,2025,Limited Liability Company,Other Health Care,0002064706,,,,,,
 dallas,"Cannes Holding Parent, Inc.",cannes holding parent,confirmed_funded,FORT WORTH,TX,76102,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001787640,,,,,,
 dallas,Cardinal Morrisville Biotech LLC,cardinal morrisville biotech,confirmed_funded,DALLAS,TX,75219,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Biotechnology,0001947972,,,,,,
 dallas,"Care Continuity, Inc.",care continuity,confirmed_funded,IRVING,TX,75038,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001385178,,,,,,
-dallas,CareView Communications Inc,careview communications,confirmed_funded,LEWISVILLE,TX,75067,True,False,False,4.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001377149,,,,,,
-dallas,"Cariloop, Inc.",cariloop,confirmed_funded,Richardson,TX,75082,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001608368,,,,,,
+dallas,CareView Communications Inc,careview communications,confirmed_funded,LEWISVILLE,TX,75067,True,False,False,9.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001377149,,,,,,
+dallas,"Cariloop, Inc.",cariloop,confirmed_funded,DALLAS,TX,75219,True,False,False,2.0,0.0,0.0,0.0,0.0,2012,Corporation,Other Health Care,0001608368,,,,,,
+dallas,"Catapult Health, LLC",catapult health,confirmed_funded,DALLAS,TX,75231,True,False,False,4.0,0.0,0.0,0.0,0.0,2010,Limited Liability Company,Other Health Care,0001509247,,,,,,
+dallas,"CelSana, LLC",celsana,confirmed_funded,FORT WORTH,TX,76137,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001688746,,,,,,
+dallas,Charcoal Surgical Instruments LLC,charcoal surgical instruments,confirmed_funded,DALLAS,TX,75240,True,False,False,2.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001645437,,,,,,
 dallas,"Chattanooga East Surgicenter, LLC",chattanooga east surgicenter,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0002016893,,,,,,
+dallas,"Clear Labs, LLC",clear labs,confirmed_funded,DALLAS,TX,75214,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001652307,,,,,,
 dallas,"Contractual Holdco Management, LLC",contractual holdco management,confirmed_funded,FORT WORTH,TX,76102,True,False,False,2.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0001998221,,,,,,
+dallas,"Cornell Pharmacy, LLC",cornell pharmacy,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001647736,,,,,,
 dallas,"Corpus Christi Surgicenter, LLC",corpus christi surgicenter,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0002066388,,,,,,
 dallas,"Cosmetic Physician Partners, LLC",cosmetic physician partners,confirmed_funded,Dallas,TX,75225,True,False,False,7.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001897259,,,,,,
+dallas,"Credence Works, LLC",credence works,confirmed_funded,PLANO,TX,75074,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001673613,,,,,,
+dallas,"Cx Precision Medicine, Inc.",cx precision medicine,confirmed_funded,FORT WORTH,TX,76104,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Corporation,Biotechnology,0001681655,,,,,,
+dallas,"Cyprus Clinical Labs of Louisiana, LLC",cyprus clinical labs of louisiana,confirmed_funded,PLANO,TX,75075,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001624057,,,,,,
 dallas,"DOSE Therapeutics, Inc.",dose therapeutics,confirmed_funded,DALLAS,TX,75247,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Corporation,Biotechnology,0001927425,,,,,,
-dallas,"Denton Surgery Center, LLC",denton surgery center,confirmed_funded,DENTON,TX,76201,True,False,False,7.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001603417,,,,,,
+dallas,DPC Healthcare LLC,dpc healthcare,confirmed_funded,DALLAS,TX,75252,True,False,False,3.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001715356,,,,,,
+dallas,"Denton Surgery Center, LLC",denton surgery center,confirmed_funded,DENTON,TX,76210,True,False,False,9.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001603417,,,,,,
 dallas,Diabetes Reversal Group LLC,diabetes reversal,confirmed_funded,DALLAS,TX,75201,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0002072089,,,,,,
 dallas,"Dialectic Therapeutics, Inc.",dialectic therapeutics,confirmed_funded,DALLAS,TX,75234,True,False,False,3.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001750926,,,,,,
-dallas,"ECPH, LLC",ecph,confirmed_funded,DALLAS,TX,75219,True,False,False,10.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001702434,,,,,,
-dallas,"Eosera, Inc.",eosera,confirmed_funded,FORT WORTH,TX,76115,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001667144,,,,,,
+dallas,"Discovery Tox, LLC",discovery tox,confirmed_funded,ROANOKE,TX,76262,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001658701,,,,,,
+dallas,Dixie Surgical Products LLC,dixie surgical products,confirmed_funded,DALLAS,TX,75240,True,False,False,2.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001645439,,,,,,
+dallas,"Downtown RCG, LLC",downtown rcg,confirmed_funded,DALLAS,TX,75204,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001724500,,,,,,
+dallas,"ECPH, LLC",ecph,confirmed_funded,DALLAS,TX,75219,True,False,False,13.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001702434,,,,,,
+dallas,"EHP MSO, LLC",ehp mso,confirmed_funded,FRISCO,TX,75034,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001711203,,,,,,
+dallas,"ENDOSTIM, INC.",endostim,confirmed_funded,Dallas,TX,75244,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001469166,,,,,,
+dallas,"Electus Investment Fund I, LLC",electus investment fund i,confirmed_funded,FLOWER MOUND,TX,75022,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001789965,,,,,,
+dallas,"Eosera, Inc.",eosera,confirmed_funded,FORT WORTH,TX,76109,True,False,False,2.0,0.0,0.0,0.0,0.0,2015,Corporation,Biotechnology,0001667144,,,,,,
+dallas,Evergaze Holdings LLC,evergaze,confirmed_funded,RICHARDSON,TX,75081,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Biotechnology,0001665841,,,,,,
+dallas,"First CRP, LLC",first crp,confirmed_funded,PLANO,TX,75093,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001721676,,,,,,
 dallas,"Forte Biosciences, Inc.",forte biosciences,confirmed_funded,DALLAS,TX,75247,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001419041,,,,,,
 dallas,"Fruit Street Health, P.B.C.",fruit street health p b c,confirmed_funded,Fort Worth,TX,76112,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001609428,,,,,,
+dallas,Full Spectrum Laboratories LLC,full spectrum laboratories,confirmed_funded,PLANO,TX,75074,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001651544,,,,,,
+dallas,"Fuse Medical, Inc.",fuse medical,confirmed_funded,FORT WORTH,TX,76102,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0000319016,,,,,,
+dallas,"GenTox Labs, LLC",gentox labs,confirmed_funded,PLANO,TX,75075,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001642315,,,,,,
 dallas,Genesis Alternative Finance Holdings LLC,genesis alternative finance,confirmed_funded,DALLAS,TX,75201,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001836203,,,,,,
 dallas,"GenrAb, Inc.",genrab,confirmed_funded,Dallas,TX,75247,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Corporation,Other Health Care,0001960317,,,,,,
 dallas,Goodsprout Co LLC,goodsprout,confirmed_funded,FORT WORTH,TX,76107,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Pharmaceuticals,0001905406,,,,,,
-dallas,"Gramercy Extremity Orthopedics, LLC",gramercy extremity orthopedics,confirmed_funded,Richardson,TX,75081,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001655147,,,,,,
-dallas,"Greenville Surgery Center, LLC",greenville surgery center,confirmed_funded,DALLAS,TX,75231,True,False,False,4.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0000802461,,,,,,
+dallas,"Gramercy Extremity Orthopedics, LLC",gramercy extremity orthopedics,confirmed_funded,CARROLLTON,TX,75006,True,False,False,6.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001655147,,,,,,
+dallas,"Grava Med Solutions, LLC",grava med solutions,confirmed_funded,DALLAS,TX,75243,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001687268,,,,,,
+dallas,"Greenville Surgery Center, LLC",greenville surgery center,confirmed_funded,DALLAS,TX,75231,True,False,False,8.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Other Health Care,0000802461,,,,,,
 dallas,"Greenway Surgicenter, LLC",greenway surgicenter,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Limited Liability Company,Other Health Care,0002035147,,,,,,
 dallas,"Gregor Diagnostics, Inc.",gregor diagnostics,confirmed_funded,Dallas,TX,75206,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001746381,,,,,,
+dallas,"Gruene Anolyte, LLC",gruene anolyte,confirmed_funded,FORT WORTH,TX,76116,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Biotechnology,0001783738,,,,,,
+dallas,"HC Bell Growth, LP",hc bell growth lp,confirmed_funded,DALLAS,TX,75206,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Partnership,Other Health Care,0001632452,,,,,,
 dallas,HCSVS Mental Health Telemedicine Startup P.B.C.,hcsvs mental health telemedicine startup p b c,confirmed_funded,FORT WORTH,TX,76112,True,False,False,1.0,0.0,0.0,0.0,0.0,2025,Corporation,Other Health Care,0002066433,,,,,,
+dallas,"HER Technologies, Inc.",her technologies,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2010,Corporation,Other Health Care,0001555904,,,,,,
 dallas,"Healthcare Now, Inc",healthcare now,confirmed_funded,PLANO,TX,75023,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001802484,,,,,,
-dallas,"Heart Test Laboratories, Inc.",heart test laboratories,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,7.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001468492,,,,,,
+dallas,"Healthway Education Systems, LLC",healthway education systems,confirmed_funded,Cedar Hill,TX,75104,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001684522,,,,,,
+dallas,"Heart Test Laboratories, Inc.",heart test laboratories,confirmed_funded,Southlake,TX,76092,True,False,False,10.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001468492,,,,,,
+dallas,"Houston Northwest Operating Company, L.L.C.",houston northwest operating l l c,confirmed_funded,DALLAS,TX,75202,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001411202,,,,,,
 dallas,INDEPENDENCE HOLDCO LP,independence holdco lp,confirmed_funded,DALLAS,TX,75208,True,False,False,2.0,0.0,0.0,0.0,0.0,2020,Limited Partnership,Other Health Care,0001840575,,,,,,
-dallas,Ideal Implant Inc,ideal implant,confirmed_funded,DALLAS,TX,75254,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001360739,,,,,,
+dallas,Ideal Implant Inc,ideal implant,confirmed_funded,Dallas,TX,75244,True,False,False,8.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001360739,,,,,,
 dallas,"ImmuneSensor Therapeutics, Inc.",immunesensor therapeutics,confirmed_funded,DALLAS,TX,75235,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Biotechnology,0001956825,,,,,,
+dallas,"ImplementHIT, Inc",implementhit,confirmed_funded,DALLAS,TX,75219,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001708809,,,,,,
 dallas,"Infinite Youth, Inc.",infinite youth,confirmed_funded,DALLAS,TX,75225,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Corporation,Other Health Care,0002051730,,,,,,
-dallas,"Instil Bio, Inc.",instil bio,confirmed_funded,DALLAS,TX,75225,True,False,False,4.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001789769,,,,,,
+dallas,"Infinity Stone Medical Management, LLC",infinity stone medical management,confirmed_funded,FRISCO,TX,75033,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001722035,,,,,,
+dallas,"Insight Labs, LLC",insight labs,confirmed_funded,PLANO,TX,75075,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001654166,,,,,,
+dallas,"Instil Bio, Inc.",instil bio,confirmed_funded,DALLAS,TX,75225,True,False,False,5.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001789769,,,,,,
+dallas,"Irish Surgical Products, LLC",irish surgical products,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001677275,,,,,,
 dallas,Irving Specialists Surgical Center LLC,irving specialists surgical center,confirmed_funded,IRVING,TX,75063,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001824143,,,,,,
+dallas,"JDCQ Solutions, LLC",jdcq solutions,confirmed_funded,ADDISON,TX,75001,True,False,False,5.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001673761,,,,,,
+dallas,JTT Health Management LLC,jtt health management,confirmed_funded,Grapevine,TX,76051,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001716899,,,,,,
+dallas,"KBS Research, LLC.",kbs research,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2012,Limited Liability Company,Other Health Care,0001625819,,,,,,
 dallas,"KLOWEN BRACES, INC.",klowen braces,confirmed_funded,Richardson,TX,75081,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001853519,,,,,,
 dallas,"KWIVIK THERAPEUTICS, INC.",kwivik therapeutics,confirmed_funded,FRISCO,TX,75036,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Corporation,Other Health Care,0001849370,,,,,,
+dallas,"Kobalt Health Resources, LLC",kobalt health resources,confirmed_funded,ALLEN,TX,75013,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001723280,,,,,,
+dallas,"LDL Dignity Hospice, LP",ldl dignity hospice lp,confirmed_funded,DALLAS,TX,75243,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Partnership,Other Health Care,0001642505,,,,,,
+dallas,LMK Surgical Products,lmk surgical products,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001679869,,,,,,
 dallas,LaaSy Health HoldCo Inc.,laasy health holdco,confirmed_funded,MIDLOTHIAN,TX,76065,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Corporation,Other Health Care,0002064548,,,,,,
+dallas,"Lab Equipment Holdings, LLC",lab equipment,confirmed_funded,CARROLLTON,TX,75007,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001632518,,,,,,
+dallas,Lantern Pharma,lantern pharma,confirmed_funded,DALLAS,TX,7501,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001763950,,,,,,
 dallas,"Launchpad Vision, Inc.",launchpad vision,confirmed_funded,DALLAS,TX,75204,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Corporation,Other Health Care,0002049716,,,,,,
 dallas,"Lebanon Surgicenter, LLC",lebanon surgicenter,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0002082535,,,,,,
-dallas,"Legacy Trail Surgery Center, LLC",legacy trail surgery center,confirmed_funded,Plano,TX,75024,True,False,False,7.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001724688,,,,,,
+dallas,"Legacy Pharmacy, LLC",legacy pharmacy,confirmed_funded,DALLAS,TX,75240,True,False,False,2.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001668917,,,,,,
+dallas,"Legacy Trail Surgery Center, LLC",legacy trail surgery center,confirmed_funded,DALLAS,TX,75235,True,False,False,9.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001724688,,,,,,
 dallas,"Legacy Ventures, LLC",legacy ventures,confirmed_funded,Plano,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001736238,,,,,,
 dallas,"LexaGene Life Sciences RD Investors, LLC",lexagene life sciences rd investors,confirmed_funded,DALLAS,TX,75219,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0002016398,,,,,,
+dallas,"Life Warmer, Inc.",life warmer,confirmed_funded,PLANO,TX,75074,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001735991,,,,,,
+dallas,M2 Health Investments LLC,m2 health investments,confirmed_funded,MANSFIELD,TX,76063,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001669170,,,,,,
+dallas,"MIDAS LABORATORIES, LLC",midas laboratories,confirmed_funded,DALLAS,TX,75254,True,False,False,1.0,0.0,0.0,0.0,0.0,2012,Limited Liability Company,Other Health Care,0001633154,,,,,,
+dallas,"Magnolia Diagnostics, LLC",magnolia diagnostics,confirmed_funded,DALLAS,TX,75206,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001727081,,,,,,
+dallas,"Modern Dental Services, LP",modern dental services lp,confirmed_funded,DALLAS,TX,75234,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Partnership,Other Health Care,0001616989,,,,,,
+dallas,"Motion PT Holdings, Inc.",motion pt,confirmed_funded,DALLAS,TX,75201,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Corporation,Other Health Care,0001647272,,,,,,
 dallas,"Mountain Health Technologies, Inc.",mountain health technologies,confirmed_funded,DALLAS,TX,75201,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001818919,,,,,,
-dallas,"Nacuity Pharmaceuticals, Inc.",nacuity pharmaceuticals,confirmed_funded,FORT WORTH,TX,76102,True,False,False,3.0,0.0,0.0,0.0,0.0,2016,Corporation,Biotechnology,0001690279,,,,,,
+dallas,"MycoDART, Inc.",mycodart,confirmed_funded,CARROLLTON,TX,75010,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001761298,,,,,,
+dallas,NEXEON MEDSYSTEMS INC,nexeon medsystems,confirmed_funded,DALLAS,TX,75201,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Corporation,Biotechnology,0001416172,,,,,,
+dallas,"Nacuity Pharmaceuticals, Inc.",nacuity pharmaceuticals,confirmed_funded,FORT WORTH,TX,76102,True,False,False,6.0,0.0,0.0,0.0,0.0,2016,Corporation,Pharmaceuticals,0001690279,,,,,,
 dallas,"Nanoscope Therapeutics, Inc.",nanoscope therapeutics,confirmed_funded,BEDFORD,TX,76022,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Corporation,Other Health Care,0001818399,,,,,,
 dallas,"Navigate Patient Solutions, LLC",navigate patient solutions,confirmed_funded,FORT WORTH,TX,76107,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001842643,,,,,,
+dallas,"Neo Eagle Management, LLC",neo eagle management,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001721704,,,,,,
+dallas,"Neos Therapeutics, Inc.",neos therapeutics,confirmed_funded,GRAND PRAIRIE,TX,75050,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001467652,,,,,,
 dallas,Nerveli Inc.,nerveli,confirmed_funded,DALLAS,TX,75252,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Corporation,Other Health Care,0002084682,,,,,,
 dallas,"Neurolens, Inc.",neurolens,confirmed_funded,COPPELL,TX,75019,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001624178,,,,,,
+dallas,"Neuron Shield 8, LLC",neuron shield 8,confirmed_funded,PLANO,TX,75093,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001674847,,,,,,
+dallas,"Neuron Shield 9, LLC",neuron shield 9,confirmed_funded,PLANO,TX,75093,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001673866,,,,,,
+dallas,"Neuron Shield Monitoring Associates, PLLC",neuron shield monitoring associates pllc,confirmed_funded,PLANO,TX,75093,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001674588,,,,,,
 dallas,"New Waters Recovery North Carolina Fund, LP",new waters recovery north carolina fund lp,confirmed_funded,McKinney,TX,75070,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Partnership,Other Health Care,0001815716,,,,,,
-dallas,"North Dallas Surgical Center, LLC",north dallas surgical center,confirmed_funded,DALLAS,TX,75287,True,False,False,5.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001499622,,,,,,
-dallas,North Texas Renal Management II LLC,north texas renal management ii,confirmed_funded,DALLAS,TX,75235,True,False,False,3.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001657576,,,,,,
-dallas,North Texas Renal Management III LLC,north texas renal management iii,confirmed_funded,DALLAS,TX,75235,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001662696,,,,,,
-dallas,"North Texas Renal Management V, LLC",north texas renal management v,confirmed_funded,DALLAS,TX,75234,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001721564,,,,,,
-dallas,"North Texas Renal Management VI, LLC",north texas renal management vi,confirmed_funded,DALLAS,TX,75234,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001757727,,,,,,
-dallas,"North Texas Renal Management VIII, LLC",north texas renal management viii,confirmed_funded,DALLAS,TX,75234,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001762504,,,,,,
+dallas,"New Way Labs, LLC",new way labs,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001622831,,,,,,
+dallas,"North Dallas Surgical Center, LLC",north dallas surgical center,confirmed_funded,DALLAS,TX,75287,True,False,False,6.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001499622,,,,,,
+dallas,North Texas Renal Management II LLC,north texas renal management ii,confirmed_funded,DALLAS,TX,75235,True,False,False,4.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001657576,,,,,,
+dallas,North Texas Renal Management III LLC,north texas renal management iii,confirmed_funded,DALLAS,TX,75235,True,False,False,3.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001662696,,,,,,
+dallas,"North Texas Renal Management IV, LLC",north texas renal management iv,confirmed_funded,DALLAS,TX,75235,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001745528,,,,,,
+dallas,"North Texas Renal Management IX, LLC",north texas renal management ix,confirmed_funded,DALLAS,TX,75235,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001786569,,,,,,
+dallas,"North Texas Renal Management V, LLC",north texas renal management v,confirmed_funded,DALLAS,TX,75235,True,False,False,3.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001721564,,,,,,
+dallas,"North Texas Renal Management VI, LLC",north texas renal management vi,confirmed_funded,DALLAS,TX,75235,True,False,False,2.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001757727,,,,,,
+dallas,"North Texas Renal Management VII, LLC",north texas renal management vii,confirmed_funded,DALLAS,TX,75235,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001776102,,,,,,
+dallas,"North Texas Renal Management VIII, LLC",north texas renal management viii,confirmed_funded,DALLAS,TX,75235,True,False,False,2.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001762504,,,,,,
 dallas,"North Texas Renal Management XI, LLC",north texas renal management xi,confirmed_funded,DALLAS,TX,75235,True,False,False,2.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0001942847,,,,,,
 dallas,"North Texas Renal Management, LLC",north texas renal management,confirmed_funded,DALLAS,TX,75235,True,False,False,4.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001600693,,,,,,
 dallas,"NovaDerm Aid Fund Alpha, L.L.C.",novaderm aid fund alpha l l c,confirmed_funded,DALLAS,TX,75205,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Biotechnology,0001973761,,,,,,
@@ -102,107 +180,197 @@ dallas,NovaDerm Aid Fund XI L.L.C.,novaderm aid fund xi l l c,confirmed_funded,D
 dallas,NovaDerm Aid Fund XII L.L.C.,novaderm aid fund xii l l c,confirmed_funded,DALLAS,TX,75205,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Biotechnology,0001974001,,,,,,
 dallas,NovaDerm Aid Fund Zeta LLC,novaderm aid fund zeta,confirmed_funded,DALLAS,TX,75205,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Biotechnology,0001973758,,,,,,
 dallas,Novaestiq Corp.,novaestiq,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,5.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001877943,,,,,,
+dallas,"Nuvothera, Inc.",nuvothera,confirmed_funded,COLLEYVILLE,TX,76034,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Corporation,Other Health Care,0001688456,,,,,,
+dallas,ORAMETRIX INC,orametrix,confirmed_funded,RICHARDSON,TX,75082,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001119087,,,,,,
+dallas,"Ocudyne, Inc.",ocudyne,confirmed_funded,Plano,TX,75093,True,False,False,2.0,0.0,0.0,0.0,0.0,2013,Corporation,Other Health Care,0001590563,,,,,,
+dallas,"Olive Pharmacy, LLC",olive pharmacy,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001722490,,,,,,
 dallas,"OnPoint Healthcare Partners, Inc.",onpoint healthcare partners,confirmed_funded,FLOWER MOUND,TX,75022,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001921600,,,,,,
-dallas,"Ophthalmology Surgery Center of Dallas, LLC",ophthalmology surgery center of dallas,confirmed_funded,Dallas,TX,75231,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001462766,,,,,,
+dallas,"Ophthalmology Surgery Center of Dallas, LLC",ophthalmology surgery center of dallas,confirmed_funded,DALLAS,TX,75231,True,False,False,3.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001462766,,,,,,
 dallas,"Opry Investment Holdings I, LLC",opry investment i,confirmed_funded,FORT WORTH,TX,76102,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0001980645,,,,,,
 dallas,"Osteal Therapeutics, Inc.",osteal therapeutics,confirmed_funded,Dallas,TX,75214,True,False,False,4.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001735936,,,,,,
+dallas,"Osteon Holdings, Inc.",osteon,confirmed_funded,FORT WORTH,TX,76102,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Corporation,Other Health Care,0001732417,,,,,,
+dallas,"PARK BENCH HOLDINGS, INC.",park bench,confirmed_funded,ADDISON,TX,75001,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Corporation,Other Health Care,0001732351,,,,,,
 dallas,PATIENT FOCUSED TELE-HEALTH LLC,patient focused tele health,confirmed_funded,ROCKWALL,TX,75087,True,False,False,2.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Pharmaceuticals,0001801947,,,,,,
+dallas,"PDSH Services, LLC",pdsh services,confirmed_funded,ARLINGTON,TX,76010,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001726666,,,,,,
+dallas,"PFO Global, Inc.",pfo global,confirmed_funded,IRVING,TX,75063,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001456455,,,,,,
+dallas,PGC Granada Assisted Living Memory Care Community LP,pgc granada assisted living memory care community lp,confirmed_funded,DALLAS,TX,75243,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Partnership,Other Health Care,0001659970,,,,,,
+dallas,PGC Tapestry Tallahassee Assisted Living & Memory Care LP,pgc tapestry tallahassee assisted living memory care lp,confirmed_funded,DALLAS,TX,75243,True,False,False,4.0,0.0,0.0,0.0,0.0,2016,Limited Partnership,Other Health Care,0001685558,,,,,,
+dallas,PGC Tapestry of Tallahassee at Lakeshore Dr. LP,pgc tapestry of tallahassee at lakeshore dr lp,confirmed_funded,DALLAS,TX,75248,True,False,False,3.0,0.0,0.0,0.0,0.0,2018,Limited Partnership,Other Health Care,0001739419,,,,,,
+dallas,PGC's Tapestry Tallahassee Walden Memory Care LP,pgc s tapestry tallahassee walden memory care lp,confirmed_funded,DALLAS,TX,75243,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Partnership,Other Health Care,0001691822,,,,,,
+dallas,PGCS PC Tapestry Tallahassee Assisted Living & Memory Care LP,pgcs tapestry tallahassee assisted living memory care lp,confirmed_funded,DALLAS,TX,75243,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Partnership,Other Health Care,0001697771,,,,,,
+dallas,PLASMATECH BIOPHARMACEUTICALS INC,plasmatech biopharmaceuticals,confirmed_funded,DALLAS,TX,75219,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0000318306,,,,,,
 dallas,PRIME ER FUND I LLC,prime er fund i,confirmed_funded,LITTLE ELM,TX,75078,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Limited Liability Company,Other Health Care,0002017332,,,,,,
-dallas,"Park Hill Surgery Center, LLC",park hill surgery center,confirmed_funded,FORT WORTH,TX,76107,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001793287,,,,,,
+dallas,"Park Hill Surgery Center, LLC",park hill surgery center,confirmed_funded,FORT WORTH,TX,76107,True,False,False,3.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001793287,,,,,,
 dallas,"Peak Gastroenterology ASC, LLC",peak gastroenterology asc,confirmed_funded,DALLAS,TX,75254,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001863398,,,,,,
 dallas,"Percipio Health, Inc.",percipio health,confirmed_funded,PLANO,TX,75093,True,False,False,3.0,0.0,0.0,0.0,0.0,2022,Corporation,Other Health Care,0001957215,,,,,,
+dallas,"Perfect IP, LLC",perfect ip,confirmed_funded,DALLAS,TX,75201,True,False,False,1.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Other Health Care,0001726236,,,,,,
 dallas,Pharmesol Inc.,pharmesol,confirmed_funded,COPPELL,TX,75019,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001962684,,,,,,
+dallas,"Physician 360, Inc.",physician 360,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Corporation,Other Health Care,0001791687,,,,,,
 dallas,"Physicians Integrated Network, LLC",physicians integrated network,confirmed_funded,DALLAS,TX,75248,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001723003,,,,,,
 dallas,"Physicians Integrated Network, LP",physicians integrated network lp,confirmed_funded,DALLAS,TX,75248,True,False,False,3.0,0.0,0.0,0.0,0.0,,Limited Partnership,Other Health Care,0001723003,,,,,,
 dallas,"Platinum Biosciences, Inc.",platinum biosciences,confirmed_funded,PLANO,TX,75024,True,False,False,3.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001797787,,,,,,
 dallas,"Post Acute Analytics, Inc.",post acute analytics,confirmed_funded,LEWISVILLE,TX,75057,True,False,False,3.0,0.0,0.0,0.0,0.0,2018,Corporation,Other Health Care,0001753008,,,,,,
+dallas,"Prana Essentials, Inc.",prana essentials,confirmed_funded,IRVING,TX,75038,True,False,False,1.0,0.0,0.0,0.0,0.0,2011,Corporation,Other Health Care,0001642094,,,,,,
 dallas,"Preferred Health Imaging, LLC",preferred health imaging,confirmed_funded,DALLAS,TX,75225,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Limited Liability Company,Other Health Care,0002065996,,,,,,
+dallas,"Premier One Emergency Centers, LLC",premier one emergency centers,confirmed_funded,FRISCO,TX,75034,True,False,False,1.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Other Health Care,0001681887,,,,,,
+dallas,"Premier Podiatry Management, LLC",premier podiatry management,confirmed_funded,FRISCO,TX,75033,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001722028,,,,,,
 dallas,Prism Care Inc.,prism care,confirmed_funded,PLANO,TX,75093,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001979688,,,,,,
 dallas,REATA PHARMACEUTICALS INC,reata pharmaceuticals,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001358762,,,,,,
+dallas,"RECODE THERAPEUTICS, INC.",recode therapeutics,confirmed_funded,IRVING,TX,75060,True,False,False,3.0,0.0,0.0,0.0,0.0,2015,Corporation,Other Health Care,0001693764,,,,,,
+dallas,Razor Medical Science LLC,razor medical science,confirmed_funded,FRISCO,TX,75034,True,False,False,3.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001745523,,,,,,
+dallas,"RealTime Laboratories, Inc.",realtime laboratories,confirmed_funded,CARROLLTON,TX,75010,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001767082,,,,,,
+dallas,Rebel Surgical Products,rebel surgical products,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001679868,,,,,,
 dallas,"Recuro Health, Inc.",recuro health,confirmed_funded,RICHARDSON,TX,75082,True,False,False,3.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001879840,,,,,,
-dallas,"Renibus Therapeutics, Inc.",renibus therapeutics,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,7.0,0.0,0.0,0.0,0.0,2015,Corporation,Pharmaceuticals,0001667699,,,,,,
+dallas,"Renibus Therapeutics, Inc.",renibus therapeutics,confirmed_funded,Southlake,TX,76092,True,False,False,9.0,0.0,0.0,0.0,0.0,2015,Corporation,Pharmaceuticals,0001667699,,,,,,
 dallas,Resilient Heathcare Corp,resilient heathcare,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Corporation,Other Health Care,0002058082,,,,,,
 dallas,ResponseCO II LLC,responseco ii,confirmed_funded,DALLAS,TX,75248,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001829707,,,,,,
+dallas,ResponseCO LLC,responseco,confirmed_funded,DALLAS,TX,75248,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001790439,,,,,,
+dallas,"Riata Acuity, LP",riata acuity lp,confirmed_funded,DALLAS,TX,75219,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Partnership,Other Health Care,0001702476,,,,,,
+dallas,"Right Value Drug Stores, Inc.",right value drug stores,confirmed_funded,HURST,TX,76054,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001729480,,,,,,
 dallas,"Rosy Wellness, Inc.",rosy wellness,confirmed_funded,DALLAS,TX,75201,True,False,False,2.0,0.0,0.0,0.0,0.0,2018,Corporation,Other Health Care,0001879154,,,,,,
+dallas,"SBK HEALTHCARE SERVICES, INC.",sbk healthcare services,confirmed_funded,Dallas,TX,75231,True,False,False,4.0,0.0,0.0,0.0,0.0,2014,Corporation,Other Health Care,0001623435,,,,,,
+dallas,"SENIOR CARE CENTERS, LLC",senior care centers,confirmed_funded,DALLAS,TX,75201,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001465319,,,,,,
 dallas,Sage Oak NTX Distressed Fund LLC,sage oak ntx distressed fund,confirmed_funded,DALLAS,TX,75219,True,False,False,1.0,0.0,0.0,0.0,0.0,2025,Limited Liability Company,Other Health Care,0002094529,,,,,,
 dallas,Sanara MedTech Inc.,sanara medtech,confirmed_funded,FORT WORTH,TX,76102,True,False,False,5.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0000714256,,,,,,
 dallas,"Secretome Therapeutics, Inc.",secretome therapeutics,confirmed_funded,DALLAS,TX,75247,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001961833,,,,,,
+dallas,"Select Pharma, LLC",select pharma,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Other Health Care,0001627275,,,,,,
+dallas,Sentinel Diagnostic Imaging Inc.,sentinel diagnostic imaging,confirmed_funded,COLLEYVILLE,TX,76034,True,False,False,3.0,0.0,0.0,0.0,0.0,2014,Corporation,Other Health Care,0001631740,,,,,,
+dallas,"Septum Solutions, L.L.C.",septum solutions l l c,confirmed_funded,COLLEYVILLE,TX,76034,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Biotechnology,0001686958,,,,,,
+dallas,"Shield Medical Solutions, LLC - Series ALPHA",shield medical solutions series alpha,confirmed_funded,ALLEN,TX,75013,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001723281,,,,,,
+dallas,"Shield Medical Solutions, LLC - Series BETA",shield medical solutions series beta,confirmed_funded,ALLEN,TX,75013,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001726496,,,,,,
+dallas,"Socrates Health Solutions, Inc.",socrates health solutions,confirmed_funded,DALLAS,TX,75214,True,False,False,2.0,0.0,0.0,0.0,0.0,2013,Corporation,Other Health Care,0001594118,,,,,,
 dallas,"Solenic Medical, Inc.",solenic medical,confirmed_funded,Addison,TX,75001,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Biotechnology,0001785410,,,,,,
 dallas,"Solutions for Otolaryngology, L.L.C.",solutions for otolaryngology l l c,confirmed_funded,PLANO,TX,75093,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001853629,,,,,,
 dallas,Spark Biomedical Inc.,spark biomedical,confirmed_funded,DALLAS,TX,75252,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Corporation,Other Health Care,0001975271,,,,,,
+dallas,"Spectrix Therapeutics, LLC",spectrix therapeutics,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Pharmaceuticals,0001675383,,,,,,
 dallas,"Speed Clip Solutions, LLC",speed clip solutions,confirmed_funded,DALLAS,TX,75225,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001888827,,,,,,
+dallas,"Stars Toxicology, LLC",stars toxicology,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001670438,,,,,,
 dallas,"Stingray Therapeutics, Inc.",stingray therapeutics,confirmed_funded,Dallas,TX,75247,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001759143,,,,,,
 dallas,Stride Healthcare Management LLC,stride healthcare management,confirmed_funded,DALLAS,TX,75251,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0002023835,,,,,,
 dallas,"Superior Organics Operations, LLC",superior organics operations,confirmed_funded,DALLAS,TX,74105,True,False,False,2.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0002013899,,,,,,
-dallas,"Surgical Caregivers of Fort Worth, LLC",surgical caregivers of fort worth,confirmed_funded,FORT WORTH,TX,76104,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001463790,,,,,,
+dallas,"Surgical Caregivers of Fort Worth, LLC",surgical caregivers of fort worth,confirmed_funded,Fort Worth,TX,76104,True,False,False,5.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Other Health Care,0001463790,,,,,,
+dallas,"Syntilla Medical, LLC",syntilla medical,confirmed_funded,DALLAS,TX,75225,True,False,False,1.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Other Health Care,0001600314,,,,,,
 dallas,"TFF Pharmaceuticals, Inc.",tff pharmaceuticals,confirmed_funded,FORT WORTH,TX,76107,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001733413,,,,,,
+dallas,"THP MEDICAL CENTERS FUND I, LLC",thp medical centers fund i,confirmed_funded,DALLAS,TX,75254,True,False,False,3.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001713904,,,,,,
+dallas,"TITAN PARTNERS, LLC",titan partners,confirmed_funded,DALLAS,TX,75201,True,False,False,1.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Pharmaceuticals,0001595404,,,,,,
+dallas,"TMC MEDICAL CENTERS FUND I, LLC",tmc medical centers fund i,confirmed_funded,DALLAS,TX,75254,True,False,False,6.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001713904,,,,,,
 dallas,TPEG FL Home Health Investors LLC,tpeg fl home health investors,confirmed_funded,SOUTHLAKE,TX,76137,True,False,False,3.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001910153,,,,,,
 dallas,TPEG FL Home Health QP Investors LLC,tpeg fl home health qp investors,confirmed_funded,SOUTHLAKE,TX,76137,True,False,False,3.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001910159,,,,,,
 dallas,TPEG NANO QP INVESTORS LLC,tpeg nano qp investors,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Biotechnology,0001853083,,,,,,
 dallas,TPEG NUCLEIN INVESTORS LLC,tpeg nuclein investors,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Biotechnology,0001844587,,,,,,
 dallas,TPEG NUCLEIN QP INVESTORS LLC,tpeg nuclein qp investors,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Biotechnology,0001844529,,,,,,
 dallas,TPEG PROVEER SL INVESTORS I LLC,tpeg proveer sl investors i,confirmed_funded,Southlake,TX,76092,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001891223,,,,,,
+dallas,"TPG Valley, L.P.",tpg valley l p,confirmed_funded,FORT WORTH,TX,76102,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Other,Pharmaceuticals,0001663437,,,,,,
+dallas,TW-NHME Holdings Corp.,tw nhme,confirmed_funded,IRVING,TX,75063,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Corporation,Other Health Care,0001649455,,,,,,
 dallas,"Taysha Gene Therapies, Inc.",taysha gene therapies,confirmed_funded,DALLAS,TX,75209,True,False,False,4.0,0.0,0.0,0.0,0.0,2019,Corporation,Biotechnology,0001806310,,,,,,
 dallas,"Team Velu Horizon Holdings, LLC",team velu horizon,confirmed_funded,MCKINNEY,TX,75071,True,False,False,2.0,0.0,0.0,0.0,0.0,2024,Limited Liability Company,Other Health Care,0002041237,,,,,,
 dallas,Telos Biotech Inc.,telos biotech,confirmed_funded,Dallas,TX,75247,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001815708,,,,,,
 dallas,"Teresa's House - Craig Ranch, LLC",teresa s house craig ranch,confirmed_funded,MCKINNEY,TX,75070,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001774687,,,,,,
 dallas,"Teresa's House Argyle, LLC",teresa s house argyle,confirmed_funded,ARGYLE,TX,76226,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001774684,,,,,,
-dallas,"Texas Health Craig Ranch Surgery Center, LLC",texas health craig ranch surgery center,confirmed_funded,MCKINNEY,TX,75070,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001574555,,,,,,
+dallas,"Texas Health Craig Ranch Surgery Center, LLC",texas health craig ranch surgery center,confirmed_funded,MCKINNEY,TX,75070,True,False,False,4.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Other Health Care,0001574555,,,,,,
 dallas,"Texas Health Surgery Center Alliance, LLC",texas health surgery center alliance,confirmed_funded,Fort Worth,TX,76244,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001717684,,,,,,
-dallas,"Texas Health Surgery Center Bedford, LLC",texas health surgery center bedford,confirmed_funded,BEDFORD,TX,76021,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001706019,,,,,,
+dallas,"Texas Health Surgery Center Bedford, LLC",texas health surgery center bedford,confirmed_funded,BEDFORD,TX,76021,True,False,False,5.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001706019,,,,,,
 dallas,"Texas Health Surgery Center Chisolm Trail, LLC",texas health surgery center chisolm trail,confirmed_funded,Fort Worth,TX,76132,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001821250,,,,,,
-dallas,"Texas Health Surgery Center Preston Plaza, LLC",texas health surgery center preston plaza,confirmed_funded,DALLAS,TX,75252,True,False,False,4.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001637004,,,,,,
-dallas,"Texas Health Surgery Center Rockwall, LLC",texas health surgery center rockwall,confirmed_funded,Rockwall,TX,75032,True,False,False,2.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001645817,,,,,,
+dallas,"Texas Health Surgery Center Preston Plaza, LLC",texas health surgery center preston plaza,confirmed_funded,DALLAS,TX,75252,True,False,False,6.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001637004,,,,,,
+dallas,"Texas Health Surgery Center Rockwall, LLC",texas health surgery center rockwall,confirmed_funded,ARLINGTON,TX,76011,True,False,False,6.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001645817,,,,,,
+dallas,"Three Oaks Hospice, Inc.",three oaks hospice,confirmed_funded,DALLAS,TX,75201,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001778284,,,,,,
 dallas,"Tomball Surgicenter, LLC",tomball surgicenter,confirmed_funded,DALLAS,TX,75240,True,False,False,1.0,0.0,0.0,0.0,0.0,2025,Limited Liability Company,Other Health Care,0002076752,,,,,,
 dallas,"Trained Therapeutics Discovery, Inc.",trained therapeutics discovery,confirmed_funded,DALLAS,TX,75208,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Pharmaceuticals,0001811734,,,,,,
 dallas,"Trained Therapeutix Discovery, Inc.",trained therapeutix discovery,confirmed_funded,DALLAS,TX,75208,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Pharmaceuticals,0001811734,,,,,,
+dallas,Tribe Health Solutions Inc,tribe health solutions,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001792816,,,,,,
 dallas,Trinity Nuclein Rd II Investors LLC,trinity nuclein rd ii investors,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,2.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Biotechnology,0001935342,,,,,,
 dallas,Trinity Nuclein Rd II QP Investors LLC,trinity nuclein rd ii qp investors,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,2.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Biotechnology,0001935791,,,,,,
 dallas,Trinity Nuclein Rd III Investors LLC,trinity nuclein rd iii investors,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,2.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Biotechnology,0002003771,,,,,,
 dallas,Trinity Nuclein Rd III QP Investors LLC,trinity nuclein rd iii qp investors,confirmed_funded,SOUTHLAKE,TX,76092,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Biotechnology,0002004133,,,,,,
+dallas,"USRC Akron, LLC",usrc akron,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001769198,,,,,,
 dallas,"USRC Alvin, LLC",usrc alvin,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0001922330,,,,,,
 dallas,"USRC Baldwin Hills, LLC",usrc baldwin hills,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0001917360,,,,,,
+dallas,"USRC Beeville, LLC",usrc beeville,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001714184,,,,,,
+dallas,"USRC Beretania, LLC",usrc beretania,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001689768,,,,,,
 dallas,"USRC Bluebonnet Home, LLC",usrc bluebonnet home,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001829256,,,,,,
 dallas,"USRC Bluebonnet, LLC",usrc bluebonnet,confirmed_funded,Plano,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001829253,,,,,,
+dallas,"USRC Briarfield Home, LLC",usrc briarfield home,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001688566,,,,,,
 dallas,"USRC Brownsville, LLC",usrc brownsville,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0001969813,,,,,,
+dallas,"USRC CONROE, LLC",usrc conroe,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001778923,,,,,,
+dallas,"USRC Casper, LLC",usrc casper,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001685983,,,,,,
+dallas,"USRC Cedar Hill, LLC",usrc cedar hill,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001684223,,,,,,
 dallas,"USRC Compton, LLC",usrc compton,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001846022,,,,,,
 dallas,"USRC Cool Springs, LLC",usrc cool springs,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001856350,,,,,,
+dallas,"USRC Covington, LLC",usrc covington,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001708668,,,,,,
+dallas,"USRC DATAPOINT, LLC",usrc datapoint,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001794800,,,,,,
+dallas,"USRC DH Acute, LLC",usrc dh acute,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001708679,,,,,,
 dallas,"USRC Dairy Ashford, LLC",usrc dairy ashford,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0001926494,,,,,,
 dallas,USRC Dialysis at Home West LLC,usrc dialysis at home west,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001818889,,,,,,
 dallas,"USRC EAST ATLANTA, LLC",usrc east atlanta,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2025,Limited Liability Company,Other Health Care,0002089875,,,,,,
+dallas,"USRC EWA BEACH, LLC",usrc ewa beach,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001778231,,,,,,
+dallas,"USRC Earl Street, LLC",usrc earl street,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001736727,,,,,,
+dallas,"USRC East Dallas, LLC",usrc east dallas,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001727185,,,,,,
 dallas,"USRC Eastern Iowa, LLC",usrc eastern iowa,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001827856,,,,,,
 dallas,"USRC Electric City, LLC",usrc electric city,confirmed_funded,Plano,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0001970703,,,,,,
 dallas,"USRC FWRG-Keller, LLC",usrc fwrg keller,confirmed_funded,Plano,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001811632,,,,,,
 dallas,"USRC Fall Creek, LLC",usrc fall creek,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Other Health Care,0001968167,,,,,,
+dallas,"USRC Findlay Home, LLC",usrc findlay home,confirmed_funded,Plano,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001768163,,,,,,
+dallas,"USRC GLOUCESTER, LLC",usrc gloucester,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001775417,,,,,,
+dallas,"USRC Gardena, LLC",usrc gardena,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001736496,,,,,,
 dallas,"USRC Garland, LLC",usrc garland,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001820899,,,,,,
 dallas,"USRC Greater Atlanta Home Therapies, LLC",usrc greater atlanta home therapies,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0002017215,,,,,,
 dallas,"USRC Gulfgate, LLC",usrc gulfgate,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001856352,,,,,,
 dallas,"USRC HAMBURG, LLC",usrc hamburg,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001799670,,,,,,
+dallas,"USRC HICKORY HILLS, LLC",usrc hickory hills,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001699224,,,,,,
 dallas,"USRC Hancock-Seneca, LLC",usrc hancock seneca,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0002003026,,,,,,
+dallas,"USRC Hill Country, LLC",usrc hill country,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001715390,,,,,,
 dallas,"USRC Houston Newco Home, LLC",usrc houston newco home,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001820904,,,,,,
+dallas,"USRC LIVE OAK, LLC",usrc live oak,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001771724,,,,,,
+dallas,"USRC Las Cruces, LLC",usrc las cruces,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001716988,,,,,,
 dallas,"USRC Lenox Ave RE Holdings, LLC",usrc lenox ave re,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001865096,,,,,,
 dallas,"USRC Lenox Avenue, LLC",usrc lenox avenue,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001845925,,,,,,
+dallas,"USRC Lomita, LLC",usrc lomita,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001736579,,,,,,
+dallas,"USRC MHP, LLC",usrc mhp,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001743599,,,,,,
+dallas,"USRC Mauldin, LLC",usrc mauldin,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001715389,,,,,,
 dallas,"USRC McKinney, LLC",usrc mckinney,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001820901,,,,,,
 dallas,"USRC Mustang Dialysis, LLC",usrc mustang dialysis,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001812387,,,,,,
+dallas,"USRC Napa, LLC",usrc napa,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001687008,,,,,,
 dallas,"USRC New Milford, LLC",usrc new milford,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001851095,,,,,,
 dallas,"USRC North Flushing, LLC",usrc north flushing,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001861380,,,,,,
+dallas,"USRC North Hollywood, LLC",usrc north hollywood,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001791101,,,,,,
 dallas,"USRC Ogden, LLC",usrc ogden,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001827750,,,,,,
+dallas,"USRC Pacific Gateway, LLC",usrc pacific gateway,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001736466,,,,,,
+dallas,"USRC Penns Grove, LLC",usrc penns grove,confirmed_funded,Plano,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001683493,,,,,,
 dallas,"USRC Plano Dexter, LLC",usrc plano dexter,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001805903,,,,,,
 dallas,"USRC Powder Springs Holdings, LLC",usrc powder springs,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001830687,,,,,,
 dallas,"USRC Premier Midlothian, LLC",usrc premier midlothian,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Limited Liability Company,Other Health Care,0002039023,,,,,,
 dallas,"USRC Quebec Street, LLC",usrc quebec street,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001941609,,,,,,
+dallas,"USRC Redondo, LLC",usrc redondo,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001736536,,,,,,
+dallas,"USRC Roanoke, LLC",usrc roanoke,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001704659,,,,,,
+dallas,"USRC Royal Central, LLC",usrc royal central,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001758156,,,,,,
 dallas,"USRC SHARPSTOWN, LLC",usrc sharpstown,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001859021,,,,,,
+dallas,"USRC Skypark, LLC",usrc skypark,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001736534,,,,,,
+dallas,"USRC South Aiken, LLC",usrc south aiken,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001716762,,,,,,
 dallas,"USRC South Arlington, LLC",usrc south arlington,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001803579,,,,,,
+dallas,"USRC South York, LLC",usrc south york,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001759605,,,,,,
+dallas,"USRC Southeast Sarasota, LLC",usrc southeast sarasota,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001736497,,,,,,
 dallas,"USRC Stephenville, LLC",usrc stephenville,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001803978,,,,,,
+dallas,"USRC Talmadge Road Home, LLC",usrc talmadge road home,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001688561,,,,,,
+dallas,"USRC Tiffin, LLC",usrc tiffin,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001747682,,,,,,
+dallas,"USRC WAIPIO, LLC",usrc waipio,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001778125,,,,,,
+dallas,"USRC WEST CHICAGO, LLC",usrc west chicago,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001699222,,,,,,
 dallas,"USRC Weslaco Central, LLC",usrc weslaco central,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0002003053,,,,,,
+dallas,"USRC West Fork, LLC",usrc west fork,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001733741,,,,,,
+dallas,"USRC West Grand Prairie, LLC",usrc west grand prairie,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001684222,,,,,,
+dallas,"USRC West Oahu, LLC",usrc west oahu,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001689767,,,,,,
+dallas,"USRC Woodstock, LLC",usrc woodstock,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001716760,,,,,,
 dallas,"Ulster Dialysis Partners, LLC",ulster dialysis partners,confirmed_funded,PLANO,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001820906,,,,,,
+dallas,"Utopix Medical, LLC",utopix medical,confirmed_funded,FRISCO,TX,75034,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001755044,,,,,,
 dallas,"Vaxxinity, Inc.",vaxxinity,confirmed_funded,DALLAS,TX,75201,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Corporation,Biotechnology,0001851657,,,,,,
 dallas,Virus Light RX LLC,virus light rx,confirmed_funded,FORT WORTH,TX,76155,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Biotechnology,0001814156,,,,,,
 dallas,"VitalTech Holdings, Inc.",vitaltech,confirmed_funded,PLANO,TX,75024,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001890714,,,,,,
-dallas,"What About Health, Inc.",what about health,confirmed_funded,CARROLLTON,TX,75006,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001791813,,,,,,
+dallas,"Vitruvian BioMedical, Inc.",vitruvian biomedical,confirmed_funded,ADDISON,TX,TX,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001693587,,,,,,
+dallas,"Vivione Biosciences, LLC",vivione biosciences,confirmed_funded,IRVING,TX,75063,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Biotechnology,0001657008,,,,,,
+dallas,"Westgrove Post Acute AH, L.P.",westgrove post acute ah l p,confirmed_funded,DALLAS,TX,75248,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Partnership,Other Health Care,0001738455,,,,,,
+dallas,"What About Health, Inc.",what about health,confirmed_funded,CARROLLTON,TX,75006,True,False,False,2.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001791813,,,,,,
 dallas,"Wilson Creek Surgical Center, LLC",wilson creek surgical center,confirmed_funded,MCKINNEY,TX,75070,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001831348,,,,,,
 dallas,"Zephyr AI, Inc.",zephyr ai,confirmed_funded,DALLAS,TX,75219,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Biotechnology,0001915384,,,,,,
-dallas,"ZipRad, Inc.",ziprad,confirmed_funded,IRVING,TX,75063,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Corporation,Other Health Care,0001652573,,,,,,
+dallas,"ZipRad, Inc.",ziprad,confirmed_funded,IRVING,TX,75063,True,False,False,2.0,0.0,0.0,0.0,0.0,2017,Corporation,Other Health Care,0001652573,,,,,,
 dallas,"iDocsWeb, LLC",idocsweb,confirmed_funded,Plano,TX,75024,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001603672,,,,,,
 dallas,"2CIMPLE, INC.",2cimple,confirmed_grant,PLANO,TX,75025-5736,False,True,False,0.0,2.0,599811.0,0.0,0.0,,,,,RQQFQZECNDG1,828893920,,5,2009,2010
 dallas,3D EPITAXIAL TECHNOLOGIES LLC,3d epitaxial technologies,confirmed_grant,RICHARDSON,TX,75081-2274,False,True,False,0.0,2.0,1348052.0,0.0,0.0,,,,,H511WZK6MLZ5,079884270,https://www.3depitech.com,4,2020,2022
@@ -211,7 +379,7 @@ dallas,4-Web Spine Inc.,4 web spine,confirmed_grant,Frisco,TX,75033-2878,False,T
 dallas,911 SECURITY CAMERAS,911 security cameras,confirmed_grant,DALLAS,TX,75238-5353,False,True,False,0.0,1.0,49800.0,0.0,0.0,,,,,LF9BCF5KMFC6,808351212,911security.com,24,2019,2019
 dallas,"ACCESS PHARMACEUTICALS, INC.",access pharmaceuticals,confirmed_grant,Dallas,TX,75207 0210,False,True,False,0.0,1.0,209943.0,0.0,0.0,,,,,,607812414,,28,2000,2005
 dallas,ADVANCED CARPET RECYCLING LLC,advanced carpet recycling,confirmed_grant,BEDFORD,TX,,False,True,False,0.0,1.0,275000.0,0.0,0.0,,,,,XTAMS8BP23U8,,,0,2024,2024
-dallas,"AGYPHARMA, LLC",agypharma,confirmed_grant,Mansfield,TX,76063-3809,False,True,False,0.0,1.0,226310.0,0.0,0.0,,,,,WLLMK987R9M5,940639748,,,2016,2016
+dallas,"AGYPHARMA, LLC",agypharma,confirmed_grant,Mansfield,TX,76063-3809,False,True,True,0.0,1.0,226310.0,1.0,226310.0,,,,,WLLMK987R9M5,940639748,,,2016,2016
 dallas,AIR ARMOR TECH LLC,air armor tech,confirmed_grant,HASLET,TX,76052-2099,False,True,False,0.0,1.0,49942.0,0.0,0.0,,,,,L39YW2KHPS99,079189360,https://www.airarmortech.com,5,2020,2020
 dallas,ALPINE ADVANCED MATERIALS LLC,alpine advanced materials,confirmed_grant,DALLAS,TX,75215-6857,False,True,False,0.0,3.0,1392880.0,0.0,0.0,,,,,ZG2WNRZLJ5K5,115598779,https://alpineadvancedmaterials.com/,19,2024,2025
 dallas,"ALTITUDE GRID, LLC",altitude grid,confirmed_grant,GRAPEVINE,TX,76051-7809,False,True,False,0.0,1.0,200000.0,0.0,0.0,,,,,JR1UFG13P7G9,124645467,,6,2022,2022
@@ -220,7 +388,7 @@ dallas,"ANALYTICAL SOFTWARE, INC.",analytical software,confirmed_grant,MCKINNEY,
 dallas,ANIMAL CLOUD DEVICE CONNECTIVITY INC,animal cloud device connectivity,confirmed_grant,FORT WORTH,TX,76123,False,True,False,0.0,1.0,49694.0,0.0,0.0,,,,,JTB5G8NYE4L1,117588318,https://animal.cloud/,2,2021,2021
 dallas,"APOGEE SEMICONDUCTOR, INC.",apogee semiconductor,confirmed_grant,PLANO,TX,75074-5673,False,True,False,0.0,11.0,6475305.0,0.0,0.0,,,,,SQ3NLYSGDAW7,033357192,http://apogeesemi.com/,12,2014,2024
 dallas,"APPERA SOFTWARE, INC.",appera software,confirmed_grant,Plano,TX,75025,False,True,False,0.0,1.0,95000.0,0.0,0.0,,,,,,143303670,,5,2006,2006
-dallas,"APRIHEALTH, INC.",aprihealth,confirmed_grant,Arlington,TX,76005-4533,False,True,False,0.0,2.0,368864.0,0.0,0.0,,,,,,079317296,,9,2017,2017
+dallas,"APRIHEALTH, INC.",aprihealth,confirmed_grant,Arlington,TX,76005-4533,False,True,True,0.0,2.0,368864.0,1.0,144450.0,,,,,,079317296,,9,2017,2017
 dallas,"ARCHER OPTX, INC.",archer optx,confirmed_grant,ROWLETT,TX,75088 0408,False,True,False,0.0,2.0,480488.0,0.0,0.0,,,,,,,,,2004,2010
 dallas,ARK POWER TECH CORPORATION,ark power tech,confirmed_grant,COPPELL,TX,75019-4532,False,True,False,0.0,2.0,346497.0,0.0,0.0,,,,,RYV4H7MZQG46,103947353,,3,2022,2024
 dallas,ARMADILLO AEROSPACE L.P.,armadillo aerospace l p,confirmed_grant,Mesquite,TX,75150,False,True,False,0.0,1.0,92510.0,0.0,0.0,,,,,,065766227,,8,2007,2007
@@ -229,7 +397,7 @@ dallas,ASTERION AI INC.,asterion ai,confirmed_grant,DALLAS,TX,75230-7105,False,T
 dallas,"AUTOMEDX, INC.",automedx,confirmed_grant,FLOWER MOUND,TX,75028-4035,False,True,False,0.0,3.0,928958.0,0.0,0.0,,,,,LNWMA3W525N3,606696123,,6,2007,2014
 dallas,AVAWATZ COMPANY,avawatz,confirmed_grant,ADDISON,TX,75001-3177,False,True,False,0.0,9.0,3700378.56,0.0,0.0,,,,,S446QKCZNCC8,081315312,https://www.avawatz.com,19,2019,2025
 dallas,AVSANA LABS INCORPORATED,avsana labs,confirmed_grant,RICHARDSON,TX,75081-4412,False,True,True,0.0,1.0,596416.0,2.0,596416.0,,,,,VKU9NKLFD1K8,117736200,,3,2022,2022
-dallas,"AZYP, LLC",azyp,confirmed_grant,ARLINGTON,TX,76019-0001,False,True,False,0.0,5.0,2342640.0,0.0,0.0,,,,,CS9XE1KKTQT4,963333039,,3,2011,2016
+dallas,"AZYP, LLC",azyp,confirmed_grant,ARLINGTON,TX,76019-0001,False,True,True,0.0,5.0,2342640.0,2.0,972200.0,,,,,CS9XE1KKTQT4,963333039,,3,2011,2016
 dallas,Adaptive 3D Technologies LLC,adaptive 3d technologies,confirmed_grant,Plano,TX,75074-8344,False,True,False,0.0,3.0,1028705.0,0.0,0.0,,,,,KTVVKKGRENM7,079393561,https://adaptive3d.com/,29,2015,2022
 dallas,"Adastral , LLC",adastral,confirmed_grant,Flower Mound,TX,75028-8768,False,True,False,0.0,3.0,447337.0,0.0,0.0,,,,,KV9FBCU1MZA2,078291737,,2,2013,2017
 dallas,Adavance Nanolytics Inc,adavance nanolytics,confirmed_grant,DALLAS,TX,75248-2201,False,True,False,0.0,1.0,275000.0,0.0,0.0,,,,,GVL5CSKS4EW5,,,1,2024,2024
@@ -242,7 +410,6 @@ dallas,Ares Materials Inc.,ares materials,confirmed_grant,Plano,TX,75074-6864,Fa
 dallas,Artelligence Inc.,artelligence,confirmed_grant,Dallas,TX,75240,False,True,False,0.0,0.0,518980.0,0.0,0.0,,,,,,,,,1985,1986
 dallas,Asier Technology Corporation,asier technology,confirmed_grant,Plano,TX,75093,False,True,False,0.0,6.0,1397184.0,0.0,0.0,,,,,,102675365,,5,2002,2006
 dallas,Astrapi Corp,astrapi,confirmed_grant,DALLAS,TX,75252-8004,False,True,False,0.0,8.0,3918615.6,0.0,0.0,,,,,E75XBM5E18P4,078280355,https://www.astrapi-corp.com/,7,2016,2023
-dallas,AyuVis Research Limited,ayuvis research,confirmed_grant,Dallas,TX,75220,False,True,True,0.0,3.0,3896869.0,7.0,4173619.0,,,,,E3H4XC65GZU3,079277952,www.ayuvis.com,3,2017,2024
 dallas,B R Blackmarr & Assoc,b r blackmarr assoc,confirmed_grant,Dallas,TX,75201,False,True,False,0.0,0.0,99765.0,0.0,0.0,,,,,,,,,1994,1994
 dallas,BERKSHIRE BIOMEDICAL CORPORATION,berkshire biomedical,confirmed_grant,Dallas,TX,75225-6039,False,True,True,0.0,3.0,2528325.0,5.0,2528325.0,,,,,F8XLTG96BCM9,118097528,,3,2022,2025
 dallas,"BETAGENE, INC.",betagene,confirmed_grant,DALLAS,TX,75207,False,True,False,0.0,0.0,381310.0,0.0,0.0,,,,,,,,,1999,2000
@@ -271,7 +438,7 @@ dallas,"CDIC, Inc.",cdic,confirmed_grant,Fort Worth,TX,76109,False,True,False,0.
 dallas,CEREUS DIAGNOSTICS CORP.,cereus diagnostics,confirmed_grant,DALLAS,TX,75235-8321,False,True,True,0.0,1.0,764448.0,1.0,764448.0,,,,,ZQYGNNNXSHS6,,,1,2025,2025
 dallas,CHARLES HOWARD SOBEY,charles howard sobey,confirmed_grant,PLANO,TX,75024-3837,False,True,False,0.0,2.0,2699920.0,0.0,0.0,,,,,W6RJQ1MBDXY9,027957104,http://www.channelscience.com,1,2021,2024
 dallas,CIRRUS360 LLC,cirrus360,confirmed_grant,RICHARDSON,TX,75082-3750,False,True,False,0.0,1.0,213255.0,0.0,0.0,,,,,P5KEL4HQLXH7,081510439,,2,2019,2019
-dallas,CLEARNANO INC,clearnano,confirmed_grant,PLANO,TX,75025-5512,False,True,True,0.0,5.0,4321454.0,5.0,3778496.0,,,,,VM3YN69V1KD5,080371860,,1,2017,2023
+dallas,CLEARNANO INC,clearnano,confirmed_grant,PLANO,TX,75025-5512,False,True,True,0.0,5.0,4321454.0,8.0,4321454.0,,,,,VM3YN69V1KD5,080371860,,1,2017,2023
 dallas,"COASTAL ENGINEERING CONSULTANTS, LLC",coastal engineering consultants,confirmed_grant,Lewisville,TX,75056 0461,False,True,False,0.0,1.0,99954.0,0.0,0.0,,,,,,141946678,,4,2004,2004
 dallas,"COLLIER VENTURES, INC.",collier ventures,confirmed_grant,RICHARDSON,TX,75081-2859,False,True,False,0.0,1.0,145669.0,0.0,0.0,,,,,P6DNVCS9C7F4,136723850,www.covinc.com,6,2017,2017
 dallas,"COMCEPT, INC.",comcept,confirmed_grant,Rockwall,TX,75087,False,True,False,0.0,1.0,99392.0,0.0,0.0,,,,,,87937392,,25,2001,2001
@@ -314,7 +481,6 @@ dallas,"ECLECTIC COMPUTING CONCEPTS, INC.",eclectic computing concepts,confirmed
 dallas,EDGETENSOR TECHNOLOGIES INC,edgetensor technologies,confirmed_grant,PLANO,TX,75024-6320,False,True,False,0.0,1.0,225000.0,0.0,0.0,,,,,ZR85SGQHKB85,111348554,http://www.edgetensor.com,10,2020,2020
 dallas,"ELCARE INNOVATIONS, INC.",elcare innovations,confirmed_grant,Burleson,TX,76028,False,True,False,0.0,0.0,99758.0,0.0,0.0,,,,,,,,,1998,1998
 dallas,"ELIANCE BIOTECHNOLOGY, INC.",eliance biotechnology,confirmed_grant,DALLAS,TX,75207,False,True,False,0.0,1.0,133750.0,0.0,0.0,,,,,,,,,2002,2002
-dallas,"ENCORE VISION, INC.",encore vision,confirmed_grant,Fort Worth,TX,76104-5064,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,809585461,,0,2012,2012
 dallas,ENCRYPTOR INC,encryptor,confirmed_grant,PLANO,TX,75093-3604,False,True,False,0.0,2.0,1255523.72,0.0,0.0,,,,,HDN5EX6AFPM8,829360044,http://www.encryptorinc.com,4,2010,2020
 dallas,ENDEAVOR,endeavor,confirmed_grant,Wilmer,TX,75172,False,True,False,0.0,0.0,69966.0,0.0,0.0,,,,,,,,3,2001,2001
 dallas,ENGIN-IC INC,engin ic,confirmed_grant,PLANO,TX,75075-8635,False,True,False,0.0,16.0,7853675.12,0.0,0.0,,,,,J4LWTAZLK4Q9,079620882,,18,2015,2024
@@ -334,9 +500,9 @@ dallas,FHNC LTD. CO.,fhnc,confirmed_grant,Fort Worth,TX,76102-5609,False,True,Fa
 dallas,FIBER SYSTEMS INTERNATIONAL,fiber systems international,confirmed_grant,Allen,TX,75013,False,True,False,0.0,1.0,69863.0,0.0,0.0,,,,,S7HXJ97WWKT5,805436193,,92,2003,2003
 dallas,FIREHAWK AEROSPACE INC.,firehawk aerospace,confirmed_grant,ADDISON,TX,75001-5713,False,True,False,0.0,3.0,1374211.0,0.0,0.0,,,,,FKWJD9HL5931,117392450,https://www.firehawkaerospace.com,75,2022,2024
 dallas,FIRSTTHEN INC,firstthen,confirmed_grant,DALLAS,TX,75209-5004,False,True,False,0.0,1.0,273184.0,0.0,0.0,,,,,DZ9GQ476M6D9,,https://www.firstthen.com/,2,2024,2024
-dallas,"FPRT BIO, INC.",fprt bio,confirmed_grant,COLLEYVILLE,TX,76034-4643,False,True,False,0.0,1.0,350000.0,0.0,0.0,,,,,,078495719,www.fprtbio.com,4,2015,2015
+dallas,"FPRT BIO, INC.",fprt bio,confirmed_grant,COLLEYVILLE,TX,76034-4643,False,True,True,0.0,1.0,350000.0,1.0,350000.0,,,,,,078495719,www.fprtbio.com,4,2015,2015
 dallas,"FRESNEL TECHNOLOGIES, INC.",fresnel technologies,confirmed_grant,Fort Worth,TX,76110,False,True,False,0.0,1.0,69657.0,0.0,0.0,,,,,,,,50,2003,2003
-dallas,"FROM THE FUTURE, LLC",from future,confirmed_grant,DENTON,TX,76201-4163,False,True,False,0.0,1.0,186445.0,0.0,0.0,,,,,,079574210,www.fromthefuturegames.com,12,2017,2017
+dallas,"FROM THE FUTURE, LLC",from future,confirmed_grant,DENTON,TX,76201-4163,False,True,True,0.0,1.0,186445.0,1.0,186445.0,,,,,,079574210,www.fromthefuturegames.com,12,2017,2017
 dallas,Fast Track Amphibian LLC,fast track amphibian,confirmed_grant,Hurst,TX,-,False,True,False,0.0,1.0,80000.0,0.0,0.0,,,,,,809994572,www.fasttrackamphibian.com,2,2011,2011
 dallas,"Fathomd, Inc ",fathomd,confirmed_grant,Dallas,TX,75219-4895,False,True,False,0.0,2.0,964252.0,0.0,0.0,,,,,WMVYP8491SJ6,079857817,www.fathomd.com,4,2016,2017
 dallas,Flexible Computer Corp.,flexible computer,confirmed_grant,Dallas,TX,75229,False,True,False,0.0,0.0,550000.0,0.0,0.0,,,,,,,,,1984,1986
@@ -350,13 +516,12 @@ dallas,GLOBAL CONTOUR LTD.,global contour,confirmed_grant,Rockwall,TX,75087,Fals
 dallas,GOOFYFOOT LABS LLC,goofyfoot labs,confirmed_grant,PLANO,TX,75093-4539,False,True,False,0.0,6.0,2222927.0,0.0,0.0,,,,,MTPCSNM9NV96,828058508,http://www.goofyfootlabs.com,2,2009,2022
 dallas,GREEN OAKS RESEARCH LABORATORIES INC,green oaks research laboratories,confirmed_grant,Irving,TX,75061,False,True,False,0.0,1.0,877580.0,0.0,0.0,,,,,,018807649,,1,2006,2006
 dallas,"Garico, Inc.",garico,confirmed_grant,Dallas,TX,75229,False,True,False,0.0,0.0,665900.0,0.0,0.0,,,,,,,,41,1994,1995
-dallas,GenomeDesigns Laboratory LLC,genomedesigns laboratory,confirmed_grant,Richardson,TX,75080-2634,False,True,True,0.0,2.0,1385445.0,1.0,602049.0,,,,,U48CHEQC2HD5,080479146,,4,2017,2019
+dallas,GenomeDesigns Laboratory LLC,genomedesigns laboratory,confirmed_grant,Richardson,TX,75080-2634,False,True,True,0.0,2.0,1385445.0,3.0,1385445.0,,,,,U48CHEQC2HD5,080479146,,4,2017,2019
 dallas,"Geotech Instruments, Llc",geotech instruments,confirmed_grant,Dallas,TX,75238,False,True,False,0.0,3.0,2511422.0,0.0,0.0,,,,,MFWLFVKR4AT6,047441717,,21,2003,2008
 dallas,"Global Technology Enterprises, Inc.",global technology enterprises,confirmed_grant,Chico,TX,76431,False,True,False,0.0,2.0,171107.0,0.0,0.0,,,,,Q7X5TUMXF846,079258734,http://www.globaltechnologyenterprises.com,5,2016,2021
 dallas,GrapheneTX Inc.,graphenetx,confirmed_grant,Dallas,TX,75252,False,True,False,0.0,2.0,1555000.0,0.0,0.0,,,,,Z3WAZ59AW7D5,,https://www.graphenetx.com,4,2023,2025
 dallas,"Green Oaks Research Lab., Inc.",green oaks research lab,confirmed_grant,Arlington,TX,76003,False,True,False,0.0,0.0,754251.0,0.0,0.0,,,,,,,,2,1994,1997
 dallas,"HDE ROBOTICS GROUP, INC.",hde robotics,confirmed_grant,Fort Worth,TX,76107,False,True,False,0.0,0.0,100000.0,0.0,0.0,,,,,,,,,1998,1998
-dallas,HERA HEALTH SOLUTIONS INC,hera health solutions,confirmed_grant,FRISCO,TX,75035-3637,False,True,False,0.0,2.0,524987.98,0.0,0.0,,,,,CDWMMXLLWG21,080777395,https://www.herahealthsolutions.com/,5,2023,2025
 dallas,HERMTAC LLC,hermtac,confirmed_grant,DALLAS,TX,75252-8004,False,True,False,0.0,1.0,1249520.0,0.0,0.0,,,,,HQWVBC2YHTW8,117531993,https://hermtac.com,2,2024,2024
 dallas,HOPLITE SYSTEMS LLC.,hoplite systems,confirmed_grant,Fort Worth,TX,76107,False,True,False,0.0,1.0,99000.0,0.0,0.0,,,,,,141251616,,4,2004,2004
 dallas,HRI,hri,confirmed_grant,Dallas,TX,75214 0453,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,,,10,2006,2006
@@ -394,7 +559,7 @@ dallas,"LAWRENCE TECHNOLOGIES, LLC",lawrence technologies,confirmed_grant,Dallas
 dallas,LC Acquisition LLC,lc acquisition,confirmed_grant,Dallas,TX,75215,False,True,True,0.0,1.0,1605533.0,1.0,803562.0,,,,,HZFDMU4RLNB1,,,17,2024,2024
 dallas,LCC,lcc,confirmed_grant,Richardson,TX,75080 0359,False,True,False,0.0,2.0,699569.0,0.0,0.0,,,,,,,,48,2001,2005
 dallas,LIGO ANALYTICS INC,ligo analytics,confirmed_grant,DALLAS,TX,75206-0057,False,True,True,0.0,6.0,6581517.0,5.0,2956517.0,,,,,H3WXH47J27H7,081333138,,5,2019,2025
-dallas,LIPOMEDICS LTD,lipomedics,confirmed_grant,FORT WORTH,TX,76133-,False,True,False,0.0,2.0,412052.0,0.0,0.0,,,,,,100424055,,0,2012,2012
+dallas,LIPOMEDICS LTD,lipomedics,confirmed_grant,FORT WORTH,TX,76133-,False,True,True,0.0,2.0,412052.0,1.0,220726.0,,,,,,100424055,,0,2012,2012
 dallas,"LMSW, Inc.",lmsw,confirmed_grant,RICHARDSON,TX,75081-1964,False,True,False,0.0,1.0,79700.0,0.0,0.0,,,,,CBEQGCD5NLK5,963707521,,4,2011,2011
 dallas,"LURACO Technologies, Inc.",luraco technologies,confirmed_grant,Arlington,TX,-,False,True,False,0.0,4.0,1437705.0,0.0,0.0,,,,,,787380794,www.luraco.com,22,2007,2011
 dallas,LYMBA CORPORATION,lymba,confirmed_grant,RICHARDSON,TX,75080-6700,False,True,False,0.0,4.0,865779.0,0.0,0.0,,,,,LRVUDJXEMUC4,876919353,lymba.com,8,2009,2014
@@ -403,7 +568,7 @@ dallas,Lightbus Technology Inc,lightbus technology,confirmed_grant,Richardson,TX
 dallas,Logical Software Solutions,logical software solutions,confirmed_grant,Plano,TX,75025 5523,False,True,False,0.0,3.0,656590.0,0.0,0.0,,,,,,119737596,,2,2002,2007
 dallas,"Low Thermal Electronics, Inc.",low thermal electronics,confirmed_grant,Itasca,TX,76055-5108,False,True,False,0.0,2.0,395999.0,0.0,0.0,,,,,C3T6MH73ZA27,015071303,www.lowthermal.com,3,2017,2018
 dallas,"MACROCYCLICS, INC.",macrocyclics,confirmed_grant,DALLAS,TX,75235,False,True,False,0.0,3.0,441662.0,0.0,0.0,,,,,WMZUMZ73Z5M5,148187722,,,2002,2007
-dallas,MARTINGALE RESEARCH CORPORATION,martingale research,confirmed_grant,Plano,TX,75074-5483,False,True,False,0.0,13.0,11573084.0,0.0,0.0,,,,,T9NGMH8MYAR3,174995134,,3,1987,2019
+dallas,MARTINGALE RESEARCH CORPORATION,martingale research,confirmed_grant,Plano,TX,75074-5483,False,True,True,0.0,13.0,11573084.0,3.0,896642.0,,,,,T9NGMH8MYAR3,174995134,,3,1987,2019
 dallas,"MATERIALS ANALYSIS, INC.",materials analysis,confirmed_grant,Dallas,TX,75238,False,True,False,0.0,0.0,673833.0,0.0,0.0,,,,,,,,8,1986,1998
 dallas,"MATERIALS PROCESSING, INC.",materials processing,confirmed_grant,Fort Worth,TX,76119,False,True,False,0.0,12.0,3645357.81,0.0,0.0,,,,,,119473275,,4,2000,2006
 dallas,MAX-IR LABS INCORPORATED,max ir labs,confirmed_grant,DALLAS,TX,75252-8004,False,True,True,0.0,12.0,5060741.91,4.0,1724813.0,,,,,M5KKSJPQFGX1,080509939,https://max-ir-labs.com/,5,2017,2025
@@ -416,7 +581,7 @@ dallas,MUSTANG OPTICS LLC,mustang optics,confirmed_grant,DALLAS,TX,75206-5101,Fa
 dallas,Macy Research Associates,macy research associates,confirmed_grant,Wills Point,TX,75169,False,True,False,0.0,0.0,57857.0,0.0,0.0,,,,,,,,,1984,1984
 dallas,"Mark Cuban Cost Plus Drugs, PBC",mark cuban cost plus drugs,confirmed_grant,Dallas,TX,75226,False,True,False,0.0,1.0,205920.0,0.0,0.0,,,,,N8P7MQ937WN7,,,56,2025,2025
 dallas,"Marlow Industries, Inc.",marlow industries,confirmed_grant,Dallas,TX,75238,False,True,False,0.0,5.0,3232540.0,0.0,0.0,,,,,NEAEKD7G9TM5,062886981,,185,1991,2005
-dallas,MathNimbus Inc,mathnimbus,confirmed_grant,Colleyville,TX,76034-2501,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,079718159,https://www.algorithmhub.com,4,2017,2017
+dallas,MathNimbus Inc,mathnimbus,confirmed_grant,Colleyville,TX,76034-2501,False,True,True,0.0,1.0,150000.0,1.0,150000.0,,,,,,079718159,https://www.algorithmhub.com,4,2017,2017
 dallas,Mda Engineering Inc.,mda engineering,confirmed_grant,Arlington,TX,76010,False,True,False,0.0,1.0,1868436.0,0.0,0.0,,,,,,,,,1987,1995
 dallas,"Mealtime Partners, Inc.",mealtime partners,confirmed_grant,Azle,TX,76020,False,True,False,0.0,1.0,586314.0,0.0,0.0,,,,,,,,,2005,2005
 dallas,"Medical Nanotechnologies, Inc.",medical nanotechnologies,confirmed_grant,Irving,TX,75063,False,True,False,0.0,3.0,434027.0,0.0,0.0,,,,,,800313723,www.nanomedinc.com,1,2010,2011
@@ -432,19 +597,18 @@ dallas,"Mustang Technology Group, L.P.",mustang technology l p,confirmed_grant,P
 dallas,N.texas Research &,n texas research,confirmed_grant,Dallas,TX,75219,False,True,False,0.0,0.0,49525.0,0.0,0.0,,,,,,,,2,1993,1993
 dallas,NANOFLOWX INC,nanoflowx,confirmed_grant,CARROLLTON,TX,75006-5022,False,True,False,0.0,2.0,99999.0,0.0,0.0,,,,,G21BBFK652K5,092828901,http://www.nanoflowx.com,12,2019,2022
 dallas,"NANOMATRIX, INC.",nanomatrix,confirmed_grant,DALLAS,TX,75234 0902,False,True,False,0.0,3.0,394455.0,0.0,0.0,,,,,,,,,2003,2004
-dallas,NANOSCOPE TECHNOLOGIES LLC,nanoscope technologies,confirmed_grant,BEDFORD,TX,76022-6410,False,True,True,0.0,6.0,7846913.0,14.0,8366950.0,,,,,H6DNZXT5MMT1,831099275,https://www.nanoscopetech.com,14,2015,2022
+dallas,NANOSCOPE TECHNOLOGIES LLC,nanoscope technologies,confirmed_grant,BEDFORD,TX,76022-6410,False,True,True,0.0,6.0,7846913.0,28.0,13083910.0,,,,,H6DNZXT5MMT1,831099275,https://www.nanoscopetech.com,14,2015,2022
 dallas,"NEUROLOGICAL REHABILITATION VIRTUAL REALITY, L.L.C.",neurological rehabilitation virtual reality l l c,confirmed_grant,FORT WORTH,TX,76116-7169,False,True,False,0.0,1.0,224893.0,0.0,0.0,,,,,DSHXVLX6WN84,118551577,https://www.neurorehabvr.com/,12,2019,2019
 dallas,"NEUROMERSIVE, INC",neuromersive,confirmed_grant,FORT WORTH,TX,76112-2392,False,True,False,0.0,2.0,1322847.0,0.0,0.0,,,,,P7AGZ3YBGSU4,,https://www.neurorehabvr.com/,10,2023,2024
 dallas,"NEW PAGE STRATEGIC CONSULTING, LLC",new page strategic consulting,confirmed_grant,NORTH RICHLAND HILLS,TX,76180-1413,False,True,False,0.0,1.0,253030.0,0.0,0.0,,,,,U62NJLWZZXS9,038889484,,1,2023,2023
 dallas,"NORTH AMERICAN FUEL TANKS, INC.",north american fuel tanks,confirmed_grant,MANSFIELD,TX,76063-2725,False,True,False,0.0,1.0,80000.0,0.0,0.0,,,,,GQ5XF5RGJSK4,079537821,,30,2015,2015
 dallas,NUMERICAL TECHNOLOGY COMPANY LLC,numerical technology,confirmed_grant,DALLAS,TX,75230-5070,False,True,False,0.0,7.0,3643993.83,0.0,0.0,,,,,P7MAJ8PJ5LS9,080155701,,3,2016,2024
-dallas,NURO INC,nuro,confirmed_grant,Dallas,TX,75240,False,True,False,0.0,1.0,216800.0,0.0,0.0,,,,,,079711796,,8,2015,2015
 dallas,"NUTRIFORWARD, LLC",nutriforward,confirmed_grant,CARROLLTON,TX,75006-6446,False,True,True,0.0,1.0,296790.0,1.0,296790.0,,,,,DDB2MX6REU49,117232045,https://nutriforward.com,2,2023,2023
 dallas,"Nanometrology International, Inc.",nanometrology international,confirmed_grant,Allen,TX,75013,False,True,False,0.0,1.0,90000.0,0.0,0.0,,,,,,832631589,,4,2011,2011
 dallas,"ODEGOS TECHNOLOGY, INC.",odegos technology,confirmed_grant,Plano,TX,75093,False,True,False,0.0,2.0,797842.0,0.0,0.0,,,,,,054637363,,3,2000,2001
 dallas,OPSIN BIOTHERAPEUTICS INC.,opsin biotherapeutics,confirmed_grant,BEDFORD,TX,76022-6411,False,True,True,0.0,1.0,327864.0,1.0,327864.0,,,,,PZA2MCC3MJL9,111695812,https://www.opsinbio.com,2,2023,2023
 dallas,"OTS ACQUISITION GROUP, LLC",ots acquisition,confirmed_grant,DALLAS,TX,75248-1944,False,True,False,0.0,3.0,1712975.68,0.0,0.0,,,,,TGRLRRC61DG5,117808448,https://www.omni-threat.com/,45,2023,2025
-dallas,"Omm Scientific, Inc",omm scientific,confirmed_grant,Dallas,TX,-,False,True,False,0.0,9.0,2584560.0,0.0,0.0,,,,,DM23ABHM6JK1,610369535,www.ommscientific.com,6,2007,2016
+dallas,"Omm Scientific, Inc",omm scientific,confirmed_grant,Dallas,TX,-,False,True,True,0.0,9.0,2584560.0,2.0,438476.0,,,,,DM23ABHM6JK1,610369535,www.ommscientific.com,6,2007,2016
 dallas,Omniprobe,omniprobe,confirmed_grant,Dallas,TX,75238 1210,False,True,False,0.0,3.0,698001.0,0.0,0.0,,,,,,101910375,,21,2009,2010
 dallas,Organizational Wellness & Learning Systems Inc,organizational wellness learning systems,confirmed_grant,Fort Worth,TX,76107-6560,False,True,False,0.0,9.0,4003037.0,0.0,0.0,,,,,FNQZVE7MP3E9,140737458,,,2002,2015
 dallas,"Overmatch, Inc.",overmatch,confirmed_grant,PLANO,TX,75024-3390,False,True,False,0.0,2.0,3638718.0,0.0,0.0,,,,,D9RHJN8F9VT1,117214755,http://www.overmatch.com,21,2022,2024
@@ -463,7 +627,7 @@ dallas,POINTWISE INC,pointwise,confirmed_grant,FORT WORTH,TX,76104-1107,False,Tr
 dallas,"POLATOMIC, INC. ",polatomic,confirmed_grant,RICHARDSON,TX,75081-1954,False,True,False,0.0,37.0,21806499.0,0.0,0.0,,,,,MC4NM5LXZTE8,144948056,https://www.polatomic.com,4,1985,2021
 dallas,PRECZN INC.,preczn,confirmed_grant,Lewisville,TX,75056-5157,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,V68LYPAV7CN9,,www.preczn.com,14,2025,2025
 dallas,"PRIUS INTELLI, LLC",prius intelli,confirmed_grant,FORT WORTH,TX,76107-1225,False,True,False,0.0,1.0,1249574.0,0.0,0.0,,,,,ZQZHU7XNQ4X8,,https://www.priusintelli.com,8,2024,2024
-dallas,PROGENITEC INC,progenitec,confirmed_grant,ARLINGTON,TX,76013-2802,False,True,False,0.0,5.0,3139254.0,0.0,0.0,,,,,JVLTSYYJG5L5,780329913,http://progenitec.com/home/,2,2012,2017
+dallas,PROGENITEC INC,progenitec,confirmed_grant,ARLINGTON,TX,76013-2802,False,True,True,0.0,5.0,3139254.0,4.0,2519534.0,,,,,JVLTSYYJG5L5,780329913,http://progenitec.com/home/,2,2012,2017
 dallas,"PRT Marketing, LLC",prt marketing,confirmed_grant,Fort Worth,TX,76182,False,True,False,0.0,2.0,371000.0,0.0,0.0,,,,,,,,,2003,2004
 dallas,"PURIOLABS, LLC",puriolabs,confirmed_grant,Carrollton,TX,75006-7442,False,True,False,0.0,3.0,3295281.75,0.0,0.0,,,,,lzwfpalek7a4,117907057,https://www.puriolabs.com,5,2022,2025
 dallas,"Paradigm Simulation, Inc.",paradigm simulation,confirmed_grant,Dallas,TX,75248,False,True,False,0.0,0.0,847853.0,0.0,0.0,,,,,,,,22,1994,1995
@@ -481,7 +645,7 @@ dallas,PulseTech Products Co,pulsetech products,confirmed_grant,Southlake,TX,-,F
 dallas,"PushCorp, Inc.",pushcorp,confirmed_grant,Garland,TX,75041,False,True,False,0.0,0.0,807550.0,0.0,0.0,,,,,,805294881,www.pushcorp.com,8,1995,1997
 dallas,"Pwrsolutions, Inc.",pwrsolutions,confirmed_grant,Dallas,TX,75207,False,True,False,0.0,1.0,96719.0,0.0,0.0,,,,,,016925021,,10,2007,2007
 dallas,QED SECURE SOLUTIONS LLC,qed secure solutions,confirmed_grant,COPPELL,TX,75019-5069,False,True,False,0.0,4.0,2011499.0,0.0,0.0,,,,,C96YKHLDQM38,079711258,,10,2019,2023
-dallas,"Qualia, Inc.",qualia,confirmed_grant,Dallas,TX,75252-8004,False,True,False,0.0,4.0,3307279.04,0.0,0.0,,,,,NYPMWLLW55D3,080158943,,9,2016,2018
+dallas,"Qualia, Inc.",qualia,confirmed_grant,Dallas,TX,75252-8004,False,True,True,0.0,4.0,3307279.04,1.0,182682.0,,,,,NYPMWLLW55D3,080158943,,9,2016,2018
 dallas,R & D Aeronautical Engineering,r d aeronautical engineering,confirmed_grant,Plano,TX,75074,False,True,False,0.0,0.0,548971.0,0.0,0.0,,,,,,,,3,1986,1989
 dallas,RAPHAEL PHARMACEUTICALS LLC,raphael pharmaceuticals,confirmed_grant,IRVING,TX,75062-3614,False,True,True,0.0,1.0,455000.0,2.0,455000.0,,,,,UE65NV6LGL73,081127690,,1,2021,2021
 dallas,RD RESEARCH TECHNOLOGY USA LLC,rd research technology usa,confirmed_grant,RICHARDSON,TX,75082-2690,False,True,False,0.0,2.0,299818.0,0.0,0.0,,,,,KHDLKAMWQP77,051605100,,5,2020,2022
@@ -506,7 +670,7 @@ dallas,SECUREFOUNDRY INC,securefoundry,confirmed_grant,Fort Worth,TX,76126,False
 dallas,"SILICON DYNAMIX, INC.",silicon dynamix,confirmed_grant,DALLAS,TX,75252-8004,False,True,False,0.0,2.0,1151538.0,0.0,0.0,,,,,UAEBVKE1EK88,117055254,,4,2020,2022
 dallas,SKYVEN TECHNOLOGIES,skyven technologies,confirmed_grant,DALLAS,TX,75204-4626,False,True,False,0.0,3.0,1125000.0,0.0,0.0,,,,,H3DHCBKWWTF6,078699742,http://www.skyventechnologies.com,5,2015,2019
 dallas,"SMART ELECTRIC GRID, LLC",smart electric grid,confirmed_grant,MANSFIELD,TX,76063-4883,False,True,False,0.0,3.0,1033702.0,0.0,0.0,,,,,PXGSK8G28594,831752238,,3,2013,2017
-dallas,SMARTY EARS LLC,smarty ears,confirmed_grant,Rowlett,TX,75089-8572,False,True,True,0.0,1.0,279995.0,1.0,55000.0,,,,,VKQMXJVAQWB9,030507861,http://www.smartyearsapps.com,1,2019,2019
+dallas,SMARTY EARS LLC,smarty ears,confirmed_grant,Rowlett,TX,75089-8572,False,True,True,0.0,1.0,279995.0,2.0,279995.0,,,,,VKQMXJVAQWB9,030507861,http://www.smartyearsapps.com,1,2019,2019
 dallas,SOLARNO INC,solarno,confirmed_grant,COPPELL,TX,75019-7306,False,True,False,0.0,5.0,1923952.0,0.0,0.0,,,,,LEULMJXRNUM3,612411111,http://www.solarno.com,1,2009,2018
 dallas,SPARK CONNECTED LLC,spark connected,confirmed_grant,DALLAS,TX,75244-4470,False,True,False,0.0,2.0,184168.0,0.0,0.0,,,,,K741T2G24FE6,,https://www.sparkconnected.com,4,2024,2024
 dallas,SPATIAM CORPORATION,spatiam,confirmed_grant,ALLEN,TX,75013-8568,False,True,False,0.0,2.0,299784.0,0.0,0.0,,,,,H4WPVFGP1CK2,117772540,https://www.spatiam.com,7,2024,2025
@@ -527,7 +691,6 @@ dallas,SolGro Inc.,solgro,confirmed_grant,Fort Worth,TX,76118-7737,False,True,Fa
 dallas,Solar Kinetics Inc.,solar kinetics,confirmed_grant,Dallas,TX,75220,False,True,False,0.0,0.0,592551.0,0.0,0.0,,,,,,,,,1987,1989
 dallas,Solox,solox,confirmed_grant,Dallas,TX,75220,False,True,False,0.0,1.0,74995.0,0.0,0.0,,,,,,,,,1995,1995
 dallas,Spectra-metrics Corp,spectra metrics,confirmed_grant,Dallas,TX,75201,False,True,False,0.0,0.0,108613.0,0.0,0.0,,,,,,,,1,1993,1993
-dallas,"Spectral Md, Inc. ",spectral md,confirmed_grant,Dallas,TX,75201-2150,False,True,False,0.0,6.0,3661227.0,0.0,0.0,,,,,XYMKTFCE2XR3,829852339,http://www.spectralmd.com,40,2010,2024
 dallas,Spectrum Scientific,spectrum scientific,confirmed_grant,Dallas,TX,75206,False,True,False,0.0,0.0,600000.0,0.0,0.0,,,,,,,,,1989,1993
 dallas,Sputtertex Corp.,sputtertex,confirmed_grant,Dallas,TX,75220,False,True,False,0.0,0.0,300023.0,0.0,0.0,,,,,,,,8,1986,1987
 dallas,Standard Manufacturing Co.,standard manufacturing,confirmed_grant,Dallas,TX,75211,False,True,False,0.0,0.0,95514.0,0.0,0.0,,,,,,,,41,1983,1983
@@ -535,7 +698,7 @@ dallas,"SyncRef, Inc.",syncref,confirmed_grant,Little Elm,TX,75068-3787,False,Tr
 dallas,TACTICUM LLC,tacticum,confirmed_grant,LITTLE ELM,TX,75068-6415,False,True,False,0.0,2.0,1324968.0,0.0,0.0,,,,,E384GU821KH7,078543012,https://www.tactiucm.net,2,2024,2025
 dallas,"TAKPAR TECHNOLOGIES, LLC",takpar technologies,confirmed_grant,Arlington,TX,76006-6105,False,True,False,0.0,1.0,138902.0,0.0,0.0,,,,,K7K3VE1NXL93,,www.takpartech.com,2,2025,2025
 dallas,TARGETED CONVERGENCE CORPORATION,targeted convergence,confirmed_grant,IRVING,TX,75062-3999,False,True,False,0.0,1.0,156500.0,0.0,0.0,,,,,LGSTBDGDHYT7,824942473,http://www.TargetedConvergence.Com,7,2025,2025
-dallas,TED'S BRAIN SCIENCE INCORPORATED,ted s brain science,confirmed_grant,Dallas,TX,75252-8004,False,True,False,0.0,1.0,225005.0,0.0,0.0,,,,,P2DGEXK1UJQ3,048343840,,3,2019,2019
+dallas,TED'S BRAIN SCIENCE INCORPORATED,ted s brain science,confirmed_grant,Dallas,TX,75252-8004,False,True,True,0.0,1.0,225005.0,2.0,450010.0,,,,,P2DGEXK1UJQ3,048343840,,3,2019,2019
 dallas,"TELIATRY, INC.",teliatry,confirmed_grant,RICHARDSON,TX,75081-2426,False,True,True,0.0,1.0,256046.0,1.0,256046.0,,,,,RUY9UJT3Y4C5,108164327,,10,2021,2021
 dallas,TEXSAR,texsar,confirmed_grant,Fort Worth,TX,76116,False,True,False,0.0,0.0,750788.0,0.0,0.0,,,,,,014521111,texsar.com,7,1998,1999
 dallas,TIWAZ TECHNOLOGIES LLC,tiwaz technologies,confirmed_grant,ARLINGTON,TX,76006-2044,False,True,False,0.0,1.0,274883.0,0.0,0.0,,,,,ZLJCFBMQMBD6,071000743,http://www.tiwaztech.com,3,2023,2023
@@ -553,7 +716,7 @@ dallas,"The Navtrol Company, Inc.",navtrol,confirmed_grant,Dallas,TX,75243,False
 dallas,"The Sweet I Am, PLLC",sweet i am pllc,confirmed_grant,GRAND PRAIRIE,TX,75054-7201,False,True,True,0.0,1.0,406092.0,1.0,406092.0,,,,,RPSFYD59S444,116923698,https://anticipatejoy.com/,3,2024,2024
 dallas,Thermex Energy Corp,thermex energy,confirmed_grant,Dallas,TX,75240,False,True,False,0.0,0.0,150933.0,0.0,0.0,,,,,,,,22,1986,1986
 dallas,ThorMed Innovation LLC,thormed innovation,confirmed_grant,DALLAS,TX,75214-2856,False,True,True,0.0,1.0,294886.0,1.0,294886.0,,,,,Z1V9UFCQ6YJ7,113439369,,1,2025,2025
-dallas,"TissueGen, Inc",tissuegen,confirmed_grant,Dallas,TX,75235,False,True,False,0.0,1.0,149995.0,0.0,0.0,,,,,EC6MJJ3LG716,193308298,www.tissuegen.com,5,2015,2015
+dallas,"TissueGen, Inc",tissuegen,confirmed_grant,Dallas,TX,75235,False,True,True,0.0,1.0,149995.0,1.0,149995.0,,,,,EC6MJJ3LG716,193308298,www.tissuegen.com,5,2015,2015
 dallas,Triune Systems,triune systems,confirmed_grant,Richardson,TX,75081-2960,False,True,False,0.0,5.0,1479589.0,0.0,0.0,,,,,,959220869,www.triunesystems.com,29,2009,2012
 dallas,Turner Engineering Technology,turner engineering technology,confirmed_grant,Roanoke,TX,76262,False,True,False,0.0,0.0,54532.0,0.0,0.0,,,,,,,,9,1994,1994
 dallas,"U.S. Electron, Inc.",u s electron,confirmed_grant,Irving,TX,75039-3739,False,True,False,0.0,1.0,1299838.0,0.0,0.0,,,,,W1KEHK4ENF69,079663418,,6,2019,2020
@@ -562,7 +725,6 @@ dallas,UHU TECHNOLOGIES LLC,uhu technologies,confirmed_grant,Richardson,TX,75081
 dallas,UNMANNED SYSTEMS INCORPORATED,unmanned systems,confirmed_grant,McKinney,TX,75069-3295,False,True,False,0.0,6.0,4510445.0,0.0,0.0,,,,,LQYFBY4UL5A7,131010865,https://www.albers.aero,475,2021,2024
 dallas,"Uhv Technology, Inc.",uhv technology,confirmed_grant,Fort Worth,TX,76104-3503,False,True,False,0.0,1.0,999995.0,0.0,0.0,,,,,,51,,6,2014,2014
 dallas,"Ultrastructure, Inc.",ultrastructure,confirmed_grant,Richardson,TX,75081,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1985,1985
-dallas,Uluru Inc.,uluru,confirmed_grant,Addison,TX,75001-3705,False,True,False,0.0,1.0,249999.96,0.0,0.0,,,,,SR99RW5VEBK9,624087974,www.uluruinc.com,7,2025,2025
 dallas,Universal Polymers Corp,universal polymers,confirmed_grant,Grand Prairie,TX,75050,False,True,False,0.0,0.0,33288.0,0.0,0.0,,,,,,,,10,1987,1987
 dallas,"VALKYRIE SYSTEMS AEROSPACE, INC",valkyrie systems aerospace,confirmed_grant,MCKINNEY,TX,75070-4000,False,True,False,0.0,3.0,1373207.0,0.0,0.0,,,,,DMHPTR4BF7T5,080151458,https://www.vsaaircraft.com,28,2021,2024
 dallas,VCRSOFT LLC,vcrsoft,confirmed_grant,PLANO,TX,75023-7050,False,True,False,0.0,25.0,4931840.98,0.0,0.0,,,,,RCB6MVNZ7KM5,622975998,,2,2007,2020
@@ -593,26 +755,46 @@ dallas,"Zipalog, Inc.",zipalog,confirmed_grant,Plano,TX,75074-5553,False,True,Fa
 dallas,dx3Tech LLC,dx3tech,confirmed_grant,FRISCO,TX,75036-4795,False,True,False,0.0,1.0,49951.0,0.0,0.0,,,,,KVNKYZ7DDYL9,117238988,,3,2020,2020
 dallas,"Aakha Biologics, Inc.",aakha biologics,confirmed_strong,FRISCO,TX,75034,True,True,True,1.0,1.0,400000.0,1.0,400000.0,2022,Corporation,Biotechnology,0002030720,LB1ZSHY1LFK5,,,5,2024,2024
 dallas,Altrazeal Life Sciences Inc.,altrazeal life sciences,confirmed_strong,ADDISON,TX,75001,True,True,False,1.0,4.0,3867447.44,0.0,0.0,,Corporation,Other Health Care,0001168220,N24WUMUHT5V9,624087974,https://altrazeal.com/,11,2021,2025
+dallas,"Alva Health, Inc.",alva health,confirmed_strong,DALLAS,TX,75201,True,False,True,1.0,0.0,0.0,1.0,256988.0,,Corporation,Other Health Care,0001971021,,,,,,
+dallas,"AyuVis Research, Inc.",ayuvis research,confirmed_strong,Fort Worth,TX,76104,True,True,True,4.0,3.0,3896869.0,8.0,4447445.0,2018,Corporation,Pharmaceuticals,0001739776,E3H4XC65GZU3,079277952,www.ayuvis.com,3,2017,2024
 dallas,"BackStop Neural, Inc.",backstop neural,confirmed_strong,DALLAS,TX,75252,True,True,True,1.0,2.0,789285.0,1.0,485026.0,2018,Corporation,Biotechnology,0001944465,CEBNE64GUK93,080814406,,4,2024,2025
-dallas,CerSci Therapeutics Inc.,cersci therapeutics,confirmed_strong,DALLAS,TX,75252,True,True,False,1.0,3.0,2175243.0,0.0,0.0,2019,Corporation,Pharmaceuticals,0001790478,H1NJGND76CG6,079742216,www.cersci.com,6,2017,2018
+dallas,CerSci Therapeutics Inc.,cersci therapeutics,confirmed_strong,DALLAS,TX,75252,True,True,True,2.0,3.0,2175243.0,4.0,2175243.0,2019,Corporation,Pharmaceuticals,0001790478,H1NJGND76CG6,079742216,www.cersci.com,6,2017,2018
+dallas,"Encore Vision, Inc.",encore vision,confirmed_strong,FORT WORTH,TX,76104,True,True,False,2.0,1.0,150000.0,0.0,0.0,,Corporation,Pharmaceuticals,0001618596,,809585461,,0,2012,2012
 dallas,"EtiraRX, Inc.",etirarx,confirmed_strong,DALLAS,TX,75247,True,True,True,2.0,1.0,1997586.0,2.0,1997586.0,2021,Corporation,Biotechnology,0001996442,,080835318,,1,2021,2021
-dallas,"GRADALIS, INC.",gradalis,confirmed_strong,Carrollton,TX,75006,True,True,False,1.0,3.0,1098346.0,0.0,0.0,,Corporation,Biotechnology,0001457915,,610368925,www.gradalisinc.com,24,2006,2011
-dallas,"OncoNano Medicine, Inc.",onconano medicine,confirmed_strong,SOUTHLAKE,TX,76092,True,True,True,5.0,3.0,3821004.0,2.0,791.0,,Corporation,Biotechnology,0001735726,FSRUUQKHD749,030233763,,28,2017,2023
-dallas,"Pieces Technologies, Inc.",pieces technologies,confirmed_strong,DALLAS,TX,75247,True,True,True,1.0,2.0,2399994.0,2.0,2399994.0,2015,Corporation,Other Health Care,0001665588,TSLXDK3239L8,080278280,https://www.piecestech.com,55,2021,2024
+dallas,"GRADALIS, INC.",gradalis,confirmed_strong,DALLAS,TX,75225,True,True,False,2.0,3.0,1098346.0,0.0,0.0,2014,Corporation,Pharmaceuticals,0001457915,,610368925,www.gradalisinc.com,24,2006,2011
+dallas,"Hera Health Solutions, Inc.",hera health solutions,confirmed_strong,FRISCO,TX,75035,True,True,False,2.0,2.0,524987.98,0.0,0.0,2017,Corporation,Other Health Care,0001741274,CDWMMXLLWG21,080777395,https://www.herahealthsolutions.com/,5,2023,2025
+dallas,"NURO, INC.",nuro,confirmed_strong,DALLAS,TX,75252,True,True,False,1.0,1.0,216800.0,0.0,0.0,2014,Corporation,Biotechnology,0001638919,,079711796,,8,2015,2015
+dallas,NUVIANT MEDICAL INC.,nuviant medical,confirmed_strong,DALLAS,TX,75219,True,False,True,1.0,0.0,0.0,2.0,216800.0,2014,Corporation,Biotechnology,0001638919,,,,,,
+dallas,"OncoNano Medicine, Inc.",onconano medicine,confirmed_strong,DALLAS,TX,75390,True,True,True,7.0,3.0,3821004.0,6.0,1821006.0,2014,Corporation,Biotechnology,0001735726,FSRUUQKHD749,030233763,,28,2017,2023
+dallas,"Pieces Technologies, Inc.",pieces technologies,confirmed_strong,DALLAS,TX,75247,True,True,True,5.0,2.0,2399994.0,2.0,2399994.0,2015,Corporation,Other Health Care,0001665588,TSLXDK3239L8,080278280,https://www.piecestech.com,55,2021,2024
 dallas,"Qualia Oto, Inc.",qualia oto,confirmed_strong,DALLAS,TX,75252,True,True,True,1.0,3.0,815708.0,2.0,581780.0,2017,Corporation,Biotechnology,0001900746,CR2FPMQLVS77,,https://www.qualiaoto.com/,6,2022,2025
 dallas,"Sonara Health, Inc.",sonara health,confirmed_strong,DALLAS,TX,75220,True,True,True,5.0,2.0,2000299.0,4.0,2000299.0,2020,Corporation,Other Health Care,0001947982,GZFHPNZD9SD7,117854079,,6,2022,2024
-dallas,AMERICAN HEART ASSOCIATION,american heart association,research_org,Dallas,TX,752315129,False,False,True,0.0,0.0,0.0,9.0,12450371.0,,,,,,,,,,
-dallas,BAYLOR RESEARCH INSTITUTE,baylor research institute,research_org,DALLAS,TX,75204,False,False,True,0.0,0.0,0.0,26.0,15125346.0,,,,,,,,,,
-dallas,COOK CHILDREN'S MEDICAL CENTER,cook children s medical center,research_org,FORT WORTH,TX,761042733,False,False,True,0.0,0.0,0.0,6.0,2645244.0,,,,,,,,,,
+dallas,"Spectral MD, Inc.",spectral md,confirmed_strong,DALLAS,TX,75201,True,True,True,1.0,6.0,3661227.0,3.0,306513.0,,Corporation,Biotechnology,0001760119,XYMKTFCE2XR3,829852339,http://www.spectralmd.com,40,2010,2024
+dallas,ULURU Inc.,uluru,confirmed_strong,ADDISON,TX,75001,True,True,False,5.0,1.0,249999.96,0.0,0.0,,Corporation,Pharmaceuticals,0001168220,SR99RW5VEBK9,624087974,www.uluruinc.com,7,2025,2025
+dallas,"ABOUNDING PROSPERITY, INC.",abounding prosperity,research_org,DALLAS,TX,75215,False,False,True,0.0,0.0,0.0,2.0,664905.0,,,,,,,,,,
+dallas,"AIDS ARMS , INC.",aids arms,research_org,DALLAS,TX,75246,False,False,True,0.0,0.0,0.0,1.0,350000.0,,,,,,,,,,
+dallas,AMERICAN COLLEGE OF EMERGENCY PHYSICIANS,american college of emergency physicians,research_org,IRVING,TX,75063,False,False,True,0.0,0.0,0.0,1.0,92563.0,,,,,,,,,,
+dallas,AMERICAN HEART ASSOCIATION,american heart association,research_org,Dallas,TX,752315129,False,False,True,0.0,0.0,0.0,39.0,43457183.0,,,,,,,,,,
+dallas,BAYLOR RESEARCH INSTITUTE,baylor research institute,research_org,DALLAS,TX,75204,False,False,True,0.0,0.0,0.0,86.0,38029176.0,,,,,,,,,,
+dallas,COOK CHILDREN'S MEDICAL CENTER,cook children s medical center,research_org,FORT WORTH,TX,761042733,False,False,True,0.0,0.0,0.0,9.0,3682683.0,,,,,,,,,,
+dallas,DALLAS VA RESEARCH CORPORATION,dallas va research,research_org,DALLAS,TX,752167167,False,False,True,0.0,0.0,0.0,1.0,165000.0,,,,,,,,,,
+dallas,EAST TEXAS A&M UNIVERSITY,east texas a m university,research_org,COMMERCE,TX,754293011,False,False,True,0.0,0.0,0.0,4.0,289171.0,,,,,,,,,,
+dallas,"ENLISENSE, LLC",enlisense,research_org,ALLEN,TX,750134703,False,False,True,0.0,0.0,0.0,1.0,242389.0,,,,,,,,,,
+dallas,"EVENT SOURCE PROFESSIONALS, INC.",event source professionals,research_org,COLLEYVILLE,TX,760345936,False,False,True,0.0,0.0,0.0,2.0,260000.0,,,,,,,,,,
+dallas,FORT WORTH INDEPENDENT SCHOOL DISTRICT,fort worth independent school district,research_org,FORT WORTH,TX,761071360,False,False,True,0.0,0.0,0.0,1.0,341144.0,,,,,,,,,,
 dallas,HEALTHY TARRANT COUNTY COLLABORATION,healthy tarrant county collaboration,research_org,FORT WORTH,TX,761031116,False,False,True,0.0,0.0,0.0,3.0,1922697.0,,,,,,,,,,
-dallas,RETINA FOUNDATION OF THE SOUTHWEST,retina foundation of southwest,research_org,DALLAS,TX,752315082,False,False,True,0.0,0.0,0.0,9.0,3355639.0,,,,,,,,,,
-dallas,SOUTHERN METHODIST UNIVERSITY,southern methodist university,research_org,DALLAS,TX,752750302,False,False,True,0.0,0.0,0.0,43.0,17077836.0,,,,,,,,,,
-dallas,TEXAS CHRISTIAN UNIVERSITY,texas christian university,research_org,FORT WORTH,TX,761290001,False,False,True,0.0,0.0,0.0,26.0,18487261.0,,,,,,,,,,
-dallas,TEXAS WOMAN'S UNIVERSITY,texas woman s university,research_org,DENTON,TX,762045619,False,False,True,0.0,0.0,0.0,18.0,4615024.0,,,,,,,,,,
-dallas,UNIVERSITY OF NORTH TEXAS,university of north texas,research_org,DENTON,TX,762035017,False,False,True,0.0,0.0,0.0,72.0,18202186.0,,,,,,,,,,
-dallas,UNIVERSITY OF NORTH TEXAS HLTH SCI CTR,university of north texas hlth sci ctr,research_org,FORT WORTH,TX,761072699,False,False,True,0.0,0.0,0.0,306.0,543504145.0,,,,,,,,,,
-dallas,UNIVERSITY OF TEXAS ARLINGTON,university of texas arlington,research_org,ARLINGTON,TX,760190145,False,False,True,0.0,0.0,0.0,196.0,63042444.0,,,,,,,,,,
-dallas,UNIVERSITY OF TEXAS DALLAS,university of texas dallas,research_org,RICHARDSON,TX,750803021,False,False,True,0.0,0.0,0.0,427.0,163340187.0,,,,,,,,,,
-dallas,UT SOUTHWESTERN MEDICAL CENTER,ut southwestern medical center,research_org,DALLAS,TX,753909105,False,False,True,0.0,0.0,0.0,4054.0,1869364551.0,,,,,,,,,,
-dallas,VA NORTH TEXAS HEALTH CARE SYSTEM,va north texas health care system,research_org,DALLAS,TX,752167167,False,False,True,0.0,0.0,0.0,60.0,0.0,,,,,,,,,,
-dallas,"VULINTUS, LLC",vulintus,research_org,Plano,TX,750746772,False,False,True,0.0,0.0,0.0,5.0,3858703.0,,,,,,,,,,
+dallas,ORGANIZATIONAL WELLNESS & LEARNING SYS,organizational wellness learning sys,research_org,FORT WORTH,TX,761076560,False,False,True,0.0,0.0,0.0,4.0,1047934.0,,,,,,,,,,
+dallas,RETINA FOUNDATION OF THE SOUTHWEST,retina foundation of southwest,research_org,DALLAS,TX,752315082,False,False,True,0.0,0.0,0.0,18.0,6114408.0,,,,,,,,,,
+dallas,SOUTHERN METHODIST UNIVERSITY,southern methodist university,research_org,DALLAS,TX,752750302,False,False,True,0.0,0.0,0.0,80.0,29543122.0,,,,,,,,,,
+dallas,TARRANT COUNTY PUBLIC HEALTH,tarrant county public health,research_org,FORT WORTH,TX,761044802,False,False,True,0.0,0.0,0.0,1.0,233023.0,,,,,,,,,,
+dallas,TEXAS CHRISTIAN UNIVERSITY,texas christian university,research_org,FORT WORTH,TX,761290001,False,False,True,0.0,0.0,0.0,50.0,27942303.0,,,,,,,,,,
+dallas,TEXAS WOMAN'S UNIVERSITY,texas woman s university,research_org,DENTON,TX,762045619,False,False,True,0.0,0.0,0.0,28.0,6531810.0,,,,,,,,,,
+dallas,"UHV TECHNOLOGIES, INC.",uhv technologies,research_org,FORT WORTH,TX,76104,False,False,True,0.0,0.0,0.0,2.0,1499910.0,,,,,,,,,,
+dallas,UNIVERSITY OF NORTH TEXAS,university of north texas,research_org,DENTON,TX,762035017,False,False,True,0.0,0.0,0.0,92.0,25307231.0,,,,,,,,,,
+dallas,UNIVERSITY OF NORTH TEXAS HLTH SCI CTR,university of north texas hlth sci ctr,research_org,FORT WORTH,TX,761072699,False,False,True,0.0,0.0,0.0,612.0,677903392.0,,,,,,,,,,
+dallas,UNIVERSITY OF TEXAS ARLINGTON,university of texas arlington,research_org,ARLINGTON,TX,760190145,False,False,True,0.0,0.0,0.0,260.0,87274279.0,,,,,,,,,,
+dallas,UNIVERSITY OF TEXAS DALLAS,university of texas dallas,research_org,RICHARDSON,TX,750803021,False,False,True,0.0,0.0,0.0,626.0,237568381.0,,,,,,,,,,
+dallas,UT SOUTHWESTERN MEDICAL CENTER,ut southwestern medical center,research_org,DALLAS,TX,753909105,False,False,True,0.0,0.0,0.0,6752.0,2928159588.0,,,,,,,,,,
+dallas,VA NORTH TEXAS HEALTH CARE SYSTEM,va north texas health care system,research_org,DALLAS,TX,752167167,False,False,True,0.0,0.0,0.0,105.0,0.0,,,,,,,,,,
+dallas,"VITALQUAN, LLC",vitalquan,research_org,DALLAS,TX,752355028,False,False,True,0.0,0.0,0.0,6.0,3172285.0,,,,,,,,,,
+dallas,"VULINTUS, LLC",vulintus,research_org,Plano,TX,750746772,False,False,True,0.0,0.0,0.0,10.0,6193197.0,,,,,,,,,,

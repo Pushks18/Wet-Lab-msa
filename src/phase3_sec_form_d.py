@@ -8,10 +8,37 @@ Source: https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets
     OFFERING.tsv         — totalOfferingAmount, INDUSTRYGROUPTYPE, offered/sold amounts
     RECIPIENTS.tsv       — broker/finder info (lead investors lookup)
 
-Filter:
-  state ∈ MSA states (PA, NJ, DE, MD, GA, TX) AND
-  city (lowercase) ∈ city_allowlist[msa] AND
-  industry_group ∈ {Pharmaceuticals, Biotechnology, Other Health Care}
+How the mapping works, per quarter:
+  1. download {YYYY}q{Q}_d.zip from SEC (1 req/sec, User-Agent w/ email — SEC ToS)
+  2. extract 4 TSVs into data/raw/form_d/{YYYY}q{Q}/
+  3. join ISSUERS ⋈ OFFERING ⋈ FORMDSUBMISSION on ACCESSIONNUMBER
+     → one row per (filing × issuer); a Form D can have multiple issuers
+  4. apply 3 AND-ed filters (all must pass to keep the row):
+       a) state          ∈ MSA states (PA, NJ, DE, MD, GA, TX)
+       b) (city, state)  ∈ city_allowlist  (1,243 tuples from Phase 1 HUD crosswalk)
+       c) industry_group ∈ {Pharmaceuticals, Biotechnology, Other Health Care}
+  5. tag row with _quarter, append to all_filtered, repeat next quarter
+  6. concat all quarters → data/raw/form_d_filings.parquet
+
+Funnel — actual numbers under the previous 2020+ floor (24 quarters, 2020-Q1 → 2025-Q4):
+  raw issuer-offering rows across all quarters   ~120,000  (median ~5,000 / quarter)
+  ↓ state + city allowlist filter
+  ↓ industry filter (Pharma / Biotech / Other Health Care)
+  ↓ kept                                            1,408 filings
+                                                      686 unique CIKs
+                                                      718 unique company names
+
+  Per MSA (committed 2020+ data):
+              filings  unique CIKs   Biotech / Other HC / Pharma
+    philadelphia 488     242            189 /  229 /  70
+    dallas       367     213             95 /  246 /  26
+    atlanta      229      95             90 /  128 /  11
+    baltimore    179      77             93 /   63 /  23
+    pittsburgh   145      61             44 /   75 /  26
+
+  After expanding to START_YEAR = 2015 (44 quarters), counts are expected to roughly
+  scale with the wider window — recompute from output/form_d_filings.csv after
+  the next --force run; the Phase 9 funnel in the README will reflect the new totals.
 
 Outputs:
   data/raw/form_d/{YYYYqQ}/*.tsv         (extracted, one folder per quarter)
@@ -50,7 +77,7 @@ IN_SCOPE_INDUSTRY = {
     # Some quarters use shortened/upper variants — normalized comparison handles them.
 }
 
-START_YEAR = 2020
+START_YEAR = 2015
 START_Q = 1
 
 

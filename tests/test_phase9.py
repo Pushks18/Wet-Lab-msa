@@ -115,9 +115,14 @@ class TestStep5Recency:
                       sbir_last_year=[2021.0])
         assert len(p9._step5_recency(df)) == 1
 
-    def test_drops_old_sbir_no_fd(self):
+    def test_keeps_2015_sbir(self):
         df = _make_df(source_form_d=[False], source_tto=[False],
                       sbir_last_year=[2015.0])
+        assert len(p9._step5_recency(df)) == 1
+
+    def test_drops_pre_2015_sbir_no_fd(self):
+        df = _make_df(source_form_d=[False], source_tto=[False],
+                      sbir_last_year=[2010.0])
         assert len(p9._step5_recency(df)) == 0
 
 
@@ -215,7 +220,9 @@ def test_final_count_in_range():
 
     Requires output/companies_final_startups_only.csv (committed to repo).
     Mocks the SEC ticker fetch so the test is offline-safe.
-    Expected final row count: 800–900 based on manual cleanup baseline of ~831.
+    Expected final row count: 1100–1500 after the full 2015+ backfill of all
+    sources (NIH FY2015-2025, SEC Form D 2015-Q1 → 2026-Q1, SBIR all-time, TTO).
+    Was 800-900 under the original 2020+ floor; landed at ~1,290 after backfill.
     """
     input_csv = REPO_ROOT / "output" / "companies_final_startups_only.csv"
     if not input_csv.exists():
@@ -235,7 +242,7 @@ def test_final_count_in_range():
 
     result = pd.read_csv(out_csv)
     count = len(result)
-    assert 800 <= count <= 900, (
-        f"Expected 800–900 wet-lab prospects, got {count}. "
+    assert 1100 <= count <= 1500, (
+        f"Expected 1100–1500 wet-lab prospects, got {count}. "
         "Check audit log at output/phase9_audit_log.csv for which step caused drift."
     )

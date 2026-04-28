@@ -342,7 +342,7 @@ def _step5_recency(df: pd.DataFrame) -> pd.DataFrame:
     tto  = df["source_tto"].fillna(False).astype(bool)
     sly  = pd.to_numeric(df.get("sbir_last_year", pd.Series(dtype=float)),
                          errors="coerce")
-    sbir_recent = sly >= 2020
+    sbir_recent = sly >= 2015
     return df[fd | tto | sbir_recent].copy()
 
 
@@ -471,13 +471,14 @@ def _step10_score(df: pd.DataFrame) -> pd.DataFrame:
     score += (sly >= 2024).fillna(False) * 3
     score += ((sly >= 2022) & (sly <= 2023)).fillna(False) * 2
     score += ((sly >= 2020) & (sly <= 2021)).fillna(False) * 1
+    # 2015-2019 passes the recency gate but earns 0 here (older = lower priority)
 
     score += df["source_tto"].fillna(False).astype(bool) * 2
 
     score += df["ls_subcategory"].isin(_HIGH_SUBCAT) * 2
 
     yi = pd.to_numeric(df.get("year_incorp", pd.Series(dtype=float)), errors="coerce")
-    score += (yi >= 2020).fillna(False) * 1
+    score += (yi >= 2015).fillna(False) * 1
 
     df["priority_score"] = score.astype(int)
     return df
@@ -559,7 +560,7 @@ def _write_excel(prospects: pd.DataFrame, path: Path) -> None:
          "Keep biotech/pharma/diagnostics/chemistry/medtech. Keep 'unknown' only if name matches wet-lab keyword regex. Drop digital_health and services.",
          "Filters to companies that would need lab bench space, not office/SaaS tenants."],
         ["Step 5 — Recency",
-         "Keep if Form D filed (2020+ scoped), SBIR last year >= 2020, or TTO-listed.",
+         "Keep if Form D filed (2015+ scoped), SBIR last year >= 2015, or TTO-listed.",
          "Removes dormant/dissolved firms unlikely to be active tenants."],
         ["Step 6 — Stage filter",
          "Drop if SBIR span > 20 yr AND total SBIR > $20M.",
@@ -574,7 +575,7 @@ def _write_excel(prospects: pd.DataFrame, path: Path) -> None:
          "Drop names in config/non_wetlab_exclusions.json.",
          "Defense/IT/robotics firms incorrectly tagged as life-sci by the keyword classifier."],
         ["Step 10 — Priority score",
-         "+3 Form D, +3/2/1 SBIR recency, +2 TTO, +2 high subcat, +1 founded>=2020.",
+         "+3 Form D, +3/2/1 SBIR recency (2024+/2022-23/2020-21; 2015-19 passes the gate but scores 0), +2 TTO, +2 high subcat, +1 founded>=2015.",
          "Helps prioritise outreach order within each MSA."],
         ["Step 11 — founded_year",
          "SEC year_incorp only; blank if outside [1900, 2030].",
@@ -690,7 +691,7 @@ def main(force: bool = False) -> None:
     n_before = len(df)
     df = _step5_recency(df)
     _audit("Step5_recency", n_before, len(df),
-           "keep Form-D / SBIR-last>=2020 / TTO; drop dormant firms")
+           "keep Form-D / SBIR-last>=2015 / TTO; drop dormant firms")
 
     # ── Step 6
     n_before = len(df)

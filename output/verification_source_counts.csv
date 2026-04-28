@@ -1,0 +1,11 @@
+msa,source,our_count,external_count,ratio,flag_if_out_of_range
+pittsburgh,form_d,55,10000,0.0055,ok
+pittsburgh,sbir,51,0,,no_external_data
+philadelphia,form_d,214,40000,0.0053,ok
+philadelphia,sbir,85,0,,no_external_data
+atlanta,form_d,82,10000,0.0082,ok
+atlanta,sbir,48,0,,no_external_data
+dallas,form_d,155,10000,0.0155,ok
+dallas,sbir,36,0,,no_external_data
+baltimore,form_d,73,10000,0.0073,ok
+baltimore,sbir,66,0,,no_external_data

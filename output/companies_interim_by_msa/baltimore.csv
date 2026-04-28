@@ -1,67 +1,119 @@
 msa,name,name_norm,tier,city,state,zip,source_form_d,source_sbir,source_nih,form_d_filings,sbir_awards,sbir_total_usd,nih_grants,nih_total_usd,year_incorp,entity_type,industry,cik,uei,duns,website,employees,sbir_first_year,sbir_last_year
+baltimore,"2530 Central Palm Drive, LLC",2530 central palm drive,confirmed_funded,BALTIMORE,MD,21209,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001780173,,,,,,
 baltimore,AC Special Purpose Vehicle LLC,ac special purpose vehicle,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Other Health Care,0001837919,,,,,,
 baltimore,"AGI Scientific, LLC",agi scientific,confirmed_funded,BALTIMORE,MD,21202,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Biotechnology,0001967574,,,,,,
+baltimore,"AbsoluteCARE, Inc.",absolutecare,confirmed_funded,BALTIMORE,MD,21201,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001663277,,,,,,
 baltimore,"Alphyn Biologics, Inc.",alphyn biologics,confirmed_funded,ANNAPOLIS,MD,21403,True,False,False,4.0,0.0,0.0,0.0,0.0,2019,Corporation,Biotechnology,0001802325,,,,,,
+baltimore,"AperioHealth, Inc.",aperiohealth,confirmed_funded,BALTIMORE,MD,21224,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Corporation,Other Health Care,0001705602,,,,,,
+baltimore,"Arcarius, LLC",arcarius,confirmed_funded,BALTIMORE,MD,21231,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001702611,,,,,,
 baltimore,"Array Dental Group, LLC",array dental,confirmed_funded,COLUMBIA,MD,21045,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001942132,,,,,,
 baltimore,Aruene Corp,aruene,confirmed_funded,BALTIMORE,MD,21230,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001929244,,,,,,
 baltimore,"AskY Therapeutics, Inc.",asky therapeutics,confirmed_funded,Owings Mills,MD,21117,True,False,False,2.0,0.0,0.0,0.0,0.0,2022,Corporation,Pharmaceuticals,0001962108,,,,,,
+baltimore,"Avhana Health, Inc.",avhana health,confirmed_funded,BALTIMORE,MD,21202,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Corporation,Other Health Care,0001627454,,,,,,
+baltimore,"Axxia Pharmaceuticals, LLC",axxia pharmaceuticals,confirmed_funded,BEL AIR,MD,21015,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Pharmaceuticals,0001514545,,,,,,
 baltimore,"BC3 Technologies, Inc.",bc3 technologies,confirmed_funded,Baltimore,MD,21229,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0002026343,,,,,,
+baltimore,"BioMedx Group, Inc.",biomedx,confirmed_funded,BALTIMORE,MD,21218,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Corporation,Other Health Care,0001699297,,,,,,
+baltimore,Biomedica Management Corp,biomedica management,confirmed_funded,HALETHORPE,MD,21227,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001641333,,,,,,
+baltimore,"Breethe, Inc.",breethe,confirmed_funded,BALTIMORE,MD,21201,True,False,False,8.0,0.0,0.0,0.0,0.0,2014,Corporation,Biotechnology,0001631734,,,,,,
+baltimore,"BurnAlong, Inc.",burnalong,confirmed_funded,Pikesville,MD,21208,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Corporation,Other Health Care,0001672980,,,,,,
+baltimore,"CCG Holdco, LLC",ccg holdco,confirmed_funded,BALTIMORE,MD,21228,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001672538,,,,,,
+baltimore,"CHS Real Estate Holdings, LLC",chs real estate,confirmed_funded,ARNOLD,MD,21012,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001657981,,,,,,
+baltimore,"Cage Pharmaceuticals, Inc.",cage pharmaceuticals,confirmed_funded,BALTIMORE,MD,21202,True,False,False,2.0,0.0,0.0,0.0,0.0,2017,Corporation,Other Health Care,0001727073,,,,,,
+baltimore,"Capital Funding Bancorp, Inc.",capital funding bancorp,confirmed_funded,BALTIMORE,MD,21202,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001699468,,,,,,
+baltimore,Centrexion Therapeutics Corp,centrexion therapeutics,confirmed_funded,BALTIMORE,MD,21202,True,False,False,4.0,0.0,0.0,0.0,0.0,2013,Corporation,Biotechnology,0001592052,,,,,,
+baltimore,"Chesapeake Health Sciences, LLC",chesapeake health sciences,confirmed_funded,ARNOLD,MD,21012,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001657982,,,,,,
+baltimore,"Chesapeake Therapeutics, LLC",chesapeake therapeutics,confirmed_funded,PIKESVILLE,MD,21208,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Pharmaceuticals,0001648771,,,,,,
+baltimore,"Consumable Science, Inc.",consumable science,confirmed_funded,ANNAPOLIS,MD,21403,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Corporation,Other Health Care,0001636119,,,,,,
+baltimore,"Cordex Systems, Inc",cordex systems,confirmed_funded,ANNAPOLIS,MD,20815,True,False,False,3.0,0.0,0.0,0.0,0.0,2012,Corporation,Biotechnology,0001642403,,,,,,
 baltimore,CraniUS LLC,cranius,confirmed_funded,COCKEYSVILLE,MD,21030,True,False,False,5.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Biotechnology,0001878219,,,,,,
 baltimore,Curio Wellness Corp,curio wellness,confirmed_funded,TOWSON,MD,21204,True,False,False,3.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001861491,,,,,,
 baltimore,"DJIT MEDTECH, INC.",djit medtech,confirmed_funded,BALTIMORE,MD,21217,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Corporation,Biotechnology,0001990885,,,,,,
-baltimore,"Delfi Diagnostics, Inc.",delfi diagnostics,confirmed_funded,BALTIMORE,MD,21211,True,False,False,2.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001783735,,,,,,
+baltimore,"Delfi Diagnostics, Inc.",delfi diagnostics,confirmed_funded,BALTIMORE,MD,21205,True,False,False,4.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001783735,,,,,,
+baltimore,"Discovery Venture, Inc.",discovery venture,confirmed_funded,BALTIMORE,MD,21230,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001783660,,,,,,
+baltimore,"Dracen Pharmaceuticals, Inc.",dracen pharmaceuticals,confirmed_funded,BALTIMORE,MD,21202,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Corporation,Biotechnology,0001728955,,,,,,
 baltimore,"Drizzle Health, LLC",drizzle health,confirmed_funded,BALTIMORE,MD,21211,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Limited Liability Company,Biotechnology,0002045956,,,,,,
-baltimore,"ELIXIRGEN THERAPEUTICS, INC.",elixirgen therapeutics,confirmed_funded,BALTIMORE,MD,21205,True,False,False,7.0,0.0,0.0,0.0,0.0,2017,Corporation,Biotechnology,0001744333,,,,,,
+baltimore,"ELIXIRGEN THERAPEUTICS, INC.",elixirgen therapeutics,confirmed_funded,BALTIMORE,MD,21205,True,False,False,9.0,0.0,0.0,0.0,0.0,2017,Corporation,Biotechnology,0001744333,,,,,,
 baltimore,"EMIT IMAGING, INC.",emit imaging,confirmed_funded,BALTIMORE,MD,21201,True,False,False,2.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001973076,,,,,,
 baltimore,"EPOCH Epigenetics, Inc.",epoch epigenetics,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Corporation,Biotechnology,0002068186,,,,,,
 baltimore,"Emergency Medical Innovation, LLC",emergency medical innovation,confirmed_funded,HIGHLAND,MD,20777,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001881474,,,,,,
+baltimore,Emmanuel Elder Care Services LLC,emmanuel elder care services,confirmed_funded,CATONSVILLE,MD,21228,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001758801,,,,,,
 baltimore,Even Health LLC,even health,confirmed_funded,ANNAPOLIS,MD,21401,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001879696,,,,,,
+baltimore,"Evolution Wellness, LLC",evolution wellness,confirmed_funded,BALTIMORE,MD,21231,True,False,False,2.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001660891,,,,,,
 baltimore,"Flavocure Biotech, Inc.",flavocure biotech,confirmed_funded,BALTIMORE,MD,21202,True,False,False,2.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001960342,,,,,,
+baltimore,"GRAYBUG, Inc.",graybug,confirmed_funded,BALTIMORE,MD,21205,True,False,False,2.0,0.0,0.0,0.0,0.0,2011,Corporation,Biotechnology,0001534133,,,,,,
 baltimore,"Haystack Oncology, Inc.",haystack oncology,confirmed_funded,BALTIMORE,MD,21211,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Biotechnology,0001952610,,,,,,
-baltimore,Hunterian Medicine LLC,hunterian medicine,confirmed_funded,BALTIMORE,MD,21215,True,False,False,2.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Biotechnology,0001685325,,,,,,
+baltimore,"Healthcare Interactive, Inc.",healthcare interactive,confirmed_funded,GLENWOOD,MD,21738,True,False,False,5.0,0.0,0.0,0.0,0.0,2011,Corporation,Other Health Care,0001612708,,,,,,
+baltimore,"Herbal Innovations, LLC",herbal innovations,confirmed_funded,WESTMINSTER,MD,21157,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Other Health Care,0001771808,,,,,,
+baltimore,"Herbal Pharm, LLC",herbal pharm,confirmed_funded,WESTMINSTER,MD,21157,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Other Health Care,0001771811,,,,,,
+baltimore,Hunterian Medicine LLC,hunterian medicine,confirmed_funded,BALTIMORE,MD,21217,True,False,False,3.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Biotechnology,0001685325,,,,,,
+baltimore,"IGI Medical Technologies, LLC",igi medical technologies,confirmed_funded,DAYTON,MD,21036,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Other Health Care,0001786907,,,,,,
 baltimore,"Impruvon, Inc.",impruvon,confirmed_funded,BALTIMORE,MD,21213,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Corporation,Other Health Care,0002052407,,,,,,
 baltimore,"Infinity Bio, Inc.",infinity bio,confirmed_funded,BALTIMORE,MD,21224,True,False,False,4.0,0.0,0.0,0.0,0.0,2023,Corporation,Biotechnology,0001982572,,,,,,
+baltimore,"Insilico Medicine, Inc.",insilico medicine,confirmed_funded,BALTIMORE,MD,21218,True,False,False,3.0,0.0,0.0,0.0,0.0,2014,Corporation,Biotechnology,0001698493,,,,,,
+baltimore,"Integra ServiceConnect, LLC",integra serviceconnect,confirmed_funded,OWINGS MILLS,MD,21117,True,False,False,2.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001648400,,,,,,
 baltimore,"Irazu Bio, LLC",irazu bio,confirmed_funded,BALTIMORE,MD,21202,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Biotechnology,0001848193,,,,,,
 baltimore,"Irazu Oncology, LLC",irazu oncology,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2022,Limited Liability Company,Biotechnology,0002004491,,,,,,
 baltimore,"Iyuda Therapeutics, Inc.",iyuda therapeutics,confirmed_funded,Owings Mills,MD,21117,True,False,False,2.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001993594,,,,,,
 baltimore,"Juniper Health Systems, Inc",juniper health systems,confirmed_funded,BALTIMORE,MD,21209,True,False,False,2.0,0.0,0.0,0.0,0.0,2023,Corporation,Other Health Care,0002035967,,,,,,
-baltimore,"LifeSprout, Inc.",lifesprout,confirmed_funded,BALTIMORE,MD,21230,True,False,False,2.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001733815,,,,,,
-baltimore,"Longeviti Neuro Solutions, LLC",longeviti neuro solutions,confirmed_funded,HUNT VALLEY,MD,21030,True,False,False,2.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Biotechnology,0001781151,,,,,,
+baltimore,Levin Eye Care LLC,levin eye care,confirmed_funded,BALTIMORE,MD,21286,True,False,False,1.0,0.0,0.0,0.0,0.0,,Limited Liability Company,Other Health Care,0001788041,,,,,,
+baltimore,"LifeSprout, Inc.",lifesprout,confirmed_funded,BALTIMORE,MD,21205,True,False,False,3.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001733815,,,,,,
+baltimore,"Longeviti Neuro Solutions, LLC",longeviti neuro solutions,confirmed_funded,HUNT VALLEY,MD,21030,True,False,False,3.0,0.0,0.0,0.0,0.0,2015,Limited Liability Company,Biotechnology,0001781151,,,,,,
 baltimore,"MDC - Verte Fund, LLC",mdc verte fund,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Biotechnology,0001880432,,,,,,
+baltimore,MaiTai41 LLC,maitai41,confirmed_funded,BALTIMORE,MD,21209,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001751337,,,,,,
 baltimore,"ManaT Bio, Inc.",manat bio,confirmed_funded,BALTIMORE,MD,21231,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Corporation,Biotechnology,0001997857,,,,,,
 baltimore,"MedStar Endoscopy Center Virginia, LLC",medstar endoscopy center virginia,confirmed_funded,COLUMBIA,MD,21044,True,False,False,1.0,0.0,0.0,0.0,0.0,2023,Limited Liability Company,Other Health Care,0002083932,,,,,,
 baltimore,"Mi-Helper, Inc.",mi helper,confirmed_funded,BALTIMORE,MD,21230,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Biotechnology,0001949966,,,,,,
 baltimore,"Mira1a Therapeutics, Inc.",mira1a therapeutics,confirmed_funded,BALTIMORE,MD,21205,True,False,False,2.0,0.0,0.0,0.0,0.0,2020,Corporation,Pharmaceuticals,0001904286,,,,,,
 baltimore,"MyMD Pharmaceuticals, Inc.",mymd pharmaceuticals,confirmed_funded,BALTIMORE,MD,21205,True,False,False,3.0,0.0,0.0,0.0,0.0,2023,Corporation,Other Health Care,0001321834,,,,,,
 baltimore,"NAVA HEALTH MD, INC.",nava health md,confirmed_funded,COLUMBIA,MD,21046,True,False,False,3.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001932231,,,,,,
-baltimore,"NEXGEN FORENSIC SCIENCES, INC.",nexgen forensic sciences,confirmed_funded,COLUMBIA,MD,21044,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001757348,,,,,,
+baltimore,"NEXGEN FORENSIC SCIENCES, INC.",nexgen forensic sciences,confirmed_funded,COLUMBIA,MD,21044,True,False,False,3.0,0.0,0.0,0.0,0.0,2017,Corporation,Biotechnology,0001757348,,,,,,
+baltimore,"Nature's Care & Wellness of Ohio, LLC",nature s care wellness of ohio,confirmed_funded,Nottingham,MD,21236,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001722902,,,,,,
+baltimore,"Nature's Care & Wellness, LLC",nature s care wellness,confirmed_funded,NOTTINGHAM,MD,21236,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001699767,,,,,,
+baltimore,"Nava Management, LLC",nava management,confirmed_funded,COLUMBIA,MD,21046,True,False,False,1.0,0.0,0.0,0.0,0.0,2013,Limited Liability Company,Other Health Care,0001686259,,,,,,
+baltimore,"Neuraly, Inc.",neuraly,confirmed_funded,BALTIMORE,MD,21205,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Corporation,Other Health Care,0001692816,,,,,,
+baltimore,"NovaSom, Inc",novasom,confirmed_funded,GLEN BURNIE,MD,21061,True,False,False,8.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001487143,,,,,,
 baltimore,OS Therapies Inc,os therapies,confirmed_funded,Grasonville,MD,21638,True,False,False,4.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001795091,,,,,,
 baltimore,Onkologic Inc.,onkologic,confirmed_funded,ELLICOTT CITY,MD,21043,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Corporation,Biotechnology,0001937916,,,,,,
-baltimore,"Pharmaceutics International, Inc.",pharmaceutics international,confirmed_funded,HUNT VALLEY,MD,21030,True,False,False,15.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001684470,,,,,,
+baltimore,"Pharmaceutics International, Inc.",pharmaceutics international,confirmed_funded,HUNT VALLEY,MD,21031,True,False,False,18.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001684470,,,,,,
 baltimore,"Porter Cares, Inc.",porter cares,confirmed_funded,Baltimore,MD,21202,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001902512,,,,,,
-baltimore,"Processa Pharmaceuticals, Inc.",processa pharmaceuticals,confirmed_funded,HANOVER,MD,21076,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001533743,,,,,,
+baltimore,"Processa Pharmaceuticals, Inc.",processa pharmaceuticals,confirmed_funded,HANOVER,MD,21076,True,False,False,4.0,0.0,0.0,0.0,0.0,,Corporation,Pharmaceuticals,0001533743,,,,,,
 baltimore,Protaryx Medical Inc.,protaryx medical,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Other Health Care,0001815905,,,,,,
 baltimore,QuikReversal LLC,quikreversal,confirmed_funded,BALTIMORE,MD,21208,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Limited Liability Company,Biotechnology,0001888851,,,,,,
 baltimore,"RAVGEN, INC.",ravgen,confirmed_funded,COLUMBIA,MD,21045,True,False,False,5.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001140834,,,,,,
 baltimore,"Rasio Therapeutics, Inc.",rasio therapeutics,confirmed_funded,BALTIMORE,MD,21230,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Biotechnology,0001895690,,,,,,
-baltimore,"ReGelTec, Inc.",regeltec,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001759683,,,,,,
+baltimore,"ReGelTec, Inc.",regeltec,confirmed_funded,BALTIMORE,MD,21201,True,False,False,2.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001759683,,,,,,
+baltimore,"Redfish Holdings, Inc.",redfish,confirmed_funded,Clarksville,MD,21029,True,False,False,2.0,0.0,0.0,0.0,0.0,2014,Corporation,Other Health Care,0001637944,,,,,,
+baltimore,Remedi SeniorCare Holding Corp,remedi seniorcare holding,confirmed_funded,TOWSON,MD,21204,True,False,False,1.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001239030,,,,,,
+baltimore,"RespireDx, Inc.",respiredx,confirmed_funded,HIGHLAND,MD,20777,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001791882,,,,,,
 baltimore,"Ryse Health, Inc.",ryse health,confirmed_funded,Baltimore,MD,21227,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Corporation,Other Health Care,0001893348,,,,,,
 baltimore,"SOMMOS, INC",sommos,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Corporation,Other Health Care,0002061478,,,,,,
-baltimore,Sisu Global Health Inc.,sisu global health,confirmed_funded,BALTIMORE,MD,21211,True,False,False,3.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001672635,,,,,,
+baltimore,"SafeOp Surgical, Inc.",safeop surgical,confirmed_funded,Hunt Valley,MD,21030,True,False,False,2.0,0.0,0.0,0.0,0.0,2011,Corporation,Other Health Care,0001540725,,,,,,
+baltimore,"Senior's Benefit Resources, Inc.",senior s benefit resources,confirmed_funded,CHESTERTOWN,MD,21620,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Corporation,Other Health Care,0001643114,,,,,,
+baltimore,Sisu Global Health Inc.,sisu global health,confirmed_funded,BALTIMORE,MD,21202,True,False,False,6.0,0.0,0.0,0.0,0.0,2011,Corporation,Other Health Care,0001672635,,,,,,
 baltimore,"Somnair, Inc.",somnair,confirmed_funded,TOWSON,MD,21204,True,False,False,1.0,0.0,0.0,0.0,0.0,2024,Corporation,Other Health Care,0002070128,,,,,,
+baltimore,"Sonify Biosciences, LLC",sonify biosciences,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2012,Limited Liability Company,Biotechnology,0001646123,,,,,,
+baltimore,"SpringWorks Therapeutics, LLC",springworks therapeutics,confirmed_funded,BALTIMORE,MD,21202,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001716049,,,,,,
+baltimore,Starr County SNF Project LLC,starr county snf project,confirmed_funded,BALTIMORE,MD,21209,True,False,False,1.0,0.0,0.0,0.0,0.0,2016,Limited Liability Company,Other Health Care,0001780175,,,,,,
 baltimore,"TBT Pharma, Inc.",tbt pharma,confirmed_funded,BALTIMORE,MD,21230,True,False,False,1.0,0.0,0.0,0.0,0.0,2019,Corporation,Biotechnology,0001838968,,,,,,
+baltimore,TRANSPLANT LOGISTICS & INFORMATICS LLC,transplant logistics informatics,confirmed_funded,BALTIMORE,MD,21201,True,False,False,1.0,0.0,0.0,0.0,0.0,2018,Limited Liability Company,Biotechnology,0001774985,,,,,,
+baltimore,"Tissue Analytics, Inc.",tissue analytics,confirmed_funded,BALTIMORE,MD,21202,True,False,False,1.0,0.0,0.0,0.0,0.0,2014,Corporation,Other Health Care,0001633370,,,,,,
 baltimore,"UM Chesapeake Surgery Center, LLC",um chesapeake surgery center,confirmed_funded,BEL AIR,MD,21014,True,False,False,1.0,0.0,0.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001899718,,,,,,
+baltimore,VACCINOGEN INC,vaccinogen,confirmed_funded,BALTIMORE,MD,21231,True,False,False,4.0,0.0,0.0,0.0,0.0,,Corporation,Biotechnology,0001453001,,,,,,
+baltimore,"VALLEY FORGE IPA, LLC",valley forge ipa,confirmed_funded,BALTIMORE,MD,21224,True,False,False,1.0,0.0,0.0,0.0,0.0,2017,Limited Liability Company,Other Health Care,0001746864,,,,,,
 baltimore,"VerImmune, Inc.",verimmune,confirmed_funded,BALTIMORE,MD,21205,True,False,False,1.0,0.0,0.0,0.0,0.0,2020,Corporation,Biotechnology,0001903915,,,,,,
 baltimore,"Vita Therapeutics, Inc.",vita therapeutics,confirmed_funded,BALTIMORE,MD,21205,True,False,False,3.0,0.0,0.0,0.0,0.0,2018,Corporation,Other Health Care,0001843252,,,,,,
+baltimore,"WellDoc, Inc.",welldoc,confirmed_funded,BALTIMORE,MD,21202,True,False,False,5.0,0.0,0.0,0.0,0.0,,Corporation,Other Health Care,0001459113,,,,,,
+baltimore,"WindMIL Therapeutics, Inc.",windmil therapeutics,confirmed_funded,Baltimore,MD,21205,True,False,False,1.0,0.0,0.0,0.0,0.0,2015,Corporation,Biotechnology,0001671352,,,,,,
 baltimore,"Youme Healthcare, Inc.",youme healthcare,confirmed_funded,ELKRIDGE,MD,21075,True,False,False,2.0,0.0,0.0,0.0,0.0,2021,Corporation,Other Health Care,0001957210,,,,,,
 baltimore,"Zero Point Five Therapeutics, Inc.",zero point five therapeutics,confirmed_funded,BALTIMORE,MD,21224,True,False,False,2.0,0.0,0.0,0.0,0.0,2018,Corporation,Biotechnology,0001985295,,,,,,
+baltimore,"Zygood,LLC",zygood,confirmed_funded,DAYTON,MD,21036,True,False,False,6.0,0.0,0.0,0.0,0.0,2014,Limited Liability Company,Other Health Care,0001678066,,,,,,
 baltimore,3DFlexible Inc,3dflexible,confirmed_grant,Laurel,MD,20723-1097,False,True,False,0.0,8.0,3833903.89,0.0,0.0,,,,,ZZKFKXNTMMA3,080528211,http://www.3dflexible.com/,6,2017,2023
 baltimore,"4S - SILVERSWORD SOFTWARE & SERVICES, LLC",4s silversword software services,confirmed_grant,CATONSVILLE,MD,21228-4871,False,True,False,0.0,10.0,2888013.79,0.0,0.0,,,,,TFUVNTYVCL53,079719608,https://www.4s-llc.com,75,2018,2024
 baltimore,"A P Ventures, LLC",a p ventures,confirmed_grant,COLUMBIA,MD,21046-1554,False,True,False,0.0,1.0,199984.94,0.0,0.0,,,,,CF46HNY9JH31,005752289,http://www.apvit.com,48,2019,2019
 baltimore,"A&G PHARMACEUTICAL, INC.",a g pharmaceutical,confirmed_grant,COLUMBIA,MD,21045-2006,False,True,False,0.0,15.0,10246354.0,0.0,0.0,,,,,SN6SWFABJXL1,963442723,www.agpharma.com,27,2004,2020
 baltimore,ABN,abn,confirmed_grant,Columbia,MD,21046 0254,False,True,False,0.0,7.0,1025409.0,0.0,0.0,,,,,,,,18,2004,2006
-baltimore,"ABRI SCIENCE, LLC",abri science,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,False,0.0,1.0,225000.0,0.0,0.0,,,,,CMPRHZJGJ3H1,116922745,https://www.abriscience.com,2,2019,2019
-baltimore,ACCELEVIR DIAGNOSTICS LLC,accelevir diagnostics,confirmed_grant,BALTIMORE,MD,21202-3183,False,True,True,0.0,12.0,7369789.0,10.0,8407544.0,,,,,F6SKM7YHCUS7,079940153,www.accelevirdx.com,10,2016,2023
+baltimore,"ABRI SCIENCE, LLC",abri science,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,True,0.0,1.0,225000.0,1.0,225000.0,,,,,CMPRHZJGJ3H1,116922745,https://www.abriscience.com,2,2019,2019
+baltimore,ACCELEVIR DIAGNOSTICS LLC,accelevir diagnostics,confirmed_grant,BALTIMORE,MD,21202-3183,False,True,True,0.0,12.0,7369789.0,19.0,12553252.0,,,,,F6SKM7YHCUS7,079940153,www.accelevirdx.com,10,2016,2023
 baltimore,"ACG, LLC",acg,confirmed_grant,Ellicott City,MD,21042-4954,False,True,False,0.0,2.0,849970.0,0.0,0.0,,,,,,790010852,www.acgroups.org,11,2000,2001
 baltimore,AD HOC RESEARCH ASSOCIATES LLC,ad hoc research associates,confirmed_grant,Belcamp,MD,21017-1541,False,True,False,0.0,2.0,3246517.35,0.0,0.0,,,,,LN6HVDFD34S6,962516857,http://www.ad-hocresearch.com,1,2025,2025
 baltimore,"ADIABATICS, INC.",adiabatics,confirmed_grant,ELLICOTT CITY,MD,21043,False,True,False,0.0,0.0,280914.0,0.0,0.0,,,,,,,,,2001,2001
@@ -75,14 +127,14 @@ baltimore,AID NETWORKS,aid networks,confirmed_grant,Ellicott City,MD,21043,False
 baltimore,AIDAR HEALTH INC,aidar health,confirmed_grant,PIKESVILLE,MD,21208-1839,False,True,True,0.0,3.0,1532150.0,2.0,276150.0,,,,,JEMYBJLDN1T3,012064384,https://www.aidar.com,12,2020,2023
 baltimore,AIRPHOTON LLC ,airphoton,confirmed_grant,Baltimore,MD,21227-3863,False,True,False,0.0,1.0,124107.0,0.0,0.0,,,,,LTA1BVS6NKZ5,049115613,www.airphoton.com,12,2021,2021
 baltimore,ALBA THERAPEUTICS CORPORATION,alba therapeutics,confirmed_grant,BALTIMORE,MD,21224,False,True,False,0.0,1.0,530624.0,0.0,0.0,,,,,,,,,2006,2006
-baltimore,"ALCAMENA STEM CELL THERAPEUTICS, LLC",alcamena stem cell therapeutics,confirmed_grant,HALETHORPE,MD,21227-3863,False,True,True,0.0,3.0,2980845.0,2.0,1889350.0,,,,,J6DAAQH7AQL8,079683375,https://alcamenabio.com/,2,2018,2025
+baltimore,"ALCAMENA STEM CELL THERAPEUTICS, LLC",alcamena stem cell therapeutics,confirmed_grant,HALETHORPE,MD,21227-3863,False,True,True,0.0,3.0,2980845.0,5.0,2980845.0,,,,,J6DAAQH7AQL8,079683375,https://alcamenabio.com/,2,2018,2025
 baltimore,"ALLOY COMPUTING, LLC",alloy computing,confirmed_grant,Clarksville,MD,21029 1029,False,True,False,0.0,1.0,99000.0,0.0,0.0,,,,,MEAXHEKS4NN7,604139720,,3,2008,2008
 baltimore,"ALPHA OMEGA ELECTROMAGNETICS, LLC",alpha omega electromagnetics,confirmed_grant,Millersville,MD,21108-1962,False,True,False,0.0,16.0,6958599.0,0.0,0.0,,,,,MMWVV292Q3N8,011759482,alphaomegaem.com,5,1998,2017
-baltimore,"ANATOMYWORKS, LLC",anatomyworks,confirmed_grant,Baltimore,MD,21205-,False,True,False,0.0,5.0,2434872.0,0.0,0.0,,,,,YJJWMQGJD285,827126520,,0,2012,2017
+baltimore,"ANATOMYWORKS, LLC",anatomyworks,confirmed_grant,Baltimore,MD,21205-,False,True,True,0.0,5.0,2434872.0,3.0,1487147.0,,,,,YJJWMQGJD285,827126520,,0,2012,2017
 baltimore,"ANJIN GROUP, INC.",anjin,confirmed_grant,COCKEYSVILLE,MD,21030 2202,False,True,False,0.0,4.0,567216.0,0.0,0.0,,,,,,143606742,,,2005,2008
 baltimore,"ANNAPOLIS MICRO SYSTEMS, INC.",annapolis micro systems,confirmed_grant,ANNAPOLIS,MD,21401-7386,False,True,False,0.0,1.0,72000.0,0.0,0.0,,,,,VLE8CNQ8NEQ5,004961462,http://www.annapmicro.com,100,2025,2025
 baltimore,ANONITECH LLC,anonitech,confirmed_grant,ELLICOTT CITY,MD,21042-7619,False,True,False,0.0,1.0,250000.0,0.0,0.0,,,,,EFUTULCNXQG8,117699683,,3,2021,2021
-baltimore,ANTIDOTE THERAPEUTICS INC,antidote therapeutics,confirmed_grant,SYKESVILLE,MD,21784-8213,False,True,True,0.0,1.0,200834.0,3.0,13125765.0,,,,,KNPKVDXDCNL9,079189618,,1,2017,2017
+baltimore,ANTIDOTE THERAPEUTICS INC,antidote therapeutics,confirmed_grant,SYKESVILLE,MD,21784-8213,False,True,True,0.0,1.0,200834.0,6.0,19227169.0,,,,,KNPKVDXDCNL9,079189618,,1,2017,2017
 baltimore,ANTRUST LLC,antrust,confirmed_grant,COLUMBIA,MD,21046-2281,False,True,False,0.0,2.0,1539623.0,0.0,0.0,,,,,FA6NQ9BT83M4,117047448,https://www.AnTrust.us,8,2022,2024
 baltimore,"APPLIED DEFENSE SOLUTIONS, INC.",applied defense solutions,confirmed_grant,COLUMBIA,MD,21044-3504,False,True,False,0.0,19.0,8697800.0,0.0,0.0,,,,,SK1QCYL66NM4,172216827,www.applieddefense.com,74,2008,2018
 baltimore,"APPLIED ENGINEERING CONCEPTS, INCORPORATED",applied engineering concepts,confirmed_grant,SYKESVILLE,MD,21784-6882,False,True,False,0.0,2.0,1555839.0,0.0,0.0,,,,,HL43N5CU2FN3,964439645,https://www.ae-concepts.com,9,2019,2023
@@ -97,14 +149,13 @@ baltimore,ATEK RESEARCH COMPANY,atek research,confirmed_grant,ELLICOTT CITY,MD,2
 baltimore,"ATLANTEC ENTERPRISE SOLUTIONS, INC.",atlantec enterprise solutions,confirmed_grant,Annapolis,MD,21401,False,True,False,0.0,12.0,3151272.0,0.0,0.0,,,,,,,,10,2001,2008
 baltimore,"ATOLLO TECHNOLOGY SOLUTIONS, LLC",atollo technology solutions,confirmed_grant,LAUREL,MD,20723-2053,False,True,False,0.0,2.0,124339.0,0.0,0.0,,,,,WG19MJE4KA17,080834045,https://www.atollo-ts.com,10,2022,2023
 baltimore,ATTUNE NEUROSCIENCES INC,attune neurosciences,confirmed_grant,BEL AIR,MD,21014-3864,False,True,False,0.0,3.0,2691395.0,0.0,0.0,,,,,ET2MB89ZSHH5,117393265,https://www.attuneneuro.com/,10,2021,2025
-baltimore,AUSCULTECH DX LLC,auscultech dx,confirmed_grant,Dayton,MD,21036-1142,False,True,True,0.0,5.0,5665468.0,3.0,1223137.0,,,,,NJACQGZQD4Y7,079727453,http://www.auscultechdx.com,4,2016,2023
+baltimore,AUSCULTECH DX LLC,auscultech dx,confirmed_grant,Dayton,MD,21036-1142,False,True,True,0.0,5.0,5665468.0,5.0,2165468.0,,,,,NJACQGZQD4Y7,079727453,http://www.auscultechdx.com,4,2016,2023
 baltimore,"Active Signal Technologies, Inc.",active signal technologies,confirmed_grant,Linthicum Heights,MD,21090-1322,False,True,False,0.0,29.0,12573773.0,0.0,0.0,,,,,XR1ABJQRMS34,959989054,http://www.ActiveSignalTech.com,8,1999,2020
 baltimore,ActiveCharge LLC,activecharge,confirmed_grant,Halethorpe,MD,21227-3863,False,True,False,0.0,1.0,256000.0,0.0,0.0,,,,,KY1QMG9XBHZ9,,,1,2022,2022
 baltimore,"Advanced Analyzer Labs, Inc. ",advanced analyzer labs,confirmed_grant,Ellicott City,MD,21043-5411,False,True,False,0.0,4.0,1174821.0,0.0,0.0,,,,,KUG9CDCV8A99,079858751,,2,2018,2023
 baltimore,Advanced Resource Development,advanced resource development,confirmed_grant,Columbia,MD,21045,False,True,False,0.0,0.0,49993.0,0.0,0.0,,,,,,,,50,1986,1986
 baltimore,Advanced Technology & Research,advanced technology research,confirmed_grant,Laurel,MD,20707,False,True,False,0.0,0.0,512521.0,0.0,0.0,,,,,,,,,1983,1990
 baltimore,"Advantech, Inc.",advantech,confirmed_grant,Annapolis,MD,21401-4298,False,True,False,0.0,0.0,69692.0,0.0,0.0,,,,,,160913687,www.advantech-inc.com,32,1994,1994
-baltimore,"Agenebio, Inc.",agenebio,confirmed_grant,Baltimore,MD,21209-3796,False,True,True,0.0,2.0,3229045.0,14.0,21317992.0,,,,,YZWJGZMT3MN5,962259292,http://www.agenebio.com,2,2019,2020
 baltimore,Agilis Corp.,agilis,confirmed_grant,Columbia,MD,21046,False,True,False,0.0,0.0,549952.0,0.0,0.0,,,,,,,,,1991,1992
 baltimore,Alme & Associates,alme associates,confirmed_grant,Columbia,MD,21044,False,True,False,0.0,0.0,49056.0,0.0,0.0,,,,,,,,,1992,1992
 baltimore,"Amar Transportation Research & Consulting, Inc.",amar transportation research consulting,confirmed_grant,Severn,MD,21144 1933,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,133470778,,8,2008,2008
@@ -124,8 +175,6 @@ baltimore,Associated Enterprises Inc.,associated enterprises,confirmed_grant,Ann
 baltimore,Athena Environmental Sciences Inc,athena environmental sciences,confirmed_grant,BALTIMORE,MD,21227-3870,False,True,False,0.0,4.0,652859.0,0.0,0.0,,,,,PV5CZMCA7NE5,834960833,www.athenaes.com,5,1998,2022
 baltimore,Automation Technology Corp.,automation technology,confirmed_grant,Columbia,MD,21045,False,True,False,0.0,0.0,328992.0,0.0,0.0,,,,,,,,4,1985,1986
 baltimore,Autonomy Engine LLC,autonomy engine,confirmed_grant,Marriottsville,MD,21104,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,964769314,www.autonomyengine.com,2,2015,2015
-baltimore,"Avident Health, LLC",avident health,confirmed_grant,Baltimore,MD,21212-3323,False,True,True,0.0,1.0,361254.0,1.0,361254.0,,,,,X8F5UM33FJX8,080354354,https://www.avidenthealth.com,5,2020,2020
-baltimore,Awarables Inc.,awarables,confirmed_grant,Baltimore,MD,21201-6512,False,True,False,0.0,3.0,447569.0,0.0,0.0,,,,,MA67M5DKK3F9,079133491,https://awarables.webflow.io,4,2014,2016
 baltimore,"Aza Technology, Inc.",aza technology,confirmed_grant,Towson,MD,21286-7826,False,True,False,0.0,1.0,229542.0,0.0,0.0,,,,,PSKJTVPT3169,080165444,,3,2021,2021
 baltimore,"BALTIMORE BIOMEDICAL, INC.",baltimore biomedical,confirmed_grant,BALTIMORE,MD,21230,False,True,False,0.0,0.0,1806411.0,0.0,0.0,,,,,,,,,1996,2001
 baltimore,"BAND, LAVIS & ASSOC., INC.",band lavis assoc,confirmed_grant,Severna Park,MD,21146,False,True,False,0.0,0.0,1757152.0,0.0,0.0,,,,,,,,29,1983,1998
@@ -159,8 +208,7 @@ baltimore,"Bonfire Biomass Conversions, Llc",bonfire biomass conversions,confirm
 baltimore,"BrainChild Technologies, L.L.C.",brainchild technologies l l c,confirmed_grant,Baltimore,MD,21230-5032,False,True,False,0.0,2.0,406341.0,0.0,0.0,,,,,LDJ8PE4K6KV9,079770963,http://www.brainchildtech.org,1,2018,2019
 baltimore,"Broadleaf Energy, LLC",broadleaf energy,confirmed_grant,Glenwood,MD,21738-9330,False,True,False,0.0,1.0,149841.0,0.0,0.0,,,,,,068954640,,8,2013,2013
 baltimore,Business & Technological Syste,business technological syste,confirmed_grant,Laurel,MD,20708,False,True,False,0.0,0.0,1023629.0,0.0,0.0,,,,,,,,33,1983,1988
-baltimore,"CANTON BIOTECHNOLOGIES, INC.",canton biotechnologies,confirmed_grant,Baltimore,MD,21224,False,True,False,0.0,3.0,512191.0,0.0,0.0,,,,,LNADSW9GBR97,829781678,,1,2010,2015
-baltimore,"CARDIOSOLV ABLATION TECHNOLOGIES, INC.",cardiosolv ablation technologies,confirmed_grant,Baltimore,MD,21218-5018,False,True,True,0.0,2.0,4274602.0,2.0,2274159.0,,,,,ET19FNY1GH15,079109378,http://www.cardiosolv.com,2,2014,2019
+baltimore,"CANTON BIOTECHNOLOGIES, INC.",canton biotechnologies,confirmed_grant,Baltimore,MD,21224,False,True,True,0.0,3.0,512191.0,2.0,189772.0,,,,,LNADSW9GBR97,829781678,,1,2010,2015
 baltimore,"CCC Diagnostics, LLC",ccc diagnostics,confirmed_grant,Baltimore,MD,21227,False,True,False,0.0,1.0,1175092.0,0.0,0.0,,,,,,164914371,DirectHitTest.com,8,1998,2004
 baltimore,CCL Biomedical Inc.,ccl biomedical,confirmed_grant,Havre de Grace,MD,-,False,True,False,0.0,8.0,1583292.0,0.0,0.0,,,,,UJ8BLDWHLRN6,091905484,,2,2003,2013
 baltimore,CELEFLUX LLC,celeflux,confirmed_grant,SEVERNA PARK,MD,21146-2215,False,True,True,0.0,2.0,523529.0,1.0,298531.0,,,,,NX9BK7ZUKQ73,116999164,,1,2020,2020
@@ -173,17 +221,16 @@ baltimore,"CHEN LABORATORIES, INC.",chen laboratories,confirmed_grant,PHOENIX,MD
 baltimore,"CHESAPEAKE GENOMIC SYSTEMS, LLC",chesapeake genomic systems,confirmed_grant,HALETHORPE,MD,21227-3863,False,True,True,0.0,3.0,859441.0,4.0,1099224.0,,,,,F6ZVG7CX33T1,,,2,2021,2025
 baltimore,CHESAPEAKE SCIENCES CORP.,chesapeake sciences,confirmed_grant,Millersville,MD,21108 2540,False,True,False,0.0,15.0,9339382.0,0.0,0.0,,,,,GJEUJECUQNN6,,,114,1995,2008
 baltimore,CLARITY CYBER LLC,clarity cyber,confirmed_grant,LINTHICUM HEIGHTS,MD,21090-2959,False,True,False,0.0,3.0,5043535.0,0.0,0.0,,,,,K66JV918X9G7,,http://www.claritycyber.com,18,2022,2024
-baltimore,"CLEAR GUIDE MEDICAL, INC.",clear guide medical,confirmed_grant,BALTIMORE,MD,21211-2146,False,True,True,0.0,13.0,8806105.0,4.0,1529782.0,,,,,N5DTXVC1ZXA6,965399905,www.clearguidemedical.com,13,2011,2022
 baltimore,CLEARLYENERGY INC,clearlyenergy,confirmed_grant,SEVERNA PARK,MD,21146-4637,False,True,False,0.0,3.0,2698836.0,0.0,0.0,,,,,EM4GVU2RC3S3,079736043,https://www.clearlyenergy.com,13,2020,2023
-baltimore,COGENTIS THERAPEUTICS INC,cogentis therapeutics,confirmed_grant,COLUMBIA,MD,21044-4152,False,True,True,0.0,2.0,2944124.0,3.0,2447003.0,,,,,T5K6EP6DD251,079908710,https://www.cogentistherapeutics.com,3,2018,2021
+baltimore,COGENTIS THERAPEUTICS INC,cogentis therapeutics,confirmed_grant,COLUMBIA,MD,21044-4152,False,True,True,0.0,2.0,2944124.0,4.0,2944124.0,,,,,T5K6EP6DD251,079908710,https://www.cogentistherapeutics.com,3,2018,2021
 baltimore,COGTHERA LLC,cogthera,confirmed_grant,BROOKEVILLE,MD,20833,False,True,True,0.0,2.0,1241995.0,2.0,1241995.0,,,,,W4P2GVQJL4D1,080498451,,4,2021,2025
 baltimore,"COMBUSTION SCIENCE & ENGINEERING, INC.",combustion science engineering,confirmed_grant,COLUMBIA,MD,21045-2129,False,True,False,0.0,37.0,13904216.31,0.0,0.0,,,,,FRYVEE1WQKB1,018413208,www.csefire.com,15,1999,2024
 baltimore,COMETA THERAPEUTICS INC,cometa therapeutics,confirmed_grant,TOWSON,MD,21204-5017,False,True,True,0.0,1.0,299648.0,1.0,299648.0,,,,,RNTBQE96PX23,,,3,2025,2025
-baltimore,"COMPUTCHEM, LLC",computchem,confirmed_grant,Baltimore,MD,21230-2043,False,True,True,0.0,2.0,1541548.0,2.0,1373997.0,,,,,TJV7T8A8Y2X1,116900785,https://www.computchem.com/,3,2019,2021
+baltimore,"COMPUTCHEM, LLC",computchem,confirmed_grant,Baltimore,MD,21230-2043,False,True,True,0.0,2.0,1541548.0,3.0,1541548.0,,,,,TJV7T8A8Y2X1,116900785,https://www.computchem.com/,3,2019,2021
 baltimore,CONDUCTING MATERIALS CORP.,conducting materials,confirmed_grant,Columbia,MD,21045,False,True,False,0.0,5.0,2053765.0,0.0,0.0,,,,,,926852930,,3,1996,2003
 baltimore,"CONSTELLATION SOFTWARE ENGINEERING, LLC",constellation software engineering,confirmed_grant,ANNAPOLIS,MD,21401,False,True,False,0.0,7.0,3322965.0,0.0,0.0,,,,,ZKMFMGSGJ4Q8,102061012,https://www.cse-corp.com,78,2023,2025
 baltimore,"CONTIEM, INC.",contiem,confirmed_grant,ANNAPOLIS,MD,21401-7300,False,True,False,0.0,1.0,149623.0,0.0,0.0,,,,,QGFFW7S89V46,199441481,https://www.contiem.com,200,2017,2017
-baltimore,"CORAM TECHNOLOGIES, INC.",coram technologies,confirmed_grant,PIKESVILLE,MD,21208-4309,False,True,True,0.0,4.0,2956979.0,5.0,2809057.0,,,,,ZVEKFW4KL818,077304623,http://www.coramtechnologies.com,3,2019,2025
+baltimore,"CORAM TECHNOLOGIES, INC.",coram technologies,confirmed_grant,PIKESVILLE,MD,21208-4309,False,True,True,0.0,4.0,2956979.0,6.0,2956979.0,,,,,ZVEKFW4KL818,077304623,http://www.coramtechnologies.com,3,2019,2025
 baltimore,"COVEGA, INC.",covega,confirmed_grant,Jessup,MD,20794,False,True,False,0.0,4.0,373710.0,0.0,0.0,,,,,,,,80,2005,2007
 baltimore,CRAVETY LLC,cravety,confirmed_grant,COLUMBIA,MD,21046-1543,False,True,False,0.0,1.0,71344.0,0.0,0.0,,,,,ETZ2WFRM8J91,,https://www.cravety.com,11,2024,2024
 baltimore,CREW Services LLC,crew services,confirmed_grant,Ellicott City,MD,21043-6650,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,078441269,www.crew-services.com,3,2014,2014
@@ -202,15 +249,14 @@ baltimore,Center For Health Policy,center for health policy,confirmed_grant,Colu
 baltimore,Century Computing Inc,century computing,confirmed_grant,Laurel,MD,20707,False,True,False,0.0,1.0,883357.0,0.0,0.0,,,,,,,,,1988,1996
 baltimore,"CeraTech, Inc.",ceratech,confirmed_grant,Baltimore,MD,21203,False,True,False,0.0,1.0,96477.0,0.0,0.0,,,,,,,,,2003,2003
 baltimore,"Ceramic Composites, Inc.",ceramic composites,confirmed_grant,Annapolis,MD,21401-8907,False,True,False,0.0,24.0,7903849.0,0.0,0.0,,,,,,783765670,,25,1992,2008
-baltimore,Cerecor Inc. ,cerecor,confirmed_grant,Baltimore,MD,21202-3126,False,True,False,0.0,2.0,1292476.0,0.0,0.0,,,,,J7WVEQTH1ML6,968799028,,0,2011,2016
 baltimore,Chesapeake Biological,chesapeake biological,confirmed_grant,Baltimore,MD,21212,False,True,False,0.0,0.0,37497.0,0.0,0.0,,,,,,,,,1983,1983
 baltimore,"Chesapeake Cryogenics, Inc.",chesapeake cryogenics,confirmed_grant,Arnold,MD,21012 0231,False,True,False,0.0,3.0,1190637.0,0.0,0.0,,,,,,019118814,,7,1998,2006
 baltimore,"Chesapeake Fields Farmers, LLC",chesapeake fields farmers,confirmed_grant,Chestertown,MD,20610,False,True,False,0.0,1.0,79879.0,0.0,0.0,,,,,,,,,2005,2005
 baltimore,"Chesapeake Perl, Inc.",chesapeake perl,confirmed_grant,SAVAGE,MD,20763-,False,True,False,0.0,6.0,4377453.0,0.0,0.0,,,,,,020501404,,15,2001,2012
-baltimore,Circulomics Inc.,circulomics,confirmed_grant,Baltimore,MD,21202-3183,False,True,True,0.0,11.0,10886893.0,4.0,2007416.0,,,,,DF5ZDMUZJPH7,830377581,http://www.circulomics.com,8,2012,2020
+baltimore,Circulomics Inc.,circulomics,confirmed_grant,Baltimore,MD,21202-3183,False,True,True,0.0,11.0,10886893.0,15.0,9818241.0,,,,,DF5ZDMUZJPH7,830377581,http://www.circulomics.com,8,2012,2020
 baltimore,Clinical Trials & Surveys Corp,clinical trials surveys,confirmed_grant,Owings Mills,MD,21117,False,True,False,0.0,2.0,847780.0,0.0,0.0,,,,,,621075605,www.c-tasc.com,15,2008,2009
 baltimore,"Cognate Therapeutics, Inc.",cognate therapeutics,confirmed_grant,Baltimore,MD,21227,False,True,False,0.0,1.0,200000.0,0.0,0.0,,,,,,,,,2005,2005
-baltimore,Cognext Diagnostics LLC,cognext diagnostics,confirmed_grant,Baltimore,MD,21218-1707,False,True,True,0.0,2.0,837539.0,1.0,499999.0,,,,,L393CE1KTBR9,081322242,,2,2019,2021
+baltimore,Cognext Diagnostics LLC,cognext diagnostics,confirmed_grant,Baltimore,MD,21218-1707,False,True,True,0.0,2.0,837539.0,2.0,837539.0,,,,,L393CE1KTBR9,081322242,,2,2019,2021
 baltimore,"Conquest Software, Inc.",conquest software,confirmed_grant,Columbia,MD,21046,False,True,False,0.0,0.0,486626.0,0.0,0.0,,,,,,,,25,1993,1995
 baltimore,Converging Technologies Inc.,converging technologies,confirmed_grant,Harwood,MD,20776,False,True,False,0.0,0.0,542000.0,0.0,0.0,,,,,,,,,1986,1988
 baltimore,Corpe Corp.,corpe,confirmed_grant,Columbia,MD,21045,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1994,1994
@@ -227,7 +273,7 @@ baltimore,"DEI Group, Inc., The",dei,confirmed_grant,Millersville,MD,21108-2591,
 baltimore,DIPOLE MATERIALS INC,dipole materials,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,False,0.0,3.0,724590.0,0.0,0.0,,,,,TDLQAPGEHD13,079626840,,2,2016,2025
 baltimore,DISRUPTIV TECHNOLOGIES LLC,disruptiv technologies,confirmed_grant,EDGEWATER,MD,21037-2133,False,True,False,0.0,2.0,1237286.12,0.0,0.0,,,,,X9DNGN2YX7E5,020037145,https://www.disruptiv.us,3,2021,2021
 baltimore,DOMICELL INC.,domicell,confirmed_grant,Baltimore,MD,21205-1506,False,True,False,0.0,1.0,224944.0,0.0,0.0,,,,,,079917687,,1,2016,2016
-baltimore,"DYNAFLOW, INC.",dynaflow,confirmed_grant,Annapolis Junction,MD,20701-1204,False,True,True,0.0,53.0,17379394.26,2.0,336956.0,,,,,X2KFLRCASMG7,605227875,http://www.dynaflow-inc.com,5,1990,2024
+baltimore,"DYNAFLOW, INC.",dynaflow,confirmed_grant,Annapolis Junction,MD,20701-1204,False,True,True,0.0,53.0,17379394.26,6.0,1655840.0,,,,,X2KFLRCASMG7,605227875,http://www.dynaflow-inc.com,5,1990,2024
 baltimore,"DYNAMHEX, INC.",dynamhex,confirmed_grant,BALTIMORE,MD,21231-3339,False,True,False,0.0,1.0,49908.0,0.0,0.0,,,,,NNUKGQE6DFM5,117664791,https://www.dynmhx.io,7,2022,2022
 baltimore,"DYNAMIC DIMENSION TECHNOLOGIES, LLC",dynamic dimension technologies,confirmed_grant,WESTMINSTER,MD,21158-3034,False,True,False,0.0,9.0,4950286.0,0.0,0.0,,,,,PK2GGR2NJJ24,079892760,http://www.dynamicdimensiontechnologies.com,6,2016,2025
 baltimore,DYNATHERM CORP.,dynatherm,confirmed_grant,Hunt Valley,MD,21030,False,True,False,0.0,2.0,1236908.0,0.0,0.0,,,,,,,,12,1985,1998
@@ -243,7 +289,7 @@ baltimore,"E-2 Unlimited Technologies, LLC",e 2 unlimited technologies,confirmed
 baltimore,EDGETIDE LLC,edgetide,confirmed_grant,COLUMBIA,MD,21046-1543,False,True,False,0.0,1.0,49353.0,0.0,0.0,,,,,HLFEZ8BH7NB3,831248484,http://www.edgetide.com,2,2020,2020
 baltimore,ELECTRONICS DEVELOPMENT CORP,electronics development,confirmed_grant,COLUMBIA,MD,21046-3150,False,True,False,0.0,4.0,3239717.0,0.0,0.0,,,,,MYM9XCFTRBM1,153234158,,18,1988,2008
 baltimore,"EMERGENT SPACE TECHNOLOGIES, LLC",emergent space technologies,confirmed_grant,LAUREL,MD,20707-3589,False,True,False,0.0,49.0,19205502.0,0.0,0.0,,,,,NEADND7P5QX7,101537046,http://www.emergentspace.com,96,2006,2022
-baltimore,EMOCHA MOBILE HEALTH INC.,emocha mobile health,confirmed_grant,BALTIMORE,MD,21205-1546,False,True,True,0.0,10.0,11616632.0,11.0,7242509.0,,,,,FHWGEP6NNLG1,079307582,https://scene.health,75,2015,2023
+baltimore,EMOCHA MOBILE HEALTH INC.,emocha mobile health,confirmed_grant,BALTIMORE,MD,21205-1546,False,True,True,0.0,10.0,11616632.0,21.0,11616632.0,,,,,FHWGEP6NNLG1,079307582,https://scene.health,75,2015,2023
 baltimore,"ENCORE PATH, INC.",encore path,confirmed_grant,BALTIMORE,MD,21224,False,True,False,0.0,1.0,121521.0,0.0,0.0,,,,,,793632626,,,2009,2009
 baltimore,"ENVEIL, INC.",enveil,confirmed_grant,FULTON,MD,20759-2536,False,True,False,0.0,4.0,4452257.0,0.0,0.0,,,,,QJMDMYEAWSF6,080557084,https://www.enveil.com/,57,2019,2024
 baltimore,ENVIRONMENTAL ELEMENTS CORP.,environmental elements,confirmed_grant,BALTIMORE,MD,21227,False,True,False,0.0,3.0,2285448.0,0.0,0.0,,,,,,,,,1994,1999
@@ -251,7 +297,7 @@ baltimore,"EROS GROUP, LLC THE",eros,confirmed_grant,Owings Mills,MD,21117 1117,
 baltimore,ESOL SKILLED BUILDER SENTENCE WHEELS,esol skilled builder sentence wheels,confirmed_grant,MANCHESTER,MD,21102-2234,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,010635536,www.sentencewheel.com,4,2016,2016
 baltimore,EVEN HEALTH LLC (dba Cabana),even health dba cabana,confirmed_grant,ANNAPOLIS,MD,21401,False,True,False,0.0,3.0,2749219.0,0.0,0.0,,,,,GJXUYXN51CH3,099909258,www.yourcabana.com,14,2020,2022
 baltimore,"EVERYWHERE COMMUNICATIONS, INC.",everywhere communications,confirmed_grant,ANNAPOLIS,MD,21401-2421,False,True,False,0.0,1.0,1249814.0,0.0,0.0,,,,,FFMBJ2R9QQC5,081300588,https://www.everywherecomms.com,28,2025,2025
-baltimore,EVON MEDICS LLC,evon medics,confirmed_grant,ELLICOTT CITY,MD,21043-6077,False,True,True,0.0,10.0,13997137.0,16.0,13322137.0,,,,,KE4NA95F3HF9,078805833,,3,2018,2024
+baltimore,EVON MEDICS LLC,evon medics,confirmed_grant,ELLICOTT CITY,MD,21043-6077,False,True,True,0.0,10.0,13997137.0,19.0,13997137.0,,,,,KE4NA95F3HF9,078805833,,3,2018,2024
 baltimore,Eai Corp,eai,confirmed_grant,Abingdon,MD,21009,False,True,False,0.0,0.0,937947.0,0.0,0.0,,,,,,,,70,1993,1995
 baltimore,Eastan Corp,eastan,confirmed_grant,Annapolis,MD,21401,False,True,False,0.0,0.0,48496.0,0.0,0.0,,,,,,,,9,1985,1985
 baltimore,Eccalon LLC,eccalon,confirmed_grant,Hanover,MD,21076-3120,False,True,False,0.0,2.0,1317592.01,0.0,0.0,,,,,FMCVFMNEQF31,080660018,,75,2020,2022
@@ -259,7 +305,7 @@ baltimore,Edc/amcomp,edc amcomp,confirmed_grant,Columbia,MD,21045,False,True,Fal
 baltimore,"EduMD, LLC",edumd,confirmed_grant,Baltimore,MD,21205,False,True,False,0.0,1.0,256000.0,0.0,0.0,,,,,,,http://milemarker.me/,1,2021,2021
 baltimore,"Educational Patterns, Inc.",educational patterns,confirmed_grant,Baltimore,MD,21244,False,True,False,0.0,0.0,39990.0,0.0,0.0,,,,,,,,,1997,1997
 baltimore,"ElanTech, Inc.",elantech,confirmed_grant,Columbia,MD,21046-3138,False,True,False,0.0,2.0,199858.65000000002,0.0,0.0,,,,,CM11ZBDD3ZF5,038438284,www.elantech-inc.com,7,2016,2016
-baltimore,"Elixirgen, LLC",elixirgen,confirmed_grant,Baltimore,MD,21205-1511,False,True,False,0.0,1.0,148400.0,0.0,0.0,,,,,GHH4TW7K86K3,078748558,,13,2016,2016
+baltimore,"Elixirgen, LLC",elixirgen,confirmed_grant,Baltimore,MD,21205-1511,False,True,True,0.0,1.0,148400.0,1.0,148400.0,,,,,GHH4TW7K86K3,078748558,,13,2016,2016
 baltimore,"Embedded Research Solutions, LLC",embedded research solutions,confirmed_grant,Annapolis,MD,21401 0701,False,True,False,0.0,7.0,1608160.0,0.0,0.0,,,,,,188519404,,9,2002,2004
 baltimore,"Emerald Events, Inc.",emerald events,confirmed_grant,PASADENA,MD,21122-,False,True,False,0.0,3.0,2609082.0,0.0,0.0,,,,,,,,,2003,2010
 baltimore,"Emerald Sky Technologies, LLC",emerald sky technologies,confirmed_grant,Columbia,MD,21045-1832,False,True,False,0.0,5.0,992964.0,0.0,0.0,,,,,,784777950,,1,2007,2011
@@ -276,22 +322,21 @@ baltimore,FALCON SYSTEMS ENGINEERING CORP.,falcon systems engineering,confirmed_
 baltimore,"FASGEN, INC.",fasgen,confirmed_grant,BALTIMORE,MD,21201 1158,False,True,False,0.0,9.0,8579060.0,0.0,0.0,,,,,,,,,2001,2009
 baltimore,"FD NEUROTECHNOLOGIES CONSULTING & SERVICES, INC.",fd neurotechnologies consulting services,confirmed_grant,COLUMBIA,MD,21046-2597,False,True,True,0.0,1.0,499784.0,1.0,499784.0,,,,,MBHYJCHP8BQ7,004583394,http://fdneurotech.com,14,2021,2021
 baltimore,"FYODOR BIOTECHNOLOGIES, INC.",fyodor biotechnologies,confirmed_grant,BALTIMORE,MD,21230-2063,False,True,False,0.0,4.0,1506651.0,0.0,0.0,,,,,JNEVR7AQJJF4,826048733,http://www.fyodorbio.com,15,2011,2013
-baltimore,FZATA INC,fzata,confirmed_grant,HALETHORPE,MD,21227-3863,False,True,True,0.0,8.0,8151662.0,14.0,12954513.0,,,,,SLGDVHJS1Y85,080062872,http://www.fzata.com,8,2017,2022
+baltimore,FZATA INC,fzata,confirmed_grant,HALETHORPE,MD,21227-3863,False,True,True,0.0,8.0,8151662.0,20.0,18343715.0,,,,,SLGDVHJS1Y85,080062872,http://www.fzata.com,8,2017,2022
 baltimore,"Fantalgo, LLC",fantalgo,confirmed_grant,Elkridge,MD,21075 6887,False,True,False,0.0,1.0,99994.0,0.0,0.0,,,,,,784441219,,2,2007,2007
 baltimore,"Fearless Solutions, LLC",fearless solutions,confirmed_grant,Baltimore,MD,21202-4011,False,True,False,0.0,3.0,2053174.0,0.0,0.0,,,,,YUZFZ7G7J7D3,829602304,https://fearless.tech,127,2020,2021
 baltimore,Fein-marquart Associates,fein marquart associates,confirmed_grant,Baltimore,MD,21212,False,True,False,0.0,0.0,1430197.0,0.0,0.0,,,,,,,,,1985,1992
 baltimore,"Flow Raider, LLC",flow raider,confirmed_grant,Annapolis,MD,21401-3629,False,True,False,0.0,1.0,255864.0,0.0,0.0,,,,,ZU9SXCNSLM29,081055181,,5,2021,2021
 baltimore,"Frh, Inc.",frh,confirmed_grant,Baltimore,MD,21210,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1994,1994
 baltimore,"G2, INC.",g2,confirmed_grant,ANNAPOLIS JUNCTION,MD,20701-1061,False,True,False,0.0,2.0,389066.0,0.0,0.0,,,,,ELKLUX6CPEH5,027103006,,86,2011,2012
-baltimore,"GEMSTONE BIOTHERAPEUTICS, LLC ",gemstone biotherapeutics,confirmed_grant,Baltimore,MD,21230-3755,False,True,False,0.0,2.0,449430.0,0.0,0.0,,,,,,079139235,,4,2018,2018
 baltimore,GEON TECHNOLOGIES LLC,geon technologies,confirmed_grant,COLUMBIA,MD,21046-3434,False,True,False,0.0,2.0,227587.0,0.0,0.0,,,,,SAXSD6MLNWM3,968090774,www.geontech.com,40,2015,2020
 baltimore,GERACE COMBUSTION GROUP,gerace combustion,confirmed_grant,Towson,MD,21204,False,True,False,0.0,1.0,69767.0,0.0,0.0,,,,,,,,,1999,1999
-baltimore,GLYCOT THERAPEUTICS LLC,glycot therapeutics,confirmed_grant,ELLICOTT CITY,MD,21042-5026,False,True,True,0.0,7.0,5616858.0,8.0,4241124.0,,,,,Q9DESREWJJ39,079908008,http://www.glycot.com,3,2017,2024
+baltimore,GLYCOT THERAPEUTICS LLC,glycot therapeutics,confirmed_grant,ELLICOTT CITY,MD,21042-5026,False,True,True,0.0,7.0,5616858.0,12.0,5616858.0,,,,,Q9DESREWJJ39,079908008,http://www.glycot.com,3,2017,2024
 baltimore,"GMA INDUSTRIES, INC.",gma industries,confirmed_grant,Annapolis,MD,21401,False,True,False,0.0,43.0,20384005.0,0.0,0.0,,,,,,623137379,,18,1991,2007
 baltimore,"GMATEK, INC.",gmatek,confirmed_grant,ANNAPOLIS,MD,21401-6436,False,True,False,0.0,4.0,1949646.0,0.0,0.0,,,,,UN5PKH47SAX6,800545043,gmatek.com,3,2008,2020
 baltimore,"GRAY MATTERS, INC.",gray matters,confirmed_grant,ANNAPOLIS,MD,21401-7957,False,True,False,0.0,2.0,143163.0,0.0,0.0,,,,,LVK1JRJFFQW5,,,12,2023,2024
 baltimore,"GRI, INC.",gri,confirmed_grant,Baltimore,MD,21218,False,True,False,0.0,1.0,68900.0,0.0,0.0,,,,,,141618160,,1,2004,2004
-baltimore,GalaxyWorks LLC,galaxyworks,confirmed_grant,Baltimore,MD,21211-2415,False,True,True,0.0,1.0,280000.0,1.0,55000.0,,,,,MFA8BXME5917,081274256,,11,2019,2019
+baltimore,GalaxyWorks LLC,galaxyworks,confirmed_grant,Baltimore,MD,21211-2415,False,True,True,0.0,1.0,280000.0,3.0,335000.0,,,,,MFA8BXME5917,081274256,,11,2019,2019
 baltimore,"Gaskiya Diagnostics, Inc",gaskiya diagnostics,confirmed_grant,Baltimore,MD,21230-2043,False,True,False,0.0,2.0,324980.0,0.0,0.0,,,,,FMX8PJ4RAUR9,080195107,,1,2020,2020
 baltimore,General Research And Develop,general research and develop,confirmed_grant,Columbia,MD,21044,False,True,False,0.0,0.0,64745.0,0.0,0.0,,,,,,,,,1994,1994
 baltimore,Genetic Medisyn Corp.,genetic medisyn,confirmed_grant,Columbia,MD,21046,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1993,1993
@@ -308,7 +353,6 @@ baltimore,HAGOPIAN JOHN G,hagopian john g,confirmed_grant,HARWOOD,MD,20776-2200,
 baltimore,HOPR CORPORATION,hopr,confirmed_grant,COLUMBIA,MD,21046-1543,False,True,False,0.0,2.0,147721.0,0.0,0.0,,,,,QTTMWY9HLMC7,037971142,https://hopr.co,4,2024,2025
 baltimore,"HUGHES ASSOC., INC.",hughes assoc,confirmed_grant,Baltimore,MD,21227 0165,False,True,False,0.0,7.0,3534843.0,0.0,0.0,,,,,NM8HVXPHLEK7,035043744,,143,1985,2010
 baltimore,"HYPERMELT, LLC",hypermelt,confirmed_grant,WHITE MARSH,MD,21162-1605,False,True,True,0.0,1.0,275721.0,1.0,275721.0,,,,,VF8GVTBKR9W3,101153714,https://hypermelt.com/dna/,0,2023,2023
-baltimore,"Harpoon Medical, Inc.",harpoon medical,confirmed_grant,BALTIMORE,MD,21201-2479,False,True,False,0.0,1.0,925462.0,0.0,0.0,,,,,,079188333,,9,2016,2016
 baltimore,"HeartMetrics, Inc",heartmetrics,confirmed_grant,Baltimore,MD,21211,False,True,False,0.0,1.0,150000.0,0.0,0.0,,,,,,079189836,,2,2015,2015
 baltimore,Heritage Medical Products,heritage medical products,confirmed_grant,Hampstead,MD,21074,False,True,False,0.0,0.0,49382.0,0.0,0.0,,,,,,,,,1990,1990
 baltimore,"Hipertex Armor Group, LLC",hipertex armor,confirmed_grant,Baltimore,MD,-,False,True,False,0.0,1.0,149934.0,0.0,0.0,,,,,,963322313,,3,2012,2012
@@ -317,13 +361,13 @@ baltimore,"Ht Medical, Inc.",ht medical,confirmed_grant,Reisterstown,MD,21136,Fa
 baltimore,Human Systems Tech Corp,human systems tech,confirmed_grant,Columbia,MD,21044,False,True,False,0.0,0.0,49000.0,0.0,0.0,,,,,,,,,1986,1986
 baltimore,"Hy-Tek, Ltd.",hy tek,confirmed_grant,Dayton,MD,21036 0110,False,True,False,0.0,1.0,169775.0,0.0,0.0,,,,,,,,1,2000,2006
 baltimore,"Hydronautics Research, Inc.",hydronautics research,confirmed_grant,Fulton,MD,20759,False,True,False,0.0,0.0,979406.0,0.0,0.0,,,,,,,,,1992,1995
-baltimore,"IGI TECHNOLOGIES, INC",igi technologies,confirmed_grant,DAYTON,MD,21036,False,True,False,0.0,5.0,4115795.0,0.0,0.0,,,,,RJM1EML4MC35,793514972,,,2008,2017
+baltimore,"IGI TECHNOLOGIES, INC",igi technologies,confirmed_grant,DAYTON,MD,21036,False,True,True,0.0,5.0,4115795.0,3.0,1787564.0,,,,,RJM1EML4MC35,793514972,,,2008,2017
 baltimore,IM SYSTEMS,im systems,confirmed_grant,BALTIMORE,MD,21286,False,True,False,0.0,13.0,13109546.0,0.0,0.0,,,,,,809032352,,,1991,2008
 baltimore,"IMAGE-GUIDED NEUROLOGICS, INC.",image guided neurologics,confirmed_grant,BALTIMORE,MD,21210,False,True,False,0.0,2.0,729727.0,0.0,0.0,,,,,,,,,2002,2003
 baltimore,"IN VITRO ADMET LABORATORIES, LLC",in vitro admet laboratories,confirmed_grant,COLUMBIA,MD,21045-,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,C3RMLJZXLEE5,164917135,,0,2011,2011
 baltimore,INDEPENDENT SECURITY EVALUATORS,independent security evaluators,confirmed_grant,Baltimore,MD,21211 1211,False,True,False,0.0,1.0,99600.0,0.0,0.0,,,,,,783346245,,9,2007,2007
 baltimore,INFINI-SEA LLC,infini sea,confirmed_grant,SEVERNA PARK,MD,21146-4006,False,True,False,0.0,1.0,120000.0,0.0,0.0,,,,,XKS3SDFWWDF1,081053561,,2,2020,2020
-baltimore,"INFINITE BIOMEDICAL TECHNOLOGIES, LLC",infinite biomedical technologies,confirmed_grant,BALTIMORE,MD,21202-4264,False,True,True,0.0,34.0,42236199.0,11.0,10244690.0,,,,,J795AYLMUM83,037376022,http://www.i-biomed.com/index.html,15,1998,2023
+baltimore,"INFINITE BIOMEDICAL TECHNOLOGIES, LLC",infinite biomedical technologies,confirmed_grant,BALTIMORE,MD,21202-4264,False,True,True,0.0,34.0,42236199.0,25.0,18853773.0,,,,,J795AYLMUM83,037376022,http://www.i-biomed.com/index.html,15,1998,2023
 baltimore,"INFO-OPS / INFOASSURE, INC.",info ops infoassure,confirmed_grant,Arnold,MD,21012,False,True,False,0.0,2.0,1602820.0,0.0,0.0,,,,,,807942362,,11,2003,2004
 baltimore,INFOCULTURE,infoculture,confirmed_grant,BALTIMORE,MD,21211,False,True,False,0.0,2.0,1210287.0,0.0,0.0,,,,,,613460893,,,1999,2007
 baltimore,"INHIBITROL, INC.",inhibitrol,confirmed_grant,Parkton,MD,21120,False,True,False,0.0,3.0,330000.0,0.0,0.0,,,,,,112091397,,1,2007,2007
@@ -349,9 +393,9 @@ baltimore,"JEM ENGINEERING, LLC",jem engineering,confirmed_grant,LAUREL,MD,20707
 baltimore,"JENIUS, LLC",jenius,confirmed_grant,Pasadena,MD,21123 1617,False,True,False,0.0,1.0,100000.0,0.0,0.0,,,,,,784724630,,1,2009,2009
 baltimore,JSR ASSOCIATES INC,jsr associates,confirmed_grant,CATONSVILLE,MD,21228-4500,False,True,False,0.0,2.0,1149881.0,0.0,0.0,,,,,MMNGEVLLDY66,007429777,http://www.jsrassociates.net,3,2018,2020
 baltimore,"JUNEBRAIN, INC.",junebrain,confirmed_grant,BALTIMORE,MD,21230-5000,False,True,False,0.0,2.0,1440577.0,0.0,0.0,,,,,J1KGJ1C8CS36,080691506,https://www.junebrain.com/,4,2018,2021
-baltimore,"JUXTOPIA, LLC",juxtopia,confirmed_grant,BALTIMORE,MD,21213-1409,False,True,True,0.0,7.0,1498919.0,3.0,649281.0,,,,,PM5ACBQV24H6,026768155,http://juxtopia.com/,7,2005,2024
-baltimore,KALOCYTE INC,kalocyte,confirmed_grant,BALTIMORE,MD,21201-1514,False,True,True,0.0,6.0,7736098.0,5.0,3916275.0,,,,,MJMKM31FM667,080177219,https://kalocyte.com/,11,2017,2025
-baltimore,KEY TECHNOLOGIES INC,key technologies,confirmed_grant,BALTIMORE,MD,21230-4025,False,True,True,0.0,11.0,10607305.0,2.0,2028980.0,,,,,HBFBKCTJRL55,007429504,www.keytechinc.com,35,1999,2020
+baltimore,"JUXTOPIA, LLC",juxtopia,confirmed_grant,BALTIMORE,MD,21213-1409,False,True,True,0.0,7.0,1498919.0,6.0,952122.0,,,,,PM5ACBQV24H6,026768155,http://juxtopia.com/,7,2005,2024
+baltimore,KALOCYTE INC,kalocyte,confirmed_grant,BALTIMORE,MD,21201-1514,False,True,True,0.0,6.0,7736098.0,8.0,5936105.0,,,,,MJMKM31FM667,080177219,https://kalocyte.com/,11,2017,2025
+baltimore,KEY TECHNOLOGIES INC,key technologies,confirmed_grant,BALTIMORE,MD,21230-4025,False,True,True,0.0,11.0,10607305.0,6.0,5692197.0,,,,,HBFBKCTJRL55,007429504,www.keytechinc.com,35,1999,2020
 baltimore,Kruth-microwave Electronics Co,kruth microwave electronics,confirmed_grant,Hanover,MD,21076,False,True,False,0.0,0.0,101539.0,0.0,0.0,,,,,,,,5,1987,1988
 baltimore,"LAKOTA TECHNICAL SOLUTIONS, INC.",lakota technical solutions,confirmed_grant,WOODBINE,MD,21797-8525,False,True,False,0.0,29.0,13198638.0,0.0,0.0,,,,,RPTWUJFKEG64,040326220,http://www.lakota-tsi.com,4,1999,2024
 baltimore,LAND SEA AIR AUTONOMY LLC,land sea air autonomy,confirmed_grant,Finksburg,MD,21048-1145,False,True,False,0.0,8.0,2892848.3200000003,0.0,0.0,,,,,HUNXJX4YNMK1,967351722,https://www.lsa2.com,12,2013,2019
@@ -377,9 +421,9 @@ baltimore,MAHER & ASSOCIATES LLC,maher associates,confirmed_grant,FOREST HILL,MD
 baltimore,"MANTA BIOFUEL, INC.",manta biofuel,confirmed_grant,OWINGS MILLS,MD,21117-2225,False,True,False,0.0,1.0,2150000.0,0.0,0.0,,,,,UDYFWNSDNJH4,079639929,,8,2015,2018
 baltimore,MARITIME APPLIED PHYSICS CORPORATION,maritime applied physics,confirmed_grant,CURTIS BAY,MD,21226-1024,False,True,False,0.0,45.0,19196072.43,0.0,0.0,,,,,RGFBAKWWL465,188955991,http://www.blacksea.tech,450,1992,2025
 baltimore,MARTEK BIOSCIENCE CORPORATION,martek bioscience,confirmed_grant,COLUMBIA,MD,21045,False,True,False,0.0,6.0,7529631.0,0.0,0.0,,,,,,,,,1985,2001
-baltimore,"MASSTECH, INC.",masstech,confirmed_grant,COLUMBIA,MD,21046-2986,False,True,False,0.0,22.0,5417920.0,0.0,0.0,,,,,V1GZWNZE4F65,123310083,www.apmaldi.com,6,2010,2017
+baltimore,"MASSTECH, INC.",masstech,confirmed_grant,COLUMBIA,MD,21046-2986,False,True,True,0.0,22.0,5417920.0,4.0,588626.0,,,,,V1GZWNZE4F65,123310083,www.apmaldi.com,6,2010,2017
 baltimore,MATERIC LLC,materic,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,False,0.0,1.0,146498.0,0.0,0.0,,,,,HZ5UWCKDVJJ3,130507444,http://www.matericgroup.com,15,2024,2024
-baltimore,MEDICAL DECISION LOGIC INC,medical decision logic,confirmed_grant,TOWSON,MD,21204-3515,False,True,True,0.0,29.0,12582242.0,1.0,290832.0,,,,,XEL1QB1NEZX9,943185496,https://mdlogix.com/,26,1999,2020
+baltimore,MEDICAL DECISION LOGIC INC,medical decision logic,confirmed_grant,TOWSON,MD,21204-3515,False,True,True,0.0,29.0,12582242.0,5.0,1889496.0,,,,,XEL1QB1NEZX9,943185496,https://mdlogix.com/,26,1999,2020
 baltimore,"MELATECH, L.L.C.",melatech l l c,confirmed_grant,BALTIMORE,MD,21205-2103,False,True,False,0.0,3.0,1416499.0,0.0,0.0,,,,,UFHYM6EJN7L3,081262454,,4,2020,2024
 baltimore,"MILTEC UV INTERNATIONAL, LLC",miltec uv international,confirmed_grant,STEVENSVILLE,MD,21666-2128,False,True,False,0.0,1.0,149992.0,0.0,0.0,,,,,R3GJSSJW2LM8,965132660,,4,2011,2011
 baltimore,MINNOWTECH LLC,minnowtech,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,False,0.0,2.0,1224780.0,0.0,0.0,,,,,GJXGH4GW53V4,,https://www.minnowtech.com,2,2019,2021
@@ -411,7 +455,6 @@ baltimore,NATAUR LLC,nataur,confirmed_grant,BALTIMORE,MD,21227-3863,False,True,F
 baltimore,"NATSAR PHARMACEUTICALS, INC.",natsar pharmaceuticals,confirmed_grant,ELLICOTT CITY,MD,21043-6762,False,True,True,0.0,1.0,1634811.0,1.0,1634811.0,,,,,F2KMK7BBBMS3,048406288,http://www.natsarpharmaceuticals.com/,5,2025,2025
 baltimore,"NETRIAS, LLC",netrias,confirmed_grant,ANNAPOLIS,MD,21401-4198,False,True,True,0.0,4.0,4324142.0,3.0,967434.0,,,,,HC4YMJZ9X9P3,079773697,https://www.netrias.com,7,2019,2022
 baltimore,NEUROSONICS MEDICAL INC,neurosonics medical,confirmed_grant,BALTIMORE,MD,21201-6504,False,True,False,0.0,1.0,224997.0,0.0,0.0,,,,,J4NYS38LJG24,116863322,,2,2020,2020
-baltimore,"NEXTSTEP ROBOTICS, INC.",nextstep robotics,confirmed_grant,Baltimore,MD,21201-1158,False,True,True,0.0,2.0,5561344.0,5.0,4561698.0,,,,,F896MG5LQ6R4,080658816,https://www.nextsteprobo.com,7,2019,2021
 baltimore,NITROSCI PHARMACEUTICALS,nitrosci pharmaceuticals,confirmed_grant,OWINGS MILLS,MD,21117,False,True,False,0.0,0.0,631197.0,0.0,0.0,,,,,,,,,1999,2001
 baltimore,NKRYPT INC,nkrypt,confirmed_grant,BALTIMORE,MD,21202-4113,False,True,False,0.0,2.0,1941391.63,0.0,0.0,,,,,VP7ECVGNDCL8,081295583,http://www.nkrypt.com,3,2021,2022
 baltimore,"NONINVASIVE TECHNOLOGIES, LLC",noninvasive technologies,confirmed_grant,ELLICOTT CITY,MD,21042,False,True,False,0.0,1.0,1058096.0,0.0,0.0,,,,,,,,,2002,2002
@@ -430,19 +473,18 @@ baltimore,Nichols Technologies Inc.,nichols technologies,confirmed_grant,Columbi
 baltimore,"Nora, LLC",nora,confirmed_grant,Baltimore,MD,21224-0472,False,True,False,0.0,1.0,200000.0,0.0,0.0,,,,,,,,,2005,2005
 baltimore,Nova Pharmaceutical Corp,nova pharmaceutical,confirmed_grant,Baltimore,MD,21224,False,True,False,0.0,0.0,1309354.0,0.0,0.0,,,,,,,,,1984,1991
 baltimore,Novascreen Biosciences Corporation,novascreen biosciences,confirmed_grant,Hanover,MD,21076-0132,False,True,False,0.0,9.0,6031380.0,0.0,0.0,,,,,,,,,1999,2005
-baltimore,Novus Vision LLC,novus vision,confirmed_grant,BALTIMORE,MD,21205-1546,False,True,True,0.0,1.0,1512726.0,2.0,1512726.0,,,,,YD69MTLKXDK1,,,5,2023,2023
+baltimore,Novus Vision LLC,novus vision,confirmed_grant,BALTIMORE,MD,21205-1546,False,True,True,0.0,1.0,1512726.0,3.0,2060983.0,,,,,YD69MTLKXDK1,,,5,2023,2023
 baltimore,Nutritional Resources,nutritional resources,confirmed_grant,Baltimore,MD,21210,False,True,False,0.0,0.0,639220.0,0.0,0.0,,,,,,,,,1992,1994
 baltimore,"OBJECT SERVICES & CONSULTING, INC.",object services consulting,confirmed_grant,Baltimore,MD,21209,False,True,False,0.0,1.0,64963.0,0.0,0.0,,,,,,,,,1999,1999
-baltimore,"OCULAR PROTEOMICS, LLC",ocular proteomics,confirmed_grant,Towson,MD,21204-2600,False,True,False,0.0,3.0,1602755.0,0.0,0.0,,,,,,829021463,www.ocularproteomics.com,3,2010,2017
+baltimore,"OCULAR PROTEOMICS, LLC",ocular proteomics,confirmed_grant,Towson,MD,21204-2600,False,True,True,0.0,3.0,1602755.0,1.0,219009.0,,,,,,829021463,www.ocularproteomics.com,3,2010,2017
 baltimore,ON DEMAND PHARMACEUTICALS INC,on demand pharmaceuticals,confirmed_grant,ELLICOTT CITY,MD,20850-1339,False,True,False,0.0,1.0,325000.0,0.0,0.0,,,,,SN3RFJHJ2GP3,080171702,https://www.ondemandpharma.com,85,2024,2024
-baltimore,ONCOSPACE INC,oncospace,confirmed_grant,BALTIMORE,MD,21205-1506,False,True,True,0.0,4.0,2145740.0,3.0,920740.0,,,,,HSG5CY5VWW33,116608553,https://www.oncospace.com,10,2019,2023
-baltimore,"ONCOSTING, LLC",oncosting,confirmed_grant,BALTIMORE,MD,21231-2008,False,True,True,0.0,5.0,3761724.0,6.0,4412742.0,,,,,DJXQC89K4S79,055217800,,2,2021,2025
+baltimore,"ONCOSTING, LLC",oncosting,confirmed_grant,BALTIMORE,MD,21231-2008,False,True,True,0.0,5.0,3761724.0,5.0,3505724.0,,,,,DJXQC89K4S79,055217800,,2,2021,2025
 baltimore,"ONSYSTEM LOGIC, LLC",onsystem logic,confirmed_grant,ELLICOTT CITY,MD,21043-5519,False,True,False,0.0,1.0,254421.0,0.0,0.0,,,,,JZDWWLLEMBB4,828627666,https://www.onsystemlogic.com,3,2021,2021
 baltimore,OPTAVE DIAGNOSTICS LLC,optave diagnostics,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,False,0.0,1.0,256000.0,0.0,0.0,,,,,CND4LAK91UN4,118263627,,1,2022,2022
 baltimore,OPTOSURGICAL LLC,optosurgical,confirmed_grant,COLUMBIA,MD,21046-3138,False,True,False,0.0,6.0,9481151.0,0.0,0.0,,,,,N5FFBMLQHAJ9,117083255,https://optosurgical.com,4,2020,2023
 baltimore,ORTUVO LLC,ortuvo,confirmed_grant,BALTIMORE,MD,21230-2043,False,True,False,0.0,1.0,256000.0,0.0,0.0,,,,,FTAGMZ475GN6,117640736,,1,2021,2021
 baltimore,"OSIRIS THERAPEUTICS, INC.",osiris therapeutics,confirmed_grant,BALTIMORE,MD,21231,False,True,False,0.0,2.0,1020138.0,0.0,0.0,,,,,,,,,1994,1999
-baltimore,OTHRO THERAPEUTICS INC.,othro therapeutics,confirmed_grant,BALTIMORE,MD,21205-2109,False,True,True,0.0,1.0,256486.0,2.0,256486.0,,,,,KSZKASEG8KA5,080477275,,4,2021,2021
+baltimore,OTHRO THERAPEUTICS INC.,othro therapeutics,confirmed_grant,BALTIMORE,MD,21205-2109,False,True,True,0.0,1.0,256486.0,3.0,384729.0,,,,,KSZKASEG8KA5,080477275,,4,2021,2021
 baltimore,"Ocean Systems Research, Inc.",ocean systems research,confirmed_grant,Annapolis,MD,21401,False,True,False,0.0,0.0,129984.0,0.0,0.0,,,,,,,,5,1989,1992
 baltimore,Oceanix Biosciences,oceanix biosciences,confirmed_grant,Hanover,MD,21076,False,True,False,0.0,2.0,1279943.0,0.0,0.0,,,,,,,,,1995,1998
 baltimore,Optimum Structural Design Inc.,optimum structural design,confirmed_grant,Stevensville,MD,21666,False,True,False,0.0,0.0,100000.0,0.0,0.0,,,,,,,,,1991,1993
@@ -450,20 +492,16 @@ baltimore,Orang Labs LLC,orang labs,confirmed_grant,Columbia,MD,21044,False,True
 baltimore,"P.A.I.S., INC.",p a i s,confirmed_grant,BALTIMORE,MD,21209,False,True,False,0.0,0.0,100775.0,0.0,0.0,,,,,,,,,2001,2001
 baltimore,PADGETT-MARTIN TECHNOLOGY,padgett martin technology,confirmed_grant,Baltimore,MD,21211,False,True,False,0.0,1.0,82400.0,0.0,0.0,,,,,,,,,1999,1999
 baltimore,"PANBIO, INC.",panbio,confirmed_grant,Columbia,MD,21046-0314,False,True,False,0.0,1.0,299784.0,0.0,0.0,,,,,,103925574,,14,2000,2005
-baltimore,"PAPGENE, INC.",papgene,confirmed_grant,BALTIMORE,MD,21211-2840,False,True,False,0.0,2.0,5186223.0,0.0,0.0,,,,,,079670802,,3,2016,2017
 baltimore,"PARATEK, INC.",paratek,confirmed_grant,Aberdeen,MD,21001,False,True,False,0.0,2.0,134509.0,0.0,0.0,,,,,,,,,1999,1999
 baltimore,PATAIGIN LLC,pataigin,confirmed_grant,BALTIMORE,MD,21217-4202,False,True,False,0.0,2.0,532219.0,0.0,0.0,,,,,U2NFAK6J9SB9,,https://www.pataigin.com,4,2021,2023
-baltimore,PATHOVAX LLC,pathovax,confirmed_grant,BALTIMORE,MD,21205-1506,False,True,True,0.0,6.0,3542960.0,1.0,873677.0,,,,,JSD7DWXSGWN1,076398409,http://www.pathovax.com,3,2017,2020
 baltimore,"PATRICK POWER PRODUCTS, INC.",patrick power products,confirmed_grant,Elkridge,MD,-,False,True,False,0.0,3.0,737110.0,0.0,0.0,,,,,,080810901,,11,2008,2011
-baltimore,"PAUL H BROOKES PUBLISHING CO., INC.",paul h brookes publishing,confirmed_grant,TOWSON,MD,21204-4920,False,True,False,0.0,5.0,2407095.0,0.0,0.0,,,,,LLMMCVJQUCK7,013843347,http://www.brookespublishing.com,68,2011,2017
-baltimore,PERCEPTIVE NAVIGATION LLC ,perceptive navigation,confirmed_grant,Baltimore,MD,21210-2724,False,True,True,0.0,3.0,4523066.0,2.0,760042.0,,,,,NWKFBAPJ1MG4,079768582,www.perceptivenavigation.com,5,2015,2021
+baltimore,"PAUL H BROOKES PUBLISHING CO., INC.",paul h brookes publishing,confirmed_grant,TOWSON,MD,21204-4920,False,True,True,0.0,5.0,2407095.0,7.0,1803372.0,,,,,LLMMCVJQUCK7,013843347,http://www.brookespublishing.com,68,2011,2017
 baltimore,"PERINATRONICS MEDICAL SYSTEMS, INC.",perinatronics medical systems,confirmed_grant,CROFTON,MD,21114,False,True,False,0.0,3.0,4855176.0,0.0,0.0,,,,,,,,,1985,2006
 baltimore,"PHOENIX OPERATIONS GROUP, LLC",phoenix operations,confirmed_grant,WOODBINE,MD,21797-8612,False,True,False,0.0,5.0,4065625.9,0.0,0.0,,,,,LS8TVSLVC2C7,969788723,www.phoenix-opsgroup.com,45,2017,2025
 baltimore,"PLANT SENSORY SYSTEMS, LLC",plant sensory systems,confirmed_grant,BALTIMORE,MD,21227-3863,False,True,False,0.0,5.0,2357411.0,0.0,0.0,,,,,E29TDJVM2P31,807685776,www.plantsensorysystems.com,7,2008,2017
 baltimore,"PLAYPOSIT, INC.",playposit,confirmed_grant,Galesville,MD,20765-3106,False,True,False,0.0,2.0,974999.0,0.0,0.0,,,,,RYKMMBM855Y1,079558796,www.playposit.com,4,2017,2018
 baltimore,"PLOWSHARE TECHNOLOGIES, INC.",plowshare technologies,confirmed_grant,BALTIMORE,MD,21224,False,True,False,0.0,0.0,195822.0,0.0,0.0,,,,,,,,,2000,2000
 baltimore,PRECISION THERANOSTICS INC,precision theranostics,confirmed_grant,BALTIMORE,MD,21202-3183,False,True,False,0.0,1.0,256000.0,0.0,0.0,,,,,GZUTM9Z4X4M3,122236704,http://www.precisiontheranostic.com/,2,2021,2021
-baltimore,"PROFECTUS BIOSCIENCES, INC.",profectus biosciences,confirmed_grant,BALTIMORE,MD,21224-6538,False,True,True,0.0,20.0,20679779.0,1.0,69471.0,,,,,,185576639,,,2007,2018
 baltimore,"PROTEIN RESEARCH, INC.",protein research,confirmed_grant,BALTIMORE,MD,21202,False,True,False,0.0,1.0,157873.0,0.0,0.0,,,,,,,,,2001,2001
 baltimore,"PROTEUS TECHNOLOGIES, LLC",proteus technologies,confirmed_grant,Edgewater,MD,21037,False,True,False,0.0,1.0,269978.0,0.0,0.0,,,,,,064746410,,10,1986,2004
 baltimore,"PROTON BIO, INC.",proton bio,confirmed_grant,BALTIMORE,MD,21224-5385,False,True,True,0.0,1.0,399214.0,1.0,399214.0,,,,,L37UYZG8JMK5,,https://protonbio.co/,2,2024,2024
@@ -486,7 +524,7 @@ baltimore,"Plugnix, LLC",plugnix,confirmed_grant,Baltimore,MD,21230-2211,False,T
 baltimore,"Pneumico, Inc.",pneumico,confirmed_grant,BALTIMORE,MD,21201-6512,False,True,False,0.0,1.0,223363.0,0.0,0.0,,,,,CWVJNYMPZTS6,081276062,https://www.pneumico.com,3,2019,2019
 baltimore,PneumoNIX Medical Inc.,pneumonix medical,confirmed_grant,Baltimore,MD,21218-4296,False,True,False,0.0,2.0,1225000.0,0.0,0.0,,,,,LDHMBK6YPL91,081316983,,3,2019,2022
 baltimore,"Portmanteau Industries, LLC",portmanteau industries,confirmed_grant,Annapolis,MD,21401-2919,False,True,False,0.0,1.0,225000.0,0.0,0.0,,,,,KH76ENH7BUH1,080933572,,2,2019,2019
-baltimore,Pragma Health Corp.,pragma health,confirmed_grant,Baltimore,MD,21212-3807,False,True,False,0.0,3.0,631818.0,0.0,0.0,,,,,KVYMN6975KR5,080703848,www.pragmadx.com,2,2018,2022
+baltimore,Pragma Health Corp.,pragma health,confirmed_grant,Baltimore,MD,21212-3807,False,True,True,0.0,3.0,631818.0,2.0,375908.0,,,,,KVYMN6975KR5,080703848,www.pragmadx.com,2,2018,2022
 baltimore,"Pressure Technology, Inc.",pressure technology,confirmed_grant,Hanover,MD,21076,False,True,False,0.0,0.0,94373.0,0.0,0.0,,,,,,,,8,1994,1994
 baltimore,"Primet Precision Materials, Inc.",primet precision materials,confirmed_grant,Clarksville,MD,21029-0140,False,True,False,0.0,1.0,99986.0,0.0,0.0,,,,,,,,,2004,2004
 baltimore,"Probiotix, Inc.",probiotix,confirmed_grant,Laurel,MD,21202,False,True,False,0.0,1.0,99898.0,0.0,0.0,,,,,,,,,1997,1997
@@ -496,7 +534,7 @@ baltimore,"Psybio Healthmetric Systems,",psybio healthmetric systems,confirmed_g
 baltimore,"QUANTUM MEDICAL METRICS, LLC",quantum medical metrics,confirmed_grant,Baltimore,MD,21227-,False,True,False,0.0,2.0,475000.0,0.0,0.0,,,,,,828474200,,0,2010,2011
 baltimore,"QuoLab Technologies, Inc.",quolab technologies,confirmed_grant,SEVERN,MD,21144-6811,False,True,False,0.0,2.0,1282361.0,0.0,0.0,,,,,FSWJJLG3FCM6,122236806,https://www.quolab.com,11,2024,2025
 baltimore,R D Young Consultants Inc,r d young consultants,confirmed_grant,Pasadena,MD,21122,False,True,False,0.0,0.0,30000.0,0.0,0.0,,,,,,,,,1987,1987
-baltimore,"RADIOPHARMACEUTICAL IMAGING AND DOSIMETRY, LLC",radiopharmaceutical imaging and dosimetry,confirmed_grant,BALTIMORE,MD,21231-2607,False,True,True,0.0,8.0,7844111.0,5.0,3519314.0,,,,,CM3LK9281JS7,080200015,www.rapiddosimetry.com,4,2017,2025
+baltimore,"RADIOPHARMACEUTICAL IMAGING AND DOSIMETRY, LLC",radiopharmaceutical imaging and dosimetry,confirmed_grant,BALTIMORE,MD,21231-2607,False,True,True,0.0,8.0,7844111.0,12.0,7437558.0,,,,,CM3LK9281JS7,080200015,www.rapiddosimetry.com,4,2017,2025
 baltimore,"RAMPART COMMUNICATIONS, INC",rampart communications,confirmed_grant,Linthicum Heights,MD,21090-2902,False,True,False,0.0,3.0,3296287.0,0.0,0.0,,,,,LNUSFGAFL3E1,080285199,http://www.rampartcommunications.com,60,2022,2025
 baltimore,"RCT SYSTEMS, INC",rct systems,confirmed_grant,HALETHORPE,MD,21227-3557,False,True,False,0.0,82.0,44799212.0,0.0,0.0,,,,,PXVSNHKR48E6,795953095,https://www.rct-systems.com,54,1986,2022
 baltimore,REACTIVE NANOTECHNOLOGIES INC,reactive nanotechnologies,confirmed_grant,COCKEYSVILLE,MD,21030-2216,False,True,False,0.0,7.0,2249944.0,0.0,0.0,,,,,,089629179,,33,2002,2007
@@ -508,9 +546,9 @@ baltimore,REHABTEK LLC,rehabtek,confirmed_grant,LINTHICUM HEIGHTS,MD,21090-1426,
 baltimore,RELATIVE DYNAMICS INC,relative dynamics,confirmed_grant,Laurel,MD,20707-2924,False,True,False,0.0,12.0,4570127.25,0.0,0.0,,,,,VZSNHL5NAJR3,967452579,http://www.relative-dynamics.com,75,2020,2025
 baltimore,"REMBAC ENVIRONMENTAL, LLC",rembac environmental,confirmed_grant,ELLICOTT CITY,MD,21043-3420,False,True,True,0.0,2.0,1265949.0,3.0,1265949.0,,,,,ESU1JMK4DYJ4,080846455,https://www.rembac.com,2,2020,2023
 baltimore,"REPROTECT, LLC",reprotect,confirmed_grant,BALTIMORE,MD,21286-,False,True,False,0.0,1.0,298984.0,0.0,0.0,,,,,,,,,1998,2010
-baltimore,RESEARCH CIRCLE ASSOCIATES,research circle associates,confirmed_grant,BALTIMORE,MD,21212-3152,False,True,False,0.0,5.0,1825319.0,0.0,0.0,,,,,H2QHBE85CJ24,830009861,https://www.wordpressresearchcircle.org,1,2010,2017
-baltimore,RITHIM BIOLOGICS INC.,rithim biologics,confirmed_grant,WOODBINE,MD,21797-8620,False,True,True,0.0,3.0,1650317.0,2.0,1389914.0,,,,,R8S7GFCEVKB3,080333039,www.rithimbiologics.com,2,2018,2025
-baltimore,ROBIN MEDICAL INC,robin medical,confirmed_grant,BALTIMORE,MD,21209-2177,False,True,True,0.0,17.0,19860916.0,1.0,2000000.0,,,,,S38NM2MSMM14,146202358,,8,1998,2020
+baltimore,RESEARCH CIRCLE ASSOCIATES,research circle associates,confirmed_grant,BALTIMORE,MD,21212-3152,False,True,True,0.0,5.0,1825319.0,2.0,691548.0,,,,,H2QHBE85CJ24,830009861,https://www.wordpressresearchcircle.org,1,2010,2017
+baltimore,RITHIM BIOLOGICS INC.,rithim biologics,confirmed_grant,WOODBINE,MD,21797-8620,False,True,True,0.0,3.0,1650317.0,3.0,1650317.0,,,,,R8S7GFCEVKB3,080333039,www.rithimbiologics.com,2,2018,2025
+baltimore,ROBIN MEDICAL INC,robin medical,confirmed_grant,BALTIMORE,MD,21209-2177,False,True,True,0.0,17.0,19860916.0,10.0,7094668.0,,,,,S38NM2MSMM14,146202358,,8,1998,2020
 baltimore,ROBOTIC SYSTEMS TECHNOLOGY,robotic systems technology,confirmed_grant,Westminster,MD,21157,False,True,False,0.0,1.0,457085.0,0.0,0.0,,,,,,,,,1991,1999
 baltimore,"ROBUST ANALYTICS, INC.",robust analytics,confirmed_grant,GAMBRILLS,MD,21054-2007,False,True,False,0.0,25.0,10022392.0,0.0,0.0,,,,,RKQ9JU484A29,809170041,https://www.robust-analytics.com,5,2014,2025
 baltimore,"RUBICON LABORATORY, INC.",rubicon laboratory,confirmed_grant,BALTIMORE,MD,21204,False,True,False,0.0,2.0,515000.0,0.0,0.0,,,,,,,,,1998,2004
@@ -525,7 +563,7 @@ baltimore,Reliance Robotics Incorporated,reliance robotics,confirmed_grant,Balti
 baltimore,"Renovate Biosciences, Inc.",renovate biosciences,confirmed_grant,Reisterstown,MD,21136-3827,False,True,True,0.0,1.0,292116.0,1.0,292116.0,,,,,Z4Z9HHJ6EBM7,081118208,https://renovatebiosciences.com,6,2025,2025
 baltimore,Res Support Instruments,res support instruments,confirmed_grant,Hunt Valley,MD,21031,False,True,False,0.0,1.0,74989.0,0.0,0.0,,,,,,,,,1997,1997
 baltimore,"Ressler Associates, Inc.",ressler associates,confirmed_grant,Laurel,MD,20708,False,True,False,0.0,1.0,1430531.0,0.0,0.0,,,,,,,,,1990,1998
-baltimore,"Revolve Biotechnologies, Inc.",revolve biotechnologies,confirmed_grant,Baltimore,MD,21215-5216,False,True,False,0.0,1.0,448212.0,0.0,0.0,,,,,H1N6WSMKFR54,079540413,http://www.revolvebiotech.com,2,2015,2015
+baltimore,"Revolve Biotechnologies, Inc.",revolve biotechnologies,confirmed_grant,Baltimore,MD,21215-5216,False,True,True,0.0,1.0,448212.0,1.0,448212.0,,,,,H1N6WSMKFR54,079540413,http://www.revolvebiotech.com,2,2015,2015
 baltimore,"Rezigene, LLC",rezigene,confirmed_grant,BALTIMORE,MD,21205-1546,False,True,True,0.0,1.0,694318.0,2.0,694318.0,,,,,FXPWSLGW91X5,,,5,2024,2024
 baltimore,"Rheological Systems, Inc.",rheological systems,confirmed_grant,Clarksville,MD,21209,False,True,False,0.0,0.0,360000.0,0.0,0.0,,,,,,,,5,1994,1995
 baltimore,Ross-mcnatt Inc,ross mcnatt,confirmed_grant,Annapolis,MD,21401,False,True,False,0.0,0.0,99989.0,0.0,0.0,,,,,,,,5,1989,1989
@@ -534,7 +572,7 @@ baltimore,"Ryan Nuclear, Inc.",ryan nuclear,confirmed_grant,Columbia,MD,21045,Fa
 baltimore,SABER TECHNOLOGY SOLUTIONS LLC,saber technology solutions,confirmed_grant,BALTIMORE,MD,21202-4016,False,True,False,0.0,1.0,49529.0,0.0,0.0,,,,,GWLJNEZNJVF9,116985428,http://www.saber-tech.co,2,2022,2022
 baltimore,"SAMEGRAIN, INC.",samegrain,confirmed_grant,Ellicott City,MD,21042-5119,False,True,False,0.0,3.0,1582838.0,0.0,0.0,,,,,FXBKG2S2FDL4,117115682,http://samegraininc.com,3,2019,2020
 baltimore,"SCALAR MAGNETICS, LLC",scalar magnetics,confirmed_grant,WINDSOR MILL,MD,21244-1510,False,True,False,0.0,1.0,225000.0,0.0,0.0,,,,,QHCRF2D3P7Q1,,,1,2020,2020
-baltimore,SCANOGEN INC.,scanogen,confirmed_grant,BALTIMORE,MD,21244-2881,False,True,True,0.0,13.0,19036810.0,16.0,14891425.0,,,,,JK9PMLM41J77,078393619,https://www.scanogen.com,15,2013,2025
+baltimore,SCANOGEN INC.,scanogen,confirmed_grant,BALTIMORE,MD,21244-2881,False,True,True,0.0,13.0,19036810.0,24.0,16995044.0,,,,,JK9PMLM41J77,078393619,https://www.scanogen.com,15,2013,2025
 baltimore,"SCIENCE & ENGINEERING SERVICES, INC.",science engineering services,confirmed_grant,Columbia,MD,21046-2986,False,True,False,0.0,43.0,16109641.0,0.0,0.0,,,,,Y7SKZ1CJ5TD1,783196348,,350,1990,2010
 baltimore,SCIENCE AND TECHNOLOGY CORPORATION,science and technology,confirmed_grant,BELCAMP,MD,21017-1427,False,True,False,0.0,3.0,3003435.0,0.0,0.0,,,,,TUHBZQDC4XW8,019066810,,317,1983,2006
 baltimore,"SCIGENESIS, LLC",scigenesis,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,False,0.0,7.0,2253814.0,0.0,0.0,,,,,Y6M9Y7XFCNV6,826942463,www.scigenesis.com,5,2009,2020
@@ -545,18 +583,18 @@ baltimore,"SEMA TECHNOLOGIES, INC.",sema technologies,confirmed_grant,BALTIMORE,
 baltimore,"SEQUON, INC",sequon,confirmed_grant,ANNAPOLIS,MD,21401-4113,False,True,False,0.0,2.0,1302911.0,0.0,0.0,,,,,GAH6C8YNNEA9,140735569,TerrapinPharmacy.com,35,2018,2019
 baltimore,"SIGINT Systems, LLC",sigint systems,confirmed_grant,Davidsonville,MD,21035-1254,False,True,False,0.0,3.0,1063147.0,0.0,0.0,,,,,F9X3HAZC6CX7,079224855,sigintsystemsllc.com,5,2020,2023
 baltimore,SIGNAL SYSTEMS CORPORATION,signal systems,confirmed_grant,MILLERSVILLE,MD,21108-2567,False,True,False,0.0,67.0,34392803.77,0.0,0.0,,,,,MJG4M7R9YCV1,958055055,https://www.signalsystemscorp.com,26,1999,2025
-baltimore,SIGT LLC,sigt,confirmed_grant,Columbia,MD,21044-4909,False,True,True,0.0,3.0,2172321.0,3.0,1947799.0,,,,,TDS1HMV3LM26,079939983,http://www.sigtinc.com,1,2019,2023
+baltimore,SIGT LLC,sigt,confirmed_grant,Columbia,MD,21044-4909,False,True,True,0.0,3.0,2172321.0,5.0,2397262.0,,,,,TDS1HMV3LM26,079939983,http://www.sigtinc.com,1,2019,2023
 baltimore,"SIGTEK, INC.",sigtek,confirmed_grant,Columbia,MD,21046,False,True,False,0.0,2.0,714825.0,0.0,0.0,,,,,,782584346,,27,1999,2000
-baltimore,SILCSBIO LLC,silcsbio,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,True,0.0,3.0,3669421.0,2.0,1753242.0,,,,,WNQ7H1FY6Z43,078566438,www.silcsbio.com,4,2015,2021
-baltimore,SIMMERSION LLC,simmersion,confirmed_grant,COLUMBIA,MD,21045-4767,False,True,True,0.0,25.0,15029346.0,9.0,4499086.0,,,,,VLNMMMZETH15,128822736,https://www.simmersion.com,11,2005,2022
-baltimore,"SIMQUEST INTERNATIONAL, LLC ",simquest international,confirmed_grant,Annapolis,MD,21403-1316,False,True,False,0.0,34.0,18549561.0,0.0,0.0,,,,,ZMMMAPWDKNA6,039514356,http://www.simquest.com,10,2002,2018
+baltimore,SILCSBIO LLC,silcsbio,confirmed_grant,BALTIMORE,MD,21230-1901,False,True,True,0.0,3.0,3669421.0,8.0,3499730.0,,,,,WNQ7H1FY6Z43,078566438,www.silcsbio.com,4,2015,2021
+baltimore,SIMMERSION LLC,simmersion,confirmed_grant,COLUMBIA,MD,21045-4767,False,True,True,0.0,25.0,15029346.0,20.0,9112811.0,,,,,VLNMMMZETH15,128822736,https://www.simmersion.com,11,2005,2022
+baltimore,"SIMQUEST INTERNATIONAL, LLC ",simquest international,confirmed_grant,Annapolis,MD,21403-1316,False,True,True,0.0,34.0,18549561.0,7.0,4796966.0,,,,,ZMMMAPWDKNA6,039514356,http://www.simquest.com,10,2002,2018
 baltimore,SIXMAP INC,sixmap,confirmed_grant,PASADENA,MD,21122-5634,False,True,False,0.0,4.0,3258860.14,0.0,0.0,,,,,DF76G6AMQKM5,117860736,https://sixmap.io,28,2022,2025
 baltimore,SKAYL LLC,skayl,confirmed_grant,WESTMINSTER,MD,21157-5196,False,True,False,0.0,4.0,4217803.0,0.0,0.0,,,,,E12JX9QXJCN5,080294345,http://www.skayl.com,18,2016,2019
 baltimore,SOFTHREAD INC,softhread,confirmed_grant,CATONSVILLE,MD,21228-4851,False,True,False,0.0,2.0,1240905.0,0.0,0.0,,,,,P4MHVSNWGAW5,117335233,,7,2021,2024
-baltimore,SONAVI LABS INC,sonavi labs,confirmed_grant,BALTIMORE,MD,21224-3671,False,True,True,0.0,3.0,1606976.0,2.0,1384779.0,,,,,HLCREWKYMJ13,114396584,http://www.sonavilabs.com,6,2019,2022
-baltimore,"SONNEST, INC.",sonnest,confirmed_grant,BALTIMORE,MD,21201-8604,False,True,True,0.0,1.0,1707452.0,3.0,2581180.0,,,,,S8LGPN7KL373,117109250,,5,2021,2021
+baltimore,SONAVI LABS INC,sonavi labs,confirmed_grant,BALTIMORE,MD,21224-3671,False,True,True,0.0,3.0,1606976.0,3.0,1606976.0,,,,,HLCREWKYMJ13,114396584,http://www.sonavilabs.com,6,2019,2022
+baltimore,"SONNEST, INC.",sonnest,confirmed_grant,BALTIMORE,MD,21201-8604,False,True,True,0.0,1.0,1707452.0,2.0,1707452.0,,,,,S8LGPN7KL373,117109250,,5,2021,2021
 baltimore,SONOVAL LLC,sonoval,confirmed_grant,BALTIMORE,MD,21231-2008,False,True,False,0.0,3.0,4250548.0,0.0,0.0,,,,,QEWBWHSG1GH9,060128425,,3,2020,2024
-baltimore,"SONOVANCE, INC.",sonovance,confirmed_grant,BALTIMORE,MD,21210-2708,False,True,True,0.0,2.0,568293.0,2.0,589282.0,,,,,LG2BCG5MGHJ1,,http://www.sonovance.com,4,2024,2024
+baltimore,"SONOVANCE, INC.",sonovance,confirmed_grant,BALTIMORE,MD,21210-2708,False,True,True,0.0,2.0,568293.0,1.0,294641.0,,,,,LG2BCG5MGHJ1,,http://www.sonovance.com,4,2024,2024
 baltimore,SOTEKCO LLC,sotekco,confirmed_grant,BALTIMORE,MD,21201,False,True,False,0.0,1.0,99979.0,0.0,0.0,,,,,,021232753,,1,2009,2009
 baltimore,"SPACE EXPLORATION ENGINEERING, LLC",space exploration engineering,confirmed_grant,TOWSON,MD,21204-4511,False,True,False,0.0,3.0,3160581.0,0.0,0.0,,,,,TVJUWVKSHA25,116929049,https://see.com/,16,2020,2022
 baltimore,SPARKS POLARIMETRY LLC,sparks polarimetry,confirmed_grant,HAMPSTEAD,MD,21074-2912,False,True,False,0.0,1.0,124993.0,0.0,0.0,,,,,FFJPP4HM3GN5,117416191,,1,2020,2020
@@ -629,7 +667,7 @@ baltimore,"Tesseract Analytics, LLC",tesseract analytics,confirmed_grant,Annapol
 baltimore,"The Aethena Group, LLC",aethena,confirmed_grant,Baltimore,MD,21212-1034,False,True,False,0.0,1.0,149993.0,0.0,0.0,,,,,,826947082,http://www.aethena.us,9,2014,2014
 baltimore,"The Morgan Group, Inc.",morgan,confirmed_grant,Baltimore,MD,21234,False,True,False,0.0,1.0,74500.0,0.0,0.0,,,,,,,,,1994,1994
 baltimore,The Survice Engineering,survice engineering,confirmed_grant,Aberdeen,MD,21001,False,True,False,0.0,54.0,21971480.490000002,0.0,0.0,,,,,XS3JCD2LPEV5,035414697,https://www.survice.com,32,1991,1996
-baltimore,"Theraly Fibrosis, Inc",theraly fibrosis,confirmed_grant,Baltimore,MD,21205-1506,False,True,True,0.0,2.0,3411790.0,1.0,1498190.0,,,,,R7J7HHNMZQV1,080193243,,3,2017,2020
+baltimore,"Theraly Fibrosis, Inc",theraly fibrosis,confirmed_grant,Baltimore,MD,21205-1506,False,True,True,0.0,2.0,3411790.0,3.0,3411790.0,,,,,R7J7HHNMZQV1,080193243,,3,2017,2020
 baltimore,"Torch Technologies, Inc.",torch technologies,confirmed_grant,Aberdeen,MD,21001-3642,False,True,False,0.0,40.0,21122763.8,0.0,0.0,,,,,YA63J5PVEZE6,122515708,http://www.torchtechnologies.com,375,2004,2017
 baltimore,Triad Consultants Inc,triad consultants,confirmed_grant,Laurel,MD,20707,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1989,1989
 baltimore,"UNION DYNAMIC, INC",union dynamic,confirmed_grant,BALTIMORE,MD,21224-4403,False,True,False,0.0,1.0,139658.0,0.0,0.0,,,,,UJ2MQE938427,080184033,,2,2025,2025
@@ -637,17 +675,15 @@ baltimore,UVS InfoTech LLC,uvs infotech,confirmed_grant,Laurel,MD,20707-3959,Fal
 baltimore,"Universal Healthwatch, Inc.",universal healthwatch,confirmed_grant,Columbia,MD,21045,False,True,False,0.0,2.0,297183.0,0.0,0.0,,,,,,,,17,1997,1997
 baltimore,Up Therapeutics LLC,up therapeutics,confirmed_grant,Elkridge,MD,21075-7197,False,True,False,0.0,3.0,2755931.0,0.0,0.0,,,,,KVFLK2JVJST8,080370789,,1,2021,2023
 baltimore,User Systems Inc,user systems,confirmed_grant,Gambrills,MD,21054,False,True,False,0.0,4.0,1299381.0,0.0,0.0,,,,,V6RMGC8MCR38,097775100,www.usersystems.com,4,1997,1997
-baltimore,"VASOPTIC MEDICAL, INC.",vasoptic medical,confirmed_grant,COLUMBIA,MD,21046-3138,False,True,True,0.0,10.0,8699032.0,9.0,4517867.0,,,,,FKB6UR5M6C84,078527161,,6,2014,2025
-baltimore,"VECTECH, INC.",vectech,confirmed_grant,BALTIMORE,MD,21211-1955,False,True,True,0.0,10.0,7949869.0,9.0,5746874.0,,,,,KGHKP3FBMB97,117161343,https://www.vectech.io/,15,2021,2024
-baltimore,"VIGILANT MEDICAL, INC.",vigilant medical,confirmed_grant,COLUMBIA,MD,21045-1832,False,True,True,0.0,4.0,2118139.0,2.0,951823.0,,,,,CGYKFELBX4R3,962003856,http://vigilantmedical.net/,4,2018,2020
+baltimore,"VECTECH, INC.",vectech,confirmed_grant,BALTIMORE,MD,21211-1955,False,True,True,0.0,10.0,7949869.0,8.0,5691874.0,,,,,KGHKP3FBMB97,117161343,https://www.vectech.io/,15,2021,2024
+baltimore,"VIGILANT MEDICAL, INC.",vigilant medical,confirmed_grant,COLUMBIA,MD,21045-1832,False,True,True,0.0,4.0,2118139.0,5.0,1415689.0,,,,,CGYKFELBX4R3,962003856,http://vigilantmedical.net/,4,2018,2020
 baltimore,"VISION SYSTEMS & TECHNOLOGY, INC.",vision systems technology,confirmed_grant,Ellicott City,MD,21043,False,True,False,0.0,4.0,1031194.0,0.0,0.0,,,,,,046686023,,35,2007,2010
 baltimore,VORBECK MATERIALS CORP.,vorbeck materials,confirmed_grant,JESSUP,MD,20794-8609,False,True,False,0.0,8.0,1906837.1099999999,0.0,0.0,,,,,D5NFMMQCVX81,794528567,www.vorbeck.com,26,2010,2020
 baltimore,Vantage Point Systems,vantage point systems,confirmed_grant,Ellicott City,MD,21043,False,True,False,0.0,0.0,280000.0,0.0,0.0,,,,,,,,,1986,1991
 baltimore,Video Semantics LLC,video semantics,confirmed_grant,Ellicott City,MD,21043-0000,False,True,False,0.0,2.0,600000.0,0.0,0.0,,,,,,826551892,,2,2009,2011
 baltimore,"View Technologies, Inc.",view technologies,confirmed_grant,Columbia,MD,00000-0210,False,True,False,0.0,0.0,64985.0,0.0,0.0,,,,,,,,,1998,1998
-baltimore,VisiSonics Corporation,visisonics,confirmed_grant,HIGHLAND,MD,20777-9797,False,True,False,0.0,3.0,1114823.0,0.0,0.0,,,,,,962585456,,6,2013,2017
+baltimore,VisiSonics Corporation,visisonics,confirmed_grant,HIGHLAND,MD,20777-9797,False,True,True,0.0,3.0,1114823.0,1.0,224924.0,,,,,,962585456,,6,2013,2017
 baltimore,"Vitruvian Bio, LLC",vitruvian bio,confirmed_grant,BALTIMORE,MD,21202-1636,False,True,True,0.0,3.0,899967.0,3.0,899967.0,,,,,JHJJANE1ALC6,,,2,2022,2024
-baltimore,"Vixiar Medical, Inc",vixiar medical,confirmed_grant,BALTIMORE,MD,21230-5025,False,True,True,0.0,2.0,1317639.0,1.0,585965.0,,,,,NEJREN5KEXT4,079143394,,4,2017,2019
 baltimore,Vme Technologies Inc.,vme technologies,confirmed_grant,BALTIMORE,MD,21227,False,True,False,0.0,0.0,118633.0,0.0,0.0,,,,,,,,,1991,1993
 baltimore,"VoiceVibes, Inc.",voicevibes,confirmed_grant,Marriottsville,MD,21104-1171,False,True,False,0.0,1.0,747422.0,0.0,0.0,,,,,KXMEC8YAFWW3,080122717,www.myvoicevibes.com,2,2016,2016
 baltimore,"WARRIOR CENTRIC HEALTH, INC.",warrior centric health,confirmed_grant,ELLICOTT CITY,MD,21042-6330,False,True,False,0.0,4.0,922765.0,0.0,0.0,,,,,DHC8GMRC6XN1,014217903,https://warriorcentrichealth.com/,7,2020,2023
@@ -660,61 +696,107 @@ baltimore,Words and Numbers,words and numbers,confirmed_grant,Baltimore,MD,21211
 baltimore,World's End Aquaculture Corp.,world s end aquaculture,confirmed_grant,Queenstown,MD,21658,False,True,False,0.0,0.0,36775.0,0.0,0.0,,,,,,,,,1994,1994
 baltimore,"XCISION MEDICAL SYSTEMS, LLC",xcision medical systems,confirmed_grant,Columbia,MD,21045-2001,False,True,False,0.0,2.0,3139355.0,0.0,0.0,,,,,SX4VHGBDAHU6,788286941,,15,2007,2008
 baltimore,XENOTRAN CORPORATION,xenotran,confirmed_grant,LINTHICUM HEIGHTS,MD,21090-2208,False,True,False,0.0,10.0,3730758.0,0.0,0.0,,,,,YFLBNUK4AKJ6,945839546,www.xenotran.com,6,1997,2008
-baltimore,"XMD DIAGNOSTICS, INC.",xmd diagnostics,confirmed_grant,ANNAPOLIS,MD,21403-2536,False,True,False,0.0,2.0,530594.0,0.0,0.0,,,,,U9XFSLLMTLP9,080588182,http://www.xmddiagnostics.com,1,2023,2023
 baltimore,Xinix Inc,xinix,confirmed_grant,Ellicott City,MD,21043,False,True,False,0.0,0.0,49000.0,0.0,0.0,,,,,,,,,1987,1987
 baltimore,"Yet Analytics, Inc.",yet analytics,confirmed_grant,Baltimore,MD,21202-6155,False,True,False,0.0,5.0,3087818.0,0.0,0.0,,,,,MPDETYLLBR98,079620749,http://yetanalytics.com,7,2019,2023
 baltimore,Yona Microscope & Instrument,yona microscope instrument,confirmed_grant,Columbia,MD,21046,False,True,False,0.0,0.0,50000.0,0.0,0.0,,,,,,,,,1991,1991
 baltimore,"Zeteo Tech, Inc.",zeteo tech,confirmed_grant,SYKESVILLE,MD,21784-7454,False,True,True,0.0,25.0,13424641.22,3.0,2183843.0,,,,,Q5CRCJW547Z6,079136901,https://www.zeteotech.com,18,2014,2025
 baltimore,"Zeutro, LLC",zeutro,confirmed_grant,Baltimore,MD,-,False,True,False,0.0,3.0,978838.0,0.0,0.0,,,,,GRJ7ZLMHXJM7,078402680,www.zeutro.com,3,2012,2016
 baltimore,"ARMR Systems, Inc.",armr systems,confirmed_strong,BALTIMORE,MD,21201,True,True,False,1.0,1.0,74312.0,0.0,0.0,,Corporation,Other Health Care,0002091134,JN89AQ2R41S7,079584476,https://armrsystems.com/,3,2019,2019
-baltimore,"AsclepiX Therapeutics, Inc.",asclepix therapeutics,confirmed_strong,BALTIMORE,MD,21211,True,True,False,1.0,6.0,3493519.0,0.0,0.0,,Corporation,Biotechnology,0001697751,RC85LPKJ26P8,968267299,asclepix.com,3,2014,2019
+baltimore,"AgeneBio, Inc.",agenebio,confirmed_strong,BALTIMORE,MD,21230,True,True,True,2.0,2.0,3229045.0,24.0,38781398.0,,Corporation,Biotechnology,0001467758,YZWJGZMT3MN5,962259292,http://www.agenebio.com,2,2019,2020
+baltimore,"AsclepiX Therapeutics, Inc.",asclepix therapeutics,confirmed_strong,BALTIMORE,MD,21211,True,True,True,4.0,6.0,3493519.0,7.0,3045907.0,,Corporation,Biotechnology,0001697751,RC85LPKJ26P8,968267299,asclepix.com,3,2014,2019
 baltimore,"Astek Diagnostics, Inc.",astek diagnostics,confirmed_strong,BALTIMORE,MD,21201,True,True,False,8.0,3.0,1522394.0,0.0,0.0,2021,Corporation,Biotechnology,0001972498,DWMKQ81LJLW1,117652556,,2,2022,2024
+baltimore,"Avident Health, LLC",avident health,confirmed_strong,BALTIMORE,MD,21212,True,True,True,1.0,1.0,361254.0,1.0,361254.0,2014,Limited Liability Company,Other Health Care,0001750822,X8F5UM33FJX8,080354354,https://www.avidenthealth.com,5,2020,2020
+baltimore,Awarables Inc,awarables,confirmed_strong,BALTIMORE,MD,21201,True,True,False,2.0,3.0,447569.0,0.0,0.0,2016,Corporation,Other Health Care,0001684538,MA67M5DKK3F9,079133491,https://awarables.webflow.io,4,2014,2016
+baltimore,"CLEAR GUIDE MEDICAL, LLC",clear guide medical,confirmed_strong,BALTIMORE,MD,21211,True,True,True,3.0,13.0,8806105.0,11.0,6321985.0,2010,Limited Liability Company,Other Health Care,0001579474,N5DTXVC1ZXA6,965399905,www.clearguidemedical.com,13,2011,2022
 baltimore,"CURIEDX, INC.",curiedx,confirmed_strong,BALTIMORE,MD,21205,True,True,False,1.0,1.0,275000.0,0.0,0.0,2023,Corporation,Other Health Care,0002117174,QUJ8BQ1CFAS2,102429643,https://www.curiedx.com,1,2023,2023
-baltimore,"Capsulomics, Inc.",capsulomics,confirmed_strong,HALETHORPE,MD,21227,True,False,True,2.0,0.0,0.0,6.0,3411742.0,2018,Corporation,Biotechnology,0001800623,,,,,,
-baltimore,"CoapTech, Inc.",coaptech,confirmed_strong,BALTIMORE,MD,21202,True,True,True,4.0,4.0,3226168.0,3.0,2132750.0,2016,Corporation,Other Health Care,0001823195,V2QJESMXQN25,080322442,www.coaptech.com,3,2017,2020
-baltimore,CoolTech,cooltech,confirmed_strong,BALTIMORE,MD,21230,True,True,True,1.0,1.0,983042.0,1.0,983042.0,,Limited Liability Company,Biotechnology,0001654194,RVULUNTW2GK4,106047633,https://www.cooltechcorp.com,4,2025,2025
+baltimore,"Capsulomics, Inc.",capsulomics,confirmed_strong,HALETHORPE,MD,21227,True,False,True,2.0,0.0,0.0,7.0,4385064.0,2018,Corporation,Biotechnology,0001800623,,,,,,
+baltimore,Cardiosolv Ablation Technologies Inc.,cardiosolv ablation technologies,confirmed_strong,BALTIMORE,MD,21218,True,True,True,1.0,2.0,4274602.0,4.0,3609062.0,2012,Corporation,Other Health Care,0001698904,ET19FNY1GH15,079109378,http://www.cardiosolv.com,2,2014,2019
+baltimore,Cerecor Inc.,cerecor,confirmed_strong,Baltimore,MD,21202,True,True,True,2.0,2.0,1292476.0,2.0,2020517.0,,Corporation,Biotechnology,0001534120,J7WVEQTH1ML6,968799028,,0,2011,2016
+baltimore,"CoapTech, Inc.",coaptech,confirmed_strong,BALTIMORE,MD,21202,True,True,True,4.0,4.0,3226168.0,7.0,3994402.0,2016,Corporation,Other Health Care,0001823195,V2QJESMXQN25,080322442,www.coaptech.com,3,2017,2020
+baltimore,CoolTech,cooltech,confirmed_strong,BALTIMORE,MD,21230,True,True,True,3.0,1.0,983042.0,1.0,983042.0,,Limited Liability Company,Biotechnology,0001654194,RVULUNTW2GK4,106047633,https://www.cooltechcorp.com,4,2025,2025
 baltimore,Definitive Biotechnologies LLC,definitive biotechnologies,confirmed_strong,ELKRIDGE,MD,21075,True,True,False,3.0,1.0,749991.0,0.0,0.0,2021,Limited Liability Company,Other Health Care,0001858315,H2M6QRCP2J73,117056441,,1,2021,2021
-baltimore,"Diagnostic Biochips, Inc.",diagnostic biochips,confirmed_strong,Glen Burnie,MD,21061,True,True,False,1.0,6.0,4275879.0,0.0,0.0,,Corporation,Biotechnology,0001592600,PF2EA6V5G9E3,078763618,https://diagnosticbiochips.com/,7,2013,2016
+baltimore,"Diagnostic Biochips, Inc.",diagnostic biochips,confirmed_strong,Glen Burnie,MD,21061,True,True,True,2.0,6.0,4275879.0,5.0,2322728.0,2012,Corporation,Biotechnology,0001592600,PF2EA6V5G9E3,078763618,https://diagnosticbiochips.com/,7,2013,2016
 baltimore,"EpiWatch, Inc.",epiwatch,confirmed_strong,BALTIMORE,MD,21205,True,True,True,10.0,1.0,275547.0,1.0,275547.0,2020,Corporation,Other Health Care,0001861587,L7FCCG369H39,118597858,https://www.epiwatch.com,2,2024,2024
+baltimore,"Gemstone BioTherapeutics, LLC",gemstone biotherapeutics,confirmed_strong,BALTIMORE,MD,21211,True,True,True,2.0,2.0,449430.0,1.0,224867.0,2013,Limited Liability Company,Biotechnology,0001644667,,079139235,,4,2018,2018
 baltimore,Gliknik Inc,gliknik,confirmed_strong,BALTIMORE,MD,21201,True,True,False,6.0,2.0,1650000.0,0.0,0.0,,Corporation,Biotechnology,0001411569,,824766062,,0,2009,2011
 baltimore,"Glyscend, Inc.",glyscend,confirmed_strong,BALTIMORE,MD,21205,True,True,False,1.0,2.0,725000.0,0.0,0.0,,Corporation,Other Health Care,0001804326,CA69UUBUYMW7,079562150,www.glyscend.com,3,2015,2017
+baltimore,"Harpoon Medical, Inc.",harpoon medical,confirmed_strong,Baltimore,MD,21201,True,True,True,1.0,1.0,925462.0,2.0,925462.0,2013,Corporation,Biotechnology,0001617836,,079188333,,9,2016,2016
 baltimore,"Kubanda Cryotherapy, Inc.",kubanda cryotherapy,confirmed_strong,BALTIMORE,MD,21202,True,True,True,3.0,2.0,1799356.0,2.0,1799356.0,2018,Corporation,Biotechnology,0001853949,VKVEU52JTWK6,116863512,,6,2021,2025
 baltimore,Linshom Medical Inc.,linshom medical,confirmed_strong,ELLICOTT CITY,MD,21042,True,True,True,1.0,4.0,3037636.0,5.0,2987695.0,,Corporation,Other Health Care,0001926453,NWG1GL4D9UH4,117393365,https://www.linshomforlife.com,5,2020,2025
+baltimore,NEURONASCENT INC,neuronascent,confirmed_strong,CLARKSVILLE,MD,21029,True,False,True,1.0,0.0,0.0,7.0,7321514.0,,Corporation,Other Health Care,0001445328,,,,,,
+baltimore,"NEXTSTEP ROBOTICS, INC.",nextstep robotics,confirmed_strong,BALTIMORE,MD,21201,True,True,True,2.0,2.0,5561344.0,7.0,5628011.0,2017,Corporation,Other Health Care,0001729819,F896MG5LQ6R4,080658816,https://www.nextsteprobo.com,7,2019,2021
 baltimore,"NKA Bio, Inc.",nka bio,confirmed_strong,BALTIMORE,MD,21215,True,True,False,1.0,2.0,1318509.0,0.0,0.0,2023,Corporation,Other Health Care,0001967539,F6TLH1UTJG53,118989330,https://www.nkabio.com/,3,2024,2025
 baltimore,"NeuImmune, Inc.",neuimmune,confirmed_strong,SYKESVILLE,MD,21784,True,True,False,2.0,2.0,574441.0,0.0,0.0,2020,Corporation,Biotechnology,0001860169,G723GKM745R1,080483404,,2,2022,2023
-baltimore,"Novel Microdevices, Inc.",novel microdevices,confirmed_strong,BALTIMORE,MD,21202,True,True,True,9.0,2.0,2283767.0,3.0,2233767.0,2021,Limited Liability Company,Other Health Care,0001837242,THEXFPSLGYN1,079691224,Novel Microdevices,3,2018,2020
-baltimore,"Pearl Diagnostics, Inc.",pearl diagnostics,confirmed_strong,BALTIMORE,MD,21205,True,True,True,1.0,5.0,4208302.0,2.0,1975892.0,2022,Corporation,Biotechnology,0001922830,N9CGVFYJM1B5,079332340,,2,2015,2025
-baltimore,Personal Genome Diagnostics Inc.,personal genome diagnostics,confirmed_strong,BALTIMORE,MD,21224,True,True,False,2.0,4.0,952081.0,0.0,0.0,2015,Corporation,Biotechnology,0001530958,F2TMFXLXHPU7,963427120,http://www.personalgenome.com,200,2015,2017
-baltimore,"Sonavex, Inc.",sonavex,confirmed_strong,BALTIMORE,MD,21224,True,True,True,2.0,7.0,8334268.0,8.0,7209387.0,,Corporation,Biotechnology,0001645892,EFQ8AGCC5HK7,079208177,,9,2015,2024
+baltimore,"Novel Microdevices, Inc.",novel microdevices,confirmed_strong,BALTIMORE,MD,21202,True,True,True,9.0,2.0,2283767.0,4.0,2533767.0,2021,Limited Liability Company,Other Health Care,0001837242,THEXFPSLGYN1,079691224,Novel Microdevices,3,2018,2020
+baltimore,"Oncospace, Inc.",oncospace,confirmed_strong,BALTIMORE,MD,21205,True,True,True,2.0,4.0,2145740.0,4.0,1220173.0,2018,Corporation,Biotechnology,0001773640,HSG5CY5VWW33,116608553,https://www.oncospace.com,10,2019,2023
+baltimore,"PAPGENE, INC.",papgene,confirmed_strong,BALTIMORE,MD,21211,True,True,True,1.0,2.0,5186223.0,5.0,4412365.0,2014,Corporation,Biotechnology,0001634570,,079670802,,3,2016,2017
+baltimore,PATHOVAX LLC,pathovax,confirmed_strong,BALTIMORE,MD,21205,True,True,True,1.0,6.0,3542960.0,5.0,2646422.0,2014,Limited Liability Company,Biotechnology,0001744237,JSD7DWXSGWN1,076398409,http://www.pathovax.com,3,2017,2020
+baltimore,"PROFECTUS BIOSCIENCES, INC",profectus biosciences,confirmed_strong,BALTIMORE,MD,21224,True,True,True,2.0,20.0,20679779.0,20.0,20185159.0,,Corporation,Biotechnology,0001444253,,185576639,,,2007,2018
+baltimore,"Paragon Bioservices, Inc.",paragon bioservices,confirmed_strong,BALTIMORE,MD,21201,True,False,True,3.0,0.0,0.0,3.0,870170.0,2015,Limited Liability Company,Biotechnology,0001623394,,,,,,
+baltimore,"Pearl Diagnostics, Inc.",pearl diagnostics,confirmed_strong,BALTIMORE,MD,21205,True,True,True,1.0,5.0,4208302.0,5.0,4058302.0,2022,Corporation,Biotechnology,0001922830,N9CGVFYJM1B5,079332340,,2,2015,2025
+baltimore,Perceptive Navigation LLC,perceptive navigation,confirmed_strong,BALTIMORE,MD,21210,True,True,True,2.0,3.0,4523066.0,5.0,3615003.0,2012,Limited Liability Company,Biotechnology,0001649081,NWKFBAPJ1MG4,079768582,www.perceptivenavigation.com,5,2015,2021
+baltimore,Personal Genome Diagnostics Inc.,personal genome diagnostics,confirmed_strong,BALTIMORE,MD,21224,True,True,True,6.0,4.0,952081.0,4.0,952081.0,2010,Corporation,Biotechnology,0001530958,F2TMFXLXHPU7,963427120,http://www.personalgenome.com,200,2015,2017
+baltimore,"Sonavex, Inc.",sonavex,confirmed_strong,BALTIMORE,MD,21211,True,True,True,7.0,7.0,8334268.0,9.0,7434388.0,2013,Corporation,Biotechnology,0001645892,EFQ8AGCC5HK7,079208177,,9,2015,2024
 baltimore,"Sonosa Medical, Inc.",sonosa medical,confirmed_strong,BALTIMORE,MD,21201,True,True,True,1.0,1.0,354889.0,2.0,354889.0,2019,Corporation,Biotechnology,0001913459,RE53LFBJBA37,094035531,https://sonosamedical.com/,10,2022,2022
-baltimore,"A AND G PHARMACEUTICAL, INC.",a and g pharmaceutical,research_org,COLUMBIA,MD,210452006,False,False,True,0.0,0.0,0.0,7.0,2340065.0,,,,,,,,,,
+baltimore,"Vasoptic Medical, Inc.",vasoptic medical,confirmed_strong,COLUMBIA,MD,21045,True,True,True,2.0,10.0,8699032.0,16.0,9002343.0,2012,Corporation,Other Health Care,0001608501,FKB6UR5M6C84,078527161,,6,2014,2025
+baltimore,"Vixiar Medical, Inc.",vixiar medical,confirmed_strong,Annapolis,MD,21401,True,True,True,1.0,2.0,1317639.0,2.0,731674.0,2013,Corporation,Other Health Care,0001589946,NEJREN5KEXT4,079143394,,4,2017,2019
+baltimore,"xMD Diagnostics, Inc.",xmd diagnostics,confirmed_strong,ANNAPOLIS,MD,21401,True,True,False,2.0,2.0,530594.0,0.0,0.0,,Corporation,Biotechnology,0001698878,U9XFSLLMTLP9,080588182,http://www.xmddiagnostics.com,1,2023,2023
+baltimore,"A AND G PHARMACEUTICAL, INC.",a and g pharmaceutical,research_org,COLUMBIA,MD,210452006,False,False,True,0.0,0.0,0.0,13.0,6741469.0,,,,,,,,,,
 baltimore,"ADVARRA, INC.",advarra,research_org,COLUMBIA,MD,210443368,False,False,True,0.0,0.0,0.0,4.0,387599.0,,,,,,,,,,
 baltimore,"ARKAYLI BIOPHARMA, INC.",arkayli biopharma,research_org,MOUNT AIRY,MD,21771,False,False,True,0.0,0.0,0.0,1.0,306804.0,,,,,,,,,,
 baltimore,"ASELL, LLC",asell,research_org,OWINGS MILLS,MD,211171550,False,False,True,0.0,0.0,0.0,7.0,2428476.0,,,,,,,,,,
-baltimore,BALTIMORE VA MEDICAL CENTER,baltimore va medical center,research_org,BALTIMORE,MD,212011524,False,False,True,0.0,0.0,0.0,291.0,0.0,,,,,,,,,,
+baltimore,ATIP FOUNDATION,atip foundation,research_org,COLUMBIA,MD,210442604,False,False,True,0.0,0.0,0.0,1.0,35000.0,,,,,,,,,,
+baltimore,BALTIMORE CITY HEALTH DEPARTMENT,baltimore city health department,research_org,Baltimore,MD,212024715,False,False,True,0.0,0.0,0.0,16.0,16266764.0,,,,,,,,,,
+baltimore,BALTIMORE CITY PUBLIC SCHOOLS,baltimore city public schools,research_org,BALTIMORE,MD,212025910,False,False,True,0.0,0.0,0.0,1.0,50000.0,,,,,,,,,,
+baltimore,BALTIMORE VA MEDICAL CENTER,baltimore va medical center,research_org,BALTIMORE,MD,212011524,False,False,True,0.0,0.0,0.0,574.0,0.0,,,,,,,,,,
 baltimore,BIOTARGET DX LLC,biotarget dx,research_org,HANOVER,MD,210761756,False,False,True,0.0,0.0,0.0,1.0,169004.0,,,,,,,,,,
-baltimore,"FRIENDS RESEARCH INSTITUTE, INC.",friends research institute,research_org,BALTIMORE,MD,212015633,False,False,True,0.0,0.0,0.0,59.0,45632565.0,,,,,,,,,,
+baltimore,"BRAINCHILD TECHNOLOGIES, LLC",brainchild technologies,research_org,Baltimore,MD,212305032,False,False,True,0.0,0.0,0.0,1.0,181430.0,,,,,,,,,,
+baltimore,CABEZON GROUP INC,cabezon,research_org,ELLICOTT CITY,MD,210436097,False,False,True,0.0,0.0,0.0,2.0,1299119.0,,,,,,,,,,
+baltimore,CATHOLIC RELIEF SERVICES,catholic relief services,research_org,BALTIMORE,MD,212013443,False,False,True,0.0,0.0,0.0,10.0,26840917.0,,,,,,,,,,
+baltimore,CLINICAL TRIALS AND SURVEYS CORPORATION,clinical trials and surveys,research_org,Owings Mills,MD,211174834,False,False,True,0.0,0.0,0.0,1.0,357318.0,,,,,,,,,,
+baltimore,"CUREPSP, INC.",curepsp,research_org,LUTHERVILLE TIMONIUM,MD,210936217,False,False,True,0.0,0.0,0.0,1.0,10000.0,,,,,,,,,,
+baltimore,"FRIENDS RESEARCH INSTITUTE, INC.",friends research institute,research_org,BALTIMORE,MD,212015633,False,False,True,0.0,0.0,0.0,85.0,60054928.0,,,,,,,,,,
 baltimore,"FROM PRISON CELLS TO PHD, INC.",from prison cells to phd,research_org,BALTIMORE,MD,212241408,False,False,True,0.0,0.0,0.0,1.0,1121736.0,,,,,,,,,,
-baltimore,"GLYCOMANTRA, INC.",glycomantra,research_org,HALETHORPE,MD,21227,False,False,True,0.0,0.0,0.0,5.0,4571291.0,,,,,,,,,,
+baltimore,GLOBAL SCIENTIFIC SOLUTIONS FOR HEALTH,global scientific solutions for health,research_org,Baltimore,MD,21201,False,False,True,0.0,0.0,0.0,1.0,600000.0,,,,,,,,,,
+baltimore,"GLYCOMANTRA, INC.",glycomantra,research_org,HALETHORPE,MD,21227,False,False,True,0.0,0.0,0.0,10.0,5733179.0,,,,,,,,,,
+baltimore,GOUCHER COLLEGE,goucher college,research_org,BALTIMORE,MD,212042753,False,False,True,0.0,0.0,0.0,1.0,381861.0,,,,,,,,,,
+baltimore,HEALTHY TEEN NETWORK,healthy teen network,research_org,BALTIMORE,MD,212022861,False,False,True,0.0,0.0,0.0,1.0,250000.0,,,,,,,,,,
 baltimore,"HHT FOUNDATION INTERNATIONAL, INC.",hht foundation international,research_org,MONKTON,MD,211111435,False,False,True,0.0,0.0,0.0,3.0,877822.0,,,,,,,,,,
-baltimore,HUGO W. MOSER RES INST KENNEDY KRIEGER,hugo w moser res inst kennedy krieger,research_org,BALTIMORE,MD,212051531,False,False,True,0.0,0.0,0.0,275.0,128418866.0,,,,,,,,,,
-baltimore,INTERSTATE SEAFOOD SEMINAR,interstate seafood seminar,research_org,ARNOLD,MD,210121644,False,False,True,0.0,0.0,0.0,1.0,10000.0,,,,,,,,,,
-baltimore,JOHNS HOPKINS UNIVERSITY,johns hopkins university,research_org,BALTIMORE,MD,212182680,False,False,True,0.0,0.0,0.0,10575.0,5771736185.0,,,,,,,,,,
-baltimore,"LIEBER INSTITUTE, INC.",lieber institute,research_org,BALTIMORE,MD,212051514,False,False,True,0.0,0.0,0.0,82.0,48429645.0,,,,,,,,,,
-baltimore,MALCOVA LLC,malcova,research_org,BALTIMORE,MD,21211,False,False,True,0.0,0.0,0.0,2.0,800000.0,,,,,,,,,,
-baltimore,MARYLAND STATE DEPARTMENT OF AGRICULTURE,maryland state department of agriculture,research_org,ANNAPOLIS,MD,214018960,False,False,True,0.0,0.0,0.0,14.0,2461936.0,,,,,,,,,,
-baltimore,MARYLAND STATE DEPARTMENT OF HEALTH,maryland state department of health,research_org,BALTIMORE,MD,212012301,False,False,True,0.0,0.0,0.0,57.0,15563635.0,,,,,,,,,,
-baltimore,"MARYLAND TREATMENT CENTERS, INC.",maryland treatment centers,research_org,BALTIMORE,MD,212293618,False,False,True,0.0,0.0,0.0,3.0,1838257.0,,,,,,,,,,
+baltimore,HUGO W. MOSER RES INST KENNEDY KRIEGER,hugo w moser res inst kennedy krieger,research_org,BALTIMORE,MD,212051531,False,False,True,0.0,0.0,0.0,524.0,226778290.0,,,,,,,,,,
+baltimore,"HUSSMAN INSTITUTE FOR AUTISM, INC.",hussman institute for autism,research_org,CATONSVILLE,MD,212284855,False,False,True,0.0,0.0,0.0,1.0,202500.0,,,,,,,,,,
+baltimore,IMMUNE DEFICIENCY FOUNDATION,immune deficiency foundation,research_org,Hanover,MD,21076,False,False,True,0.0,0.0,0.0,5.0,3490803.0,,,,,,,,,,
+baltimore,"INTERCHURCH MEDICAL ASSISTANCE, INC.",interchurch medical assistance,research_org,NEW WINDSOR,MD,217760429,False,False,True,0.0,0.0,0.0,1.0,227825.0,,,,,,,,,,
+baltimore,INTERSTATE SEAFOOD SEMINAR,interstate seafood seminar,research_org,ARNOLD,MD,210121644,False,False,True,0.0,0.0,0.0,5.0,50000.0,,,,,,,,,,
+baltimore,JHPIEGO CORPORATION,jhpiego,research_org,BALTIMORE,MD,212313462,False,False,True,0.0,0.0,0.0,10.0,46779365.0,,,,,,,,,,
+baltimore,JOHNS HOPKINS UNIVERSITY,johns hopkins university,research_org,BALTIMORE,MD,212182680,False,False,True,0.0,0.0,0.0,18763.0,9530899083.0,,,,,,,,,,
+baltimore,"KENNEDY KRIEGER INSTITUTE, INC.",kennedy krieger institute,research_org,BALTIMORE,MD,212051832,False,False,True,0.0,0.0,0.0,1.0,954546.0,,,,,,,,,,
+baltimore,"LIEBER INSTITUTE, INC.",lieber institute,research_org,BALTIMORE,MD,212051514,False,False,True,0.0,0.0,0.0,123.0,67634176.0,,,,,,,,,,
+baltimore,MALCOVA LLC,malcova,research_org,BALTIMORE,MD,21211,False,False,True,0.0,0.0,0.0,3.0,855000.0,,,,,,,,,,
+baltimore,MARYLAND STATE DEPARTMENT OF AGRICULTURE,maryland state department of agriculture,research_org,ANNAPOLIS,MD,214018960,False,False,True,0.0,0.0,0.0,22.0,4823583.0,,,,,,,,,,
+baltimore,MARYLAND STATE DEPARTMENT OF EDUCATION,maryland state department of education,research_org,BALTIMORE,MD,212012594,False,False,True,0.0,0.0,0.0,1.0,64978.0,,,,,,,,,,
+baltimore,MARYLAND STATE DEPARTMENT OF HEALTH,maryland state department of health,research_org,BALTIMORE,MD,212012301,False,False,True,0.0,0.0,0.0,127.0,82246823.0,,,,,,,,,,
+baltimore,MARYLAND STATE DEPT OF THE ENVIRONMENT,maryland state dept of environment,research_org,BALTIMORE,MD,212301701,False,False,True,0.0,0.0,0.0,1.0,232942.0,,,,,,,,,,
+baltimore,"MARYLAND TREATMENT CENTERS, INC.",maryland treatment centers,research_org,BALTIMORE,MD,212293618,False,False,True,0.0,0.0,0.0,4.0,4637942.0,,,,,,,,,,
 baltimore,"MASTERS, MATES AND PILOTS MARITIME ADVANCEMENT, TRAINING, EDUCATION AND SAFETY PROGRAM D/B/A MITAGS/MCC",masters mates and pilots maritime advancement training education and safety program d b a mitags mcc,research_org,LINTHICUM HEIGHTS,MD,210901952,False,False,True,0.0,0.0,0.0,1.0,729000.0,,,,,,,,,,
-baltimore,MORGAN STATE UNIVERSITY,morgan state university,research_org,BALTIMORE,MD,212510001,False,False,True,0.0,0.0,0.0,105.0,65271806.0,,,,,,,,,,
+baltimore,MIND HALO,mind halo,research_org,Odenton,MD,211132339,False,False,True,0.0,0.0,0.0,1.0,225000.0,,,,,,,,,,
+baltimore,"MITOLUMINATE, LLC",mitoluminate,research_org,BALTIMORE,MD,212081960,False,False,True,0.0,0.0,0.0,1.0,225000.0,,,,,,,,,,
+baltimore,MORGAN STATE UNIVERSITY,morgan state university,research_org,BALTIMORE,MD,212510001,False,False,True,0.0,0.0,0.0,140.0,100255293.0,,,,,,,,,,
 baltimore,"NEUIMMUNE BIOLOGICS, INC.",neuimmune biologics,research_org,SYKESVILLE,MD,217848213,False,False,True,0.0,0.0,0.0,3.0,584441.0,,,,,,,,,,
-baltimore,"NEURONASCENT, INC.",neuronascent,research_org,CLARKSVILLE,MD,210291642,False,False,True,0.0,0.0,0.0,4.0,4790187.0,,,,,,,,,,
 baltimore,NOTRE DAME OF MARYLAND UNIVERSITY,notre dame of maryland university,research_org,BALTIMORE,MD,212102404,False,False,True,0.0,0.0,0.0,2.0,613336.0,,,,,,,,,,
-baltimore,TERRAPIN PHARMACY,terrapin pharmacy,research_org,ANNAPOLIS,MD,214014113,False,False,True,0.0,0.0,0.0,1.0,496039.0,,,,,,,,,,
-baltimore,"TOTAL CHILD HEALTH, INC.",total child health,research_org,BALTIMORE,MD,212101001,False,False,True,0.0,0.0,0.0,8.0,3434459.0,,,,,,,,,,
-baltimore,TOWSON UNIVERSITY,towson university,research_org,TOWSON,MD,212520001,False,False,True,0.0,0.0,0.0,18.0,4803776.0,,,,,,,,,,
-baltimore,U.S. NATIONAL INSTITUTE ON DRUG ABUSE,u s national institute on drug abuse,research_org,BALTIMORE,MD,212242816,False,False,True,0.0,0.0,0.0,3.0,0.0,,,,,,,,,,
+baltimore,"OLE ADVERTISING, INC",ole advertising,research_org,ANNAPOLIS,MD,214013273,False,False,True,0.0,0.0,0.0,1.0,141375.0,,,,,,,,,,
+baltimore,"PAPIVAX, LLC",papivax,research_org,BALTIMORE,MD,212273831,False,False,True,0.0,0.0,0.0,1.0,295392.0,,,,,,,,,,
+baltimore,"PHARMATHENE, INC.",pharmathene,research_org,ANNAPOLIS,MD,214013475,False,False,True,0.0,0.0,0.0,3.0,10097143.0,,,,,,,,,,
+baltimore,STEVENSON UNIVERSITY,stevenson university,research_org,STEVENSON,MD,211530641,False,False,True,0.0,0.0,0.0,2.0,183600.0,,,,,,,,,,
+baltimore,"TECHNOLOGY ASSESSMENT AND TRANSFER, INC.",technology assessment and transfer,research_org,ANNAPOLIS,MD,214018907,False,False,True,0.0,0.0,0.0,3.0,1664096.0,,,,,,,,,,
+baltimore,TERRAPIN PHARMACY,terrapin pharmacy,research_org,ANNAPOLIS,MD,214014113,False,False,True,0.0,0.0,0.0,3.0,1302911.0,,,,,,,,,,
+baltimore,"TOTAL CHILD HEALTH, INC.",total child health,research_org,BALTIMORE,MD,212101001,False,False,True,0.0,0.0,0.0,20.0,9234361.0,,,,,,,,,,
+baltimore,TOWSON UNIVERSITY,towson university,research_org,TOWSON,MD,212520001,False,False,True,0.0,0.0,0.0,29.0,7129687.0,,,,,,,,,,
+baltimore,U.S. ARMY MEDICAL RESEARCH INST CHEM DEF,u s army medical research inst chem def,research_org,ABERDEEN PROVING GROUND,MD,210105400,False,False,True,0.0,0.0,0.0,2.0,1009291.0,,,,,,,,,,
+baltimore,U.S. NATIONAL INSTITUTE ON AGING,u s national institute on aging,research_org,BALTIMORE,MD,212246825,False,False,True,0.0,0.0,0.0,2.0,0.0,,,,,,,,,,
+baltimore,U.S. NATIONAL INSTITUTE ON DRUG ABUSE,u s national institute on drug abuse,research_org,BALTIMORE,MD,212242816,False,False,True,0.0,0.0,0.0,6.0,0.0,,,,,,,,,,
 baltimore,"UNITED STATES ASSOCIATION FOR THE STUDY OF PAIN, INC.",united states association for study of pain,research_org,ANNAPOLIS,MD,214011120,False,False,True,0.0,0.0,0.0,3.0,150000.0,,,,,,,,,,
-baltimore,UNIVERSITY OF MARYLAND BALTIMORE,university of maryland baltimore,research_org,BALTIMORE,MD,212011508,False,False,True,0.0,0.0,0.0,3161.0,1493603067.0,,,,,,,,,,
-baltimore,UNIVERSITY OF MARYLAND BALTIMORE COUNTY,university of maryland baltimore county,research_org,BALTIMORE,MD,212500001,False,False,True,0.0,0.0,0.0,132.0,59618954.0,,,,,,,,,,
+baltimore,UNIVERSITY OF MARYLAND BALTIMORE,university of maryland baltimore,research_org,BALTIMORE,MD,212011508,False,False,True,0.0,0.0,0.0,5632.0,2540416973.0,,,,,,,,,,
+baltimore,UNIVERSITY OF MARYLAND BALTIMORE COUNTY,university of maryland baltimore county,research_org,BALTIMORE,MD,212500001,False,False,True,0.0,0.0,0.0,246.0,100215112.0,,,,,,,,,,
+baltimore,"UPMC CENTER FOR HEALTH SECURITY, INC.",upmc center for health security,research_org,BALTIMORE,MD,212023143,False,False,True,0.0,0.0,0.0,1.0,196297.0,,,,,,,,,,
+baltimore,"WOMEN ACCEPTING RESPONSIBILITY, INC.",women accepting responsibility,research_org,BALTIMORE,MD,212162649,False,False,True,0.0,0.0,0.0,1.0,229851.0,,,,,,,,,,
 baltimore,"X-COR THERAPEUTICS, INC.",x cor therapeutics,research_org,Baltimore,MD,21202,False,False,True,0.0,0.0,0.0,1.0,293121.0,,,,,,,,,,

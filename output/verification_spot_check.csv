@@ -1,0 +1,14 @@
+category,company,msa,found_in_output,match_count,result
+expected_included,Andson Biotech,atlanta,True,1,PASS
+expected_included,Linnaeus Therapeutics,philadelphia,True,1,PASS
+expected_included,Sonavex,baltimore,True,1,PASS
+expected_included,Que Oncology,atlanta,False,0,FAIL
+expected_included,GeoVax,atlanta,False,0,FAIL
+expected_included,Carmell Therapeutics,pittsburgh,True,1,PASS
+expected_included,OXOS Medical,atlanta,True,1,PASS
+expected_excluded,OXOS Series #6 Holdings,,False,0,PASS
+expected_excluded,NovaDerm Aid Fund Alpha,,False,0,PASS
+expected_excluded,UNMANNED SYSTEMS,,True,1,FAIL
+expected_excluded,NEUROFLOW INC,,False,0,PASS
+expected_excluded,Apellis Pharmaceuticals,,False,0,PASS
+expected_excluded,Carnegie Robotics,,False,0,PASS
