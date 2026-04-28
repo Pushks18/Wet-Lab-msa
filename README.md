@@ -7,9 +7,9 @@ chemistry startups across five U.S. metropolitan statistical areas (MSAs):
 All data comes from free, federal public-record sources. Cost: $0.
 
 Final output: **4,001 LS/chem startups** (plus 293 research institutions
-identified and filtered separately), narrowed by Phase 9 to **1,290 wet-lab
-tenant prospects** (recency floor: 2015) with per-row evidence the reviewer
-can audit in a browser.
+identified and filtered separately), narrowed by Phase 9 + manager-review
+cleanup to **1,179 wet-lab tenant prospects** (recency floor: 2015) with
+per-row evidence the reviewer can audit in a browser.
 
 ---
 
@@ -67,7 +67,8 @@ long answer is the rest of the README.
         │  contractors → drop SPV/fund vehicles → drop public         │
         │  companies (SEC ticker file by CIK) → custom exclusion      │
         │  lists → priority score → founded_year                      │
-        │  → 1,290 wet-lab tenant prospects (2015+ recency floor)       │
+        │  → 1,179 wet-lab tenant prospects (2015+ recency floor,       │
+        │    after chain-rollup + manager-review cleanups)              │
         └────────────────────────────────┬────────────────────────────┘
                                          ▼
         ┌─────────────────────────────────────────────────────────────┐
@@ -92,7 +93,8 @@ long answer is the rest of the README.
 | **Phase 7a merged unique entities** | **4,294** | union of all four sources, deduped |
 | Phase 8 startups (research insts excluded) | 4,001 | rule-based classifier |
 | Phase 8 research institutions | 293 | filtered out, kept for reference |
-| **Phase 9 wet-lab prospects (final)** | **1,290** | bench-space tenants, ranked by priority_score (2015+ recency floor) |
+| Phase 9 (raw funnel) | 1,290 | before chain / manager-review cleanups |
+| **Final wet-lab prospects (committed)** | **1,179** | bench-space tenants after dropping 102 chain rollups + 10 manager-review rows |
 
 ### Tech stack
 - **Language:** Python 3.11+
@@ -485,7 +487,7 @@ work. Use `--force` to redo a phase.
 
 **Input:** `output/companies_final_startups_only.csv` (3,563 rows from Phase 8)
 
-**Output:** ~1,290 wet-lab tenant prospects (2015+ recency floor) — companies that credibly need bench/
+**Output:** **1,179 wet-lab tenant prospects** (2015+ recency floor, after cleanups) — companies that credibly need bench/
 lab space rather than office or SaaS space.
 
 **Key outputs:**
@@ -539,7 +541,7 @@ The integration test asserts the final row count is between 800 and 900.
 ## Verification — proving the numbers are right
 
 `src/phase9_verify.py` is a read-only audit module that produces evidence the
-final 1,290-row prospect list is accurate. It does **not** modify
+final 1,179-row prospect list is accurate. It does **not** modify
 `wet_lab_prospects.csv`. Runs in <1 minute against the full prospect list.
 
 ```bash
@@ -575,7 +577,7 @@ python src/phase9_verify.py --seed 7   # deterministic re-sample
 - All HTTP via `common.http_get` (User-Agent, retries, rate limits).
 - SEC: 8 rps (under their 10 rps cap). SBIR: 1 rps.
 - Read-only against `wet_lab_prospects.csv`.
-- Total runtime well under 5 minutes on the full 1,290-row list.
+- Total runtime well under 5 minutes on the full 1,179-row list.
 
 ---
 
@@ -595,18 +597,18 @@ The most recent deterministic run of `python src/phase9_wetlab_prospects.py
 | Step 4 — wet-lab subcategory | 3,903 | 1,771 | 2,132 | keep biotech / pharma / dx / chem / medtech (+ name-matched unknowns); drop digital_health / services |
 | Step 5 — recency | 1,771 | 1,434 | 337 | keep Form-D OR `sbir_last_year` ≥ 2015 OR TTO; drop dormant |
 | Step 6 — stage | 1,434 | 1,425 | 9 | drop SBIR span > 20 yr **AND** total > $20 M (mature govt contractors) |
-| Step 7 — SPV / fund vehicles | 1,425 | 1,367 | 58 | regex (numbered Series, Greek/Roman fund vintages, SPV, Master Fund, RE Holdings, …) + `config/pe_rollup_exclusions.json` |
-| Step 8 — public companies | 1,367 | 1,301 | 66 | SEC `company_tickers.json` matched on CIK → `dropped_public_companies.csv` |
-| Step 9 — non-wet-lab exclusions | 1,301 | 1,290 | 11 | `config/non_wetlab_exclusions.json` (defense / IT / robotics) |
-| **Final** | | **1,290** | | full 2015+ backfill of NIH + SEC + SBIR + TTO |
+| Step 7 — SPV / fund vehicles | 1,425 | 1,256 | 169 | regex (numbered Series, Greek/Roman fund vintages, SPV, Master Fund, RE Holdings) **+ healthcare-chain rollups** (USRC 75, North Texas Renal 10, Texas Health Surgery 5, PGC senior living 4, Acuity Eyecare 3, Neuron Shield 3, ResponseCO 2, Shield Series ALPHA/BETA, Empower Investors LP, Nature's Care, Teresa's House, Irazu Oncology dup, Herbal Pharm) + `config/pe_rollup_exclusions.json` |
+| Step 8 — public companies | 1,256 | 1,190 | 66 | SEC `company_tickers.json` matched on CIK → `dropped_public_companies.csv` |
+| Step 9 — non-wet-lab exclusions | 1,190 | 1,179 | 11 | `config/non_wetlab_exclusions.json` (defense / IT / robotics) |
+| **Final** | | **1,179** | | full 2015+ backfill of NIH + SEC + SBIR + TTO; chain rollups + manager-review SPVs caught inline at Step 7 |
 
-#### Per-MSA breakdown (final 1,290)
+#### Per-MSA breakdown (final 1,179)
 
 | MSA | Wet-lab prospects |
 |---|---:|
-| Philadelphia | 427 |
-| Dallas–Fort Worth | 359 |
-| Baltimore | 197 |
+| Philadelphia | 425 |
+| Dallas–Fort Worth | 253 |
+| Baltimore | 193 |
 | Atlanta | 182 |
 | Pittsburgh | 125 |
 
@@ -627,8 +629,9 @@ The most recent deterministic run of `python src/phase9_wetlab_prospects.py
 | NIH | 238 |
 | TTO | 59 |
 
-The big jump from 816 (2020 floor, partial) → 1,290 (2015 floor, full backfill)
-comes overwhelmingly from **SEC Form D**: the wider quarterly window pulled
+The progression 816 (2020 floor, partial) → 1,290 (2015 floor, full backfill)
+→ 1,179 (after chain + manager-review cleanups). The big jump to 1,290 came
+overwhelmingly from **SEC Form D**: the wider quarterly window pulled
 2,649 filings (vs 1,408 before, +88 %), and Form D-tier `operating_company`
 rows nearly doubled. NIH grew 60K → 105K rows but most of those are research
 institutions filtered out by Phase 8.

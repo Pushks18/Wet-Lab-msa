@@ -1,0 +1,112 @@
+msa,name,tier,city,state,source_form_d,founded_year,drop_reason
+dallas,"Neuron Shield 8, LLC",operating_company,PLANO,TX,True,2015.0,chain_rollup_cleanup
+dallas,"Neuron Shield 9, LLC",operating_company,PLANO,TX,True,2015.0,chain_rollup_cleanup
+dallas,"Acuity EyeCare Parent Holdings, LLC",operating_company,DALLAS,TX,True,2017.0,chain_rollup_cleanup
+dallas,"Acuity EyeCare Rollover II, LLC",operating_company,DALLAS,TX,True,2018.0,chain_rollup_cleanup
+dallas,"Acuity EyeCare Rollover, LLC",operating_company,DALLAS,TX,True,2017.0,chain_rollup_cleanup
+dallas,"Neuron Shield Monitoring Associates, PLLC",operating_company,PLANO,TX,True,2015.0,chain_rollup_cleanup
+dallas,North Texas Renal Management II LLC,operating_company,DALLAS,TX,True,2015.0,chain_rollup_cleanup
+dallas,North Texas Renal Management III LLC,operating_company,DALLAS,TX,True,2015.0,chain_rollup_cleanup
+dallas,"North Texas Renal Management IV, LLC",operating_company,DALLAS,TX,True,2016.0,chain_rollup_cleanup
+dallas,"North Texas Renal Management IX, LLC",operating_company,DALLAS,TX,True,2019.0,chain_rollup_cleanup
+dallas,"North Texas Renal Management V, LLC",operating_company,DALLAS,TX,True,2017.0,chain_rollup_cleanup
+dallas,"North Texas Renal Management VI, LLC",operating_company,DALLAS,TX,True,2017.0,chain_rollup_cleanup
+dallas,"North Texas Renal Management VII, LLC",operating_company,DALLAS,TX,True,2018.0,chain_rollup_cleanup
+dallas,"North Texas Renal Management VIII, LLC",operating_company,DALLAS,TX,True,2017.0,chain_rollup_cleanup
+dallas,"North Texas Renal Management XI, LLC",operating_company,DALLAS,TX,True,2022.0,chain_rollup_cleanup
+dallas,PGC Granada Assisted Living Memory Care Community LP,operating_company,DALLAS,TX,True,2015.0,chain_rollup_cleanup
+dallas,PGC Tapestry Tallahassee Assisted Living & Memory Care LP,operating_company,DALLAS,TX,True,2016.0,chain_rollup_cleanup
+dallas,PGC Tapestry of Tallahassee at Lakeshore Dr. LP,operating_company,DALLAS,TX,True,2018.0,chain_rollup_cleanup
+dallas,PGCS PC Tapestry Tallahassee Assisted Living & Memory Care LP,operating_company,DALLAS,TX,True,2017.0,chain_rollup_cleanup
+dallas,ResponseCO II LLC,operating_company,DALLAS,TX,True,2020.0,chain_rollup_cleanup
+dallas,ResponseCO LLC,operating_company,DALLAS,TX,True,2019.0,chain_rollup_cleanup
+dallas,"Texas Health Surgery Center Bedford, LLC",operating_company,BEDFORD,TX,True,2017.0,chain_rollup_cleanup
+dallas,"Texas Health Surgery Center Chisolm Trail, LLC",operating_company,Fort Worth,TX,True,2021.0,chain_rollup_cleanup
+dallas,"Texas Health Surgery Center Preston Plaza, LLC",operating_company,DALLAS,TX,True,2015.0,chain_rollup_cleanup
+dallas,"Texas Health Surgery Center Rockwall, LLC",operating_company,ARLINGTON,TX,True,2015.0,chain_rollup_cleanup
+dallas,"USRC Akron, LLC",operating_company,PLANO,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC Alvin, LLC",operating_company,PLANO,TX,True,2022.0,chain_rollup_cleanup
+dallas,"USRC Baldwin Hills, LLC",operating_company,PLANO,TX,True,2022.0,chain_rollup_cleanup
+dallas,"USRC Beeville, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Beretania, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC Bluebonnet Home, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Bluebonnet, LLC",operating_company,Plano,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Briarfield Home, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC Brownsville, LLC",operating_company,PLANO,TX,True,2023.0,chain_rollup_cleanup
+dallas,"USRC CONROE, LLC",operating_company,PLANO,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC Casper, LLC",operating_company,PLANO,TX,True,2015.0,chain_rollup_cleanup
+dallas,"USRC Cedar Hill, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC Compton, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Cool Springs, LLC",operating_company,PLANO,TX,True,2021.0,chain_rollup_cleanup
+dallas,"USRC Covington, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC DATAPOINT, LLC",operating_company,PLANO,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC DH Acute, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Dairy Ashford, LLC",operating_company,PLANO,TX,True,2022.0,chain_rollup_cleanup
+dallas,USRC Dialysis at Home West LLC,operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC EAST ATLANTA, LLC",operating_company,PLANO,TX,True,2025.0,chain_rollup_cleanup
+dallas,"USRC EWA BEACH, LLC",operating_company,PLANO,TX,True,2018.0,chain_rollup_cleanup
+dallas,"USRC Earl Street, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC East Dallas, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Eastern Iowa, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Electric City, LLC",operating_company,Plano,TX,True,2023.0,chain_rollup_cleanup
+dallas,"USRC FWRG-Keller, LLC",operating_company,Plano,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Fall Creek, LLC",operating_company,PLANO,TX,True,2022.0,chain_rollup_cleanup
+dallas,"USRC Findlay Home, LLC",operating_company,Plano,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC GLOUCESTER, LLC",operating_company,PLANO,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC Gardena, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Garland, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Greater Atlanta Home Therapies, LLC",operating_company,PLANO,TX,True,2023.0,chain_rollup_cleanup
+dallas,"USRC Gulfgate, LLC",operating_company,PLANO,TX,True,2021.0,chain_rollup_cleanup
+dallas,"USRC HAMBURG, LLC",operating_company,PLANO,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC HICKORY HILLS, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC Hancock-Seneca, LLC",operating_company,PLANO,TX,True,2023.0,chain_rollup_cleanup
+dallas,"USRC Hill Country, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Houston Newco Home, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC LIVE OAK, LLC",operating_company,PLANO,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC Las Cruces, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Lenox Avenue, LLC",operating_company,PLANO,TX,True,2021.0,chain_rollup_cleanup
+dallas,"USRC Lomita, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC MHP, LLC",operating_company,PLANO,TX,True,2018.0,chain_rollup_cleanup
+dallas,"USRC Mauldin, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC McKinney, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Mustang Dialysis, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Napa, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC New Milford, LLC",operating_company,PLANO,TX,True,2021.0,chain_rollup_cleanup
+dallas,"USRC North Flushing, LLC",operating_company,PLANO,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC North Hollywood, LLC",operating_company,PLANO,TX,True,2019.0,chain_rollup_cleanup
+dallas,"USRC Ogden, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Pacific Gateway, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Penns Grove, LLC",operating_company,Plano,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC Plano Dexter, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Premier Midlothian, LLC",operating_company,PLANO,TX,True,2024.0,chain_rollup_cleanup
+dallas,"USRC Quebec Street, LLC",operating_company,PLANO,TX,True,2021.0,chain_rollup_cleanup
+dallas,"USRC Redondo, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Roanoke, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC Royal Central, LLC",operating_company,PLANO,TX,True,2018.0,chain_rollup_cleanup
+dallas,"USRC SHARPSTOWN, LLC",operating_company,PLANO,TX,True,2021.0,chain_rollup_cleanup
+dallas,"USRC Skypark, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC South Aiken, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC South Arlington, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC South York, LLC",operating_company,PLANO,TX,True,2018.0,chain_rollup_cleanup
+dallas,"USRC Southeast Sarasota, LLC",operating_company,PLANO,TX,True,2018.0,chain_rollup_cleanup
+dallas,"USRC Stephenville, LLC",operating_company,PLANO,TX,True,2020.0,chain_rollup_cleanup
+dallas,"USRC Talmadge Road Home, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC Tiffin, LLC",operating_company,PLANO,TX,True,2018.0,chain_rollup_cleanup
+dallas,"USRC WAIPIO, LLC",operating_company,PLANO,TX,True,2018.0,chain_rollup_cleanup
+dallas,"USRC WEST CHICAGO, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC Weslaco Central, LLC",operating_company,PLANO,TX,True,2023.0,chain_rollup_cleanup
+dallas,"USRC West Fork, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"USRC West Grand Prairie, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC West Oahu, LLC",operating_company,PLANO,TX,True,2016.0,chain_rollup_cleanup
+dallas,"USRC Woodstock, LLC",operating_company,PLANO,TX,True,2017.0,chain_rollup_cleanup
+dallas,"Texas Health Surgery Center Alliance, LLC",operating_company,Fort Worth,TX,True,,chain_rollup_cleanup
+dallas,"Shield Medical Solutions, LLC - Series ALPHA",operating_company,ALLEN,TX,True,2017.0,series_letter_spv
+dallas,"Shield Medical Solutions, LLC - Series BETA",operating_company,ALLEN,TX,True,2017.0,series_letter_spv
+philadelphia,Empower Recovery Center Investors LP,operating_company,WILMINGTON,DE,True,2022.0,investors_lp
+philadelphia,Empower Recovery Investors LP,operating_company,WILMINGTON,DE,True,2022.0,investors_lp
+baltimore,"Irazu Oncology, LLC",operating_company,BALTIMORE,MD,True,2022.0,duplicate_of_parent
+baltimore,"Herbal Pharm, LLC",operating_company,WESTMINSTER,MD,True,2018.0,non_wetlab_supplement
+baltimore,"Nature's Care & Wellness of Ohio, LLC",operating_company,Nottingham,MD,True,2017.0,wellness_chain
+baltimore,"Nature's Care & Wellness, LLC",operating_company,NOTTINGHAM,MD,True,2014.0,wellness_chain
+dallas,"Teresa's House - Craig Ranch, LLC",operating_company,MCKINNEY,TX,True,2017.0,care_home_chain
+dallas,"Teresa's House Argyle, LLC",operating_company,ARGYLE,TX,True,2018.0,care_home_chain

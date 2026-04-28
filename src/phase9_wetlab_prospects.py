@@ -10,28 +10,30 @@ Output:
   output/dropped_geography.csv                 Step 3 drops
   output/dropped_public_companies.csv          Step 8 drops
 
-Funnel (most recent run, 2015+ recency floor):
-    Step 1  re-dedup           4,001 →  3,956   (-45)
-    Step 2  fuzzy merge        3,956 →  3,948   (-8)
-    Step 3  geography cleanup  3,948 →  3,903   (-45)
-    Step 4  wet-lab subcat     3,903 →  1,771   (-2,132)  largest single drop
-    Step 5  recency >=2015     1,771 →  1,434   (-337)
-    Step 6  mature contractor  1,434 →  1,425   (-9)
-    Step 7  SPV / fund vehicle 1,425 →  1,367   (-58)
-    Step 8  public companies   1,367 →  1,301   (-66)
-    Step 9  non-wet-lab excl.  1,301 →  1,290   (-11)
+Funnel (current code, 2015+ recency floor; chain rollups + manager-review
+SPVs caught inline at Step 7 via extended regex):
+    Step 1  re-dedup            4,001 →  3,956   (-45)
+    Step 2  fuzzy merge         3,956 →  3,948   (-8)
+    Step 3  geography cleanup   3,948 →  3,903   (-45)
+    Step 4  wet-lab subcat      3,903 →  1,771   (-2,132)  largest single drop
+    Step 5  recency >=2015      1,771 →  1,434   (-337)
+    Step 6  mature contractor   1,434 →  1,425   (-9)
+    Step 7  SPV/chain regex     1,425 →  1,256   (-169)   USRC, Series-letter,
+                                                          Investors LP, chains
+    Step 8  public companies    1,256 →  1,190   (-66)
+    Step 9  non-wet-lab excl.   1,190 →  1,179   (-11)
     -------------------------------------------------
-    Final wet-lab prospects:                    1,290
+    Final wet-lab prospects:                     1,179
 
-Per MSA (final 1,290):
-    philadelphia    427
-    dallas          359
-    baltimore       197
+Per MSA (final 1,179):
+    philadelphia    425
+    dallas          253
+    baltimore       193
     atlanta         182
     pittsburgh      125
 
 Tier composition:
-    operating_company (Form D-funded):  1,008
+    operating_company (Form D-funded):    896
     grant_only_company (SBIR):            255
     tto_spinout (university/incubator):    27
 
@@ -411,6 +413,23 @@ _SPV_PATTERNS: list[re.Pattern] = [
     re.compile(r"\bAlternative\s+Finance\b",   re.IGNORECASE),
     re.compile(r"\bInvestment\s+Holdings\b",   re.IGNORECASE),
     re.compile(r"\bHoldco\s+Management\b",     re.IGNORECASE),
+    # Healthcare-operating chains (PE rollups, not wet-lab tenants):
+    re.compile(r"^USRC\b",                     re.IGNORECASE),  # US Renal Care dialysis chain
+    re.compile(r"^North\s+Texas\s+Renal\b",    re.IGNORECASE),  # NT Renal Mgmt
+    re.compile(r"^Texas\s+Health\s+Surgery\s+Center\b", re.IGNORECASE),  # Tenet surgery centers
+    re.compile(r"^PGC['s]?\s",                 re.IGNORECASE),  # Park Grove Capital senior living LPs
+    re.compile(r"^PGCS\s+PC\s",                re.IGNORECASE),
+    re.compile(r"^ResponseCO\b",               re.IGNORECASE),
+    re.compile(r"^Acuity\s+Eyecare\b",         re.IGNORECASE),  # vision-care PE rollup
+    re.compile(r"^Neuron\s+Shield\b",          re.IGNORECASE),  # SPV vehicles
+    re.compile(r"^Nature['’]s\s+Care\b",  re.IGNORECASE),  # wellness chain
+    re.compile(r"^Teresa['’]s\s+House\b", re.IGNORECASE),  # care-home chain
+    re.compile(r"^Herbal\s+Pharm\b",           re.IGNORECASE),  # herbal supplements (non wet-lab)
+    re.compile(r"^Irazu\s+Oncology\b",         re.IGNORECASE),  # subsidiary of Irazu Bio
+    # Series-letter SPVs with dash separator (e.g. "Shield Medical Solutions, LLC - Series ALPHA"):
+    re.compile(r"\s-\s*Series\s+(ALPHA|BETA|GAMMA|DELTA|EPSILON|ZETA|ETA|THETA|IOTA|KAPPA|LAMBDA|MU|NU|XI|OMICRON|PI|RHO|SIGMA|TAU|UPSILON|PHI|CHI|PSI|OMEGA)\b", re.IGNORECASE),
+    # Investor-vehicle LPs:
+    re.compile(r"\bInvestors\s+L\.?P\.?\s*$",  re.IGNORECASE),
 ]
 
 
@@ -513,11 +532,33 @@ def _step10_score(df: pd.DataFrame) -> pd.DataFrame:
 
 # ── Step 11: founded_year column ──────────────────────────────────────────────
 
+_TTO_LOC_RE = re.compile(r"^\s*([^,]+?)\s*,\s*([A-Za-z]{2})\s*$")
+
+
+def _backfill_city_state_from_tto(df: pd.DataFrame) -> pd.DataFrame:
+    """For TTO-only rows with no federal address, parse city/state from tto_location."""
+    if "tto_location" not in df.columns:
+        return df
+    df = df.copy()
+    blank = df["city"].isna() & df["tto_location"].notna()
+    for i in df[blank].index:
+        m = _TTO_LOC_RE.match(str(df.at[i, "tto_location"] or ""))
+        if m:
+            df.at[i, "city"] = m.group(1).strip()
+            df.at[i, "state"] = m.group(2).upper()
+    return df
+
+
 def _step11_founded(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     yi = pd.to_numeric(df.get("year_incorp", pd.Series(dtype=float)), errors="coerce")
     # Use SEC year_incorp only; blanks if out of plausible range
     df["founded_year"] = yi.where((yi >= 1900) & (yi <= 2030))
+    # year_incorp is the raw SEC field; founded_year is the validated version.
+    # They're identical apart from out-of-range blanking — drop the duplicate
+    # so the deliverable has one authoritative year column.
+    if "year_incorp" in df.columns:
+        df = df.drop(columns=["year_incorp"])
     return df
 
 
@@ -752,7 +793,51 @@ def main(force: bool = False) -> None:
 
     # ── Step 10 + 11
     df = _step10_score(df)
+    df = _backfill_city_state_from_tto(df)
     df = _step11_founded(df)
+
+    # Industry fill: SBIR/TTO rows have no SEC industry; use ls_subcategory as proxy
+    if "industry" in df.columns:
+        SUBCAT_TO_IND = {
+            "biotech": "Biotechnology", "pharma": "Pharmaceuticals",
+            "medtech": "Other Health Care", "diagnostics": "Other Health Care",
+            "chemistry": "Other Health Care", "digital_health": "Other Health Care",
+            "services": "Other Health Care", "unknown": "Other Health Care",
+        }
+        m = df["industry"].isna() & df["ls_subcategory"].notna()
+        df.loc[m, "industry"] = (df.loc[m, "ls_subcategory"]
+                                  .map(SUBCAT_TO_IND).fillna("Other Health Care"))
+
+    # Apply web-verified backfill (manual_backfill_log.csv) — preserves city/
+    # state/zip/founded_year fills for TTO spinouts across re-runs.
+    backfill_path = OUTPUT_DIR / "manual_backfill_log.csv"
+    if backfill_path.exists():
+        try:
+            bl = pd.read_csv(backfill_path)
+            applied = 0
+            for _, row in bl.iterrows():
+                if row.get("field") in ("skipped", "all"):
+                    continue
+                m = df["name"] == row["name"]
+                if not m.any():
+                    continue
+                col = row["field"]
+                val = row["value"]
+                if col not in df.columns:
+                    continue
+                cur = df.loc[m, col].iloc[0]
+                if pd.isna(cur) or (isinstance(cur, str) and not cur.strip()):
+                    # Coerce numeric columns from string CSV values
+                    if col in ("founded_year",):
+                        try:
+                            val = float(val)
+                        except (TypeError, ValueError):
+                            continue
+                    df.loc[m, col] = val
+                    applied += 1
+            log.info("  Applied %d cells from manual_backfill_log.csv", applied)
+        except Exception as e:
+            log.warning("Could not apply manual backfill log: %s", e)
 
     log.info("Final wet-lab prospect count: %d", len(df))
 

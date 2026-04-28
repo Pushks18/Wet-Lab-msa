@@ -5,6 +5,6 @@ Step3_geo_cleanup,3948,3903,45,TTO rows where tto_location is clearly outside as
 Step4_wetlab_subcat,3903,1771,2132,keep biotech/pharma/dx/chem/medtech + unknown-but-name-matches; drop digital_health/services
 Step5_recency,1771,1434,337,keep Form-D / SBIR-last>=2015 / TTO; drop dormant firms
 Step6_stage,1434,1425,9,drop SBIR span>20yr AND total>$20M (mature govt contractors)
-Step7_spv_vehicles,1425,1367,58,regex SPV/fund patterns + config/pe_rollup_exclusions.json
-Step8_public_cos,1367,1301,66,SEC public-company ticker list by CIK
-Step9_nonwetlab_excl,1301,1290,11,config/non_wetlab_exclusions.json (defense/IT/robotics firms)
+Step7_spv_vehicles,1425,1256,169,regex SPV/fund patterns + config/pe_rollup_exclusions.json
+Step8_public_cos,1256,1190,66,SEC public-company ticker list by CIK
+Step9_nonwetlab_excl,1190,1179,11,config/non_wetlab_exclusions.json (defense/IT/robotics firms)

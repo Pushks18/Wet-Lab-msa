@@ -1,0 +1,64 @@
+name,field,value,source_url,confidence,notes
+Spark Therapeutics,city,Philadelphia,https://en.wikipedia.org/wiki/Spark_Therapeutics,high,3737 Market St; Wikipedia + Pharmaceutical-Technology + sparktx.com
+Spark Therapeutics,state,PA,https://en.wikipedia.org/wiki/Spark_Therapeutics,high,3737 Market St; Wikipedia + Pharmaceutical-Technology + sparktx.com
+Spark Therapeutics,zip,19104,https://en.wikipedia.org/wiki/Spark_Therapeutics,high,3737 Market St; Wikipedia + Pharmaceutical-Technology + sparktx.com
+Spark Therapeutics,founded_year,2013,https://en.wikipedia.org/wiki/Spark_Therapeutics,high,3737 Market St; Wikipedia + Pharmaceutical-Technology + sparktx.com
+Iveric Bio,city,Parsippany,https://www.dnb.com/business-directory/company-profiles.iveric_bio_inc,medium,Astellas subsidiary; outside Philadelphia MSA per current HQ
+Iveric Bio,state,NJ,https://www.dnb.com/business-directory/company-profiles.iveric_bio_inc,medium,Astellas subsidiary; outside Philadelphia MSA per current HQ
+Iveric Bio,zip,07054,https://www.dnb.com/business-directory/company-profiles.iveric_bio_inc,medium,Astellas subsidiary; outside Philadelphia MSA per current HQ
+Iveric Bio,founded_year,2007,https://www.dnb.com/business-directory/company-profiles.iveric_bio_inc,medium,Astellas subsidiary; outside Philadelphia MSA per current HQ
+Capstan Therapeutics,city,San Diego,https://www.dnb.com/business-directory/company-profiles.capstan_therapeutics_inc,medium,9880 Campus Point Dr; Penn TTO spinout but HQ in CA
+Capstan Therapeutics,state,CA,https://www.dnb.com/business-directory/company-profiles.capstan_therapeutics_inc,medium,9880 Campus Point Dr; Penn TTO spinout but HQ in CA
+Capstan Therapeutics,zip,92121,https://www.dnb.com/business-directory/company-profiles.capstan_therapeutics_inc,medium,9880 Campus Point Dr; Penn TTO spinout but HQ in CA
+Capstan Therapeutics,founded_year,2021,https://www.dnb.com/business-directory/company-profiles.capstan_therapeutics_inc,medium,9880 Campus Point Dr; Penn TTO spinout but HQ in CA
+Lyell Immunopharma,city,South San Francisco,https://www.lyell.com/contact/,medium,201 Haskins Way; Penn TTO spinout but HQ in CA
+Lyell Immunopharma,state,CA,https://www.lyell.com/contact/,medium,201 Haskins Way; Penn TTO spinout but HQ in CA
+Lyell Immunopharma,zip,94080,https://www.lyell.com/contact/,medium,201 Haskins Way; Penn TTO spinout but HQ in CA
+Lyell Immunopharma,founded_year,2018,https://www.lyell.com/contact/,medium,201 Haskins Way; Penn TTO spinout but HQ in CA
+Ring Therapeutics,city,Cambridge,https://ringtx.com/contact/,medium,620 Memorial Drive; Penn TTO spinout but HQ in MA
+Ring Therapeutics,state,MA,https://ringtx.com/contact/,medium,620 Memorial Drive; Penn TTO spinout but HQ in MA
+Ring Therapeutics,zip,02141,https://ringtx.com/contact/,medium,620 Memorial Drive; Penn TTO spinout but HQ in MA
+Ring Therapeutics,founded_year,2017,https://ringtx.com/contact/,medium,620 Memorial Drive; Penn TTO spinout but HQ in MA
+Colossal Biosciences,city,Dallas,https://en.wikipedia.org/wiki/Colossal_Biosciences,high,Wikipedia + Dallas Innovates; HQ also listed Austin TX
+Colossal Biosciences,state,TX,https://en.wikipedia.org/wiki/Colossal_Biosciences,high,Wikipedia + Dallas Innovates; HQ also listed Austin TX
+Colossal Biosciences,zip,75201,https://en.wikipedia.org/wiki/Colossal_Biosciences,high,Wikipedia + Dallas Innovates; HQ also listed Austin TX
+Colossal Biosciences,founded_year,2021,https://en.wikipedia.org/wiki/Colossal_Biosciences,high,Wikipedia + Dallas Innovates; HQ also listed Austin TX
+ZS Pharma,city,San Mateo,https://www.astrazeneca.com/media-centre/press-releases/2015/AstraZeneca-completes-acquisition-of-ZS-Pharma-17122015.html,medium,Acquired by AstraZeneca Dec 2015; was headquartered Coppell TX before relocation
+ZS Pharma,state,CA,https://www.astrazeneca.com/media-centre/press-releases/2015/AstraZeneca-completes-acquisition-of-ZS-Pharma-17122015.html,medium,Acquired by AstraZeneca Dec 2015; was headquartered Coppell TX before relocation
+ZS Pharma,zip,94403,https://www.astrazeneca.com/media-centre/press-releases/2015/AstraZeneca-completes-acquisition-of-ZS-Pharma-17122015.html,medium,Acquired by AstraZeneca Dec 2015; was headquartered Coppell TX before relocation
+ZS Pharma,founded_year,2008,https://www.astrazeneca.com/media-centre/press-releases/2015/AstraZeneca-completes-acquisition-of-ZS-Pharma-17122015.html,medium,Acquired by AstraZeneca Dec 2015; was headquartered Coppell TX before relocation
+Peloton Therapeutics,city,Dallas,https://www.utsouthwestern.edu/newsroom/articles/year-2023/dec-metastatic-kidney-cancer-drug-spinoff.html,high,UTSW BioCenter; in Dallas MSA
+Peloton Therapeutics,state,TX,https://www.utsouthwestern.edu/newsroom/articles/year-2023/dec-metastatic-kidney-cancer-drug-spinoff.html,high,UTSW BioCenter; in Dallas MSA
+Peloton Therapeutics,zip,75235,https://www.utsouthwestern.edu/newsroom/articles/year-2023/dec-metastatic-kidney-cancer-drug-spinoff.html,high,UTSW BioCenter; in Dallas MSA
+Peloton Therapeutics,founded_year,2010,https://www.utsouthwestern.edu/newsroom/articles/year-2023/dec-metastatic-kidney-cancer-drug-spinoff.html,high,UTSW BioCenter; in Dallas MSA
+Vyripharm Biopharmaceuticals,city,Houston,https://vyripharmbio.com/,medium,Houston not in DFW MSA; UTSW TTO classification questionable
+Vyripharm Biopharmaceuticals,state,TX,https://vyripharmbio.com/,medium,Houston not in DFW MSA; UTSW TTO classification questionable
+Vyripharm Biopharmaceuticals,zip,77054,https://vyripharmbio.com/,medium,Houston not in DFW MSA; UTSW TTO classification questionable
+Vyripharm Biopharmaceuticals,founded_year,2014,https://vyripharmbio.com/,medium,Houston not in DFW MSA; UTSW TTO classification questionable
+Ridgeline Therapeutics,city,Houston,http://www.ridgelinetherapeutics.com/team.html,medium,Houston not in DFW MSA
+Ridgeline Therapeutics,state,TX,http://www.ridgelinetherapeutics.com/team.html,medium,Houston not in DFW MSA
+Ridgeline Therapeutics,zip,77054,http://www.ridgelinetherapeutics.com/team.html,medium,Houston not in DFW MSA
+Ridgeline Therapeutics,founded_year,2012,http://www.ridgelinetherapeutics.com/team.html,medium,Houston not in DFW MSA
+AvidBiotics,city,South San Francisco,https://www.dnb.com/business-directory/company-profiles.avidbiotics_corp,medium,UTSW TTO classification questionable; HQ in CA
+AvidBiotics,state,CA,https://www.dnb.com/business-directory/company-profiles.avidbiotics_corp,medium,UTSW TTO classification questionable; HQ in CA
+AvidBiotics,zip,94080,https://www.dnb.com/business-directory/company-profiles.avidbiotics_corp,medium,UTSW TTO classification questionable; HQ in CA
+AvidBiotics,founded_year,2005,https://www.dnb.com/business-directory/company-profiles.avidbiotics_corp,medium,UTSW TTO classification questionable; HQ in CA
+Galen Robotics,city,Baltimore,https://ventures.jhu.edu/news/galen-robotics-baltimore-medical-technology-startup-opportunity-zone/,high,"1100 Wicomico Street; JHU spinout, in Baltimore MSA"
+Galen Robotics,state,MD,https://ventures.jhu.edu/news/galen-robotics-baltimore-medical-technology-startup-opportunity-zone/,high,"1100 Wicomico Street; JHU spinout, in Baltimore MSA"
+Galen Robotics,zip,21230,https://ventures.jhu.edu/news/galen-robotics-baltimore-medical-technology-startup-opportunity-zone/,high,"1100 Wicomico Street; JHU spinout, in Baltimore MSA"
+Galen Robotics,founded_year,2016,https://ventures.jhu.edu/news/galen-robotics-baltimore-medical-technology-startup-opportunity-zone/,high,"1100 Wicomico Street; JHU spinout, in Baltimore MSA"
+RedShift Bioanalytics,city,Boxborough,https://www.redshiftbio.com/contact,medium,"80 Central St; JHU TTO classification — HQ in MA, not Baltimore"
+RedShift Bioanalytics,state,MA,https://www.redshiftbio.com/contact,medium,"80 Central St; JHU TTO classification — HQ in MA, not Baltimore"
+RedShift Bioanalytics,zip,01719,https://www.redshiftbio.com/contact,medium,"80 Central St; JHU TTO classification — HQ in MA, not Baltimore"
+RedShift Bioanalytics,founded_year,2005,https://www.redshiftbio.com/contact,medium,"80 Central St; JHU TTO classification — HQ in MA, not Baltimore"
+Generian Pharmaceuticals,city,Pittsburgh,https://www.generian.com/about/,high,"2425 Sidney St; UPMC Enterprises, in Pittsburgh MSA"
+Generian Pharmaceuticals,state,PA,https://www.generian.com/about/,high,"2425 Sidney St; UPMC Enterprises, in Pittsburgh MSA"
+Generian Pharmaceuticals,zip,15203,https://www.generian.com/about/,high,"2425 Sidney St; UPMC Enterprises, in Pittsburgh MSA"
+Generian Pharmaceuticals,founded_year,2019,https://www.generian.com/about/,high,"2425 Sidney St; UPMC Enterprises, in Pittsburgh MSA"
+GRIT Bio,skipped,,,low,ambiguous match (NY or Shanghai); penn_known list may be wrong
+Alecto Therapeutics,skipped,,,low,"no Dallas match; closest is Alectos Therapeutics (Burnaby, Canada)"
+Boli Therapeutics,skipped,,,low,no Atlanta match found
+Cellect Biotechnology,skipped,,,low,"HQ in Israel, not Atlanta — emory_known list error"
+Micromedicine,skipped,,,low,"no match; closest is Micron Biomedical (Atlanta, GA Tech)"
+Adva Biotechnology,skipped,,,low,"HQ in Ahihud, Israel — pitt_known list error"
+Ondine Biomedical,skipped,,,low,"HQ in Vancouver, Canada — pitt_known list error"
