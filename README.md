@@ -1,12 +1,16 @@
 # LS / Chem Ecosystem Analysis — 5 MSAs
 
+> ## Final deliverable: **1,181 wet-lab tenant prospects** across 5 U.S. MSAs
+> Philadelphia 425 · Dallas–Fort Worth 254 · Baltimore 192 · Atlanta 185 · Pittsburgh 125
+> File: [`output/wet_lab_prospects.csv`](output/wet_lab_prospects.csv) · Excel: [`output/wet_lab_demand_analysis.xlsx`](output/wet_lab_demand_analysis.xlsx)
+
 A reproducible pipeline that builds an authoritative roster of life-sciences and
 chemistry startups across five U.S. metropolitan statistical areas (MSAs):
 **Philadelphia, Pittsburgh, Baltimore, Atlanta, Dallas–Fort Worth**.
 
 All data comes from free, federal public-record sources. Cost: $0.
 
-Final output: **4,001 LS/chem startups** (plus 293 research institutions
+Pipeline output: **4,001 LS/chem startups** (plus 293 research institutions
 identified and filtered separately), narrowed by Phase 9 + manager-review
 cleanup to **1,181 wet-lab tenant prospects** (recency floor: 2015) with
 per-row evidence the reviewer can audit in a browser.
