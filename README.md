@@ -8,7 +8,7 @@ All data comes from free, federal public-record sources. Cost: $0.
 
 Final output: **4,001 LS/chem startups** (plus 293 research institutions
 identified and filtered separately), narrowed by Phase 9 + manager-review
-cleanup to **1,179 wet-lab tenant prospects** (recency floor: 2015) with
+cleanup to **1,181 wet-lab tenant prospects** (recency floor: 2015) with
 per-row evidence the reviewer can audit in a browser.
 
 ---
@@ -46,7 +46,7 @@ long answer is the rest of the README.
         │  PHASE 7a — Cross-source merge (pandas + jellyfish)         │
         │  Normalize names → strip legal suffixes → merge on          │
         │  (msa, normalized_name) → SEC CIK → UEI/DUNS                │
-        │  → 3,754 unique entities                                    │
+        │  → 4,294 unique entities                                    │
         └────────────────────────────────┬────────────────────────────┘
                                          ▼
         ┌─────────────────────────────────────────────────────────────┐
@@ -57,7 +57,7 @@ long answer is the rest of the README.
         │     chemistry, digital_health, services, unknown}           │
         │  tier ∈ {operating_company, grant_only_company,             │
         │     tto_spinout, research_inst}                             │
-        │  → 3,563 startups + 191 research institutions               │
+        │  → 4,001 startups + 293 research institutions               │
         └────────────────────────────────┬────────────────────────────┘
                                          ▼
         ┌─────────────────────────────────────────────────────────────┐
@@ -67,7 +67,7 @@ long answer is the rest of the README.
         │  contractors → drop SPV/fund vehicles → drop public         │
         │  companies (SEC ticker file by CIK) → custom exclusion      │
         │  lists → priority score → founded_year                      │
-        │  → 1,179 wet-lab tenant prospects (2015+ recency floor,       │
+        │  → 1,181 wet-lab tenant prospects (2015+ recency floor,       │
         │    after chain-rollup + manager-review cleanups)              │
         └────────────────────────────────┬────────────────────────────┘
                                          ▼
@@ -94,7 +94,7 @@ long answer is the rest of the README.
 | Phase 8 startups (research insts excluded) | 4,001 | rule-based classifier |
 | Phase 8 research institutions | 293 | filtered out, kept for reference |
 | Phase 9 (raw funnel) | 1,290 | before chain / manager-review cleanups |
-| **Final wet-lab prospects (committed)** | **1,179** | bench-space tenants after dropping 102 chain rollups + 10 manager-review rows |
+| **Final wet-lab prospects (committed)** | **1,181** | bench-space tenants after dropping 102 chain rollups + 10 manager-review rows |
 
 ### Tech stack
 - **Language:** Python 3.11+
@@ -128,9 +128,9 @@ The committed deliverables in [`output/`](output/):
 
 | File | What it is |
 |---|---|
-| [`output/companies_final_startups_only.csv`](output/companies_final_startups_only.csv) | **The startup list — 3,563 rows, no universities/hospitals.** Show this to the CEO. |
+| [`output/companies_final_startups_only.csv`](output/companies_final_startups_only.csv) | **The startup list — 4,001 rows, no universities/hospitals.** Show this to the CEO. |
 | [`output/companies_final_startups_only.xlsx`](output/companies_final_startups_only.xlsx) | Same, as Excel |
-| [`output/companies_final.csv`](output/companies_final.csv) / [`.xlsx`](output/companies_final.xlsx) | Full classified roster (3,754 rows incl. research institutions) |
+| [`output/companies_final.csv`](output/companies_final.csv) / [`.xlsx`](output/companies_final.xlsx) | Full classified roster (4,294 rows incl. research institutions) |
 | [`output/companies_final_counts.csv`](output/companies_final_counts.csv) | Tier × MSA breakdown (the headline table below) |
 | [`output/companies_final_startup_subcategory_counts.csv`](output/companies_final_startup_subcategory_counts.csv) | Pharma / Biotech / MedTech / Diagnostics / Chemistry / Digital-Health splits per MSA |
 | [`output/companies_final_by_msa/`](output/companies_final_by_msa) | One CSV per MSA — easy to skim |
@@ -145,24 +145,24 @@ pipeline regenerates them from public APIs.
 
 ## Headline numbers
 
-| MSA | Operating (Form D-funded) | Grant-only (SBIR) | TTO spinout | Research inst. (filtered) | **Startups total** |
+| MSA | Operating (Form D-funded) | Grant-only (SBIR) | TTO spinout | Non-startup (filtered) | **Startups total** |
 |---|---:|---:|---:|---:|---:|
-| Philadelphia | 248 | 834 | 12 | 94 | **1,094** |
-| Atlanta | 96 | 468 | 124 | 29 | **688** |
-| Baltimore | 77 | 610 | 12 | 32 | **699** |
-| Dallas–Fort Worth | 215 | 386 | 10 | 16 | **611** |
-| Pittsburgh | 63 | 394 | 14 | 20 | **471** |
-| **TOTAL** | **699** | **2,692** | **172** | **191** | **3,563** |
+| Philadelphia | 392 | 828 | 8 | 122 | **1,228** |
+| Dallas–Fort Worth | 391 | 380 | 9 | 28 | **780** |
+| Baltimore | 148 | 593 | 9 | 60 | **750** |
+| Atlanta | 159 | 465 | 123 | 57 | **747** |
+| Pittsburgh | 96 | 388 | 12 | 26 | **496** |
+| **TOTAL** | **1,186** | **2,654** | **161** | **293** | **4,001** |
 
 ### Startup subcategory split
 
 | MSA | Biotech | Chemistry | Diagnostics | Digital Health | MedTech | Pharma | Services | Unknown |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Philadelphia | 104 | 10 | 13 | 6 | 113 | 153 | 17 | 678 |
-| Dallas | 74 | 1 | 2 | 4 | 136 | 38 | 10 | 346 |
-| Baltimore | 59 | 0 | 14 | 4 | 40 | 41 | 8 | 533 |
-| Atlanta | 57 | 3 | 4 | 60 | 68 | 37 | 7 | 452 |
-| Pittsburgh | 32 | 3 | 5 | 6 | 54 | 26 | 6 | 339 |
+| Philadelphia | 130 | 13 | 17 | 6 | 177 | 203 | 16 | 666 |
+| Dallas | 89 | 2 | 4 | 4 | 275 | 58 | 13 | 335 |
+| Baltimore | 81 | 1 | 14 | 4 | 87 | 47 | 9 | 507 |
+| Atlanta | 68 | 4 | 4 | 59 | 120 | 44 | 8 | 440 |
+| Pittsburgh | 41 | 3 | 5 | 6 | 78 | 29 | 6 | 328 |
 
 The large `Unknown` bucket is SBIR-grant rows where the bulk CSV omits the
 abstract — Phase 8b (planned) will use the award title to refine these.
@@ -485,9 +485,9 @@ work. Use `--force` to redo a phase.
 
 ## Phase 9: Wet-lab prospect filtering
 
-**Input:** `output/companies_final_startups_only.csv` (3,563 rows from Phase 8)
+**Input:** `output/companies_final_startups_only.csv` (4,001 rows from Phase 8)
 
-**Output:** **1,179 wet-lab tenant prospects** (2015+ recency floor, after cleanups) — companies that credibly need bench/
+**Output:** **1,181 wet-lab tenant prospects** (2015+ recency floor, after cleanups) — companies that credibly need bench/
 lab space rather than office or SaaS space.
 
 **Key outputs:**
@@ -518,6 +518,9 @@ Every dropped row is traceable to a specific step. Exclusion lists live in
 | **Step 9 — Non-wet-lab exclusions** | Drop names in `config/non_wetlab_exclusions.json` | Defense/IT/robotics firms incorrectly tagged life-sci by the keyword classifier |
 | **Step 10 — Priority score** | +3 Form D; SBIR recency: +3 (≥2024) / +2 (2022-23) / +1 (2020-21) / 0 (2015-19, still kept by gate); +2 TTO; +2 high subcat; +1 founded ≥ 2015 | Helps order outreach within each MSA |
 | **Step 11 — `founded_year`** | SEC `year_incorp` only; blank if outside [1900, 2030] | No proxy sources — SBIR self-reported dates are unreliable for founding year |
+| **Step 11b — SEC submissions API** | For each CIK with blank `founded_year`, fetch `https://data.sec.gov/submissions/CIK{cik}.json` and read `yearOfIncorporation`. Cached in `data/raw/sec_yearofincorp_cache.json`. | Empirical: SEC doesn't publish this field for private/Form-D filers (0/204 hits). Kept for forward compatibility |
+| **Step 11c — website "About" scrape** | For each row with a `website` field and blank year, fetch `/`, `/about`, `/about-us`, `/our-story`, `/company`, `/team`. Regex anchored on `Founded / Established / Since / Incorporated YYYY`. Cached in `data/raw/website_founded_cache.json`. | Free, slow (~3 min for 154 sites). Fills 21 cells. Conservative regex avoids reading copyright dates as founding years |
+| **Manual backfill** | `output/manual_backfill_log.csv` (`name, field, value, source_url, confidence, notes`) applied at end of Phase 9 | Web-curated entries for high-priority TTO / SBIR-only / un-websited companies (43 founded_year entries with citations) |
 
 ### Maintaining the exclusion lists
 
@@ -541,7 +544,7 @@ The integration test asserts the final row count is between 800 and 900.
 ## Verification — proving the numbers are right
 
 `src/phase9_verify.py` is a read-only audit module that produces evidence the
-final 1,179-row prospect list is accurate. It does **not** modify
+final 1,181-row prospect list is accurate. It does **not** modify
 `wet_lab_prospects.csv`. Runs in <1 minute against the full prospect list.
 
 ```bash
@@ -577,7 +580,7 @@ python src/phase9_verify.py --seed 7   # deterministic re-sample
 - All HTTP via `common.http_get` (User-Agent, retries, rate limits).
 - SEC: 8 rps (under their 10 rps cap). SBIR: 1 rps.
 - Read-only against `wet_lab_prospects.csv`.
-- Total runtime well under 5 minutes on the full 1,179-row list.
+- Total runtime well under 5 minutes on the full 1,181-row list.
 
 ---
 
@@ -585,7 +588,7 @@ python src/phase9_verify.py --seed 7   # deterministic re-sample
 
 The most recent deterministic run of `python src/phase9_wetlab_prospects.py
 --force` against the committed `output/companies_final_startups_only.csv`
-(3,563 rows). Same input → same output, every time.
+(4,001 rows). Same input → same output, every time.
 
 ### Funnel (from `output/phase9_audit_log.csv`)
 
@@ -593,44 +596,45 @@ The most recent deterministic run of `python src/phase9_wetlab_prospects.py
 |---|---:|---:|---:|---|
 | Step 1 — re-dedup | 4,001 | 3,956 | 45 | union-find on norm_name + CIK / UEI / DUNS |
 | Step 2 — fuzzy merge | 3,956 | 3,948 | 8 | Jaro-Winkler ≥0.95 (≤2 tokens) / ≥0.92 (longer), block by (msa, first non-generic token) |
-| Step 3 — geography cleanup | 3,948 | 3,903 | 45 | TTO rows where `tto_location` is outside assigned MSA → `dropped_geography.csv` |
-| Step 4 — wet-lab subcategory | 3,903 | 1,771 | 2,132 | keep biotech / pharma / dx / chem / medtech (+ name-matched unknowns); drop digital_health / services |
-| Step 5 — recency | 1,771 | 1,434 | 337 | keep Form-D OR `sbir_last_year` ≥ 2015 OR TTO; drop dormant |
-| Step 6 — stage | 1,434 | 1,425 | 9 | drop SBIR span > 20 yr **AND** total > $20 M (mature govt contractors) |
-| Step 7 — SPV / fund vehicles | 1,425 | 1,256 | 169 | regex (numbered Series, Greek/Roman fund vintages, SPV, Master Fund, RE Holdings) **+ healthcare-chain rollups** (USRC 75, North Texas Renal 10, Texas Health Surgery 5, PGC senior living 4, Acuity Eyecare 3, Neuron Shield 3, ResponseCO 2, Shield Series ALPHA/BETA, Empower Investors LP, Nature's Care, Teresa's House, Irazu Oncology dup, Herbal Pharm) + `config/pe_rollup_exclusions.json` |
-| Step 8 — public companies | 1,256 | 1,190 | 66 | SEC `company_tickers.json` matched on CIK → `dropped_public_companies.csv` |
-| Step 9 — non-wet-lab exclusions | 1,190 | 1,179 | 11 | `config/non_wetlab_exclusions.json` (defense / IT / robotics) |
-| **Final** | | **1,179** | | full 2015+ backfill of NIH + SEC + SBIR + TTO; chain rollups + manager-review SPVs caught inline at Step 7 |
+| Step 2b — manual merges | 3,948 | 3,944 | 4 | explicit parent/child rebrand pairs from `config/manual_merges.json` (FlowMetric, Nanoscope, Nava, Gladius) |
+| Step 3 — geography cleanup | 3,944 | 3,899 | 45 | TTO rows where `tto_location` is outside assigned MSA → `dropped_geography.csv` |
+| Step 4 — wet-lab subcategory | 3,899 | 1,780 | 2,119 | keep biotech / pharma / dx / chem / medtech (+ name-matched unknowns); drop digital_health / services. Phase 8 keywords broadened to catch `biomed*`, `bioscience`, `biolog*`, `protein`, `microbi*`, `bioengineer`, `nanotech*`, `cardio*`, `dental`, `orthopedic`, `catheter`, `stent`, `prosthe*`, `infusion` |
+| Step 5 — recency | 1,780 | 1,436 | 344 | keep Form-D OR `sbir_last_year` ≥ 2015 OR TTO; drop dormant |
+| Step 6 — stage | 1,436 | 1,427 | 9 | drop SBIR span > 20 yr **AND** total > $20 M (mature govt contractors) |
+| Step 7 — SPV / fund vehicles | 1,427 | 1,258 | 169 | regex (numbered Series, Greek/Roman fund vintages, SPV, Master Fund, RE Holdings) **+ healthcare-chain rollups** (USRC 75, North Texas Renal 10, Texas Health Surgery 5, PGC senior living 4, Acuity Eyecare 3, Neuron Shield 3, ResponseCO 2, Shield Series ALPHA/BETA, Empower Investors LP, Nature's Care, Teresa's House, Irazu Oncology dup, Herbal Pharm) + `config/pe_rollup_exclusions.json` |
+| Step 8 — public companies | 1,258 | 1,192 | 66 | SEC `company_tickers.json` matched on CIK → `dropped_public_companies.csv` |
+| Step 9 — non-wet-lab exclusions | 1,192 | 1,181 | 11 | `config/non_wetlab_exclusions.json` (defense / IT / robotics) |
+| **Final** | | **1,181** | | full 2015+ backfill of NIH + SEC + SBIR + TTO; chain rollups + manager-review SPVs caught inline at Step 7; parent/child rebrands collapsed at Step 2b |
 
-#### Per-MSA breakdown (final 1,179)
+#### Per-MSA breakdown (final 1,181)
 
 | MSA | Wet-lab prospects |
 |---|---:|
 | Philadelphia | 425 |
-| Dallas–Fort Worth | 253 |
-| Baltimore | 193 |
-| Atlanta | 182 |
+| Dallas–Fort Worth | 254 |
+| Baltimore | 192 |
+| Atlanta | 185 |
 | Pittsburgh | 125 |
 
 #### Tier composition
 
 | Tier | Count |
 |---|---:|
-| Operating company (Form D-funded startup) | 1,008 |
-| Grant-only company (SBIR startup) | 255 |
-| TTO spinout (university / incubator) | 27 |
+| Operating company (Form D-funded startup) | 895 |
+| Grant-only company (SBIR startup) | 257 |
+| TTO spinout (university / incubator) | 29 |
 
 #### Source-flag coverage (rows with each flag set)
 
 | Source | Count |
 |---|---:|
-| Form D | 1,008 |
-| SBIR | 375 |
+| Form D | 896 |
+| SBIR | 377 |
 | NIH | 238 |
-| TTO | 59 |
+| TTO | 61 |
 
 The progression 816 (2020 floor, partial) → 1,290 (2015 floor, full backfill)
-→ 1,179 (after chain + manager-review cleanups). The big jump to 1,290 came
+→ 1,181 (after chain + manager-review cleanups). The big jump to 1,290 came
 overwhelmingly from **SEC Form D**: the wider quarterly window pulled
 2,649 filings (vs 1,408 before, +88 %), and Form D-tier `operating_company`
 rows nearly doubled. NIH grew 60K → 105K rows but most of those are research

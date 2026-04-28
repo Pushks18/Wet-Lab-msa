@@ -1,0 +1,25 @@
+{
+  "_comment": "Explicit parent/child or rebrand merges that Phase 9 Step 2 (Jaro-Winkler) misses because the names diverge too much (e.g. 'Foo Therapeutics' vs 'Foo Technologies'). Each entry: list of names to collapse into one cluster within the given MSA. Names are matched case-insensitively after Phase 9's _norm() (lowercase, strip punctuation + legal suffixes). The first listed name's row is kept as canonical; source flags are OR'd, counts/dollars summed.",
+  "merges": [
+    {
+      "msa": "philadelphia",
+      "names": ["FlowMetric, Inc.", "Flowmetric Life Sciences, Inc."],
+      "reason": "same Doylestown PA entity; rebrand from FlowMetric -> Flowmetric Life Sciences"
+    },
+    {
+      "msa": "dallas",
+      "names": ["Nanoscope Technologies LLC", "Nanoscope Therapeutics, Inc."],
+      "reason": "same Bedford TX address; therapeutics is a known spinout of the technologies parent"
+    },
+    {
+      "msa": "baltimore",
+      "names": ["Nava Management, LLC", "NAVA HEALTH MD, INC."],
+      "reason": "Columbia MD; HoldCo (Management) and OpCo (Health MD) of the same group"
+    },
+    {
+      "msa": "philadelphia",
+      "names": ["Gladius Pharmaceuticals Corp", "Gladius Therapeutics, Inc."],
+      "reason": "same founders / Wilmington-Philadelphia rebrand; sequential SEC CIKs"
+    }
+  ]
+}

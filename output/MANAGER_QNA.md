@@ -1,14 +1,14 @@
 # Wet-Lab Tenant Prospect Analysis — Manager Q&A
 
 A reference document anticipating questions about scope, data, methods, and accuracy.
-All numbers reflect the committed deliverable: `output/wet_lab_demand_analysis.xlsx` (1,179 prospects).
+All numbers reflect the committed deliverable: `output/wet_lab_demand_analysis.xlsx` (1,181 prospects).
 
 ---
 
 ## 1. Project context
 
 **Q: What does this project deliver?**
-A list of **1,179 wet-lab tenant prospects** — life-sciences and chemistry companies that credibly need bench/lab space — across 5 U.S. metropolitan statistical areas (Philadelphia, Pittsburgh, Baltimore, Atlanta, Dallas–Fort Worth). Each row is traceable to at least one federal public-record source.
+A list of **1,181 wet-lab tenant prospects** — life-sciences and chemistry companies that credibly need bench/lab space — across 5 U.S. metropolitan statistical areas (Philadelphia, Pittsburgh, Baltimore, Atlanta, Dallas–Fort Worth). Each row is traceable to at least one federal public-record source.
 
 **Q: Why these 5 MSAs?**
 They were the agreed scope at project kickoff. The pipeline reads `config/msa_config.json` — adding a new MSA is a config change, not a code rewrite.
@@ -49,7 +49,7 @@ By **OMB Bulletin 23-01** — the federal MSA delineation, which is a fixed list
 
 ## 3. Methodology
 
-**Q: Walk me through how a row gets into the final 1,179.**
+**Q: Walk me through how a row gets into the final 1,181.**
 A row passes through 9 Phase 9 filters in order, on top of Phase 7a (cross-source merge) + Phase 8 (entity classification). Each filter is logged in `output/phase9_audit_log.csv`:
 
 | Step | What it does | Rows after step |
@@ -58,13 +58,14 @@ A row passes through 9 Phase 9 filters in order, on top of Phase 7a (cross-sourc
 | Phase 8 | Drop universities/hospitals/government labs/research-only orgs | 4,001 |
 | 1. Re-dedup | Merge same-company variants by name + CIK + UEI + DUNS | 3,956 |
 | 2. Fuzzy merge | Jaro-Winkler ≥0.95 (≤2 tokens) / ≥0.92 (longer) for typo variants | 3,948 |
-| 3. Geography | Drop TTO rows with HQ outside assigned MSA | 3,903 |
-| 4. Wet-lab subcategory | Keep biotech / pharma / dx / chem / medtech | 1,771 |
-| 5. Recency | Keep Form-D OR sbir_last_year ≥ 2015 OR TTO-listed | 1,434 |
-| 6. Stage | Drop SBIR span > 20 yr **AND** total > $20M | 1,425 |
-| 7. SPV / fund vehicles + chain rollups | Drop numbered series, Greek/Roman fund vintages, SPV, Master Fund, USRC dialysis chain (75), Texas Health Surgery (5), PGC senior living (4), Shield Series ALPHA/BETA, Empower Investors LP, Nature's Care wellness, Teresa's House care home, etc. | 1,256 |
-| 8. Public companies | Drop CIKs in SEC ticker file | 1,190 |
-| 9. Non-wet-lab | Drop defense / IT / robotics from manual list | **1,179** |
+| 2b. Manual merges | Explicit parent/child rebrand pairs (FlowMetric, Nanoscope, Nava, Gladius) from `config/manual_merges.json` | 3,944 |
+| 3. Geography | Drop TTO rows with HQ outside assigned MSA | 3,899 |
+| 4. Wet-lab subcategory | Keep biotech / pharma / dx / chem / medtech (Phase 8 keywords broadened to catch `biomed*`, `bioscience`, `biolog*`, `protein`, `microbi*`, `bioengineer`, `nanotech*`, `cardio*`, `dental`, `orthopedic`, `catheter`, `stent`, `prosthe*`, `infusion`) | 1,780 |
+| 5. Recency | Keep Form-D OR sbir_last_year ≥ 2015 OR TTO-listed | 1,436 |
+| 6. Stage | Drop SBIR span > 20 yr **AND** total > $20M | 1,427 |
+| 7. SPV / fund vehicles + chain rollups | Drop numbered series, Greek/Roman fund vintages, SPV, Master Fund, USRC dialysis chain (75), Texas Health Surgery (5), PGC senior living (4), Shield Series ALPHA/BETA, Empower Investors LP, Nature's Care wellness, Teresa's House care home, etc. | 1,258 |
+| 8. Public companies | Drop CIKs in SEC ticker file | 1,192 |
+| 9. Non-wet-lab | Drop defense / IT / robotics from manual list | **1,181** |
 
 **Q: How did we filter out universities and hospitals?**
 Phase 8 uses a regex over the entity name:
@@ -99,25 +100,25 @@ A Form D filer that's recently funded, in biotech, founded recently → score 11
 | MSA | Prospects |
 |---|---:|
 | Philadelphia | 425 |
-| Dallas–Fort Worth | 253 |
-| Baltimore | 193 |
-| Atlanta | 182 |
+| Dallas–Fort Worth | 254 |
+| Baltimore | 192 |
+| Atlanta | 185 |
 | Pittsburgh | 125 |
-| **Total** | **1,179** |
+| **Total** | **1,181** |
 
 **Q: What's the tier breakdown?**
 
 | Tier | Count | Meaning |
 |---|---:|---|
-| `operating_company` | 896 | Filed Form D since 2015 → real funded company |
-| `grant_only_company` | 255 | SBIR-funded but no Form D → federal R&D shop |
-| `tto_spinout` | 27 | University TTO listing, no federal record |
+| `operating_company` | 895 | Filed Form D since 2015 → real funded company |
+| `grant_only_company` | 257 | SBIR-funded but no Form D → federal R&D shop |
+| `tto_spinout` | 29 | University TTO listing, no federal record |
 
 **Q: What's the subcategory split?**
 Predominantly **medtech** and **biotech**. Pharma ~150 rows. Diagnostics + chemistry are smaller. The breakdown by MSA is in the Summary sheet of the Excel.
 
 **Q: How recent are these companies?**
-Of the 715 rows with a known founded year (Form D filers), the distribution peaks around 2017 (104 companies founded that year), with ~70–80 per year from 2014–2023, tapering to 14 in 2025. The 473 rows without a year are mostly SBIR-only entities — by design we don't use their unreliable self-reported founding dates.
+Of the 769 rows with a known founded year (706 from SEC Form D + 43 from a curated manual backfill + 20 from the company-website "About" page scraper), the distribution peaks around 2017 (~104 companies founded that year), with ~70–80 per year from 2014–2023, tapering to 14 in 2025. The remaining 412 rows without a year are mostly SBIR-only entities — by design we don't use their unreliable self-reported founding dates (see Q on founded_year coverage below).
 
 ---
 
@@ -167,7 +168,12 @@ If any of those raise a concern, add the company name to `config/non_wetlab_excl
 5. **TTO-list errors.** The curated penn_known / pitt_known / utsw_known seed lists occasionally include companies that aren't actually MSA-located (e.g., Adva Biotechnology is in Israel, Ondine is in Vancouver). The web backfill flagged 7 of these for manual review.
 
 **Q: What's the founded_year coverage?**
-705 / 1,179 (60 %). Only Form D filers self-attest a year (`YEARINCFROM` field). SBIR-only and TTO-only rows are blank by design — SBIR self-reported dates are unreliable, and we'd rather show blank than guess.
+**769 / 1,181 (65 %).** Three sources, in priority order:
+1. **SEC Form D `YEARINCFROM`** — 706 rows. The authoritative source: filers self-attest at filing time.
+2. **Manual backfill** (`output/manual_backfill_log.csv`) — 43 high-priority private companies hand-curated with citations to Wikipedia / Crunchbase / company "About" pages / SEC S-1 filings. Each row has a `source_url` and `confidence` rating.
+3. **Step 11c website scraper** — 20 rows pulled from `Founded YYYY` / `Established YYYY` / `Since YYYY` / `Incorporated YYYY` regex on the company's `/about` or `/our-story` page. Cached in `data/raw/website_founded_cache.json` (free, slow, ~3 min for 154 sites).
+
+The remaining 412 blanks are mostly SBIR-only or TTO-only entities with no website and no public profile. SBIR self-reported award dates are deliberately not used as a proxy — first-award year ≥ founding year, often by several years. We also tried SEC's `submissions` JSON API as a fallback (Step 11b), but SEC doesn't expose `yearOfIncorporation` for private/Form-D filers — only `stateOfIncorporation`. The endpoint returned 0 hits across all 204 candidate CIKs.
 
 **Q: Why are some companies showing HQs outside the MSA?**
 The web-backfill surfaced ~6 TTO-flagged rows (Capstan, Lyell, Ring, AvidBiotics, RedShift) where the company spun out from a Penn / JHU / UTSW lab but later relocated. They're flagged in `manual_backfill_log.csv` with `confidence: medium` and notes. We can drop them with one config change if you want strict MSA enforcement — the impact is small (~6 rows).
@@ -213,9 +219,9 @@ Yes. Repository: `https://github.com/Pushks18/Wet-Lab-msa`. Every change is in g
 
 | File | Purpose |
 |---|---|
-| **`output/wet_lab_demand_analysis.xlsx`** | The main deliverable. 5 sheets: Summary, Top Prospects, All Prospects (1179), Manual Backfill Log, Methodology |
+| **`output/wet_lab_demand_analysis.xlsx`** | The main deliverable. 5 sheets: Summary, Top Prospects, All Prospects (1181), Manual Backfill Log, Methodology |
 | `output/wet_lab_prospects.csv` | Same data, plain CSV |
-| `output/phase9_audit_log.csv` | Step-by-step funnel from 4,001 → 1,179 |
+| `output/phase9_audit_log.csv` | Step-by-step funnel from 4,001 → 1,181 |
 | `output/manual_backfill_log.csv` | Web-sourced fills with source URLs and confidence ratings |
 | `output/dropped_chain_rollups.csv` | 102 PE rollup rows removed (USRC, etc.) |
 | `output/dropped_public_companies.csv` | 66 publicly-traded company drops |

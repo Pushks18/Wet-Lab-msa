@@ -67,15 +67,21 @@ NONPROFIT_RE = re.compile(
 )
 
 PHARMA_KW = ["pharma", "therapeutic", "biopharm", "drug", "rx", "medicine"]
-BIOTECH_KW = ["bio ", "biosciences", "biotech", "genomics", "genetic", "cell ", "cellular",
+BIOTECH_KW = ["bio ", "bioscience", "biotech", "biolog", "biophys", "bioengineer",
+              "microbi", "protein", "enzyme",
+              "genomics", "genetic", "cell ", "cellular",
               "gene ", "rna", "dna", "crispr", "vaccine", "immuno", "oncology", "cancer",
               "neuro", "stem cell", "antibod", "peptide"]
-MEDTECH_KW = ["medical device", "medtech", "robotics", "imaging", "surgical", "implant",
-              "wearable", "monitor", "sensor"]
+MEDTECH_KW = ["medical device", "medtech", "biomed",
+              "robotics", "imaging", "surgical", "implant",
+              "wearable", "monitor", "sensor",
+              "orthopedic", "orthopaedic", "dental",
+              "cardio", "cardiac", "catheter", "stent", "prosthe", "infusion"]
 DIAGNOSTICS_KW = ["diagnost", "molecular dx", "screening", "biomarker", "assay",
                   "liquid biopsy", "pathology"]
 CHEM_KW = ["chemic", "chemistry", "polymer", "material science", "specialty chem",
-           "petrochem", "catalys", "coating", "fluorochem"]
+           "petrochem", "catalys", "coating", "fluorochem",
+           "nanotech", "nanomater"]
 DIGITAL_KW = ["software", "platform", "ai-powered", "ai for", "digital health",
               "telehealth", "telemedicine", "saas", "data platform", "machine learning",
               "ml ", "ehr"]

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-A reproducible Python pipeline that builds a roster of life-sciences/chemistry startups across 5 U.S. MSAs (Philadelphia, Pittsburgh, Baltimore, Atlanta, Dallas–Fort Worth) from free federal sources (SEC Form D, SBIR.gov, NIH RePORTER, HUD ZIP crosswalk, university TTO portfolios). Final deliverable: ~3,563 startups; downstream Phase 9 filters to ~816 wet-lab tenant prospects.
+A reproducible Python pipeline that builds a roster of life-sciences/chemistry startups across 5 U.S. MSAs (Philadelphia, Pittsburgh, Baltimore, Atlanta, Dallas–Fort Worth) from free federal sources (SEC Form D, SBIR.gov, NIH RePORTER, HUD ZIP crosswalk, university TTO portfolios). Final deliverable: 4,001 startups; downstream Phase 9 filters to 1,181 wet-lab tenant prospects.
 
 ## Setup
 

@@ -62,3 +62,46 @@ Cellect Biotechnology,skipped,,,low,"HQ in Israel, not Atlanta — emory_known l
 Micromedicine,skipped,,,low,"no match; closest is Micron Biomedical (Atlanta, GA Tech)"
 Adva Biotechnology,skipped,,,low,"HQ in Ahihud, Israel — pitt_known list error"
 Ondine Biomedical,skipped,,,low,"HQ in Vancouver, Canada — pitt_known list error"
+REATA PHARMACEUTICALS INC,founded_year,2002,https://en.wikipedia.org/wiki/Reata_Pharmaceuticals,high,"Wikipedia + multiple sources; UTSW spinout, acquired by Biogen 2023"
+"Encore Vision, Inc.",founded_year,2000,https://www.crunchbase.com/organization/encore-vision-inc,medium,"Crunchbase; Fort Worth ophthalmology, acquired by Novartis 2016"
+"Axion BioSystems, Inc.",founded_year,2008,https://www.axionbiosystems.com/about-us/our-history,high,Company 'our-history' page; Atlanta MEA developer
+Aprecia Pharmaceuticals Co,founded_year,2003,https://www.crunchbase.com/organization/aprecia-pharmaceuticals,high,Crunchbase + REDI Cincinnati; ZipDose 3D printing
+"Fibrocell Science, Inc.",founded_year,1995,https://tracxn.com/d/companies/fibrocellscience,high,Tracxn / Bloomberg; Exton PA; acquired by Castle Creek 2019
+Egalet Corp,founded_year,2010,https://www.sec.gov/Archives/edgar/data/1586105/000104746913009695/a2216993zs-1.htm,medium,SEC S-1; inception 2010
+LANNETT CO INC,founded_year,1942,https://www.lannett.com/about/,high,Company about page; PA generic pharma; reincorporated DE 1991
+"BIOTELEMETRY, INC.",founded_year,1994,https://hitconsultant.net/2020/12/18/philips-acquires-biotelemetry/,high,HIT Consultant; originally CardioNet 1994; acquired by Philips 2020
+ALIMERA SCIENCES INC,founded_year,2003,https://en.wikipedia.org/wiki/Alimera_Sciences,high,Wikipedia; June 2003 ophthalmology biopharma
+"NeuBase Therapeutics, Inc.",founded_year,2018,https://golden.com/wiki/Neubase_Therapeutics-8AVA3JD,high,Golden + Crunchbase; founded by Dietrich Stephan 2018
+ALUNG TECHNOLOGIES INC,founded_year,1997,https://mirm-pitt.net/livanova-plc-acquires-alung-technologies-inc/,high,McGowan Institute / U Pittsburgh spinout 1997
+"Tarsa Therapeutics, Inc.",founded_year,2009,https://tracxn.com/d/companies/tarsa-therapeutics,high,Tracxn + PitchBook; Unigene calcitonin license Oct 2009
+"Recro Pharma, Inc.",founded_year,2007,https://www.crunchbase.com/organization/recro-pharma-inc,high,Crunchbase + D&B; Malvern PA
+"Aevi Genomic Medicine, Inc.",founded_year,2000,https://pitchbook.com/profiles/company/11066-68,high,"PitchBook; formerly Medgenics, renamed 2016"
+"Pharmaceutics International, Inc.",founded_year,1994,https://www.bionity.com/en/companies/22012/pharmaceutics-international-inc.html,high,Bionity / Pii Hunt Valley MD CDMO
+"Neos Therapeutics, Inc.",founded_year,2008,https://golden.com/wiki/Neos_Therapeutics-AMB6GBK,high,Golden / PitchBook; Grand Prairie TX ADHD
+"TFF Pharmaceuticals, Inc.",founded_year,2018,https://www.crunchbase.com/organization/tff-pharmaceuticals,high,Crunchbase; thin film freezing platform; ceased ops Nov 2024
+BRIACELL THERAPEUTICS CORP,founded_year,2006,https://briacell.com/about-briacell/,high,Company about page; founded by Wiseman & Maresky July 2006
+VACCINOGEN INC,founded_year,2007,https://en.wikipedia.org/wiki/Vaccinogen,high,Wikipedia; Frederick MD; OncoVAX cancer immunotherapy
+Bone Solutions Inc,founded_year,2003,https://www.crunchbase.com/organization/bone-solutions,high,Crunchbase + Bonesolutions.net; Colleyville TX magnesium implants
+"Invisible Sentinel, Inc.",founded_year,2006,https://www.inquirer.com/news/biomerieux-invisible-sentinel-acquisition-philadelphia-life-sciences-20190218.html,high,Inquirer; Philly food-pathogen Dx; acq by bioMérieux 2019
+"Palladio Biosciences, Inc.",founded_year,2016,https://www.businesswire.com/news/home/20170523006190/en/,medium,Business Wire 2017 formation announcement; Newtown PA; acq by Centessa 2021
+"Neuro Kinetics, Inc.",founded_year,1984,https://pitchbook.com/profiles/company/53648-47,high,PitchBook + Crunchbase; Pittsburgh vestibular Dx; acq by Neurolign 2019
+THAR PHARMACEUTICALS INC,founded_year,2008,https://www.crunchbase.com/organization/thar-pharmaceuticals,high,Crunchbase; Pharmaceuticals subsidiary 2008 (parent Thar Tech 1990)
+Vero Biotech Inc.,founded_year,2006,https://www.vero-biotech.com/our-story/,high,Company 'our-story' page; Atlanta inhaled NO
+"Celtaxsys, Inc.",founded_year,2005,https://tracxn.com/d/companies/celtaxsys,high,Tracxn + BioSpace; Atlanta CF inflammation
+MARIZYME INC,founded_year,2007,https://content.edgar-online.com/ExternalLink/EDGAR/0001493152-21-008936.html,high,SEC 10-K; NV corp Mar 20 2007 (renamed to Marizyme 2018)
+Stimlabs LLC,founded_year,2015,https://stimlabs.com/,high,Company site; Roswell GA placental tissue regenerative
+Gliknik Inc,founded_year,2007,https://www.umbiopark.com/news-events/news/981/multiplatform-gliknik-tackling-cancer-immune-disease-markets,high,UM BioPark; Baltimore stradomer / Pfizer license
+"Neurolens, Inc.",founded_year,2012,https://dallasinnovates.com/device-from-coppell-based-neurolens-measures-1-millionth-patient-following-67m-raise/,high,Dallas Innovates; Coppell TX; rebranded Newton 2025
+"Allied BioScience, Inc.",founded_year,2005,https://www.crunchbase.com/organization/allied-bioscience,high,Crunchbase; Plano TX antimicrobial coatings
+"Stingray Therapeutics, Inc.",founded_year,2018,https://pitchbook.com/profiles/company/232468-39,medium,PitchBook; Houston-based oncology immunotherapy
+"Mark Cuban Cost Plus Drugs, PBC",founded_year,2022,https://en.wikipedia.org/wiki/Cost_Plus_Drugs,high,Wikipedia; Dallas PBC launched Jan 2022
+"Osteal Therapeutics, Inc.",founded_year,2013,https://tracxn.com/d/companies/ostealtherapeutics,high,Tracxn + Dallas Innovates; orthopedic infection therapy
+"RAVGEN, INC.",founded_year,2000,https://en.wikipedia.org/wiki/Ravgen,high,Wikipedia; Columbia MD; non-invasive prenatal Dx
+NEURONASCENT INC,founded_year,2004,https://pitchbook.com/profiles/company/88137-46,high,PitchBook + Crunchbase; Clarksville MD Alzheimer's
+"PROFECTUS BIOSCIENCES, INC",founded_year,2005,https://www.linkedin.com/company/profectus-biosciences-inc,medium,LinkedIn + Tracxn (variants 2002-2005); Baltimore vaccine
+"Cernostics, Inc.",founded_year,2008,https://hitconsultant.net/2016/09/06/cernostics-upmc-enterprises-funding/,high,HIT Consultant; Pittsburgh tissue Dx; UPMC; acq Castle Bio 2021
+Carmell Therapeutics Corp,founded_year,2008,https://www.carmellrx.com/company/history/,high,Company history page; CMU spinout via PLSG
+"AsclepiX Therapeutics, Inc.",founded_year,2011,https://technical.ly/startups/baltimore-based-asclepix-therapeutics-raises-5m/,high,Technical.ly; Baltimore ophthalmology peptides
+"AgeneBio, Inc.",founded_year,2008,https://agenebio.com/about-us/management/,high,Company management page; Baltimore Alzheimer's GABA-A
+"VenatoRx Pharmaceuticals, Inc.",founded_year,2010,https://www.venatorx.com/history/,high,Company history page; Malvern PA; founded June 2010
+"Spectral MD, Inc.",founded_year,2009,https://www.spectralmd.com/,high,Company site; Dallas wound imaging; now Spectral AI

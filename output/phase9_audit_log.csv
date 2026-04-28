@@ -1,10 +1,13 @@
 step_name,rows_in,rows_out,rows_removed,reason
 Step1_rededup,4001,3956,45,union-find on norm_name + CIK/UEI/DUNS
 Step2_fuzzy_merge,3956,3948,8,"Jaro-Winkler >=0.95/0.92 within (msa, first-non-generic-token) block"
-Step3_geo_cleanup,3948,3903,45,TTO rows where tto_location is clearly outside assigned MSA
-Step4_wetlab_subcat,3903,1771,2132,keep biotech/pharma/dx/chem/medtech + unknown-but-name-matches; drop digital_health/services
-Step5_recency,1771,1434,337,keep Form-D / SBIR-last>=2015 / TTO; drop dormant firms
-Step6_stage,1434,1425,9,drop SBIR span>20yr AND total>$20M (mature govt contractors)
-Step7_spv_vehicles,1425,1256,169,regex SPV/fund patterns + config/pe_rollup_exclusions.json
-Step8_public_cos,1256,1190,66,SEC public-company ticker list by CIK
-Step9_nonwetlab_excl,1190,1179,11,config/non_wetlab_exclusions.json (defense/IT/robotics firms)
+Step2b_manual_merges,3948,3944,4,explicit parent/child rebrand pairs from config/manual_merges.json
+Step3_geo_cleanup,3944,3899,45,TTO rows where tto_location is clearly outside assigned MSA
+Step4_wetlab_subcat,3899,1780,2119,keep biotech/pharma/dx/chem/medtech + unknown-but-name-matches; drop digital_health/services
+Step5_recency,1780,1436,344,keep Form-D / SBIR-last>=2015 / TTO; drop dormant firms
+Step6_stage,1436,1427,9,drop SBIR span>20yr AND total>$20M (mature govt contractors)
+Step7_spv_vehicles,1427,1258,169,regex SPV/fund patterns + config/pe_rollup_exclusions.json
+Step8_public_cos,1258,1192,66,SEC public-company ticker list by CIK
+Step9_nonwetlab_excl,1192,1181,11,config/non_wetlab_exclusions.json (defense/IT/robotics firms)
+Step11b_sec_yearofincorp,1181,1181,0,SEC submissions API filled +0 founded_year cells
+Step11c_website_scrape,1181,1181,0,website 'About' page regex filled +21 founded_year cells

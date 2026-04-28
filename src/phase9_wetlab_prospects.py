@@ -11,31 +11,36 @@ Output:
   output/dropped_public_companies.csv          Step 8 drops
 
 Funnel (current code, 2015+ recency floor; chain rollups + manager-review
-SPVs caught inline at Step 7 via extended regex):
-    Step 1  re-dedup            4,001 →  3,956   (-45)
-    Step 2  fuzzy merge         3,956 →  3,948   (-8)
-    Step 3  geography cleanup   3,948 →  3,903   (-45)
-    Step 4  wet-lab subcat      3,903 →  1,771   (-2,132)  largest single drop
-    Step 5  recency >=2015      1,771 →  1,434   (-337)
-    Step 6  mature contractor   1,434 →  1,425   (-9)
-    Step 7  SPV/chain regex     1,425 →  1,256   (-169)   USRC, Series-letter,
-                                                          Investors LP, chains
-    Step 8  public companies    1,256 →  1,190   (-66)
-    Step 9  non-wet-lab excl.   1,190 →  1,179   (-11)
+SPVs caught inline at Step 7 via extended regex; explicit parent/child
+rebrand pairs collapsed at Step 2b via config/manual_merges.json;
+broadened Phase 8 wet-lab keywords pull ~6 more rows through Step 4;
+Step 11b/11c free founded_year enrichment + 43-entry manual backfill
+brings founded_year coverage to 769/1,181 = 65 %):
+    Step 1   re-dedup            4,001 →  3,956   (-45)
+    Step 2   fuzzy merge         3,956 →  3,948   (-8)
+    Step 2b  manual merges       3,948 →  3,944   (-4)    parent/child rebrands
+    Step 3   geography cleanup   3,944 →  3,899   (-45)
+    Step 4   wet-lab subcat      3,899 →  1,780   (-2,119) largest single drop
+    Step 5   recency >=2015      1,780 →  1,436   (-344)
+    Step 6   mature contractor   1,436 →  1,427   (-9)
+    Step 7   SPV/chain regex     1,427 →  1,258   (-169)   USRC, Series-letter,
+                                                           Investors LP, chains
+    Step 8   public companies    1,258 →  1,192   (-66)
+    Step 9   non-wet-lab excl.   1,192 →  1,181   (-11)
     -------------------------------------------------
-    Final wet-lab prospects:                     1,179
+    Final wet-lab prospects:                     1,181
 
-Per MSA (final 1,179):
+Per MSA (final 1,181):
     philadelphia    425
-    dallas          253
-    baltimore       193
-    atlanta         182
+    dallas          254
+    baltimore       192
+    atlanta         185
     pittsburgh      125
 
 Tier composition:
-    operating_company (Form D-funded):    896
-    grant_only_company (SBIR):            255
-    tto_spinout (university/incubator):    27
+    operating_company (Form D-funded):    895
+    grant_only_company (SBIR):            257
+    tto_spinout (university/incubator):    29
 
 Run:
   python src/phase9_wetlab_prospects.py            (skip if manifest exists)
@@ -56,8 +61,8 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import (
-    CONFIG_DIR, LOG_DIR, OUTPUT_DIR,
-    http_get, manifest_exists, write_manifest,
+    CONFIG_DIR, LOG_DIR, OUTPUT_DIR, RAW_DIR,
+    RateLimiter, http_get, manifest_exists, write_manifest,
 )
 
 PHASE = 9
@@ -278,6 +283,74 @@ def _step2_fuzzy(df: pd.DataFrame) -> pd.DataFrame:
 
     merged = df.groupby("_cluster2", sort=False).agg(agg).reset_index(drop=True)
     merged.drop(columns=["_norm2", "_block"], errors="ignore", inplace=True)
+    return merged
+
+
+# ── Step 2b: manual parent/child merges ───────────────────────────────────────
+
+_MANUAL_MERGES_PATH = CONFIG_DIR / "manual_merges.json"
+
+
+def _load_manual_merges() -> list[dict]:
+    if not _MANUAL_MERGES_PATH.exists():
+        return []
+    with _MANUAL_MERGES_PATH.open(encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("merges", [])
+
+
+def _step2b_manual(df: pd.DataFrame) -> pd.DataFrame:
+    """Apply explicit (msa, name-list) merges from config/manual_merges.json.
+
+    Catches parent/child or rebrand pairs whose names diverge too much for the
+    Jaro-Winkler step (e.g. 'Nanoscope Technologies' vs 'Nanoscope Therapeutics').
+    """
+    merges = _load_manual_merges()
+    if not merges:
+        return df
+
+    df = df.copy().reset_index(drop=True)
+    df["_norm_mm"] = df["name"].map(_norm)
+
+    uf = _UF()
+    matched_total = 0
+    for entry in merges:
+        msa = entry.get("msa", "").strip().lower()
+        target_norms = {_norm(n) for n in entry.get("names", []) if n}
+        if not msa or not target_norms:
+            continue
+        members = df.index[
+            (df["msa"] == msa) & (df["_norm_mm"].isin(target_norms))
+        ].tolist()
+        if len(members) >= 2:
+            for j in members[1:]:
+                uf.union(members[0], j)
+            matched_total += len(members)
+            log.info("  manual-merge: msa=%s names=%s rows=%d",
+                     msa, entry.get("names"), len(members))
+
+    if matched_total == 0:
+        df.drop(columns=["_norm_mm"], inplace=True)
+        return df
+
+    df["_cluster_mm"] = [uf.find(i) for i in df.index]
+
+    bool_cols = [c for c in df.columns if c.startswith("source_")]
+    sum_cols  = [c for c in ("form_d_filings", "sbir_awards", "sbir_total_usd",
+                              "nih_grants", "nih_total_usd") if c in df.columns]
+    first_cols = [c for c in df.columns if c not in bool_cols + sum_cols +
+                  ["_cluster_mm", "_norm_mm", "msa"]]
+
+    agg: dict[str, Any] = {"msa": "first"}
+    for c in bool_cols:
+        agg[c] = lambda s: bool(s.fillna(False).any())
+    for c in sum_cols:
+        agg[c] = "sum"
+    for c in first_cols:
+        agg[c] = "first"
+
+    merged = df.groupby("_cluster_mm", sort=False).agg(agg).reset_index(drop=True)
+    merged.drop(columns=["_norm_mm"], errors="ignore", inplace=True)
     return merged
 
 
@@ -562,6 +635,203 @@ def _step11_founded(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+# ── Step 11b: SEC submissions API enrichment for blank founded_year ──────────
+
+_SEC_SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
+_SEC_CACHE_PATH  = RAW_DIR / "sec_yearofincorp_cache.json"
+_sec_limiter     = RateLimiter(per_sec=1.0)  # SEC ToS: 10 rps max; we use 1
+
+
+def _step11b_sec_yoi(df: pd.DataFrame, offline: bool = False) -> pd.DataFrame:
+    """Hit SEC's submissions endpoint to backfill `founded_year` for rows that
+    have a CIK but blank year (i.e. the original Form D had YEARINCFROM blank).
+
+    Empirical result on this dataset: SEC's submissions JSON exposes only
+    `stateOfIncorporation` (DE/MD/etc.) and NOT `yearOfIncorporation` for
+    private / Form-D filers. So this step typically fills 0 rows — but it's
+    cheap (cached) and worth keeping in case SEC's response shape changes or
+    a future filer happens to populate the field. Results cached in
+    data/raw/sec_yearofincorp_cache.json. Pass `offline=True` to use cache only.
+    """
+    if "cik" not in df.columns:
+        return df
+    df = df.copy()
+
+    cache: dict[str, Any] = {}
+    if _SEC_CACHE_PATH.exists():
+        try:
+            cache = json.loads(_SEC_CACHE_PATH.read_text())
+        except Exception:
+            cache = {}
+
+    target_idx = df.index[df["founded_year"].isna() & df["cik"].notna()].tolist()
+    if not target_idx:
+        return df
+
+    log.info("  SEC submissions API: %d rows have CIK but blank founded_year",
+             len(target_idx))
+
+    fetched = filled = 0
+    for i in target_idx:
+        try:
+            cik = int(float(df.at[i, "cik"]))
+        except (ValueError, TypeError):
+            continue
+        key = str(cik)
+        if key not in cache:
+            if offline:
+                continue
+            _sec_limiter.wait()
+            try:
+                resp = http_get(_SEC_SUBMISSIONS.format(cik=cik),
+                                source="sec_submissions")
+                data = resp.json()
+                yoi = (data.get("yearOfIncorp")
+                       or data.get("yearOfIncorporation"))
+                cache[key] = yoi if yoi else None
+                fetched += 1
+            except Exception as e:
+                cache[key] = None
+                log.debug("  SEC fetch failed for CIK=%s: %s", cik, e)
+            if fetched % 25 == 0 and fetched:
+                _SEC_CACHE_PATH.write_text(json.dumps(cache, indent=2))
+        yoi = cache.get(key)
+        if yoi:
+            try:
+                y = int(str(yoi)[:4])
+                if 1900 <= y <= 2030:
+                    df.at[i, "founded_year"] = float(y)
+                    filled += 1
+            except (ValueError, TypeError):
+                pass
+
+    _SEC_CACHE_PATH.write_text(json.dumps(cache, indent=2))
+    log.info("  SEC submissions API: fetched=%d, filled founded_year=%d",
+             fetched, filled)
+    return df
+
+
+# ── Step 11c: company-website "About" page scrape for founded_year ────────────
+
+_WEB_CACHE_PATH = RAW_DIR / "website_founded_cache.json"
+_WEB_PATHS = ["", "/about", "/about-us", "/our-story", "/company", "/team"]
+_WEB_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+           "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+
+# Conservative: only accept "Founded / Established / Since / Incorporated YYYY"
+# Reject "Copyright YYYY", "© YYYY", etc.
+_FOUNDED_RES = [
+    re.compile(r"\bfounded\s+(?:in\s+)?(\d{4})\b", re.IGNORECASE),
+    re.compile(r"\bestablished\s+(?:in\s+)?(\d{4})\b", re.IGNORECASE),
+    re.compile(r"\bsince\s+(\d{4})\b", re.IGNORECASE),
+    re.compile(r"\bincorporated\s+(?:in\s+)?(\d{4})\b", re.IGNORECASE),
+    re.compile(r"\best\.?\s+(\d{4})\b", re.IGNORECASE),
+    re.compile(r"\bfounded[:\s\-]+(\d{4})\b", re.IGNORECASE),
+]
+
+
+def _normalize_url(u: str) -> str | None:
+    u = str(u).strip()
+    if not u or u.lower() == "nan":
+        return None
+    if not u.startswith(("http://", "https://")):
+        u = "https://" + u
+    return u.rstrip("/")
+
+
+def _scrape_year_from_html(html: str) -> int | None:
+    # Strip script/style blocks to avoid Copyright noise
+    text = re.sub(r"<script[^>]*>.*?</script>", " ", html,
+                  flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<style[^>]*>.*?</style>", " ", text,
+                  flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", text)  # strip tags
+    text = re.sub(r"\s+", " ", text)
+    candidates: list[int] = []
+    for rx in _FOUNDED_RES:
+        for m in rx.finditer(text):
+            try:
+                y = int(m.group(1))
+                if 1900 <= y <= 2030:
+                    candidates.append(y)
+            except (ValueError, TypeError):
+                pass
+    return min(candidates) if candidates else None
+
+
+def _step11c_website_scrape(df: pd.DataFrame, offline: bool = False,
+                             max_rows: int | None = None) -> pd.DataFrame:
+    """Scrape company website 'About' pages for 'Founded YYYY' phrases.
+
+    Free, slow (~1 site/sec across multiple paths). Hits these paths in order
+    and stops at first match: /, /about, /about-us, /our-story, /company,
+    /team. Conservative regex anchors (Founded / Established / Since /
+    Incorporated / Est.) — refuses to read year-only fragments that could be
+    Copyright notices. Cached in data/raw/website_founded_cache.json.
+    """
+    if "website" not in df.columns:
+        return df
+    import requests as _rq
+
+    df = df.copy()
+    cache: dict[str, Any] = {}
+    if _WEB_CACHE_PATH.exists():
+        try:
+            cache = json.loads(_WEB_CACHE_PATH.read_text())
+        except Exception:
+            cache = {}
+
+    target = df.index[df["founded_year"].isna() & df["website"].notna()
+                       & (df["website"].astype(str).str.strip() != "")
+                       & (df["website"].astype(str).str.lower() != "nan")].tolist()
+    if max_rows:
+        target = target[:max_rows]
+    if not target:
+        return df
+
+    log.info("  Website scrape: %d rows have website + blank founded_year",
+             len(target))
+
+    fetched = filled = 0
+    for n, i in enumerate(target):
+        base = _normalize_url(df.at[i, "website"])
+        if not base:
+            continue
+        if base not in cache:
+            if offline:
+                continue
+            year_found: int | None = None
+            for path in _WEB_PATHS:
+                try:
+                    r = _rq.get(base + path,
+                                headers={"User-Agent": _WEB_UA,
+                                         "Accept-Language": "en-US,en;q=0.9"},
+                                timeout=8, allow_redirects=True)
+                    if r.status_code != 200 or not r.text:
+                        continue
+                    y = _scrape_year_from_html(r.text)
+                    if y:
+                        year_found = y
+                        break
+                except Exception:
+                    continue
+            cache[base] = year_found
+            fetched += 1
+            if fetched % 10 == 0:
+                _WEB_CACHE_PATH.write_text(json.dumps(cache, indent=2))
+                log.info("    progress: %d/%d sites scraped, %d filled so far",
+                         n + 1, len(target), filled)
+        y = cache.get(base)
+        if y:
+            df.at[i, "founded_year"] = float(y)
+            filled += 1
+
+    _WEB_CACHE_PATH.write_text(json.dumps(cache, indent=2))
+    log.info("  Website scrape: fetched=%d, filled founded_year=%d",
+             fetched, filled)
+    return df
+
+
 # ── Excel output ──────────────────────────────────────────────────────────────
 
 _FOUNDED_BUCKETS = ["2015-2019", "2020", "2021", "2022", "2023", "2024",
@@ -740,6 +1010,12 @@ def main(force: bool = False) -> None:
     _audit("Step2_fuzzy_merge", n_before, len(df),
            "Jaro-Winkler >=0.95/0.92 within (msa, first-non-generic-token) block")
 
+    # ── Step 2b
+    n_before = len(df)
+    df = _step2b_manual(df)
+    _audit("Step2b_manual_merges", n_before, len(df),
+           "explicit parent/child rebrand pairs from config/manual_merges.json")
+
     # ── Step 3
     n_before = len(df)
     df, dropped_geo = _step3_geo(df)
@@ -795,6 +1071,20 @@ def main(force: bool = False) -> None:
     df = _step10_score(df)
     df = _backfill_city_state_from_tto(df)
     df = _step11_founded(df)
+
+    # ── Step 11b: SEC submissions API enrichment (free; ~1 rps)
+    n_year_before = int(df["founded_year"].notna().sum())
+    df = _step11b_sec_yoi(df)
+    n_year_after = int(df["founded_year"].notna().sum())
+    _audit("Step11b_sec_yearofincorp", len(df), len(df),
+           f"SEC submissions API filled +{n_year_after - n_year_before} founded_year cells")
+
+    # ── Step 11c: company-website scrape (free, slow; cached)
+    n_year_before = int(df["founded_year"].notna().sum())
+    df = _step11c_website_scrape(df)
+    n_year_after = int(df["founded_year"].notna().sum())
+    _audit("Step11c_website_scrape", len(df), len(df),
+           f"website 'About' page regex filled +{n_year_after - n_year_before} founded_year cells")
 
     # Industry fill: SBIR/TTO rows have no SEC industry; use ls_subcategory as proxy
     if "industry" in df.columns:

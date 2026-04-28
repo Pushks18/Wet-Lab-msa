@@ -1,6 +1,6 @@
 # How to verify the wet-lab prospect list
 
-This list of ~816 wet-lab prospects is built entirely from public federal
+This list of 1,181 wet-lab prospects is built entirely from public federal
 records. You can audit any row in under 2 minutes using only a web browser —
 no logins, no paid databases.
 
@@ -12,7 +12,7 @@ no logins, no paid databases.
 3. For each row:
    - **If `source_form_d` is True** — click `sec_edgar_search_url`. You should
      see one or more Form D filings under that company name with a "Date Filed"
-     of 2020 or later. If yes, the SEC source is verified.
+     of 2015 or later. If yes, the SEC source is verified.
    - **If `source_sbir` is True** — click `sbir_search_url`. You should see at
      least one award row for the company. If yes, the SBIR source is verified.
    - Glance at `company_website` to confirm the firm is alive and doing
@@ -42,7 +42,7 @@ A row is considered verified when:
 
 ## Why this is enough
 
-We don't need to verify all 816 rows. A stratified random sample of 30 (n=30
+We don't need to verify all 1,181 rows. A stratified random sample of 30 (n=30
 per the central-limit rule of thumb) gives ±18 percentage-point error on the
 true error rate at 95% confidence — sufficient to detect a problem that
 matters operationally. The spot-check provides a deterministic regression
