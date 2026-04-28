@@ -20,25 +20,29 @@ How the mapping works, per quarter:
   5. tag row with _quarter, append to all_filtered, repeat next quarter
   6. concat all quarters → data/raw/form_d_filings.parquet
 
-Funnel — actual numbers under the previous 2020+ floor (24 quarters, 2020-Q1 → 2025-Q4):
-  raw issuer-offering rows across all quarters   ~120,000  (median ~5,000 / quarter)
+Funnel — full backfill 2015-Q1 → 2026-Q1 (45 quarters):
+  raw issuer-offering rows across all quarters   ~225,000  (median ~5,000 / quarter)
   ↓ state + city allowlist filter
   ↓ industry filter (Pharma / Biotech / Other Health Care)
-  ↓ kept                                            1,408 filings
-                                                      686 unique CIKs
-                                                      718 unique company names
+  ↓ kept                                            2,649 filings
+                                                    1,150 unique CIKs
 
-  Per MSA (committed 2020+ data):
-              filings  unique CIKs   Biotech / Other HC / Pharma
-    philadelphia 488     242            189 /  229 /  70
-    dallas       367     213             95 /  246 /  26
-    atlanta      229      95             90 /  128 /  11
-    baltimore    179      77             93 /   63 /  23
-    pittsburgh   145      61             44 /   75 /  26
+  Per MSA (full backfill, exact):
+                 filings   unique CIKs   Biotech / Other HC / Pharma
+    philadelphia    903        375         334 / 407 / 162
+    dallas          697        384         125 / 513 /  59
+    atlanta         408        155         120 / 261 /  27
+    baltimore       343        149         168 / 144 /  31
+    pittsburgh      298         93         126 / 139 /  33
+    -----------------------------------------------------------------
+    TOTAL         2,649      1,150         873 / 1,464 / 312
 
-  After expanding to START_YEAR = 2015 (44 quarters), counts are expected to roughly
-  scale with the wider window — recompute from output/form_d_filings.csv after
-  the next --force run; the Phase 9 funnel in the README will reflect the new totals.
+  Previous 2020+ floor (24 quarters) for reference:
+    1,408 filings / 686 unique CIKs.
+
+  Quarter-level kept counts (typical range): 37 to 90 filings per quarter,
+  median ~55. Each ZIP contains 13K–16K total issuer-offering rows; about
+  0.3% pass all 3 filters (state + city + LS industry).
 
 Outputs:
   data/raw/form_d/{YYYYqQ}/*.tsv         (extracted, one folder per quarter)

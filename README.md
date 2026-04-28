@@ -205,21 +205,23 @@ The numbers below are from the committed dataset (originally harvested with the 
 
 | Source | API / file format | Time slicing | Raw rows pulled | After scope filter (state + city + industry) | Unique entities |
 |---|---|---|---:|---:|---:|
-| **SEC Form D** (Phase 3) | 24 quarterly ZIPs · 4 TSVs joined on `ACCESSIONNUMBER` | quarterly bulk, 2020-Q1 → 2025-Q4 (now `START_YEAR=2015`, 44 quarters on next run) | ~120,000 issuer-offering rows | **1,408 filings** | **686 unique CIKs** / 718 names |
-| **SBIR / STTR** (Phase 2b) | bulk CSV ~70 MB | all-time (server has no usable year filter; recency enforced at Phase 9) | ~80,000 awards (state-wide) | **15,051 awards** | **2,793 unique companies** |
-| **NIH RePORTER** (Phase 2) | POST `/v2/projects/search`, paginated 500/page, 10K/slice cap | per (MSA × fiscal year), FY2015–FY2025 (was FY2020–FY2025) | **105,151 grant records** (2015+ run); was 60,127 (2020+ run) | same — server-side filter | **~520 unique recipients** (mostly universities / hospitals) |
+| **SEC Form D** (Phase 3) | 45 quarterly ZIPs · 4 TSVs joined on `ACCESSIONNUMBER` | quarterly bulk, 2015-Q1 → 2026-Q1 (`START_YEAR=2015`) | ~225,000 issuer-offering rows | **2,649 filings** | **1,150 unique CIKs** |
+| **SBIR / STTR** (Phase 2b) | bulk CSV ~70 MB | all-time (server has no usable year filter; recency enforced at Phase 9) | 219,500 raw awards (US-wide) | **15,051 awards** | **2,793 unique companies** |
+| **NIH RePORTER** (Phase 2) | POST `/v2/projects/search`, paginated 500/page, 10K/slice cap | per (MSA × fiscal year), FY2015–FY2025 (55 slices) | n/a (server-side filter) | **105,151 grant records** | **~600 unique recipients** (mostly universities / hospitals) |
 | **University TTO** (Phase 4) | scraped HTML (BeautifulSoup + lxml) + 80 curated press-release names | snapshot | 209 entities | n/a | **209 entities** |
 
-### SEC Form D — per MSA × industry (committed 2020-Q1 → 2025-Q4 data)
+### SEC Form D — per MSA × industry (full backfill: 2015-Q1 → 2026-Q1, 45 quarters)
 
 | MSA | Biotechnology | Other Health Care | Pharmaceuticals | **Filings** | **Unique CIKs** |
 |---|---:|---:|---:|---:|---:|
-| Philadelphia | 189 | 229 | 70 | **488** | **242** |
-| Dallas–Fort Worth | 95 | 246 | 26 | **367** | **213** |
-| Atlanta | 90 | 128 | 11 | **229** | **95** |
-| Baltimore | 93 | 63 | 23 | **179** | **77** |
-| Pittsburgh | 44 | 75 | 26 | **145** | **61** |
-| **Total** | **511** | **741** | **156** | **1,408** | **686** |
+| Philadelphia | 334 | 407 | 162 | **903** | **375** |
+| Dallas–Fort Worth | 125 | 513 | 59 | **697** | **384** |
+| Atlanta | 120 | 261 | 27 | **408** | **155** |
+| Baltimore | 168 | 144 | 31 | **343** | **149** |
+| Pittsburgh | 126 | 139 | 33 | **298** | **93** |
+| **Total** | **873** | **1,464** | **312** | **2,649** | **1,150** |
+
+(Previous 2020+ floor for reference: 1,408 filings / 686 unique CIKs.)
 
 ### How each source is filtered (the "AND" gates)
 

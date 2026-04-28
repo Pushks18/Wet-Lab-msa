@@ -22,11 +22,21 @@ NIH RePORTER v2:
   the 10,000-record offset ceiling — slicing by (MSA × FY) keeps each slice
   comfortably under it.
 
-  Funnel — committed 2020-2025 (6 fiscal years × 5 MSAs = 30 slices):
-    raw NIH grant records returned                          ~60,127
-    distinct recipient organizations                          ~520
-    (most are universities/hospitals — Phase 8 tags them as research_inst
-     and excludes them from the startup roster)
+  Funnel — full backfill FY2015–FY2025 (11 fiscal years × 5 MSAs = 55 slices):
+    raw NIH grant records returned                          105,151
+    NIH grants per MSA (sum):
+        philadelphia    36,473
+        baltimore       27,055
+        pittsburgh      17,368
+        atlanta         15,320
+        dallas           8,935
+    distinct recipient organizations                          ~600
+    largest single (MSA × FY) slice                          3,706 rows
+                                                             (well under the
+                                                              10,000 server cap)
+    (most recipients are universities/hospitals — Phase 8 tags them as
+     research_inst and excludes them from the startup roster.)
+    (Previous 2020+ floor: 60,127 grants / ~520 orgs — for reference.)
 
 SBIR.gov:
   GET https://api.www.sbir.gov/public/api/awards?state=XX&rows=500&start=N
@@ -39,11 +49,16 @@ SBIR.gov:
     4. offline filter: (city, state) lower-cased lookup in city_allowlist
     5. (year filter to 2015+ is enforced LATER, at Phase 9 step 5 — recency)
 
-  Funnel — committed run (state-wide, all years):
-    raw SBIR awards pulled                                   ~80,000
-    ↓ MSA city allowlist filter (Phase 2)
+  Funnel — full backfill (state-wide, all years; bulk CSV path via phase2b):
+    raw SBIR awards pulled (bulk CSV ~70 MB)                219,500
+    ↓ MSA city allowlist filter
     ↓ kept in MSA scope                                      15,051 awards
                                                               2,793 unique companies
+
+  NOTE: The SBIR.gov Public API returned global HTTP 429 during the backfill,
+  so this phase wrote 0 SBIR rows. The documented fallback `phase2b_sbir_bulk.py`
+  (one-shot bulk CSV download) was used instead — same authoritative source,
+  no rate limit. See README §Verification for details.
 
 Outputs:
   data/raw/nih_awards.parquet

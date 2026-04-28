@@ -1,12 +1,39 @@
 """Phase 9: Filter the startup roster down to wet-lab tenant prospects.
 
-Input:  output/companies_final_startups_only.csv   (3,563 rows from Phase 8)
+Input:  output/companies_final_startups_only.csv   (4,001 rows from Phase 8
+                                                    after the 2015+ backfill;
+                                                    was 3,563 under 2020+ floor)
 Output:
   output/wet_lab_prospects.csv                 full filtered list
   output/wet_lab_demand_analysis.xlsx          4-sheet Excel deliverable
   output/phase9_audit_log.csv                  funnel row-by-row log
   output/dropped_geography.csv                 Step 3 drops
   output/dropped_public_companies.csv          Step 8 drops
+
+Funnel (most recent run, 2015+ recency floor):
+    Step 1  re-dedup           4,001 →  3,956   (-45)
+    Step 2  fuzzy merge        3,956 →  3,948   (-8)
+    Step 3  geography cleanup  3,948 →  3,903   (-45)
+    Step 4  wet-lab subcat     3,903 →  1,771   (-2,132)  largest single drop
+    Step 5  recency >=2015     1,771 →  1,434   (-337)
+    Step 6  mature contractor  1,434 →  1,425   (-9)
+    Step 7  SPV / fund vehicle 1,425 →  1,367   (-58)
+    Step 8  public companies   1,367 →  1,301   (-66)
+    Step 9  non-wet-lab excl.  1,301 →  1,290   (-11)
+    -------------------------------------------------
+    Final wet-lab prospects:                    1,290
+
+Per MSA (final 1,290):
+    philadelphia    427
+    dallas          359
+    baltimore       197
+    atlanta         182
+    pittsburgh      125
+
+Tier composition:
+    operating_company (Form D-funded):  1,008
+    grant_only_company (SBIR):            255
+    tto_spinout (university/incubator):    27
 
 Run:
   python src/phase9_wetlab_prospects.py            (skip if manifest exists)
